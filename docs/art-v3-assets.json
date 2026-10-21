@@ -946,168 +946,168 @@
       "art/masters/banquete.png"
     ],
     "source": "art/masters/banquete.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 631062,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 652184,
     "alpha": false,
-    "sha256": "3ca769ae819e51c5dc52a70982b8df715f0ea088eba31dbab4d3a7bcf9d25d2d"
+    "sha256": "61507ec29341dbb00c098a5d873fe2f04f3232ec03adaf72f0d1e872dded4fc1"
   },
   {
     "distributed": "assets/scenes/funeral.webp",
     "sources": [
-      "art/masters/funeral.png"
+      "art/v4/empty/funeral.png"
     ],
-    "source": "art/masters/funeral.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 703670,
+    "source": "art/v4/empty/funeral.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 727016,
     "alpha": false,
-    "sha256": "1f1023cd7525852b8595e075481dae39bd52980ce29a3136f1dd28ad5076ff55"
+    "sha256": "272fbbdaa6684e7b82299944055cddb5d5b22141382493f8e266ee145c64c8be"
   },
   {
     "distributed": "assets/scenes/laberinto.webp",
     "sources": [
-      "art/masters/laberinto.png"
+      "art/v4/empty/laberinto.png"
     ],
-    "source": "art/masters/laberinto.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 684632,
+    "source": "art/v4/empty/laberinto.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 683374,
     "alpha": false,
-    "sha256": "3d9aa52f68d8657dbfc1fc6f9a0cd0bdd66c3e2453096809e07cab8093813591"
+    "sha256": "0a38bafb1aaf08930db2500fb595ec495da6692848cdd43e06ba4a0125c849ce"
   },
   {
     "distributed": "assets/scenes/lamina-corazon.webp",
     "sources": [
-      "art/masters/lamina-corazon.png"
+      "art/v4/empty/lamina-corazon.png"
     ],
-    "source": "art/masters/lamina-corazon.png",
-    "use": "Ilustración narrativa",
-    "width": 1024,
-    "height": 1536,
-    "bytes": 706406,
+    "source": "art/v4/empty/lamina-corazon.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 877520,
     "alpha": false,
-    "sha256": "22eaca2c815cdd08cc031fe3144a8f11832fd474e7fffde3dd42bdfac9a3bfad"
+    "sha256": "0b2abb7368d50fab541790859ddec0db33817f2ce9795b96c624bc5e1893d7fb"
   },
   {
     "distributed": "assets/scenes/lamina-funeral.webp",
     "sources": [
-      "art/masters/lamina-funeral.png"
+      "art/v4/empty/lamina-funeral.png"
     ],
-    "source": "art/masters/lamina-funeral.png",
-    "use": "Ilustración narrativa",
-    "width": 1024,
-    "height": 1536,
-    "bytes": 743498,
+    "source": "art/v4/empty/lamina-funeral.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 857802,
     "alpha": false,
-    "sha256": "955383f53f6c9ca203b3a1634cf611bdb805241ecab470ec2525d85c40478f8c"
+    "sha256": "2d212858f15c96eb0e20e06587828ea1fb04fd47c22f0f2da3530b5c34240a0f"
   },
   {
     "distributed": "assets/scenes/lamina-khety.webp",
     "sources": [
-      "art/masters/lamina-khety.png"
+      "art/v4/empty/lamina-khety.png"
     ],
-    "source": "art/masters/lamina-khety.png",
-    "use": "Ilustración narrativa",
-    "width": 1024,
-    "height": 1536,
-    "bytes": 773356,
+    "source": "art/v4/empty/lamina-khety.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 835744,
     "alpha": false,
-    "sha256": "8c405439f2b2bfcfd847cee8cbb404b3a479d90f273802999afd00a5af3bfcc1"
+    "sha256": "e34f5ebf67026fb0af8a888cfbf3b4f4d590ad1ae30e749372c1923bba3c0ec4"
   },
   {
     "distributed": "assets/scenes/lamina-merit.webp",
     "sources": [
-      "art/masters/lamina-merit.png"
+      "art/v4/empty/lamina-merit.png"
     ],
-    "source": "art/masters/lamina-merit.png",
-    "use": "Ilustración narrativa",
-    "width": 1024,
-    "height": 1536,
-    "bytes": 814366,
+    "source": "art/v4/empty/lamina-merit.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 874612,
     "alpha": false,
-    "sha256": "2dd6ba881542d34eb409b18dd46f8d3c54614c405e41d791bdffadccebd59036"
+    "sha256": "bc9ccd71b24d51e1d5da60096119db9c6c27eb0570b59c9560fe7b3ba06d3037"
   },
   {
     "distributed": "assets/scenes/lamina-nombres.webp",
     "sources": [
-      "art/masters/lamina-nombres.png"
+      "art/v4/wide/lamina-nombres.png"
     ],
-    "source": "art/masters/lamina-nombres.png",
-    "use": "Ilustración narrativa",
-    "width": 1024,
-    "height": 1536,
-    "bytes": 804692,
+    "source": "art/v4/wide/lamina-nombres.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 903448,
     "alpha": false,
-    "sha256": "5158d64d68aac10b6459811537150a780ccb2c80b06d3fffb72caeee02935b55"
+    "sha256": "45afe945b5615cc305005598f2a3e5a4d1fc4740439d561c6cf1f32c2b3832cb"
   },
   {
     "distributed": "assets/scenes/lamina-procesion.webp",
     "sources": [
-      "art/masters/lamina-procesion.png"
+      "art/v4/empty/lamina-procesion.png"
     ],
-    "source": "art/masters/lamina-procesion.png",
-    "use": "Ilustración narrativa",
-    "width": 1024,
-    "height": 1536,
-    "bytes": 657136,
+    "source": "art/v4/empty/lamina-procesion.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 790956,
     "alpha": false,
-    "sha256": "d751f198a38a616fcd36cd1fd15e715ec61e4942428ae195cd6650fd86afba6c"
+    "sha256": "77d642b94cc39c272866aa9034777874bccddabd817a86ee587226f9bc88c924"
   },
   {
     "distributed": "assets/maps/corte-piedra.webp",
     "sources": [
-      "art/masters/mapa-corte-piedra.png"
+      "art/v4/maps/corte.png"
     ],
-    "source": "art/masters/mapa-corte-piedra.png",
-    "use": "Mapa grabado frontal",
-    "width": 1458,
-    "height": 1079,
-    "bytes": 876826,
+    "source": "art/v4/maps/corte.png",
+    "use": "Plano 16:9 grabado en piedra · sin personajes",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1021458,
     "alpha": false,
-    "sha256": "880219b088599382ed2ebe2430b0c39418b8e34c49a6e6e718b337d1408ee2fa"
+    "sha256": "fab4618c9616679e3e31e907224a1f8ff537ab66a57f48ea9dd96520fd2b8eea"
   },
   {
     "distributed": "assets/maps/muhar-piedra.webp",
     "sources": [
-      "art/masters/mapa-muhar-piedra.png"
+      "art/v4/maps/muhar.png"
     ],
-    "source": "art/masters/mapa-muhar-piedra.png",
-    "use": "Mapa grabado frontal",
-    "width": 1619,
-    "height": 971,
-    "bytes": 849654,
+    "source": "art/v4/maps/muhar.png",
+    "use": "Plano 16:9 grabado en piedra · sin personajes",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 957576,
     "alpha": false,
-    "sha256": "61296c3bf92b5e1938f7ec43e6f32bd0ebca1abe20354b9d970634eb148bfe1b"
+    "sha256": "f3d9d2688b91c504bca97c2512ffe51e874df8377ef2c587e387e5e0fe2caf52"
   },
   {
     "distributed": "assets/maps/pozo-piedra.webp",
     "sources": [
-      "art/masters/mapa-pozo-piedra.png"
+      "art/v4/maps/pozo.png"
     ],
-    "source": "art/masters/mapa-pozo-piedra.png",
-    "use": "Mapa grabado frontal",
-    "width": 1254,
-    "height": 1254,
-    "bytes": 925020,
+    "source": "art/v4/maps/pozo.png",
+    "use": "Plano 16:9 grabado en piedra · sin personajes",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1031492,
     "alpha": false,
-    "sha256": "55dfa8b64e6823239af38ca23c3aa7d18459775157429f12a8b42824dde3fdda"
+    "sha256": "e13dadb08eaf992d73f15e2657eb67462c08f114036ea1c661d7a2a27358f760"
   },
   {
     "distributed": "assets/scenes/merit-eco.webp",
     "sources": [
-      "art/masters/merit-eco.png"
+      "art/v4/empty/merit-eco.png"
     ],
-    "source": "art/masters/merit-eco.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 784124,
+    "source": "art/v4/empty/merit-eco.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 732582,
     "alpha": false,
-    "sha256": "637e1d2d13fc2ab4eccdccf4862e392f764c406112523fac74a0efdf34100a95"
+    "sha256": "3e55e7ab94efbd2d94d1032474ca85470cd23260e3a3c3d85055dcc28d9f4581"
   },
   {
     "distributed": "assets/scenes/pesaje.webp",
@@ -1115,12 +1115,12 @@
       "art/masters/pesaje.png"
     ],
     "source": "art/masters/pesaje.png",
-    "use": "Ilustración narrativa",
-    "width": 1671,
-    "height": 941,
-    "bytes": 630984,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 660932,
     "alpha": false,
-    "sha256": "9e7796d786cc5224ec9db82e2b1d085030875271c0d50877004d029422de4704"
+    "sha256": "3ca50ed77c6b4050a2ad91dee059742edd5ca48c9a378adadbd23e58da8ffd71"
   },
   {
     "distributed": "assets/scenes/amanecer.webp",
@@ -1128,12 +1128,12 @@
       "art/masters/scene-amanecer.png"
     ],
     "source": "art/masters/scene-amanecer.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 665522,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 696584,
     "alpha": false,
-    "sha256": "1d0070fa6563ec3d7d01762c047ff57cff252723c93053863c76303d5a8028d7"
+    "sha256": "b8603685e58731c7e9715fed131ae004b92acdcb78c5202c9ee69b4d93149b83"
   },
   {
     "distributed": "assets/scenes/camino-chacales.webp",
@@ -1141,12 +1141,12 @@
       "art/masters/scene-camino-chacales.png"
     ],
     "source": "art/masters/scene-camino-chacales.png",
-    "use": "Ilustración narrativa",
-    "width": 1671,
-    "height": 941,
-    "bytes": 670184,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 702710,
     "alpha": false,
-    "sha256": "b2d9b4cba329f1e70abfd0ab1faa38468935db6638a700dc1af6e7f4e2d16feb"
+    "sha256": "8ce1f14c1956df85dd5f62dcc1bb4eff65213d5fe164f441b3b7a9fffd9803e7"
   },
   {
     "distributed": "assets/scenes/casa-nefru.webp",
@@ -1154,12 +1154,12 @@
       "art/masters/scene-casa-nefru.png"
     ],
     "source": "art/masters/scene-casa-nefru.png",
-    "use": "Ilustración narrativa",
-    "width": 1671,
-    "height": 941,
-    "bytes": 711344,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 800772,
     "alpha": false,
-    "sha256": "1581ec83dc572715e7444707fda69490eca019a74d93747bb72af62143caa786"
+    "sha256": "7e6bfeda641691db994c3f808f8d075b77f271dddb925c827bd0187b0db4419b"
   },
   {
     "distributed": "assets/scenes/casa-panehsy.webp",
@@ -1167,25 +1167,25 @@
       "art/masters/scene-casa-panehsy.png"
     ],
     "source": "art/masters/scene-casa-panehsy.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 589310,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 605874,
     "alpha": false,
-    "sha256": "f2003f844704dd98a7953a698e41e6a22eeeaf3e622e9013aa4791e95ac52da6"
+    "sha256": "beb708294d3433b6b50e9a897e620af050f82d92d97daeb1daf16fedfa09994c"
   },
   {
     "distributed": "assets/scenes/coronacion.webp",
     "sources": [
-      "art/masters/scene-coronacion.png"
+      "art/v4/empty/coronacion.png"
     ],
-    "source": "art/masters/scene-coronacion.png",
-    "use": "Ilustración narrativa",
-    "width": 1024,
-    "height": 1536,
-    "bytes": 611478,
+    "source": "art/v4/empty/coronacion.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 776606,
     "alpha": false,
-    "sha256": "2cbf602a7625985e10bab0789ebd3139ca0061e5bc5a45198e553209df023a8c"
+    "sha256": "fe3c6bcd97ef3e1ef6abb7e2b1eeee5d7316cc2ebc685ac4d19c33c8191a48be"
   },
   {
     "distributed": "assets/scenes/dormitorio-victimas.webp",
@@ -1193,12 +1193,12 @@
       "art/masters/scene-dormitorio-victimas.png"
     ],
     "source": "art/masters/scene-dormitorio-victimas.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 648240,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 650376,
     "alpha": false,
-    "sha256": "31371fdcd0f50a3db8c667a92641bcb9fe37acaff91cbc14dceb6a8f0df0584b"
+    "sha256": "eaf1051d2dd1fd53f57854f49216945c9f2620e38663055f5618121993707b57"
   },
   {
     "distributed": "assets/scenes/entrada-palacio.webp",
@@ -1206,12 +1206,12 @@
       "art/masters/scene-entrada-palacio.png"
     ],
     "source": "art/masters/scene-entrada-palacio.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 735938,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 799036,
     "alpha": false,
-    "sha256": "531acdde0a67be2b96cd1325280dbce55a059e28854deb10c4b61c01ebe3c000"
+    "sha256": "89df5dc21e33ba04d4ffcfb752c3f0309f3dbbf5f26c3ed15eb3c18e06911d30"
   },
   {
     "distributed": "assets/scenes/galeria-rostros.webp",
@@ -1219,12 +1219,12 @@
       "art/masters/scene-galeria-rostros.png"
     ],
     "source": "art/masters/scene-galeria-rostros.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 792002,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 850130,
     "alpha": false,
-    "sha256": "af3005ca9b53427fe22992627185e3d77dc5fa9f4fc9154e8b1e902cdc49aac7"
+    "sha256": "f4ffd45434d3516570d69460978394181a7dfaff159c6440875784a253990196"
   },
   {
     "distributed": "assets/scenes/inscripcion-merit.webp",
@@ -1232,12 +1232,12 @@
       "art/masters/scene-inscripcion-merit.png"
     ],
     "source": "art/masters/scene-inscripcion-merit.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 940,
-    "bytes": 628486,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 647506,
     "alpha": false,
-    "sha256": "ba817320b444402cb5517c586774f66515dcd2fccc48962329885fa04787605d"
+    "sha256": "d52d36fb1b67b78f423143513d9b4023cae06001d8324ea6fd47d69667e4485f"
   },
   {
     "distributed": "assets/scenes/muhar.webp",
@@ -1245,25 +1245,25 @@
       "art/masters/scene-muhar.png"
     ],
     "source": "art/masters/scene-muhar.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 647672,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 676996,
     "alpha": false,
-    "sha256": "a3a5364f7b406d8fe7acaee1008c0c54e0397987ebe0552872ce062bf0a3469e"
+    "sha256": "224a4366eac6bb979fb52978f65656e476184a61e6435f0beee64bbdae69bc86"
   },
   {
     "distributed": "assets/scenes/neb-sekhem.webp",
     "sources": [
-      "art/masters/scene-neb-sekhem.png"
+      "art/v4/empty/neb-sekhem.png"
     ],
-    "source": "art/masters/scene-neb-sekhem.png",
-    "use": "Ilustración narrativa",
-    "width": 1024,
-    "height": 1536,
-    "bytes": 642168,
+    "source": "art/v4/empty/neb-sekhem.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 770494,
     "alpha": false,
-    "sha256": "8a375c8e61d055c2801aa4080f8287675501be2b9124679256480d7d8aa831ef"
+    "sha256": "c8bf3919bfb028374333d5dffc9a06eb3c3093c7bd944ef29daf1edf79f25be2"
   },
   {
     "distributed": "assets/scenes/pozo.webp",
@@ -1271,25 +1271,25 @@
       "art/masters/scene-pozo.png"
     ],
     "source": "art/masters/scene-pozo.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 690832,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 734376,
     "alpha": false,
-    "sha256": "1d2c6b9b1095a73c2ea11cf9c90076b3584688f7536e4424c47e569edffe5390"
+    "sha256": "7f888ff2cff288b5dfd66a0f1106504c1bd08d8e6ea208ead174a2769882eeb5"
   },
   {
     "distributed": "assets/scenes/procesion.webp",
     "sources": [
-      "art/masters/scene-procesion.png"
+      "art/v4/empty/procesion.png"
     ],
-    "source": "art/masters/scene-procesion.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 703180,
+    "source": "art/v4/empty/procesion.png",
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 694774,
     "alpha": false,
-    "sha256": "e9b3128a92156f107fef47e2ebcd3c1b74e83d06fe526d7832df28acfe6b2b30"
+    "sha256": "84d8886497d31436dc7b1c47af373fb748fefbc4e619be935e2c97158506226c"
   },
   {
     "distributed": "assets/scenes/sala-vasijas.webp",
@@ -1297,12 +1297,12 @@
       "art/masters/scene-sala-vasijas.png"
     ],
     "source": "art/masters/scene-sala-vasijas.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 730972,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 798250,
     "alpha": false,
-    "sha256": "43196c3bfbae3864f207372427e5d16775d8aa39ab4ff02c9a9c9400723db65b"
+    "sha256": "3086ceb99c3d686f0c9f138dc6ecfab97a61e61c3340056a6b6c4eef3a4834f6"
   },
   {
     "distributed": "assets/scenes/taller-tia.webp",
@@ -1310,11 +1310,11 @@
       "art/masters/scene-taller-tia.png"
     ],
     "source": "art/masters/scene-taller-tia.png",
-    "use": "Ilustración narrativa",
-    "width": 1672,
-    "height": 941,
-    "bytes": 701574,
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 728252,
     "alpha": false,
-    "sha256": "027d4bd85ebaf5ccf1d610277f8e701afec889219407b7410a0205a427ff7489"
+    "sha256": "fe6f983d758599ff95592c7825fb70067934143ba864e5c183ab8667aade618d"
   }
 ]

@@ -82,3 +82,21 @@
 .mr-scene-guide blockquote{background:#eee5d4;border-left:4px solid #8c5b44;padding:14px 18px;color:#302932;font-size:1.12em;line-height:1.55}
 @media(max-width:1100px){#mr-trono-director{max-width:calc(100vw - 150px)}#mr-trono-director strong{display:none}#mr-trono-director button span{display:none}#mr-trono-director select{width:180px}#mr-trono-director .mr-director-cues button span,#mr-trono-director .mr-director-menu button span{display:inline}}
 @media(prefers-reduced-motion:reduce){#mr-trono-director{backdrop-filter:none}}
+/* Controles de figuras: edición directa, con foco visible y etiquetas completas. */
+#mr-trono-director .mr-figures-menu{width:330px;max-height:calc(100vh - 160px);overflow:auto}
+#mr-trono-director .mr-figures-menu label{display:flex;align-items:center;gap:9px;line-height:1.4;margin:10px 0}
+#mr-trono-director .mr-figures-menu input[type=number]{width:80px;min-width:70px;color:#f4e8ce;background:#30232e;border:1px solid #a58554;padding:5px}
+#mr-trono-director .mr-figures-menu input[type=checkbox]{flex:0 0 auto;width:16px;height:16px}
+#mr-trono-director input:focus-visible,#mr-trono-director summary:focus-visible{outline:2px solid #e6c986;outline-offset:3px}
+#mr-trono-director .mr-figures-menu strong{display:inline;font-size:14px}
+#mr-trono-director .mr-figures-menu p{display:flex;flex-wrap:wrap;gap:6px}
+#mr-trono-director .mr-figures-menu .mr-director-status{display:block;line-height:1.45}
+.mr-scene-guide .mr-cast-presentation{margin:12px 0;border-bottom:1px solid #a5855466;padding-bottom:12px}
+/* Cajas del manual dentro de los diarios del módulo (v1.2.0). */
+section.mr-box,section.mr-npc,section.mr-doc{margin:12px 0;padding:10px 14px;border:1px solid #a58554;background:#ece2d0;color:#2a2630;border-radius:2px}
+section.mr-npc{border-top:4px solid #713447}
+section.mr-doc{background:#efe3c8;font-style:italic;box-shadow:inset 0 0 14px #78541e38}
+section.mr-box h4,section.mr-npc h4,section.mr-doc h4{margin:0 0 6px;font-variant:small-caps;letter-spacing:.06em;color:#713447;border:0}
+section.mr-box p,section.mr-npc p,section.mr-doc p{margin:0 0 6px;color:#2a2630}
+.journal-page-content table:has(th){border-collapse:collapse}
+.journal-page-content blockquote{border-left:4px solid #713447;background:#71344712;padding:8px 14px}

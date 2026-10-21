@@ -76,3 +76,7 @@ def main():
  (ROOT/'art/v3/inventory.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
  print(f'{len(expected)} maestros; {len(REG)} WebP derivados')
 if __name__=='__main__':main()
+
+# Los fondos de juego usan las revisiones panorámicas sin personajes.
+import runpy
+runpy.run_path(str(ROOT/'tools/scene-format.py'))

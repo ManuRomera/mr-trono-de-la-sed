@@ -3,7 +3,9 @@ import { MODULE_ID as MOD, escapeHTML as esc, normalizeMemories, nativeStatuses,
   initialCampaign, normalizeCampaign, discardUpdates } from './state.mjs';
 import {createPrivateKey, encryptCampaign, decryptCampaign, makeCampaignBackup, parseCampaignBackup} from './private-store.mjs';
 
+import {registerPresentation} from './presentation.mjs';
 import {upgradeArtwork} from './art-upgrade.mjs';
+import {upgradeEditorial} from './editorial-upgrade.mjs';
 import {upgradeDirection} from './direction-upgrade.mjs';
 import {registerDirector,setupDirector,openSceneGuide,dispatchDirector} from './director.mjs';
 
@@ -23,7 +25,7 @@ const belonging = doc => {
   if (source !== undefined && source !== null) return source === MOD;
   return Boolean(doc?.getFlag?.(MOD, 'slug') || doc?.getFlag?.(MOD, 'key'));
 };
-const docs = collection => (game[collection]?.contents ?? []).filter(belonging);
+const docs = collection => (game[collection]?.contents ?? []).filter(doc=>belonging(doc)&&!doc.getFlag?.(MOD,'editorialLegacy'));
 const heroActors = () => docs('actors').filter(actor => actor.type === 'litm-character' || actor.type === 'character');
 const activeNarrator = () => game.user.isGM && (!game.users.activeGM || game.users.activeGM.id === game.user.id);
 const button = (action, label, attrs = '') => `<button type="button" data-mr-action="${action}" ${attrs}>${esc(label)}</button>`;
@@ -240,6 +242,7 @@ export async function importAdventure() {
     await game.settings.set(MOD, 'imported', true);
     await upgradeArtwork();
     await upgradeDirection();
+    await upgradeEditorial();
     await ensureRegistry();
     ui.notifications.info(t('ImportDone'));
     openGMBook();
@@ -537,7 +540,10 @@ Hooks.once('ready', async () => {
   game.modules.get(MOD).api = Object.freeze({openGMBook, openMemories, importAdventure, startTutorial,openSceneGuide,dispatchDirector});
   if (game.system.id !== 'mist-engine-fvtt') { ui.notifications.error(t('WrongSystem')); return; }
   await upgradeArtwork();
-  if (globalThis.Scene) await upgradeDirection();
+  if (globalThis.Scene) {
+    try {await upgradeDirection();await upgradeEditorial();}
+    catch(error){console.error(`${MOD} | editorial upgrade`,error);ui.notifications.warn(t('EditorialUpgradeFailed'));}
+  }
   setupDirector();
   try { await registerTours(); } catch (error) { console.error(`${MOD} | register tours`, error); ui.notifications.warn(t('ToursUnavailable')); }
   // Offer only once and only to the active GM. Existing worlds use the manual menu.
@@ -548,4 +554,4 @@ Hooks.once('ready', async () => {
   } else if (game.user.isGM && game.settings.get(MOD,'imported')) await ensureRegistry();
 });
 
-Hooks.once('init',registerDirector);
+Hooks.once('init',()=>{registerPresentation();registerDirector();});

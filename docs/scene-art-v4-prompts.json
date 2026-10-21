@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "coronacion",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove the entire king and his clothing and staff, all corporeal or spectral guards. Empty elevated THRONE visible, seven canopic jars and crimson ritual threads may connect to empty throne architecture only. No human seated. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/coronacion.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "funeral",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove EVERY living person and crowd in foreground alleys, temple steps, rooftops and distant skyline. Preserve empty decorated coffin, linen, sandals, architecture, sunset and braziers. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/funeral.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "laberinto",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove any independent humanoid silhouette or ghost at far end of the doorway. All passages EMPTY. Preserve flat engraved painted reliefs fixed to walls and architecture. No upright being in the distance. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/laberinto.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "lamina-corazon",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove the approaching HUMAN HAND and arm completely. Empty foreground altar, open coffer crystalline heart, bronze balance and white feather, architecture unchanged. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/lamina-corazon.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "lamina-funeral",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove ALL mourners, priests, crowd and tiny people in distant doorways. Preserve empty open carved bier, linen, flowers and the sunset Egyptian plaza. Clear usable foreground ground. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/lamina-funeral.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "lamina-khety",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove seated PRIEST and the CHILD-shaped GOLDEN GHOST completely, including all hands and humanoid light. Preserve empty steps, columns, sandaled relics and empty jar as unattended props. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/lamina-khety.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "lamina-merit",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove the entire WOMAN Merit, body, face, hands, clothing and shadow cast by her. Reconstruct the empty stone foreground, steps and inscribed wall, distant scale; no spectral silhouette. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/lamina-merit.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "lamina-procesion",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove ALL pallbearers, near person, distant procession, ghostly figures and their carried bier: no floating load. Preserve broad spiral stair and torchlit abyssal temple, vacant landing. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/lamina-procesion.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "merit-eco",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove the ENTIRE WOMAN, cloak, hands, face and all traces of her silhouette. Reveal empty stone platform and step space. Preserve small coffer, balance and white feather, torches, architectural clearly static stone statues. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/merit-eco.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "neb-sekhem",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove the entire vampire king, cloak, hands, body, carried staff and all distant guards or skeletal humanoids. Empty moonlit temple pórtico and broad stairs, permanent clearly carved stone jackal statues and braziers remain. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/neb-sekhem.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "procesion",
+    "role": "scene-background",
+    "operation": "remove-characters-and-recompose-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. The attached image is the EDIT TARGET. Correct this Foundry VTT background to show ONLY THE ENVIRONMENT: absolutely ZERO characters, people, creatures, living animals, undead, apparitions, hands or body parts, in foreground or distance. Characters will be separate movable tokens. Remove EVERY carrier and character, replace the two palanquins with unattended covered litters RESTING ON the ground along the roadside, not hovering. Empty moonlit road between ruined columns. Preserve exact current gothic Egyptian hand-inked graphic fantasy style: crisp angular dark outlines, restrained painterly shapes, indigo and amber, worn rough stone. Keep narrative props and real architecture. Static stone statuary and flat carved wall decoration are allowed ONLY if unmistakably part of the architecture. Recompose to full bleed LANDSCAPE 16:9 2048x1152, coherent scene to all edges; enough floor/ground in lower third for tokens. No portrait panel, no blurred filler, no letters, no watermark, no borders. Do not add decorative people anywhere.",
+    "reference": "assets/scenes/procesion.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "map-corte",
+    "role": "stone-map",
+    "operation": "expand-stone-surface-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Attached image is the EDIT TARGET, a map carved into sandstone. Expand its stone surface LEFT AND RIGHT to a full-bleed 16:9 landscape 2048x1152. Keep the original complete map engraving centered, its exact topology, all existing corridors, door gaps and labeled nodes, title and numeral positions within map unchanged relative to one another. Uniformly fit original plan by height; no cropping or distorting it. Only extend natural ochre limestone texture outside original map boundaries, with weathered small cracks and worn chiseling. Frontal orthographic wall-map ONLY, no visible chamber, floor, border, frame, perspective, new rooms, new labels or furniture. Match existing inked painterly fantasy stone texture, amber sidelight, genuine incised recessed lines. Exactly seven rooms numbered 1–7, identical positions and access gaps.",
+    "reference": "assets/maps/corte-piedra.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "map-muhar",
+    "role": "stone-map",
+    "operation": "expand-stone-surface-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Attached image is the EDIT TARGET, a map carved into sandstone. Expand its stone surface LEFT AND RIGHT to a full-bleed 16:9 landscape 2048x1152. Keep the original complete map engraving centered, its exact topology, all existing corridors, door gaps and labeled nodes, title and numeral positions within map unchanged relative to one another. Uniformly fit original plan by height; no cropping or distorting it. Only extend natural ochre limestone texture outside original map boundaries, with weathered small cracks and worn chiseling. Frontal orthographic wall-map ONLY, no visible chamber, floor, border, frame, perspective, new rooms, new labels or furniture. Match existing inked painterly fantasy stone texture, amber sidelight, genuine incised recessed lines. Exactly five numbered locations and the same connecting routes, title MUHAR, north arrow preserved.",
+    "reference": "assets/maps/muhar-piedra.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "map-pozo",
+    "role": "stone-map",
+    "operation": "expand-stone-surface-16-9",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Attached image is the EDIT TARGET, a map carved into sandstone. Expand its stone surface LEFT AND RIGHT to a full-bleed 16:9 landscape 2048x1152. Keep the original complete map engraving centered, its exact topology, all existing corridors, door gaps and labeled nodes, title and numeral positions within map unchanged relative to one another. Uniformly fit original plan by height; no cropping or distorting it. Only extend natural ochre limestone texture outside original map boundaries, with weathered small cracks and worn chiseling. Frontal orthographic wall-map ONLY, no visible chamber, floor, border, frame, perspective, new rooms, new labels or furniture. Match existing inked painterly fantasy stone texture, amber sidelight, genuine incised recessed lines. Exactly circular well ring with seven recesses: six red, one blank. Keep ring truly circular, never an ellipse. Title EL POZO and central DESCENSO AL LABERINTO preserved. Large stone margins at left and right are intentional.",
+    "reference": "assets/maps/pozo-piedra.webp",
+    "reference_version": "v1.0.0"
+  },
+  {
+    "slug": "lamina-nombres",
+    "role": "scene-background",
+    "operation": "landscape-recomposition",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: identity-preserve. Edit target: attached existing illustration. Recompose this artwork as a professional FULL-BLEED WIDESCREEN 16:9 Foundry scene at 2048 x 1152. Expand the setting left and right and re-stage the composition for landscape; keep principal subjects fully legible in center 70%, no stretched people, no pasted portrait panel, no blurred background filler. Preserve the exact established hand-inked graphic fantasy illustration style, angular precise black lines, painterly flat shapes, stippled worn stone, deep indigo and warm amber, gothic Egyptian horror. Preserve the reference character identity, clothing, props and narrative facts. Seven canopic vessels, six occupied on shelves and seventh pale blank vessel forward, dark blue vaulted Egyptian tomb, restrained golden threads. Keep exactly seven jars, spread horizontally clearly countable. No modern objects, no captions, no text, no watermark, no borders. Every edge must be coherent illustrated environment.",
+    "reference": "editorial/plates/lamina-nombres.webp",
+    "reference_version": "v1.0.0"
+  }
+]

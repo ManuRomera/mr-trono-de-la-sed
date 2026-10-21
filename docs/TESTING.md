@@ -1,3 +1,18 @@
+# Verificación de la edición 1.2.0
+
+Comprobada en Foundry VTT 13.351 y Mist Engine 14.5.4, sobre un mundo temporal aislado. Las secciones históricas que siguen conservan las cifras de las ediciones anteriores.
+
+- 48 pruebas automatizadas aprobadas.
+- 29 fondos a 1920 × 1080, sin figuras independientes integradas, sin tokens colocados inicialmente. Revisión visual documentada en `scene-review-v11.json`.
+- Cobertura nativa comprobada en 16:9, 16:10, 4:3, ultrapanorámico y 4K; controles de figuras, colocación sin duplicados, cambio de tamaño seleccionado y colectivo, bloqueo de giro y ocultación del recorrido.
+- Sesión de jugador sin barra del Narrador y sin capacidad para cambiar esos ajustes. Diarios privados según permisos nativos.
+- Actualización de un mundo anterior: biografías y diarios personalizados conservados, capítulos antiguos accesibles, capítulos revisados añadidos, lecturas originales actualizadas y registro cifrado intacto.
+- Evidencia de ejecución: `foundry-presentation-v11.json`. Verificaciones del PDF: `pdf-review.json` y `pdf-source-coverage.json`.
+
+La validación funcional y editorial no sustituye una prueba de mesa con cuatro o cinco participantes.
+
+---
+
 # Verificación de la edición local 0.1.0
 
 Fecha de cierre de estas pruebas: 21 de octubre de 2026.

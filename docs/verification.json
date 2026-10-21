@@ -4,22 +4,23 @@
   "counts": {
     "actors": 34,
     "items": 20,
-    "journal": 58,
+    "journal": 59,
     "scenes": 29,
     "macros": 1,
     "playlists": 2
   },
   "assets": 123,
-  "asset_bytes": 65823746,
+  "asset_bytes": 68087550,
   "image_references": 123,
   "missing": 0,
   "runtime_evidence": [
+    "foundry-presentation-v11.json",
     "foundry-direction-v1.json",
     "audio-validation.json",
     "pdf-review.json",
     "pdf-source-coverage.json"
   ],
-  "release_status": "1.0.0, publication authorized by author",
+  "release_status": "1.2.0, publication authorized by author",
   "pending": [
     "Verificación editorial de dobles páginas de impresión a mayor resolución",
     "Prueba de mesa con 4–5 personas"

@@ -1,3 +1,4 @@
+import {presentationSettings,setPresentation,fitPresentation,figureLayout,resizeFigures,visiblePresentationBounds} from './presentation.mjs';
 /** Dirección de escena con documentos y audio nativos de Foundry v13. */
 const MOD='mr-trono-de-la-sed';
 const E=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -35,25 +36,26 @@ async function applyMix(level,quiet){
 async function placeActors(scene,actors){
  if(!scene)return warn('ImportFirst');
  const pending=missingCast(scene.tokens.contents,actors);if(!pending.length)return ui.notifications.info(label('AlreadyPlaced'));
- const docs=[];const unit=scene.grid.size||100;
+ const docs=[];const settings=presentationSettings();const positions=figureLayout(scene,pending.length,scene.tokens.size,settings.tokenPixels,visiblePresentationBounds(scene));
  for(let i=0;i<pending.length;i++){
-  const actor=pending[i];const all=scene.tokens.size+i;const columns=Math.max(1,Math.floor((scene.width-unit*2)/(unit*1.8)));const col=all%columns,row=Math.floor(all/columns);
-  const x=Math.min(scene.width-unit*1.5,Math.max(0,unit+col*unit*1.8));const y=Math.max(0,scene.height-unit*1.8-row*unit*1.8);
-  const token=await actor.getTokenDocument({x,y,width:1.5,height:1.5,actorLink:actor.type==='litm-character'||!['Custodios de la corte','Servidores sin nombre','Sombras de chacal'].includes(actor.name)});docs.push(token.toObject());
+  const actor=pending[i];const token=await actor.getTokenDocument({...positions[i],lockRotation:settings.lockRotation,actorLink:actor.type==='litm-character'||!['Custodios de la corte','Servidores sin nombre','Sombras de chacal'].includes(actor.name)});docs.push(token.toObject());
  }
  await scene.createEmbeddedDocuments('Token',docs);
 }
 export async function dispatchDirector(action,arg=''){
- const readOnly=['read','actor','book','view'];
+ const readOnly=['read','actor','book','view','fit'];
  if(!game.user.isGM)return false;
  if(!readOnly.includes(action)&&!activeGM()){warn('ActiveGM');return false;}
+ if(action==='fit'){fitPresentation();return true;}
  if(action==='read'){await openSceneGuide(arg);return true;}
  if(action==='actor'){const a=game.actors.find(a=>owned(a)&&a.getFlag(MOD,'slug')===arg);if(a)await a.sheet.render({force:true});return !!a;}
  if(action==='book'){game.modules.get(MOD).api.openGMBook();return true;}
  if(action==='view'){await sceneFor(arg)?.view();return true;}
- const valid=['activate','music','quiet','stop','stop-effects','effect','heroes','token','level'];if(!valid.includes(action))return false;
+ const valid=['activate','music','quiet','stop','stop-effects','effect','heroes','token','level','presentation','resize','resize-selected'];if(!valid.includes(action))return false;
  return enqueue(async()=>{
   if(!activeGM())return false;
+  if(action==='presentation'){const [key,value]=arg.split('~');await setPresentation(key,key==='tokenPixels'?Number(value):value==='true');}
+  if(action==='resize'||action==='resize-selected')await resizeFigures(sceneFor(arg),action==='resize-selected');
   if(action==='activate'){const s=sceneFor(arg);if(!s)return false;await s.activate();const linked=typeof s.playlist==='string'?s.playlist:s.playlist?.id;if(!linked||linked===playlistFor('music')?.id)await playMusic(arg);}
   if(action==='music')await playMusic(arg);
   if(action==='quiet'){const m=mix();await applyMix(m.level,!m.quiet);}
@@ -77,16 +79,19 @@ function renderDirector(){
  const selected=subject()??scenes[0];const slug=selected.getFlag(MOD,'slug');const d=direction(selected);if(!d)return;
  if(!bar){bar=document.createElement('aside');bar.id='mr-trono-director';bar.setAttribute('aria-label',label('Title'));bar.setAttribute('role','region');document.body.append(bar);
   bar.addEventListener('click',e=>{const b=e.target.closest('[data-trono-action]');if(!b)return;e.preventDefault();dispatchDirector(b.dataset.tronoAction,b.dataset.tronoArg).catch(reportError);});
-  bar.addEventListener('change',e=>{if(e.target.matches('select'))dispatchDirector('view',e.target.value).catch(reportError);if(e.target.matches('input[type=range]'))dispatchDirector('level',e.target.value).catch(reportError);});
+  bar.addEventListener('change',e=>{if(e.target.matches('.mr-director-scenes'))dispatchDirector('view',e.target.value).catch(reportError);if(e.target.matches('input[type=range]'))dispatchDirector('level',e.target.value).catch(reportError);if(e.target.dataset.presentation)dispatchDirector('presentation',e.target.dataset.presentation+'~'+(e.target.type==='checkbox'?e.target.checked:e.target.value)).catch(reportError);});
  }
+ const openMenus=new Set([...bar.querySelectorAll('details[open]')].map(x=>x.dataset.menu));
+ const options=presentationSettings();
  const music=soundFor(playlistFor('music'),d.music);const isPlaying=!!music?.playing;const m=mix();
- bar.innerHTML=`<div class="mr-director-head"><strong>MR · ${E(label('Title'))}</strong><select aria-label="${E(label('ChooseScene'))}">${scenes.map(s=>`<option value="${E(s.getFlag(MOD,'slug'))}" ${s.id===selected.id?'selected':''}>${E(s.name)}</option>`).join('')}</select>${control('read',slug,label('Read'),'book-open')}${control('activate',slug,label('Show'),'panorama')}${control('music',slug,label(isPlaying?'Resume':'Music'),'music')}${control('quiet',slug,label('Quiet'),'volume-low',`aria-pressed="${m.quiet}"`)}${control('stop',slug,label('Stop'),'volume-xmark')}<details><summary aria-label="${E(label('More'))}"><i class="fa-solid fa-sliders"></i></summary><div class="mr-director-menu"><p>${E(label('Mix'))}</p><label>${E(label('Level'))}<input type="range" min="0" max="1" step=".05" value="${E(m.level)}"></label><p class="mr-director-status">${E(music?.name??'')} · ${E(label(isPlaying?'Playing':'Stopped'))}</p><p>${control('heroes',slug,label('Heroes'),'people-group')}${control('book','',label('Book'),'ankh')}</p><p>${control('stop-effects',slug,label('StopEffects'),'stop')}</p></div></details></div><div class="mr-director-cues">${d.effects.map(s=>{const snd=soundFor(playlistFor('sfx'),s);return control('effect',s,snd?.name??s,'wave-square',`aria-pressed="${!!snd?.playing}"`);}).join('')}</div>`;
+ bar.innerHTML=`<div class="mr-director-head"><strong>MR · ${E(label('Title'))}</strong><select class="mr-director-scenes" aria-label="${E(label('ChooseScene'))}">${scenes.map(s=>`<option value="${E(s.getFlag(MOD,'slug'))}" ${s.id===selected.id?'selected':''}>${E(s.name)}</option>`).join('')}</select>${control('read',slug,label('Read'),'book-open')}${control('activate',slug,label('Show'),'panorama')}${control('music',slug,label(isPlaying?'Resume':'Music'),'music')}${control('quiet',slug,label('Quiet'),'volume-low',`aria-pressed="${m.quiet}"`)}${control('stop',slug,label('Stop'),'volume-xmark')}${control('fit',slug,label('Fit'),'expand')}<details data-menu="figures"><summary>${E(label('Figures'))}</summary><div class="mr-director-menu mr-figures-menu"><p><strong>${E(label('Figures'))}</strong></p><label>${E(label('TokenSize'))}<input type="number" data-presentation="tokenPixels" min="60" max="900" step="10" value="${options.tokenPixels}"></label><p class="mr-director-status">${E(label('TokenSizeHelp'))}</p><p>${[240,360,480].map(n=>control('presentation','tokenPixels~'+n,n+' px','person')).join(' ')}</p><p>${control('resize-selected',slug,label('ResizeSelected'),'up-right-and-down-left-from-center')} ${control('resize',slug,label('ResizeAll'),'people-group')}</p><label><input type="checkbox" data-presentation="lockRotation" ${options.lockRotation?'checked':''}> ${E(label('LockRotation'))}</label><label><input type="checkbox" data-presentation="hideTrails" ${options.hideTrails?'checked':''}> ${E(label('HideTrails'))}</label><label><input type="checkbox" data-presentation="cover" ${options.cover?'checked':''}> ${E(label('Cover'))}</label></div></details><details data-menu="mix"><summary aria-label="${E(label('More'))}"><i class="fa-solid fa-sliders"></i></summary><div class="mr-director-menu"><p>${E(label('Mix'))}</p><label>${E(label('Level'))}<input type="range" min="0" max="1" step=".05" value="${E(m.level)}"></label><p class="mr-director-status">${E(music?.name??'')} · ${E(label(isPlaying?'Playing':'Stopped'))}</p><p>${control('heroes',slug,label('Heroes'),'people-group')}${control('book','',label('Book'),'ankh')}</p><p>${control('stop-effects',slug,label('StopEffects'),'stop')}</p></div></details></div><div class="mr-director-cues">${d.effects.map(s=>{const snd=soundFor(playlistFor('sfx'),s);return control('effect',s,snd?.name??s,'wave-square',`aria-pressed="${!!snd?.playing}"`);}).join('')}</div>`;
+ for(const menu of bar.querySelectorAll('details'))menu.open=openMenus.has(menu.dataset.menu);
 }
 function reportError(error){console.error(`${MOD} | direction`,error);ui.notifications.error(label('Error'));}
 export function setupDirector(){
  if(!globalThis.document?.createElement)return;
  refreshDirector();
- for(const h of ['canvasReady','updateScene','createScene','deleteScene','updatePlaylist','updatePlaylistSound','createPlaylist'])Hooks.on(h,refreshDirector);
+ for(const h of ['mrTronoPresentationChanged','canvasReady','updateScene','createScene','deleteScene','updatePlaylist','updatePlaylistSound','createPlaylist'])Hooks.on(h,refreshDirector);
  // Sincroniza el volumen de lectura también cuando la reproducción empieza por enlace nativo de escena.
  Hooks.on('updateScene',(scene,changes)=>{const linked=typeof scene.playlist==='string'?scene.playlist:scene.playlist?.id;if(changes.active&&owned(scene)&&activeGM()&&linked===playlistFor('music')?.id)dispatchDirector('music',scene.getFlag(MOD,'slug')).catch(reportError);});
 }

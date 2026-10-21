@@ -1,0 +1,415 @@
+{
+  "version": "1.2.0",
+  "runtime": "Foundry 13.351 · Mist Engine 14.5.4",
+  "data": {
+    "sceneCount": 29,
+    "formatted": true,
+    "chapter": true,
+    "readings": true,
+    "actors": 22
+  },
+  "coverage": [
+    {
+      "slug": "casa-nefru",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "casa-panehsy",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "coronacion",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "laberinto",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "banquete",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "camino-chacales",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "dormitorio-victimas",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "funeral",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "pozo",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "inscripcion-merit",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "entrada-palacio",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "amanecer",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "corte",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "pesaje",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "galeria-rostros",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "procesion",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "sala-vasijas",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "lamina-corazon",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "lamina-procesion",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "lamina-funeral",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "lamina-khety",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "lamina-merit",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "lamina-nombres",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "merit-eco",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "muhar",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "map-muhar",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "neb-sekhem",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "map-pozo",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    },
+    {
+      "slug": "taller-tia",
+      "left": -177.77777777777783,
+      "right": 1777.7777777777778,
+      "top": 0,
+      "bottom": 1100,
+      "w": 1600,
+      "h": 1100
+    }
+  ],
+  "viewports": [
+    {
+      "screen": [
+        1920,
+        1080
+      ],
+      "scale": 1,
+      "left": 0,
+      "top": 0,
+      "right": 1920,
+      "bottom": 1080
+    },
+    {
+      "screen": [
+        1600,
+        1000
+      ],
+      "scale": 0.9259259259259259,
+      "left": 0,
+      "top": 0,
+      "right": 1777.7777777777778,
+      "bottom": 1000
+    },
+    {
+      "screen": [
+        1440,
+        1080
+      ],
+      "scale": 1,
+      "left": 0,
+      "top": 0,
+      "right": 1920,
+      "bottom": 1080
+    },
+    {
+      "screen": [
+        3440,
+        1440
+      ],
+      "scale": 1.7916666666666667,
+      "left": 0,
+      "top": -495,
+      "right": 3440,
+      "bottom": 1440
+    },
+    {
+      "screen": [
+        3840,
+        2160
+      ],
+      "scale": 2,
+      "left": 0,
+      "top": 0,
+      "right": 3840,
+      "bottom": 2160
+    },
+    {
+      "screen": [
+        1600,
+        1100
+      ],
+      "scale": 1.0185185185185186,
+      "left": 0,
+      "top": 0,
+      "right": 1955.5555555555557,
+      "bottom": 1100
+    }
+  ],
+  "spawn": {
+    "count": 5,
+    "sizes": [
+      480,
+      480,
+      480,
+      480,
+      480
+    ],
+    "locks": true,
+    "ids": [
+      "X2ThndjeECq4M6ii",
+      "NzC3oPb1uxjAq7pm",
+      "7IwsCoUnxfoKd5Rn",
+      "W2HC7zx5fY614vRm",
+      "S8Tx5pLg8oq6wQMu"
+    ]
+  },
+  "selective": [
+    240,
+    480,
+    480,
+    480,
+    480
+  ],
+  "resized": [
+    360,
+    360,
+    360,
+    360,
+    360
+  ],
+  "movement": {
+    "hidden": true,
+    "restored": true,
+    "operation": {
+      "autoRotate": false,
+      "showRuler": false
+    },
+    "rotationBefore": 0,
+    "rotationAfter": 0,
+    "locked": true
+  },
+  "journalUI": {
+    "guides": 29,
+    "domReading": true,
+    "castPresentation": true
+  },
+  "player": {
+    "barAbsent": true,
+    "scene": "lamina-khety",
+    "cannotResize": true,
+    "hideTrails": true,
+    "left": -240,
+    "top": 0,
+    "privateGuides": true
+  },
+  "errors": [],
+  "migration": {
+    "originalActorUpdated": true,
+    "customActorPreserved": true,
+    "customLegacyJournalPreserved": true,
+    "legacyRemainsAccessible": true,
+    "originalGuideUpdated": true,
+    "revisedChaptersPresent": true,
+    "revisedChapterCount": 12,
+    "encryptedCampaignUnchanged": true
+  },
+  "rotationToggle": {
+    "unlocked": true,
+    "locked": true
+  },
+  "finalErrors": []
+}

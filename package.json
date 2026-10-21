@@ -1,13 +1,14 @@
 {
   "name": "mr-trono-de-la-sed",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "content": "python3 tools/content.py",
-    "build": "python3 tools/maps.py && python3 tools/content.py && python3 tools/verify.py && node tools/build.mjs",
+    "content": "python3 tools/manual.py --sync && python3 tools/content.py",
+    "build": "python3 tools/manual.py --sync && python3 tools/maps.py && python3 tools/content.py && python3 tools/verify.py && node tools/build.mjs",
     "test": "node --test tests/*.test.mjs",
-    "verify": "python3 tools/verify.py"
+    "verify": "python3 tools/verify.py",
+    "pdf": "python3 tools/manual.py"
   },
   "devDependencies": {
     "classic-level": "2.0.0",

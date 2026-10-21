@@ -1,0 +1,304 @@
+{
+  "version": "1.2.0",
+  "review": "visual inspection of the final scene contact sheet and full-size character-removal revisions",
+  "scene_count": 29,
+  "format": [
+    1920,
+    1080
+  ],
+  "people_in_backgrounds": false,
+  "decorative_architecture": "Carved reliefs, static statues and canopic lids are environmental elements. No independent living or spectral figures.",
+  "character_placement": "Tokens are added only when the Narrator chooses to place or drag them. No pre-placed tokens in source Scenes.",
+  "scenes": [
+    {
+      "slug": "corte",
+      "background": "assets/maps/corte.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "9d06eb699ef56fd93cdbc58f508765a1d8383f3d47d5ccef25a7943c7166afa6",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "map-muhar",
+      "background": "assets/maps/muhar.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "727653d7e815fa446acd208c6bed66b1bf13836e0a8e1872297227967f70bbd8",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "map-pozo",
+      "background": "assets/maps/pozo.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fb1ff90c3c23b8d07ce1a841cb03cd9a3dc33509de472ee5df82392c65e57520",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "funeral",
+      "background": "assets/scenes/funeral.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "272fbbdaa6684e7b82299944055cddb5d5b22141382493f8e266ee145c64c8be",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "banquete",
+      "background": "assets/scenes/banquete.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "61507ec29341dbb00c098a5d873fe2f04f3232ec03adaf72f0d1e872dded4fc1",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "pesaje",
+      "background": "assets/scenes/pesaje.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "3ca50ed77c6b4050a2ad91dee059742edd5ca48c9a378adadbd23e58da8ffd71",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "laberinto",
+      "background": "assets/scenes/laberinto.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "0a38bafb1aaf08930db2500fb595ec495da6692848cdd43e06ba4a0125c849ce",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "muhar",
+      "background": "assets/scenes/muhar.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "224a4366eac6bb979fb52978f65656e476184a61e6435f0beee64bbdae69bc86",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "casa-panehsy",
+      "background": "assets/scenes/casa-panehsy.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "beb708294d3433b6b50e9a897e620af050f82d92d97daeb1daf16fedfa09994c",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "taller-tia",
+      "background": "assets/scenes/taller-tia.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fe6f983d758599ff95592c7825fb70067934143ba864e5c183ab8667aade618d",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "casa-nefru",
+      "background": "assets/scenes/casa-nefru.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "7e6bfeda641691db994c3f808f8d075b77f271dddb925c827bd0187b0db4419b",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "camino-chacales",
+      "background": "assets/scenes/camino-chacales.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "8ce1f14c1956df85dd5f62dcc1bb4eff65213d5fe164f441b3b7a9fffd9803e7",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "procesion",
+      "background": "assets/scenes/procesion.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "84d8886497d31436dc7b1c47af373fb748fefbc4e619be935e2c97158506226c",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "pozo",
+      "background": "assets/scenes/pozo.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "7f888ff2cff288b5dfd66a0f1106504c1bd08d8e6ea208ead174a2769882eeb5",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "entrada-palacio",
+      "background": "assets/scenes/entrada-palacio.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "89df5dc21e33ba04d4ffcfb752c3f0309f3dbbf5f26c3ed15eb3c18e06911d30",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "galeria-rostros",
+      "background": "assets/scenes/galeria-rostros.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "f4ffd45434d3516570d69460978394181a7dfaff159c6440875784a253990196",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "dormitorio-victimas",
+      "background": "assets/scenes/dormitorio-victimas.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "eaf1051d2dd1fd53f57854f49216945c9f2620e38663055f5618121993707b57",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "sala-vasijas",
+      "background": "assets/scenes/sala-vasijas.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "3086ceb99c3d686f0c9f138dc6ecfab97a61e61c3340056a6b6c4eef3a4834f6",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "inscripcion-merit",
+      "background": "assets/scenes/inscripcion-merit.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "d52d36fb1b67b78f423143513d9b4023cae06001d8324ea6fd47d69667e4485f",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "amanecer",
+      "background": "assets/scenes/amanecer.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "b8603685e58731c7e9715fed131ae004b92acdcb78c5202c9ee69b4d93149b83",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "merit-eco",
+      "background": "assets/scenes/merit-eco.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "3e55e7ab94efbd2d94d1032474ca85470cd23260e3a3c3d85055dcc28d9f4581",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "neb-sekhem",
+      "background": "assets/scenes/neb-sekhem.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "c8bf3919bfb028374333d5dffc9a06eb3c3093c7bd944ef29daf1edf79f25be2",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "coronacion",
+      "background": "assets/scenes/coronacion.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fe3c6bcd97ef3e1ef6abb7e2b1eeee5d7316cc2ebc685ac4d19c33c8191a48be",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "lamina-funeral",
+      "background": "assets/scenes/lamina-funeral.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "2d212858f15c96eb0e20e06587828ea1fb04fd47c22f0f2da3530b5c34240a0f",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "lamina-procesion",
+      "background": "assets/scenes/lamina-procesion.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "77d642b94cc39c272866aa9034777874bccddabd817a86ee587226f9bc88c924",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "lamina-nombres",
+      "background": "assets/scenes/lamina-nombres.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "45afe945b5615cc305005598f2a3e5a4d1fc4740439d561c6cf1f32c2b3832cb",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "lamina-corazon",
+      "background": "assets/scenes/lamina-corazon.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "0b2abb7368d50fab541790859ddec0db33817f2ce9795b96c624bc5e1893d7fb",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "lamina-merit",
+      "background": "assets/scenes/lamina-merit.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "bc9ccd71b24d51e1d5da60096119db9c6c27eb0570b59c9560fe7b3ba06d3037",
+      "initial_tokens": 0
+    },
+    {
+      "slug": "lamina-khety",
+      "background": "assets/scenes/lamina-khety.webp",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "e34f5ebf67026fb0af8a888cfbf3b4f4d590ad1ae30e749372c1923bba3c0ec4",
+      "initial_tokens": 0
+    }
+  ]
+}

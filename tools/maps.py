@@ -31,9 +31,17 @@ parts += ['<path d="M640 1190V1410H760V1190" fill="#d3c3a0" stroke="#927c52" str
 # Compatibilidad: los mundos ya importados conservan estos nombres SVG.
 # Cada alias incorpora el WebP nuevo sin depender de una carga externa del SVG.
 import base64
-for slug,w,h in [('corte',2300,1700),('muhar',2000,1200),('pozo',1400,1400)]:
+for slug,w,h in [('corte',1920,1080),('muhar',1920,1080),('pozo',1920,1080)]:
  image=root/f'assets/maps/{slug}-piedra.webp'
  if not image.exists():raise FileNotFoundError(f'Falta el mapa grabado: {image}')
  encoded=base64.b64encode(image.read_bytes()).decode('ascii')
  wrapper=f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}"><image width="{w}" height="{h}" preserveAspectRatio="none" href="data:image/webp;base64,{encoded}"/></svg>'
  (root/f'assets/maps/{slug}.svg').write_text(wrapper)
+
+# Orientación panorámica: geometría de los recintos revisada sobre el grabado.
+wide_rooms=[('Vestíbulo',469,455,219,155),('Banquete',752,446,402,185),('Galería',450,247,329,190),('Dormitorio',832,219,322,206),('Vasijas',1180,247,329,197),('Inscripción',1243,455,219,155),('Pesaje',754,745,402,187)]
+wide_segments=[]
+for name,x,y,w,h in wide_rooms:
+ mid=x+w/2;gap=60
+ wide_segments.extend([[x,y,mid-gap/2,y],[mid+gap/2,y,x+w,y],[x,y,x,y+h],[x+w,y,x+w,y+h],[x,y+h,mid-gap/2,y+h],[mid+gap/2,y+h,x+w,y+h]])
+(root/'content/maps-wide.json').write_text(json.dumps({'corte':{'width':1920,'height':1080,'walls':wide_segments}},ensure_ascii=False,indent=2)+'\n')

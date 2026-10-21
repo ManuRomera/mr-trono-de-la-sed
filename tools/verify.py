@@ -44,10 +44,20 @@ audio_index={d['path']:d for d in read('content/audio.json')}
 # Cada escena tiene lectura privada y vínculos nativos de música válidos.
 by_journal={j['_id']:j for j in adv['journal']};by_playlist={p['_id']:p for p in adv['playlists']}
 for scene in adv['scenes']:
+ if (scene['width'],scene['height'])!=(1920,1080):errors.append('Escena fuera de 16:9: '+scene['name'])
+ if scene.get('tokens'):errors.append('Los personajes deben colocarse manualmente con tokens: '+scene['name'])
  guide=by_journal.get(scene.get('journal'));pl=by_playlist.get(scene.get('playlist'))
  if not guide or guide['ownership'].get('default')!=0:errors.append('Lectura no privada o ausente: '+scene['name'])
  elif '<blockquote>' not in guide['pages'][0]['text']['content']:errors.append('Lectura vacía: '+scene['name'])
  if not pl or scene.get('playlistSound') not in {s['_id'] for s in pl['sounds']}:errors.append('Música no enlazada: '+scene['name'])
+# Las lecturas compartidas deben aparecer completas en los diarios, sin deriva editorial.
+readings=read('content/readings.json');directions={d['slug']:d for d in read('content/direction.json')}
+for scene in adv['scenes']:
+ slug=scene['flags'][mod]['slug'];d=directions[slug];key=d.get('aliasOf',slug)
+ if key in readings:
+  text=by_journal[scene['journal']]['pages'][0]['text']['content']
+  for para in readings[key]:
+   if para not in text:errors.append('Lectura desincronizada: '+slug)
 assets=[]
 # El inventario global deriva usos de los documentos: no mantiene rutas de uso a mano.
 for p in sorted((root/'assets').rglob('*')):
@@ -67,5 +77,5 @@ for p in sorted((root/'assets').rglob('*')):
 for path in ['js/main.mjs','js/private-store.mjs','js/state.mjs','styles/trono.css','tours/narrator.json','tours/players.json','lang/es.json','lang/en.json']:
  if not (root/path).exists():errors.append('Archivo necesario ausente '+path)
 (root/'docs/assets-inventory.json').write_text(json.dumps(assets,ensure_ascii=False,indent=2))
-report={'status':'pass' if not errors else 'fail','errors':errors,'counts':{k:len(adv.get(k,[])) for k in ['actors','items','journal','scenes','macros','playlists']},'assets':len(assets),'asset_bytes':sum(a['bytes'] for a in assets),'image_references':len(references),'missing':len(errors),'runtime_evidence':['foundry-direction-v1.json','audio-validation.json','pdf-review.json','pdf-source-coverage.json'],'release_status':'1.0.0, publication authorized by author','pending':['Verificación editorial de dobles páginas de impresión a mayor resolución','Prueba de mesa con 4–5 personas']}
+report={'status':'pass' if not errors else 'fail','errors':errors,'counts':{k:len(adv.get(k,[])) for k in ['actors','items','journal','scenes','macros','playlists']},'assets':len(assets),'asset_bytes':sum(a['bytes'] for a in assets),'image_references':len(references),'missing':len(errors),'runtime_evidence':['foundry-presentation-v11.json','foundry-direction-v1.json','audio-validation.json','pdf-review.json','pdf-source-coverage.json'],'release_status':'1.2.0, publication authorized by author','pending':['Verificación editorial de dobles páginas de impresión a mayor resolución','Prueba de mesa con 4–5 personas']}
 (root/'docs/verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False));raise SystemExit(bool(errors))

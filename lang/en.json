@@ -173,7 +173,17 @@
       "ImportFirst": "Import the adventure to add readings and audio.",
       "ActiveGM": "The active Narrator controls the scene and sound.",
       "AlreadyPlaced": "These figures are already in the scene.",
-      "Error": "The scene action could not be completed."
-    }
+      "Error": "The scene action could not be completed.",
+      "Fit": "Fit screen",
+      "Figures": "Figures",
+      "TokenSize": "Spawn size (scene pixels)",
+      "TokenSizeHelp": "Saved for new figures. Use the buttons below to resize existing ones. Visible height depends on each drawing’s transparent margin.",
+      "ResizeSelected": "Resize selected",
+      "ResizeAll": "Resize all in this scene",
+      "LockRotation": "Keep figures upright when moving",
+      "HideTrails": "Hide movement trail",
+      "Cover": "Cover screen without borders"
+    },
+    "EditorialUpgradeFailed": "The editorial upgrade did not finish. The toolbar remains available; reload the world to retry. Your custom documents are preserved."
   }
 }

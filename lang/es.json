@@ -173,7 +173,17 @@
       "ImportFirst": "Importa la aventura para añadir lecturas y audio.",
       "ActiveGM": "El Narrador activo controla la escena y el sonido.",
       "AlreadyPlaced": "Las figuras ya están en esta escena.",
-      "Error": "No se ha podido ejecutar la acción de escena."
-    }
+      "Error": "No se ha podido ejecutar la acción de escena.",
+      "Fit": "Ajustar pantalla",
+      "Figures": "Figuras",
+      "TokenSize": "Tamaño al aparecer (px de escena)",
+      "TokenSizeHelp": "Se guarda para las próximas figuras. Para cambiar las presentes, usa los botones de abajo. La altura visible depende del margen transparente de cada dibujo.",
+      "ResizeSelected": "Cambiar seleccionadas",
+      "ResizeAll": "Cambiar todas en esta escena",
+      "LockRotation": "Mantener figuras verticales al mover",
+      "HideTrails": "Ocultar línea del recorrido",
+      "Cover": "Cubrir pantalla sin márgenes"
+    },
+    "EditorialUpgradeFailed": "La revisión editorial no se ha completado. La barra sigue disponible; recarga el mundo para reintentarlo. Tus documentos personalizados se conservan."
   }
 }

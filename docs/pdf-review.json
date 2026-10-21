@@ -1,18 +1,18 @@
 [
   {
     "file": "output/pdf/El-Trono-de-la-Sed-Manual.pdf",
-    "pages": 50,
-    "rendered": 50,
-    "bytes": 38677733,
+    "pages": 73,
+    "rendered": 73,
+    "bytes": 27300173,
     "clipped_text": [],
     "bounds_checked": true,
     "empty_text_pages": []
   },
   {
     "file": "output/pdf/El-Trono-de-la-Sed-Material-de-Juego.pdf",
-    "pages": 8,
-    "rendered": 8,
-    "bytes": 6248157,
+    "pages": 9,
+    "rendered": 9,
+    "bytes": 4668642,
     "clipped_text": [],
     "bounds_checked": true,
     "empty_text_pages": []

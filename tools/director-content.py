@@ -2,7 +2,7 @@
 import html,re,json
 
 def add_direction(root,uid,flags,prefix,actors,items,story,journals,scenes,folders):
- mod='mr-trono-de-la-sed';audio=json.loads((root/'content/audio.json').read_text());directions=json.loads((root/'content/direction.json').read_text())
+ mod='mr-trono-de-la-sed';presentations=json.loads((root/'content/presentations.json').read_text());audio=json.loads((root/'content/audio.json').read_text());directions=json.loads((root/'content/direction.json').read_text())
  playlists=[];soundids={}
  for kind,title in [('music','MR · Música de la corte'),('sfx','MR · Efectos y ambientes')]:
   sounds=[];pid=uid('playlist/'+kind)
@@ -25,10 +25,13 @@ def add_direction(root,uid,flags,prefix,actors,items,story,journals,scenes,folde
   for a in cast:
    ak=a['flags'][mod]['slug'];body+='<li>'+action('actor',ak,a['name'])+' · '+action('token',slug+'~'+ak,'Colocar figura')+'</li>'
   body+='</ul><p>'+action('heroes',slug,'Colocar los cinco protagonistas')+'</p>'
+  body+='<h2>Presentar a quienes están presentes</h2><p>Lee solo las apariciones que correspondan a lo ocurrido. Ajusta la postura y el lugar; detente si intervienen los jugadores.</p>'
+  for a in cast:
+   if a['name'] in presentations:body+='<details class="mr-cast-presentation"><summary>'+html.escape(a['name'])+'</summary><blockquote>'+''.join('<p>'+p+'</p>' for p in presentations[a['name']])+'</blockquote></details>'
   body+='<h2>Ambiente y efectos</h2><p>'+action('music',slug,'Iniciar / reanudar música instrumental')+' · '+action('quiet',slug,'Voz en primer plano')+'</p><p>'+' '.join(action('effect',s,next(x['name'] for x in audio if x['kind']=='sfx' and x['slug']==s)) for s in sfx)+'</p><p>'+action('stop-effects',slug,'Parar efectos y ambientes')+'</p>'
   if props:body+='<h2>Objetos y testimonios</h2><ul>'+''.join('<li>@UUID[Item.'+a['_id']+']{'+html.escape(a['name'])+'}</li>' for a in props)+'</ul>'
   body+='<h2>Notas para dirigir</h2>'+re.sub(r'<blockquote>.*?</blockquote>','',section['body'],flags=re.S)
-  body+='<p>@UUID[JournalEntry.'+uid('journal/'+d['chapter'])+'.JournalEntryPage.'+uid(d['chapter']+'/'+str(d['section']))+']{Abrir la sección del manual}</p></section>'
+  body+='<p>@UUID[JournalEntry.'+uid('edition-1.1/journal/'+d['chapter'])+'.JournalEntryPage.'+uid('edition-1.1/'+d['chapter']+'/'+str(d['section']))+']{Abrir la sección del manual}</p></section>'
   journals.append({'_id':jid,'name':'Escena · '+scene['name'],'folder':folder,'pages':[{'_id':pageid,'name':'Lectura y dirección','type':'text','text':{'format':1,'content':body}}],'ownership':{'default':0},'flags':flags('direction-'+slug)})
   scene.update(journal=jid,journalEntryPage=pageid,playlist=uid('playlist/music'),playlistSound=soundids['music/'+d['music']])
   scene['flags'][mod]['direction']={'journalId':jid,'pageId':pageid,'music':d['music'],'actors':[a['_id'] for a in cast],'effects':sfx,'items':[a['_id'] for a in props]}
