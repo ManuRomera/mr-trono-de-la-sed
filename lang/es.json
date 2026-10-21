@@ -182,7 +182,14 @@
       "ResizeAll": "Cambiar todas en esta escena",
       "LockRotation": "Mantener figuras verticales al mover",
       "HideTrails": "Ocultar línea del recorrido",
-      "Cover": "Cubrir pantalla sin márgenes"
+      "Cover": "Cubrir pantalla sin márgenes",
+      "Direction": "Dirección",
+      "DragHint": "Mantén pulsado el botón derecho para mover la barra.",
+      "Recenter": "Centrar barra",
+      "Compact": "Plegar barra",
+      "Expand": "Desplegar barra",
+      "DepthScale": "Escala por profundidad",
+      "DepthScaleHelp": "Las figuras se hacen más pequeñas al alejarse hacia el fondo y mayores al acercarse, según el suelo de cada escena."
     },
     "EditorialUpgradeFailed": "La revisión editorial no se ha completado. La barra sigue disponible; recarga el mundo para reintentarlo. Tus documentos personalizados se conservan."
   }

@@ -2,10 +2,10 @@
 const MOD='mr-trono-de-la-sed';
 const owned=s=>s?.getFlag?.(MOD,'source')===MOD;
 const activeGM=()=>game.user.isGM&&(!game.users.activeGM||game.users.activeGM.id===game.user.id);
-export const DEFAULT_PRESENTATION=Object.freeze({tokenPixels:360,lockRotation:true,hideTrails:true,cover:true});
+export const DEFAULT_PRESENTATION=Object.freeze({tokenPixels:360,lockRotation:true,hideTrails:true,cover:true,depthScale:true});
 export function presentationOptions(value={}){
  const pixels=Number(value.tokenPixels);
- return {tokenPixels:Math.round(Math.min(900,Math.max(60,Number.isFinite(pixels)?pixels:360))),lockRotation:value.lockRotation!==false,hideTrails:value.hideTrails!==false,cover:value.cover!==false};
+ return {tokenPixels:Math.round(Math.min(900,Math.max(60,Number.isFinite(pixels)?pixels:360))),lockRotation:value.lockRotation!==false,hideTrails:value.hideTrails!==false,cover:value.cover!==false,depthScale:value.depthScale!==false};
 }
 export function presentationSettings(){return presentationOptions(game.settings.get(MOD,'presentation'));}
 /** Un zoom de cobertura conserva las proporciones. El paneo queda dentro de la ilustración. */
@@ -16,6 +16,41 @@ export function coverPosition(rect,screen,position={},center=false){
  const halfX=screen[0]/(2*scale),halfY=screen[1]/(2*scale);
  const clamp=(n,min,max)=>Math.min(max,Math.max(min,n));
  return {scale,x:clamp(center?rect.x+rect.width/2:(Number.isFinite(Number(position.x))?Number(position.x):rect.x+rect.width/2),rect.x+halfX,rect.x+rect.width-halfX),y:clamp(center?rect.y+rect.height/2:(Number.isFinite(Number(position.y))?Number(position.y):rect.y+rect.height/2),rect.y+halfY,rect.y+rect.height-halfY)};
+}
+/** Profundidad de escena: cada fondo declara su banda de suelo (content/stage.json) y las figuras escalan con ella. */
+export const FOOT=0.055; // margen transparente bajo los pies en los tokens de cuerpo entero
+let STAGES={};
+export async function loadStages(){
+ try{const r=await fetch(`modules/${MOD}/content/stage.json`);if(r.ok){const j=await r.json();delete j._nota;STAGES=j;}}catch(e){console.warn(`${MOD} | sin datos de profundidad`,e);}
+}
+export function stageFor(scene){return owned(scene)?(STAGES[scene.getFlag(MOD,'slug')]??null):null;}
+export function setStages(value){STAGES=value;}
+const clamp=(n,min,max)=>Math.min(max,Math.max(min,n));
+/** Factor de tamaño de una figura cuyos pies están en footY (px de escena): far en el horizonte, 1 en primer plano. */
+export function depthFactor(stage,footY,height){
+ const span=Math.max(.01,stage.front-stage.horizon),t=clamp((footY/height-stage.horizon)/span,0,1);
+ return stage.far+(1-stage.far)*t;
+}
+/** Reparte figuras por la banda de suelo alternando profundidades; el tamaño depende de la posición de los pies. */
+const DEPTHS=[.8,.25,.62,.08,.5,.95,.35,.7];
+export function stageLayout(scene,count,start,pixels,stage,bounds={x:0,y:0,width:scene.width,height:scene.height}){
+ const unit=scene.grid.size||100,slots=Math.max(5,start+count),anchors=stage.anchors??[];
+ const x0=Math.max(bounds.x,stage.x0*scene.width),x1=Math.min(bounds.x+bounds.width,stage.x1*scene.width),step=(x1-x0)/slots;
+ return Array.from({length:count},(_,i)=>{
+  const j=start+i,a=anchors[j];
+  // Con puntos de apoyo definidos, cada figura pisa un lugar real del fondo; si se agotan, se usa la banda de suelo.
+  const feet=a?a[1]*scene.height:(stage.horizon+DEPTHS[j%DEPTHS.length]*(stage.front-stage.horizon))*scene.height;
+  const cx=a?a[0]*scene.width:x0+(j%slots+.5)*step;
+  const size=Math.min(pixels*depthFactor(stage,feet,scene.height),bounds.width,bounds.height);
+  return {x:clamp(cx-size/2,bounds.x,bounds.x+bounds.width-size),y:clamp(feet-size*(1-FOOT),bounds.y,bounds.y+bounds.height-size),width:size/unit,height:size/unit};
+ });
+}
+/** Reajusta una figura a su profundidad conservando el centro y la línea de los pies. */
+export function depthPatch(scene,token,pixels,stage,pos={}){
+ const unit=scene.grid.size||100,size0=token.width*unit,h0=token.height*unit;
+ const x=pos.x??token.x,y=pos.y??token.y,cx=x+size0/2,feet=y+h0*(1-FOOT);
+ const size=Math.min(pixels*depthFactor(stage,feet,scene.height),scene.width,scene.height);
+ return {width:size/unit,height:size/unit,x:cx-size/2,y:feet-size*(1-FOOT)};
 }
 let adjusting=false;
 export function fitPresentation(center=true){
@@ -57,8 +92,9 @@ export async function setPresentation(key,value){
 export async function resizeFigures(scene,selected=false){
  if(!activeGM()||!owned(scene))return false;
  const ids=selected?new Set((canvas.tokens?.controlled??[]).map(t=>t.id)):null;
- const pixels=presentationSettings().tokenPixels,unit=scene.grid.size||100;
+ const pixels=presentationSettings().tokenPixels,unit=scene.grid.size||100,stage=presentationSettings().depthScale?stageFor(scene):null;
  const changes=scene.tokens.contents.filter(t=>!ids||ids.has(t.id)).map(t=>{
+  if(stage)return {_id:t.id,...depthPatch(scene,t,pixels,stage)};
   const size=Math.min(pixels,scene.height,scene.width),oldSize=t.width*unit,oldHeight=t.height*unit;
   return {_id:t.id,width:size/unit,height:size/unit,x:Math.max(0,Math.min(scene.width-size,t.x+(oldSize-size)/2)),y:Math.max(0,Math.min(scene.height-size,t.y+oldHeight-size))};
  });
@@ -71,7 +107,18 @@ export function registerPresentation(){
  const Ruler=globalThis.CONFIG?.Token?.rulerClass;
  if(Ruler)CONFIG.Token.rulerClass=class TronoTokenRuler extends Ruler{get isVisible(){return owned(this.token.document.parent)&&presentationSettings().hideTrails?false:super.isVisible;}};
  Hooks.on('preMoveToken',(token,movement)=>{if(!owned(token.parent))return;const p=presentationSettings();if(p.lockRotation)movement.autoRotate=false;if(p.hideTrails)movement.showRuler=false;});
- Hooks.on('preCreateToken',(token)=>{if(!owned(token.parent))return;const p=presentationSettings();const size=Math.min(p.tokenPixels,token.parent.height,token.parent.width)/(token.parent.grid.size||100);token.updateSource({width:size,height:size,lockRotation:p.lockRotation});});
+ Hooks.on('preCreateToken',(token)=>{if(!owned(token.parent))return;const p=presentationSettings();const scene=token.parent,unit=scene.grid.size||100,stage=p.depthScale?stageFor(scene):null;
+  if(token._source.flags?.[MOD]?.placed){token.updateSource({lockRotation:p.lockRotation});return;}
+  const nominal=Math.min(p.tokenPixels,scene.height,scene.width)/unit;
+  const patch=stage?depthPatch(scene,{width:nominal,height:nominal,x:token.x,y:token.y},p.tokenPixels,stage):{width:nominal,height:nominal};
+  token.updateSource({...patch,lockRotation:p.lockRotation});});
+ // Al arrastrar una figura hacia el fondo se empequeñece; hacia el frente, crece (una sola actualización).
+ Hooks.on('preUpdateToken',(token,changes)=>{
+  const p=presentationSettings();const scene=token.parent;if(!p.depthScale||!owned(scene)||!game.user.isGM)return;
+  if(changes.width!==undefined||changes.height!==undefined||(changes.x===undefined&&changes.y===undefined))return;
+  if(token.actor?.getFlag?.(MOD,'source')!==MOD)return;const stage=stageFor(scene);if(!stage)return;
+  Object.assign(changes,depthPatch(scene,token,p.tokenPixels,stage,{x:changes.x,y:changes.y}));});
+ Hooks.once('ready',()=>loadStages());
  Hooks.on('canvasReady',()=>{fitPresentation();refreshFigures();});
  Hooks.on('canvasPan',()=>fitPresentation(false));
 }

@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import {coverPosition,figureLayout,presentationOptions} from '../js/presentation.mjs';
+import {coverPosition,figureLayout,presentationOptions,depthFactor,stageLayout,depthPatch,FOOT} from '../js/presentation.mjs';
 import {sceneFormatPatch,textMatches} from '../js/editorial-upgrade.mjs';
 const MOD='mr-trono-de-la-sed';
 test('cover fills 16:9, 16:10, 4:3, portrait and ultrawide viewports without stretching or gray edges',()=>{
@@ -46,4 +46,28 @@ test('the cast stands on a shared foreground baseline instead of stacking figure
  const positions=figureLayout({width:1920,height:1080,grid:{size:100}},5,0,480,{x:240,y:0,width:1440,height:1080});
  assert.equal(new Set(positions.map(t=>t.y+t.height*100)).size,1);
  assert.ok(positions.every((t,i)=>i===0||t.x>positions[i-1].x));
+});
+
+test('depth factor grows from the horizon to the front and stays within far..1',()=>{
+ const stage={horizon:.6,front:.95,far:.4,x0:.1,x1:.9};
+ const f=y=>depthFactor(stage,y*1000,1000);
+ assert.equal(f(.2),.4);assert.equal(f(.6),.4);assert.ok(f(.7)>f(.65));assert.ok(f(.9)>f(.8));assert.equal(f(1),1);
+});
+test('stage layout puts feet on anchors, scales by depth and keeps tokens inside the scene',()=>{
+ const scene={width:1920,height:1080,grid:{size:100}};
+ const stage={horizon:.6,front:.95,far:.4,x0:.1,x1:.9,anchors:[[.5,.65],[.3,.95],[.8,.8]]};
+ const t=stageLayout(scene,3,0,360,stage);
+ const feet=t.map(k=>k.y+k.height*100*(1-FOOT));
+ assert.ok(Math.abs(feet[0]-.65*1080)<1&&Math.abs(feet[1]-.95*1080)<1);
+ assert.ok(t[0].width<t[2].width&&t[2].width<t[1].width);
+ for(const k of t){assert.ok(k.x>=0&&k.x+k.width*100<=1920&&k.y>=0&&k.y+k.height*100<=1080);}
+ // Sin puntos de apoyo se usa la banda de suelo y también hay variación de tamaño.
+ const band=stageLayout(scene,6,0,360,{...stage,anchors:undefined});
+ assert.ok(new Set(band.map(k=>k.width)).size>1);
+});
+test('depth patch keeps the centre and the foot line when a figure moves',()=>{
+ const scene={width:1920,height:1080,grid:{size:100}},stage={horizon:.6,front:.95,far:.4,x0:0,x1:1};
+ const token={x:500,y:600,width:3.6,height:3.6};const p=depthPatch(scene,token,360,stage,{x:700,y:300});
+ assert.ok(p.width<3.6);assert.ok(Math.abs((p.x+p.width*50)-(700+180))<.01);
+ assert.ok(Math.abs((p.y+p.height*100*(1-FOOT))-(300+360*(1-FOOT)))<.01);
 });

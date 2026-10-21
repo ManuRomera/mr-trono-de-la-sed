@@ -292,7 +292,7 @@ class BookBase extends ApplicationV2 {
   }
   _onClose() { books.delete(this); }
   header(title, subtitle) {
-    return `<header><div class="mr-kicker">MR · El Trono de la Sed</div><h1>${esc(title)}</h1><p>${esc(subtitle)}</p></header>`;
+    return `<header><img class="mr-mark" src="modules/${MOD}/brand/MR_09_Monograma_Marfil_Transparente.png" alt="MR" draggable="false"><div class="mr-kicker">MR · El Trono de la Sed</div><h1>${esc(title)}</h1><p>${esc(subtitle)}</p></header>`;
   }
   navigation(entries) {
     return `<nav class="mr-nav" aria-label="${esc(t('BookNavigation'))}">${entries.map(([key, label]) => button('nav', t(label), `data-page="${key}" ${this.page === key ? 'aria-current="page"' : ''}`)).join('')}</nav>`;

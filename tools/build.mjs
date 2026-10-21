@@ -15,7 +15,7 @@ const out=createWriteStream('dist/mr-trono-de-la-sed.zip');
 const zip=archiver('zip',{zlib:{level:9}});
 const done=new Promise((resolve,reject)=>{out.on('close',resolve);out.on('error',reject);zip.on('error',reject)});
 zip.pipe(out);
-for(const p of ['module.json','js','styles','lang','templates','tours','packs','assets','content/upgrade-v1.json','README.md','NOTICE.md','LICENSE','AUDIO-CREDITS.md','CHANGELOG.md']) {
+for(const p of ['module.json','js','styles','lang','templates','tours','packs','assets','brand','content/upgrade-v1.json','content/stage.json','README.md','NOTICE.md','LICENSE','AUDIO-CREDITS.md','CHANGELOG.md']) {
  try {const st=await fs.stat(p);if(st.isDirectory())zip.directory(p,p);else zip.file(p,{name:p});}
  catch(e){if(e.code!=='ENOENT')throw e;}
 }

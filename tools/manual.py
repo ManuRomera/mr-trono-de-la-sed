@@ -9,6 +9,8 @@ from pathlib import Path
 import json, re, html, subprocess, sys, shutil
 import pyphen
 from PIL import Image
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import brand
 
 root = Path(__file__).resolve().parents[1]
 SRC = root / 'content/manual'
@@ -142,6 +144,7 @@ def web_image(name, maxw=1500, alpha=False):
             if bb: im = im.crop(bb)
             im.thumbnail((maxw, maxw * 2)); im.save(dst, optimize=True)
         else:
+            if 'art/masters' in str(src): im = brand.corner(im, .05, .5)       # las demás ya llevan la marca MR
             bg = Image.new('RGBA', im.size, '#f6f0e3'); bg.alpha_composite(im); im = bg.convert('RGB')
             im.thumbnail((maxw, maxw * 2)); im.save(dst, quality=88)
     return dst.name
@@ -243,11 +246,14 @@ CSS = '''
 :root{--ink:#25242b;--ruby:#713447;--gold:#a78850;--paper:#f6f0e3;--paper2:#ece2d0;--night:#1b2434}
 @page{size:210mm 297mm;margin:22mm 16mm 22mm 16mm;background:#f6f0e3;
  @bottom-center{content:counter(page);font:8.5pt "EBG";color:#6b5c4b}
+ @top-center{content:url("brand/mono-head.png")}
  @top-left{content:string(run);font:700 7.6pt "EBG";letter-spacing:.14em;color:#713447}
+ @bottom-left{content:"MR · EL TRONO DE LA SED";font:7.4pt "EBG";letter-spacing:.14em;color:#8a7b66}
+ @bottom-right{content:"MANU ROMERA · DIGITAL RPG DESIGN";font:7.4pt "EBG";letter-spacing:.14em;color:#8a7b66}
  @top-right{content:"MANUAL DEL NARRADOR";font:7.6pt "EBG";letter-spacing:.14em;color:#6b5c4b}}
-@page cover{margin:0;@bottom-center{content:none}@top-left{content:none}@top-right{content:none}}
-@page plate{margin:0;@bottom-center{content:none}@top-left{content:none}@top-right{content:none}}
-@page front{@top-left{content:none}@top-right{content:none}@bottom-center{content:none}}
+@page cover{margin:0;@bottom-center{content:none}@bottom-left{content:none}@bottom-right{content:none}@top-center{content:none}@top-left{content:none}@top-right{content:none}}
+@page plate{margin:0;@bottom-center{content:none}@bottom-left{content:none}@bottom-right{content:none}@top-center{content:none}@top-left{content:none}@top-right{content:none}}
+@page front{@top-center{content:none}@top-left{content:none}@top-right{content:none}@bottom-center{content:none}@bottom-left{content:none}@bottom-right{content:none}}
 *{box-sizing:border-box}
 html{background:var(--paper);-webkit-print-color-adjust:exact;print-color-adjust:exact}
 body{margin:0;font:10.6pt/1.4 "EBG","Garamond",Georgia,serif;color:var(--ink);text-align:justify;hyphens:manual;
@@ -266,6 +272,16 @@ h1,h2,h3,h4{break-after:avoid;text-align:left;margin:0}
 .cover .sub{bottom:22mm;font-size:11pt;font-weight:700;color:#c8a46d;letter-spacing:.08em}
 .cover .au{bottom:13mm;font-size:11.5pt;font-weight:700;letter-spacing:.18em}
 .cover .ed{bottom:7mm;font:9pt "EBG";letter-spacing:.1em;color:#c8a46d}
+.cover img.mr{position:absolute;inset:auto 12mm 11mm auto;width:17mm;height:auto;object-fit:contain;opacity:.9;filter:drop-shadow(0 .4mm 1.2mm #000a)}
+.back{page:cover;width:210mm;height:297mm;position:relative;overflow:hidden;background:#0c0e14;color:#f5ecd7;break-before:page;text-align:center}
+.back img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.back .veil{position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(8,9,14,.55),rgba(8,9,14,.92))}
+.back .in{position:absolute;left:24mm;right:24mm;top:52mm}
+.back h2{font:700 19pt/1.25 Cin;color:#e7cf9d;text-align:center;border:0;font-variant:normal;letter-spacing:.02em;margin:0 0 9mm;padding:0}
+.back p{font-size:12.4pt;line-height:1.55;text-align:center;color:#eadfc7;margin:0 0 5mm}
+.back .meta{font:700 8.6pt "EBG";letter-spacing:.22em;color:#caa66b;margin-top:10mm}
+.back .logo{position:absolute;left:50%;bottom:26mm;width:62mm;transform:translateX(-50%);opacity:.95}
+.back .url{position:absolute;left:0;right:0;bottom:14mm;font:9pt "EBG";letter-spacing:.14em;color:#caa66b}
 .plate{page:plate;width:210mm;height:297mm;position:relative;overflow:hidden;break-before:page;break-after:page;color:var(--paper)}
 .plate img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .plate .veil{position:absolute;left:0;right:0;bottom:0;height:68mm;background:linear-gradient(to top,rgba(14,19,31,.94) 55%,rgba(14,19,31,0))}
@@ -357,7 +373,14 @@ def cover_html(kind):
     return (f'<div class="cover"><img src="{f}" alt=""><div class="veil"></div>'
             '<div class="t k">UNA AVENTURA DE HORROR GÓTICO</div><div class="t el">EL</div><div class="t trono">TRONO</div>'
             '<div class="t dela">DE LA</div><div class="t sed">SED</div><div class="t sub">LA CORTE DEL REY SIN NOMBRE</div>'
-            f'<div class="t au">MANUEL ROMERA</div><div class="t ed">{kind.upper()} · LEGEND IN THE MIST</div></div>')
+            f'<img class="mr" src="brand/MR_09_Monograma_Marfil_Transparente.png" alt="MR"><div class="t au">MANUEL ROMERA</div><div class="t ed">{kind.upper()} · LEGEND IN THE MIST</div></div>')
+
+def back_html():
+    story = load('content/narrative.json'); f = web_image('scene-amanecer', 1600)
+    return (f'<div class="back"><img class="bg" src="{f}" alt=""><div class="veil"></div><div class="in"><h2>Nadie debería ser una ausencia</h2>'
+            f'<p>{html.escape(story["publicationBlurb"])}</p><p class="meta">AVENTURA DE HORROR GÓTICO · 4–5 PROTAGONISTAS · TRES SESIONES</p></div>'
+            '<img class="logo" src="brand/MR_11_Formal_Marfil_Transparente.png" alt="Manu Romera · Digital RPG Design">'
+            '<div class="url">github.com/ManuRomera/mr-trono-de-la-sed · CC BY-NC-SA 4.0</div></div>')
 
 def zone_title(title):
     """«M1. La puerta de Hori · 20 minutos» -> clave + título + tiempo."""
@@ -442,7 +465,16 @@ def doc_html(story, which='gm'):
             out += f'<div class="handout"><h4>{html.escape(h["title"])}</h4>{h["body"]}</div>'
     return out
 
+def brand_assets():
+    d = WORK / 'brand'; d.mkdir(exist_ok=True)
+    for f in ('MR_09_Monograma_Marfil_Transparente.png', 'MR_11_Formal_Marfil_Transparente.png', 'MR_08_Formal_Negro_Transparente.png'):
+        shutil.copy(root / 'brand' / f, d / f)
+    m = Image.open(root / 'brand/MR_10_Monograma_Negro_Transparente.png').convert('RGBA'); m = m.crop(m.getchannel('A').getbbox())
+    ink = Image.new('RGBA', m.size, (113, 52, 71, 255)); ink.putalpha(m.getchannel('A').point(lambda v: int(v * .9)))
+    ink.thumbnail((46, 46)); ink.save(d / 'mono-head.png')
+
 def render(doc_html_, name, header='MANUAL DEL NARRADOR'):
+    brand_assets()
     (WORK / 'book.css').write_text(CSS.replace('"MANUAL DEL NARRADOR"', '"' + header + '"'))
     for f in FONTS.rglob('*.ttf'):
         dest = WORK / 'fonts' / f.relative_to(FONTS)
@@ -508,7 +540,7 @@ def closing_html():
     for para in (root / 'NOTICE.md').read_text().split('\n\n'):
         if para.startswith('#'): notice += '<h3>' + html.escape(para.lstrip('# ').strip()) + '</h3>'
         elif not para.startswith('Fuentes consultadas:'): notice += '<p style="font-size:9.6pt">' + html.escape(para).replace('\n', '<br>') + '</p>'
-    return ('<div class="chapter"><div class="head" data-run="FOUNDRY, AUTORÍA Y EDICIÓN"><div class="num">COLOFÓN</div><h1 id="colophon">Foundry, autoría y edición</h1></div><div class="cols">'
+    return ('<div class="chapter"><div class="head" data-run="FOUNDRY, AUTORÍA Y EDICIÓN"><div class="num">COLOFÓN</div><h1 id="colophon">Foundry, autoría y edición</h1></div><div class="cols"><p style="text-align:center;margin-bottom:5mm"><img src="brand/MR_08_Formal_Negro_Transparente.png" style="width:58mm" alt="Manu Romera · Digital RPG Design"></p>'
             '<p>Instala mist-engine-fvtt 14.5.4 en Foundry v13. Descomprime el módulo en Data/modules y actívalo en un mundo del sistema; acepta la importación en un mundo vacío o usa Configuración → MR · El Trono de la Sed → Libro de los Muertos → Importar la aventura. La barra del Narrador, los diarios de escena, las listas de audio y las fichas nativas se enlazan desde esa importación.</p>'
             '<h3>Banda sonora instrumental</h3><p style="font-size:9.6pt">Música de Kevin MacLeod (incompetech.com), Creative Commons Attribution 4.0. Edición: recorte, bucle y normalización.</p>' + music + notice + '</div></div>')
 
@@ -530,6 +562,7 @@ def build_manual():
                 ''.join(f'<h2>{html.escape(n)}</h2><blockquote>' + ''.join(f'<p>{p}</p>' for p in ps) + '</blockquote>' for n, ps in pres.items()) + '</div></div>')
     body.append('<div class="chapter"><div class="head" data-run="DOCUMENTOS PARA DESCUBRIR"><div class="num">APÉNDICE H</div><h1 id="docs">Documentos para descubrir</h1><div class="sub">Recorta y entrega solo la pieza encontrada.</div></div><div class="cols">' + doc_html(story, 'gm') + '</div></div>')
     body.append(closing_html())
+    body.append(back_html())
     body.append(plate_html('scene-amanecer', 'Que ningún nombre se pierda', 'El Trono de la Sed', 'El sol encuentra las mismas piedras. Quienes regresan ya no las miran del mismo modo.'))
     book_chapters = chapters + [
         {'id': 'heroes', 'title': 'Los cinco protagonistas', 'num': 'Apéndice D', 'sections': []},
@@ -553,6 +586,7 @@ def build_players():
                 ''.join(f'<h2>{a["name"]}</h2><blockquote>' + ''.join(f'<p>{p}</p>' for p in presentations[a["name"]]) + '</blockquote>' for a in heroes) + '</div></div>')
     body += [hero_sheet(a, secrets) for a in heroes]
     body.append('<div class="chapter"><div class="head" data-run="COMPROMISO COMPARTIDO"><div class="num">LA COMPAÑÍA</div><h1>El compromiso compartido</h1></div><div class="cols">' + doc_html(story, 'players') + '</div></div>')
+    body.append(back_html())
     return render(''.join(body), 'El-Trono-de-la-Sed-Material-de-Juego', 'CUADERNO DE PROTAGONISTAS')
 
 if __name__ == '__main__':

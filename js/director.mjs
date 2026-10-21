@@ -1,4 +1,4 @@
-import {presentationSettings,setPresentation,fitPresentation,figureLayout,resizeFigures,visiblePresentationBounds} from './presentation.mjs';
+import {presentationSettings,setPresentation,fitPresentation,figureLayout,stageLayout,stageFor,resizeFigures,visiblePresentationBounds} from './presentation.mjs';
 /** Dirección de escena con documentos y audio nativos de Foundry v13. */
 const MOD='mr-trono-de-la-sed';
 const E=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -36,17 +36,19 @@ async function applyMix(level,quiet){
 async function placeActors(scene,actors){
  if(!scene)return warn('ImportFirst');
  const pending=missingCast(scene.tokens.contents,actors);if(!pending.length)return ui.notifications.info(label('AlreadyPlaced'));
- const docs=[];const settings=presentationSettings();const positions=figureLayout(scene,pending.length,scene.tokens.size,settings.tokenPixels,visiblePresentationBounds(scene));
+ const docs=[];const settings=presentationSettings();const stage=settings.depthScale?stageFor(scene):null;const bounds=visiblePresentationBounds(scene);const positions=stage?stageLayout(scene,pending.length,scene.tokens.size,settings.tokenPixels,stage,bounds):figureLayout(scene,pending.length,scene.tokens.size,settings.tokenPixels,bounds);
  for(let i=0;i<pending.length;i++){
-  const actor=pending[i];const token=await actor.getTokenDocument({...positions[i],lockRotation:settings.lockRotation,actorLink:actor.type==='litm-character'||!['Custodios de la corte','Servidores sin nombre','Sombras de chacal'].includes(actor.name)});docs.push(token.toObject());
+  const actor=pending[i];const token=await actor.getTokenDocument({...positions[i],flags:{[MOD]:{placed:true}},lockRotation:settings.lockRotation,actorLink:actor.type==='litm-character'||!['Custodios de la corte','Servidores sin nombre','Sombras de chacal'].includes(actor.name)});docs.push(token.toObject());
  }
  await scene.createEmbeddedDocuments('Token',docs);
 }
 export async function dispatchDirector(action,arg=''){
- const readOnly=['read','actor','book','view','fit'];
+ const readOnly=['read','actor','book','view','fit','recenter','compact'];
  if(!game.user.isGM)return false;
  if(!readOnly.includes(action)&&!activeGM()){warn('ActiveGM');return false;}
  if(action==='fit'){fitPresentation();return true;}
+ if(action==='recenter'){await game.settings.set(MOD,'directorPos',null);applyBarPosition();return true;}
+ if(action==='compact'){await game.settings.set(MOD,'directorCompact',!game.settings.get(MOD,'directorCompact'));refreshDirector();return true;}
  if(action==='read'){await openSceneGuide(arg);return true;}
  if(action==='actor'){const a=game.actors.find(a=>owned(a)&&a.getFlag(MOD,'slug')===arg);if(a)await a.sheet.render({force:true});return !!a;}
  if(action==='book'){game.modules.get(MOD).api.openGMBook();return true;}
@@ -68,10 +70,38 @@ export async function dispatchDirector(action,arg=''){
   refreshDirector();return true;
  });
 }
-function control(action,arg,text,icon,extra=''){return `<button type="button" data-trono-action="${action}" data-trono-arg="${E(arg)}" title="${E(text)}" ${extra}><i class="fa-solid fa-${icon}" aria-hidden="true"></i><span>${E(text)}</span></button>`;}
+function control(action,arg,text,icon,extra='',cls=''){return `<button type="button" class="mr-btn ${cls}" data-trono-action="${action}" data-trono-arg="${E(arg)}" title="${E(text)}" ${extra}><i class="fa-solid fa-${icon}" aria-hidden="true"></i><span>${E(text)}</span></button>`;}
+const MARK=`modules/${MOD}/brand/MR_09_Monograma_Marfil_Transparente.png`;
 export function refreshDirector(){
  if(refreshQueued)return;refreshQueued=true;
  queueMicrotask(()=>{refreshQueued=false;renderDirector();});
+}
+/** Posición de la barra: se arrastra con el botón derecho y se recuerda por usuario. */
+export function clampBar(pos,size,view){return {x:Math.round(Math.min(Math.max(0,view[0]-size[0]),Math.max(0,pos.x))),y:Math.round(Math.min(Math.max(0,view[1]-size[1]),Math.max(0,pos.y)))};}
+function applyBarPosition(){
+ if(!bar)return;const pos=game.settings.get(MOD,'directorPos');
+ if(!pos||!Number.isFinite(pos.x)||!Number.isFinite(pos.y)){bar.style.left='';bar.style.top='';bar.style.transform='';bar.classList.remove('is-placed');return;}
+ const r=bar.getBoundingClientRect(),c=clampBar(pos,[r.width,r.height],[innerWidth,innerHeight]);
+ bar.style.left=c.x+'px';bar.style.top=c.y+'px';bar.style.transform='none';bar.classList.add('is-placed');
+}
+function enableDrag(){
+ let drag=null;
+ bar.addEventListener('contextmenu',e=>e.preventDefault());
+ bar.addEventListener('pointerdown',e=>{
+  if(e.button!==2)return;e.preventDefault();const r=bar.getBoundingClientRect();
+  drag={dx:e.clientX-r.left,dy:e.clientY-r.top,id:e.pointerId};bar.setPointerCapture(e.pointerId);bar.classList.add('is-dragging');
+ });
+ bar.addEventListener('pointermove',e=>{
+  if(!drag||e.pointerId!==drag.id)return;const r=bar.getBoundingClientRect();
+  const c=clampBar({x:e.clientX-drag.dx,y:e.clientY-drag.dy},[r.width,r.height],[innerWidth,innerHeight]);
+  bar.style.left=c.x+'px';bar.style.top=c.y+'px';bar.style.transform='none';bar.classList.add('is-placed');
+ });
+ const end=e=>{
+  if(!drag||(e.pointerId!==undefined&&e.pointerId!==drag.id))return;drag=null;bar.classList.remove('is-dragging');
+  const r=bar.getBoundingClientRect();game.settings.set(MOD,'directorPos',{x:Math.round(r.left),y:Math.round(r.top)});
+ };
+ bar.addEventListener('pointerup',end);bar.addEventListener('pointercancel',end);
+ window.addEventListener('resize',applyBarPosition);
 }
 function renderDirector(){
  if(!game.user.isGM||!game.settings.get(MOD,'directorVisible')){bar?.remove();bar=null;return;}
@@ -80,12 +110,15 @@ function renderDirector(){
  if(!bar){bar=document.createElement('aside');bar.id='mr-trono-director';bar.setAttribute('aria-label',label('Title'));bar.setAttribute('role','region');document.body.append(bar);
   bar.addEventListener('click',e=>{const b=e.target.closest('[data-trono-action]');if(!b)return;e.preventDefault();dispatchDirector(b.dataset.tronoAction,b.dataset.tronoArg).catch(reportError);});
   bar.addEventListener('change',e=>{if(e.target.matches('.mr-director-scenes'))dispatchDirector('view',e.target.value).catch(reportError);if(e.target.matches('input[type=range]'))dispatchDirector('level',e.target.value).catch(reportError);if(e.target.dataset.presentation)dispatchDirector('presentation',e.target.dataset.presentation+'~'+(e.target.type==='checkbox'?e.target.checked:e.target.value)).catch(reportError);});
+  enableDrag();
  }
  const openMenus=new Set([...bar.querySelectorAll('details[open]')].map(x=>x.dataset.menu));
- const options=presentationSettings();
+ const options=presentationSettings();const compact=!!game.settings.get(MOD,'directorCompact');
  const music=soundFor(playlistFor('music'),d.music);const isPlaying=!!music?.playing;const m=mix();
- bar.innerHTML=`<div class="mr-director-head"><strong>MR · ${E(label('Title'))}</strong><select class="mr-director-scenes" aria-label="${E(label('ChooseScene'))}">${scenes.map(s=>`<option value="${E(s.getFlag(MOD,'slug'))}" ${s.id===selected.id?'selected':''}>${E(s.name)}</option>`).join('')}</select>${control('read',slug,label('Read'),'book-open')}${control('activate',slug,label('Show'),'panorama')}${control('music',slug,label(isPlaying?'Resume':'Music'),'music')}${control('quiet',slug,label('Quiet'),'volume-low',`aria-pressed="${m.quiet}"`)}${control('stop',slug,label('Stop'),'volume-xmark')}${control('fit',slug,label('Fit'),'expand')}<details data-menu="figures"><summary>${E(label('Figures'))}</summary><div class="mr-director-menu mr-figures-menu"><p><strong>${E(label('Figures'))}</strong></p><label>${E(label('TokenSize'))}<input type="number" data-presentation="tokenPixels" min="60" max="900" step="10" value="${options.tokenPixels}"></label><p class="mr-director-status">${E(label('TokenSizeHelp'))}</p><p>${[240,360,480].map(n=>control('presentation','tokenPixels~'+n,n+' px','person')).join(' ')}</p><p>${control('resize-selected',slug,label('ResizeSelected'),'up-right-and-down-left-from-center')} ${control('resize',slug,label('ResizeAll'),'people-group')}</p><label><input type="checkbox" data-presentation="lockRotation" ${options.lockRotation?'checked':''}> ${E(label('LockRotation'))}</label><label><input type="checkbox" data-presentation="hideTrails" ${options.hideTrails?'checked':''}> ${E(label('HideTrails'))}</label><label><input type="checkbox" data-presentation="cover" ${options.cover?'checked':''}> ${E(label('Cover'))}</label></div></details><details data-menu="mix"><summary aria-label="${E(label('More'))}"><i class="fa-solid fa-sliders"></i></summary><div class="mr-director-menu"><p>${E(label('Mix'))}</p><label>${E(label('Level'))}<input type="range" min="0" max="1" step=".05" value="${E(m.level)}"></label><p class="mr-director-status">${E(music?.name??'')} · ${E(label(isPlaying?'Playing':'Stopped'))}</p><p>${control('heroes',slug,label('Heroes'),'people-group')}${control('book','',label('Book'),'ankh')}</p><p>${control('stop-effects',slug,label('StopEffects'),'stop')}</p></div></details></div><div class="mr-director-cues">${d.effects.map(s=>{const snd=soundFor(playlistFor('sfx'),s);return control('effect',s,snd?.name??s,'wave-square',`aria-pressed="${!!snd?.playing}"`);}).join('')}</div>`;
+ bar.classList.toggle('is-compact',compact);
+ bar.innerHTML=`<div class="mr-director-head"><div class="mr-grip" title="${E(label('DragHint'))}"><img class="mr-mark" src="${MARK}" alt="MR" draggable="false"><span class="mr-title"><b>${E(label('Direction'))}</b><small>${E(label('Title'))}</small></span></div><select class="mr-director-scenes" aria-label="${E(label('ChooseScene'))}">${scenes.map(s=>`<option value="${E(s.getFlag(MOD,'slug'))}" ${s.id===selected.id?'selected':''}>${E(s.name)}</option>`).join('')}</select><div class="mr-grp">${control('read',slug,label('Read'),'book-open')}${control('activate',slug,label('Show'),'panorama','','is-primary')}</div><div class="mr-grp mr-secondary">${control('music',slug,label(isPlaying?'Resume':'Music'),'music')}${control('quiet',slug,label('Quiet'),'volume-low',`aria-pressed="${m.quiet}"`)}${control('stop',slug,label('Stop'),'volume-xmark')}</div><div class="mr-grp mr-secondary">${control('fit',slug,label('Fit'),'expand')}<details data-menu="figures"><summary class="mr-btn"><i class="fa-solid fa-people-group" aria-hidden="true"></i><span>${E(label('Figures'))}</span></summary><div class="mr-director-menu mr-figures-menu"><p><strong>${E(label('Figures'))}</strong></p><label>${E(label('TokenSize'))}<input type="number" data-presentation="tokenPixels" min="60" max="900" step="10" value="${options.tokenPixels}"></label><p class="mr-director-status">${E(label('TokenSizeHelp'))}</p><p>${[240,360,480].map(n=>control('presentation','tokenPixels~'+n,n+' px','person')).join(' ')}</p><p>${control('resize-selected',slug,label('ResizeSelected'),'up-right-and-down-left-from-center')} ${control('resize',slug,label('ResizeAll'),'people-group')}</p><label><input type="checkbox" data-presentation="depthScale" ${options.depthScale?'checked':''}> ${E(label('DepthScale'))}</label><p class="mr-director-status">${E(label('DepthScaleHelp'))}</p><label><input type="checkbox" data-presentation="lockRotation" ${options.lockRotation?'checked':''}> ${E(label('LockRotation'))}</label><label><input type="checkbox" data-presentation="hideTrails" ${options.hideTrails?'checked':''}> ${E(label('HideTrails'))}</label><label><input type="checkbox" data-presentation="cover" ${options.cover?'checked':''}> ${E(label('Cover'))}</label></div></details><details data-menu="mix"><summary class="mr-btn mr-icon" aria-label="${E(label('More'))}"><i class="fa-solid fa-sliders" aria-hidden="true"></i></summary><div class="mr-director-menu"><p>${E(label('Mix'))}</p><label>${E(label('Level'))}<input type="range" min="0" max="1" step=".05" value="${E(m.level)}"></label><p class="mr-director-status">${E(music?.name??'')} · ${E(label(isPlaying?'Playing':'Stopped'))}</p><p>${control('heroes',slug,label('Heroes'),'people-group')}${control('book','',label('Book'),'ankh')}</p><p>${control('stop-effects',slug,label('StopEffects'),'stop')}${control('recenter','',label('Recenter'),'arrows-to-dot')}</p><p class="mr-director-status">${E(label('DragHint'))}</p></div></details></div><button type="button" class="mr-btn mr-icon mr-collapse" data-trono-action="compact" data-trono-arg="" aria-pressed="${compact}" title="${E(label(compact?'Expand':'Compact'))}"><i class="fa-solid fa-${compact?'chevron-down':'chevron-up'}" aria-hidden="true"></i></button></div><div class="mr-director-cues">${d.effects.map(s=>{const snd=soundFor(playlistFor('sfx'),s);return control('effect',s,snd?.name??s,'wave-square',`aria-pressed="${!!snd?.playing}"`,'mr-chip');}).join('')}</div>`;
  for(const menu of bar.querySelectorAll('details'))menu.open=openMenus.has(menu.dataset.menu);
+ applyBarPosition();
 }
 function reportError(error){console.error(`${MOD} | direction`,error);ui.notifications.error(label('Error'));}
 export function setupDirector(){
@@ -98,6 +131,8 @@ export function setupDirector(){
 export function registerDirector(){
  game.settings.register(MOD,'directorVisible',{name:'MRTRONO.Director.Visible',hint:'MRTRONO.Director.VisibleHelp',scope:'client',config:true,type:Boolean,default:true,onChange:refreshDirector});
  game.settings.register(MOD,'sceneMix',{scope:'world',config:false,type:Object,default:{level:.3,quiet:false}});
+ game.settings.register(MOD,'directorPos',{scope:'client',config:false,type:Object,default:null});
+ game.settings.register(MOD,'directorCompact',{scope:'client',config:false,type:Boolean,default:false});
  const enrichers=globalThis.CONFIG?.TextEditor?.enrichers;
  if(!enrichers||!globalThis.document?.addEventListener)return;
  enrichers.push({id:MOD+'-direction',pattern:/@Trono\[([^\]]+)\](?:\{([^}]+)\})?/g,enricher:async match=>{

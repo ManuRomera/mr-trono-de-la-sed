@@ -1,5 +1,14 @@
 # Cambios
 
+## 1.3.0 — 21 de octubre de 2026
+
+- **Figuras con profundidad.** Cada fondo declara su zona de suelo y puntos de apoyo reales (`content/stage.json`). Al colocar protagonistas y PNJ, cada figura pisa un lugar de la escena y su tamaño depende de la distancia; al arrastrarla hacia el fondo se encoge y hacia el frente crece, conservando el apoyo. Opción «Escala por profundidad» en el menú Figuras.
+- **Barra del Narrador rediseñada.** Botones nuevos con grupos y acción principal destacada, chips de efectos, menús con cristal, monograma MR, plegado a una fila y **arrastre con el botón derecho** con posición recordada por usuario («Centrar barra» la restablece).
+- **Marca MR en todo.** Monograma en escenas, mapas, láminas, retratos, fichas y bajo los pies de cada token (`tools/brand.py`, idempotente), en la cabecera de los libros y en la barra; portada, cabecera de página, colofón y contraportada del manual y del cuaderno; banner y tarjeta social del repositorio.
+- **Libros del Narrador y de los recuerdos** con pestañas y botones renovados.
+- **Capturas reales de Foundry** con los tokens a su escala, nueva página de repositorio y manual de 74 páginas (con contraportada) y cuaderno de 10.
+- Corrección de la portada del PDF (el monograma ya no se escala a toda la página).
+
 ## 1.2.0 — 21 de octubre de 2026
 
 - **Manual del Narrador reescrito** con la estructura de una gran campaña gótica: introducción con resumen, estructura y «Cómo describir el horror»; capítulo del villano con historia, metas, interpretación y los dos sellos; capítulo de Muhar con costumbres, rumores y encuentros; tres partes con lugares claveados (M1–M7, C1–C6, P1–P5) y bloques fijos *Qué hay · Qué quieren · Pistas · Desarrollo · Etiquetas · Riesgos*; tarjetas de personaje (presencia, ideal, vínculo, defecto, voz); acontecimientos especiales; epílogo en seis finales; tablas aleatorias; documentos con referencia desde cada lugar.

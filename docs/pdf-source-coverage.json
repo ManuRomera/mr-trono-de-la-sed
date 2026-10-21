@@ -3,8 +3,8 @@
   "missing_content": [],
   "empty_content_pages": [],
   "sparse_content_pages": [],
-  "manual_pages": 73,
-  "player_pages": 9,
+  "manual_pages": 74,
+  "player_pages": 10,
   "full_page_art_manual": [
     1,
     16,
@@ -14,7 +14,8 @@
     43,
     46,
     54,
-    73
+    73,
+    74
   ],
   "new_artworks": 63,
   "pages": [
@@ -129,13 +130,13 @@
     {
       "book": "Manual",
       "page": 19,
-      "content_characters": 3475,
+      "content_characters": 3474,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 20,
-      "content_characters": 3382,
+      "content_characters": 3383,
       "full_page_art": false
     },
     {
@@ -219,7 +220,7 @@
     {
       "book": "Manual",
       "page": 34,
-      "content_characters": 3485,
+      "content_characters": 3487,
       "full_page_art": false
     },
     {
@@ -285,7 +286,7 @@
     {
       "book": "Manual",
       "page": 45,
-      "content_characters": 2939,
+      "content_characters": 2940,
       "full_page_art": false
     },
     {
@@ -453,6 +454,12 @@
     {
       "book": "Manual",
       "page": 73,
+      "content_characters": 387,
+      "full_page_art": true
+    },
+    {
+      "book": "Manual",
+      "page": 74,
       "content_characters": 108,
       "full_page_art": true
     },
@@ -509,6 +516,12 @@
       "page": 9,
       "content_characters": 1252,
       "full_page_art": false
+    },
+    {
+      "book": "Protagonistas",
+      "page": 10,
+      "content_characters": 387,
+      "full_page_art": true
     }
   ]
 }

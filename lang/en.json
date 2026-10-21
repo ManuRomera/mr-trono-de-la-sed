@@ -182,7 +182,14 @@
       "ResizeAll": "Resize all in this scene",
       "LockRotation": "Keep figures upright when moving",
       "HideTrails": "Hide movement trail",
-      "Cover": "Cover screen without borders"
+      "Cover": "Cover screen without borders",
+      "Direction": "Direction",
+      "DragHint": "Hold the right mouse button to move the bar.",
+      "Recenter": "Center bar",
+      "Compact": "Collapse bar",
+      "Expand": "Expand bar",
+      "DepthScale": "Depth scaling",
+      "DepthScaleHelp": "Figures shrink as they move toward the background and grow toward the foreground, following each scene’s floor."
     },
     "EditorialUpgradeFailed": "The editorial upgrade did not finish. The toolbar remains available; reload the world to retry. Your custom documents are preserved."
   }

@@ -59,38 +59,8 @@
 .mr-trono-book .mr-vessel[data-state="lost"] .mr-vessel-art { filter: grayscale(.9); opacity:.65; }
 
 .mr-trono-book .mr-doc-thumb { width:36px; height:36px; object-fit:cover; border:1px solid var(--mr-gold); border-radius:3px; }
-/* Barra del Narrador: siempre sobre el lienzo, con detalles fuera del flujo. */
-#mr-trono-director{position:fixed;top:52px;left:50%;transform:translateX(-50%);z-index:65;max-width:min(1080px,calc(100vw - 230px));color:#f2e7d0;background:linear-gradient(135deg,#161722f2,#29202af2);border:1px solid #9a7849;border-radius:6px;box-shadow:0 6px 22px #0009;font:13px Georgia,serif;backdrop-filter:blur(8px)}
-#mr-trono-director .mr-director-head{display:flex;align-items:center;gap:5px;padding:7px}
-#mr-trono-director strong{font-size:11px;color:#d8b97a;white-space:nowrap;padding:0 5px}
-#mr-trono-director select{width:200px;min-width:95px;margin:0;color:#f2e7d0;background:#25212b;border:1px solid #746045;height:29px}
-#mr-trono-director option{background:#201d27;color:#f2e7d0}
-#mr-trono-director button{width:auto;min-height:27px;height:auto;display:inline-flex;align-items:center;justify-content:center;gap:5px;border:1px solid #80674a;border-radius:3px;background:#30232e;color:#f4e8ce;font:12px Georgia,serif;padding:5px 8px;margin:0;white-space:nowrap;line-height:1.1}
-#mr-trono-director button:hover,#mr-trono-director button:focus-visible{background:#693344;outline:1px solid #e6c986}
-#mr-trono-director button[aria-pressed=true]{background:#673846;border-color:#e0c18b}
-#mr-trono-director .mr-director-cues{display:flex;justify-content:center;flex-wrap:wrap;gap:4px;padding:0 7px 6px}
-#mr-trono-director .mr-director-cues button{font-size:11px;background:#211f2c;padding:4px 9px}
-#mr-trono-director details{position:relative;padding:3px 5px}
-#mr-trono-director summary{cursor:pointer;color:#dfc795}
-#mr-trono-director .mr-director-menu{position:absolute;right:0;top:30px;width:270px;padding:15px;background:#211d29;border:1px solid #a58554;border-radius:5px;box-shadow:0 8px 22px #000b}
-#mr-trono-director .mr-director-menu p{margin:0 0 10px}#mr-trono-director .mr-director-menu label{display:block}
-#mr-trono-director input[type=range]{width:100%}
-#mr-trono-director .mr-director-status{color:#cfb784;font-size:12px}
-.mr-trono-cue{display:inline-block;cursor:pointer;color:#e8d29d!important;background:#302333;border:1px solid #96784f;border-radius:4px;padding:5px 9px;margin:3px;text-decoration:none!important;font-weight:600}
-.mr-trono-cue:hover,.mr-trono-cue:focus-visible{background:#673244;outline:2px solid #d2b173}
 .mr-scene-guide .mr-guide-kicker{font:11px Georgia,serif;letter-spacing:2px;color:#8b5934}
 .mr-scene-guide blockquote{background:#eee5d4;border-left:4px solid #8c5b44;padding:14px 18px;color:#302932;font-size:1.12em;line-height:1.55}
-@media(max-width:1100px){#mr-trono-director{max-width:calc(100vw - 150px)}#mr-trono-director strong{display:none}#mr-trono-director button span{display:none}#mr-trono-director select{width:180px}#mr-trono-director .mr-director-cues button span,#mr-trono-director .mr-director-menu button span{display:inline}}
-@media(prefers-reduced-motion:reduce){#mr-trono-director{backdrop-filter:none}}
-/* Controles de figuras: edición directa, con foco visible y etiquetas completas. */
-#mr-trono-director .mr-figures-menu{width:330px;max-height:calc(100vh - 160px);overflow:auto}
-#mr-trono-director .mr-figures-menu label{display:flex;align-items:center;gap:9px;line-height:1.4;margin:10px 0}
-#mr-trono-director .mr-figures-menu input[type=number]{width:80px;min-width:70px;color:#f4e8ce;background:#30232e;border:1px solid #a58554;padding:5px}
-#mr-trono-director .mr-figures-menu input[type=checkbox]{flex:0 0 auto;width:16px;height:16px}
-#mr-trono-director input:focus-visible,#mr-trono-director summary:focus-visible{outline:2px solid #e6c986;outline-offset:3px}
-#mr-trono-director .mr-figures-menu strong{display:inline;font-size:14px}
-#mr-trono-director .mr-figures-menu p{display:flex;flex-wrap:wrap;gap:6px}
-#mr-trono-director .mr-figures-menu .mr-director-status{display:block;line-height:1.45}
 .mr-scene-guide .mr-cast-presentation{margin:12px 0;border-bottom:1px solid #a5855466;padding-bottom:12px}
 /* Cajas del manual dentro de los diarios del módulo (v1.2.0). */
 section.mr-box,section.mr-npc,section.mr-doc{margin:12px 0;padding:10px 14px;border:1px solid #a58554;background:#ece2d0;color:#2a2630;border-radius:2px}
@@ -100,3 +70,64 @@ section.mr-box h4,section.mr-npc h4,section.mr-doc h4{margin:0 0 6px;font-varian
 section.mr-box p,section.mr-npc p,section.mr-doc p{margin:0 0 6px;color:#2a2630}
 .journal-page-content table:has(th){border-collapse:collapse}
 .journal-page-content blockquote{border-left:4px solid #713447;background:#71344712;padding:8px 14px}
+
+/* ───────────── Marca MR · barra del Narrador (v1.3) ───────────── */
+#mr-trono-director{--mr-ink:#15131c;--mr-plum:#2a1f2c;--mr-ruby:#9a3f58;--mr-ruby2:#6f2a3f;--mr-gold:#caa66b;--mr-ivory:#f4e9d2;
+ position:fixed;top:56px;left:50%;transform:translateX(-50%);z-index:65;max-width:min(1240px,calc(100vw - 200px));color:var(--mr-ivory);
+ background:linear-gradient(160deg,rgba(25,22,33,.95),rgba(43,30,43,.95));-webkit-backdrop-filter:blur(8px) saturate(1.15);backdrop-filter:blur(8px) saturate(1.15);
+ border:1px solid rgba(202,166,107,.5);border-radius:14px;box-shadow:0 12px 32px #000b,inset 0 1px 0 rgba(255,236,200,.09);transition:box-shadow .18s}
+#mr-trono-director.is-dragging{box-shadow:0 18px 44px #000d,0 0 0 2px rgba(202,166,107,.7);cursor:grabbing;user-select:none}
+#mr-trono-director .mr-director-head{display:flex;align-items:center;gap:8px;padding:8px 10px}
+#mr-trono-director .mr-grip{display:flex;flex:0 0 auto;align-items:center;gap:9px;padding:2px 12px 2px 2px;cursor:grab;border-right:1px solid rgba(202,166,107,.25)}
+#mr-trono-director .mr-mark{width:30px;height:auto;opacity:.92;filter:drop-shadow(0 1px 4px #000a);pointer-events:none}
+#mr-trono-director .mr-title{display:flex;flex-direction:column;line-height:1.1;white-space:nowrap}
+#mr-trono-director .mr-title b{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--mr-gold)}
+#mr-trono-director .mr-title small{font-size:10.5px;letter-spacing:.06em;color:#cdbf9f}
+#mr-trono-director select{flex:0 0 185px;width:185px;min-width:120px;height:32px;margin:0;color:var(--mr-ivory);background:rgba(10,9,14,.55);border:1px solid rgba(202,166,107,.35);border-radius:9px;padding:0 8px}
+#mr-trono-director select:hover{border-color:var(--mr-gold)}
+#mr-trono-director option{background:#201c27;color:var(--mr-ivory)}
+#mr-trono-director .mr-grp{display:flex;align-items:center;gap:5px;padding-left:8px;border-left:1px solid rgba(202,166,107,.22)}
+#mr-trono-director .mr-btn,#mr-trono-director summary.mr-btn{width:auto;height:32px;min-height:32px;margin:0;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;cursor:pointer;
+ color:var(--mr-ivory);font-size:12.5px;line-height:1;white-space:nowrap;list-style:none;border:1px solid rgba(202,166,107,.38);border-radius:9px;
+ background:linear-gradient(180deg,#3d2d3e,#2b2030);box-shadow:inset 0 1px 0 rgba(255,236,200,.1),0 1px 2px #0008;transition:transform .12s,border-color .12s,background .12s,box-shadow .12s}
+#mr-trono-director summary.mr-btn::-webkit-details-marker{display:none}
+#mr-trono-director .mr-btn:hover,#mr-trono-director summary.mr-btn:hover{border-color:var(--mr-gold);background:linear-gradient(180deg,#4a3649,#35273a);transform:translateY(-1px);box-shadow:inset 0 1px 0 rgba(255,236,200,.14),0 4px 10px #0009}
+#mr-trono-director .mr-btn:active{transform:translateY(0);box-shadow:inset 0 2px 4px #000a}
+#mr-trono-director .mr-btn:focus-visible,#mr-trono-director summary.mr-btn:focus-visible{outline:2px solid #f0d28f;outline-offset:2px}
+#mr-trono-director .mr-btn i{font-size:12px;color:var(--mr-gold)}
+#mr-trono-director .mr-btn.is-primary{background:linear-gradient(180deg,var(--mr-ruby),var(--mr-ruby2));border-color:#e0bd83;color:#fff;font-weight:600;box-shadow:inset 0 1px 0 rgba(255,220,200,.3),0 2px 10px rgba(154,63,88,.45)}
+#mr-trono-director .mr-btn.is-primary i{color:#ffe7b5}
+#mr-trono-director .mr-btn.is-primary:hover{background:linear-gradient(180deg,#b04a66,#7d3248)}
+#mr-trono-director .mr-btn[aria-pressed=true]{background:linear-gradient(180deg,#5b2b3c,#43202e);border-color:var(--mr-gold);box-shadow:inset 0 2px 5px #0009,0 0 0 1px rgba(202,166,107,.25)}
+#mr-trono-director .mr-btn.mr-icon{width:32px;padding:0}
+#mr-trono-director .mr-collapse{margin-left:2px}
+#mr-trono-director .mr-director-cues{display:flex;justify-content:center;flex-wrap:wrap;gap:5px;padding:0 10px 9px}
+#mr-trono-director .mr-btn.mr-chip{height:26px;min-height:26px;padding:0 11px;border-radius:999px;font-size:11.5px;background:rgba(255,255,255,.05);box-shadow:none}
+#mr-trono-director .mr-btn.mr-chip[aria-pressed=true]{background:rgba(154,63,88,.5);box-shadow:0 0 10px rgba(154,63,88,.55)}
+#mr-trono-director details{position:relative}
+#mr-trono-director .mr-director-menu{position:absolute;right:0;top:40px;width:290px;padding:14px;z-index:2;background:rgba(27,23,34,.97);border:1px solid rgba(202,166,107,.55);border-radius:12px;box-shadow:0 14px 30px #000c}
+#mr-trono-director .mr-figures-menu{width:340px;max-height:calc(100vh - 170px);overflow:auto}
+#mr-trono-director .mr-director-menu p{margin:0 0 10px;display:flex;flex-wrap:wrap;gap:6px}
+#mr-trono-director .mr-director-menu label{display:flex;align-items:center;gap:9px;line-height:1.4;margin:9px 0}
+#mr-trono-director .mr-director-menu strong{color:var(--mr-gold);letter-spacing:.06em}
+#mr-trono-director input[type=range]{width:100%}
+#mr-trono-director input[type=number]{width:80px;min-width:70px;color:var(--mr-ivory);background:rgba(10,9,14,.55);border:1px solid rgba(202,166,107,.4);border-radius:7px;padding:5px}
+#mr-trono-director input[type=checkbox]{flex:0 0 auto;width:16px;height:16px;accent-color:var(--mr-ruby)}
+#mr-trono-director .mr-director-status{display:block;color:#cdbf9f;font-size:11.5px;line-height:1.45}
+#mr-trono-director.is-compact .mr-secondary,#mr-trono-director.is-compact .mr-director-cues,#mr-trono-director.is-compact .mr-title small{display:none}
+#mr-trono-director.is-compact select{width:150px}
+.mr-trono-cue{display:inline-block;cursor:pointer;color:#f4e9d2!important;background:linear-gradient(180deg,#3d2d3e,#2b2030);border:1px solid rgba(202,166,107,.5);border-radius:9px;padding:5px 11px;margin:3px;text-decoration:none!important;font-weight:600;box-shadow:inset 0 1px 0 rgba(255,236,200,.1),0 1px 3px #0008}
+.mr-trono-cue:hover,.mr-trono-cue:focus-visible{background:linear-gradient(180deg,#a8445f,#7a2c42);border-color:#e0bd83;outline:2px solid #f0d28f;outline-offset:1px}
+@media(max-width:1180px){#mr-trono-director{max-width:calc(100vw - 150px)}#mr-trono-director .mr-title,#mr-trono-director .mr-btn span{display:none}#mr-trono-director .mr-btn{padding:0 9px}#mr-trono-director select{width:170px}}
+@media(prefers-reduced-motion:reduce){#mr-trono-director,#mr-trono-director .mr-btn{transition:none}#mr-trono-director{backdrop-filter:none}}
+
+/* ───────────── Marca MR · libros del Narrador y de los recuerdos ───────────── */
+.mr-trono-book .mr-book>header{display:grid;grid-template-columns:auto 1fr;column-gap:14px;align-items:center;border-bottom:1px solid rgba(202,166,107,.55)}
+.mr-trono-book .mr-book>header .mr-mark{grid-row:1 / span 3;width:54px;height:auto;opacity:.9;filter:drop-shadow(0 2px 6px #000a)}
+.mr-trono-book .mr-kicker{letter-spacing:.2em}
+.mr-trono-book .mr-nav{gap:4px;border-bottom:1px solid rgba(202,166,107,.22);padding-bottom:10px}
+.mr-trono-book button{border-radius:9px;background:linear-gradient(180deg,#3d2d3e,#2b2030);border-color:rgba(202,166,107,.4);box-shadow:inset 0 1px 0 rgba(255,236,200,.1),0 1px 2px #0008;transition:background .12s,transform .12s}
+.mr-trono-book button:hover:not(:disabled){background:linear-gradient(180deg,#4a3649,#35273a);transform:translateY(-1px)}
+.mr-trono-book button[aria-current=page]{background:linear-gradient(180deg,#a8445f,#7a2c42);border-color:#e0bd83}
+.mr-trono-book .mr-paper button{background:linear-gradient(180deg,#5a2a3a,#431f2c);border-color:#a8445f;color:#fff8e7}
+.mr-trono-book .mr-paper{border-radius:10px;border-left:4px solid #ae8e50}

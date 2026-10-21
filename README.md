@@ -4,13 +4,94 @@
 <a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest"><img alt="Versión" src="https://img.shields.io/github/v/release/ManuRomera/mr-trono-de-la-sed?style=for-the-badge&color=8b3448&label=release"></a>
 <img alt="Foundry VTT v13" src="https://img.shields.io/badge/Foundry%20VTT-v13-c2a06b?style=for-the-badge">
 <img alt="Legend in the Mist" src="https://img.shields.io/badge/Legend-in%20the%20Mist-28394d?style=for-the-badge">
-<a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases"><img alt="Descargas" src="https://img.shields.io/github/downloads/ManuRomera/mr-trono-de-la-sed/total?style=for-the-badge&color=c2a06b"></a>
+<a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases"><img alt="Descargas" src="https://raw.githubusercontent.com/ManuRomera/ManuRomera/main/badges/descargas/mr-trono-de-la-sed.svg"></a>
 <a href="LICENSE"><img alt="Licencia" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-513443?style=for-the-badge"></a>
 </p>
 
 <h3 align="center">El ataúd está vacío. Nadie recuerda el nombre del difunto.<br>Bajo la arena, un rey conserva todo aquello que los demás han olvidado.</h3>
-<p align="center"><b>Horror gótico · identidad · memoria · duelo</b><br><sub>4–5 protagonistas · tres sesiones de unas dos horas · en español</sub></p>
-<p align="center"><a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest"><b>⬇️ Descargar</b></a> · <a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/El-Trono-de-la-Sed-Manual.pdf"><b>📖 Manual</b></a> · <a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/El-Trono-de-la-Sed-Material-de-Juego.pdf"><b>🎒 Material de juego</b></a> · <a href="#instalar"><b>⚡ Instalar</b></a></p>
+<p align="center"><b>Horror gótico · identidad · memoria · duelo</b><br><sub>4–5 protagonistas · tres sesiones de unas dos horas · en español · Foundry VTT v13</sub></p>
+<p align="center"><a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest"><b>⬇️ Descargar</b></a> · <a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/El-Trono-de-la-Sed-Manual.pdf"><b>📖 Manual (PDF)</b></a> · <a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/El-Trono-de-la-Sed-Material-de-Juego.pdf"><b>🎒 Cuaderno de jugadores</b></a> · <a href="#-instalar"><b>⚡ Instalar</b></a></p>
+
+---
+
+<p align="center"><img src="docs/img/foundry-banquete.webp" alt="El banquete del rey: los cinco protagonistas, Neb-Sekhem y Khety de pie sobre el suelo del salón, cada uno con el tamaño que le corresponde a su posición" width="100%"></p>
+
+## 🕯️ La aventura
+
+En Muhar, una ciudad de adobe del desierto, empiezan a desaparecer personas. Después desaparece el recuerdo de que alguna vez existieron: una taza de más, un renglón en blanco, una sandalia sin dueño. Un funeral al que le falta el nombre del difunto, una procesión que baja a una tumba y una invitación a cenar conducen a la **Corte de las Siete Lenguas**, donde un príncipe cortés llama amor a su negativa a dejar marchar a los muertos.
+
+Seis personas siguen vivas. Un séptimo nombre puede abrir una prisión milenaria. Y una mujer que dijo *no* hace siglos todavía espera a que alguien lo recuerde. **La decisión final pertenece a los héroes.**
+
+| | |
+|---|---|
+| **Sesión I · Muhar** | Un funeral imposible, una investigación en cuatro puertas y un cortejo que baja al pozo. |
+| **Sesión II · La Corte** | Un banquete donde cada invitado recibe la tentación que le corresponde, seis cautivos y seis vasijas. |
+| **Sesión III · La Cámara del Pesaje** | Un sacerdote de rodillas, una balanza que pesa un juramento y seis desenlaces posibles. |
+
+Para **Legend in the Mist** (sistema oficial gratuito [`mist-engine-fvtt`](https://foundryvtt.com/packages/mist-engine-fvtt)); no añade puntos de golpe ni otro motor de tiradas.
+
+## 🎬 Dirige desde la escena
+
+La **barra del Narrador** vive sobre el lienzo y reúne lo que necesitas durante la sesión: elegir escena, **leer** el texto preparado, **mostrar** la escena a todos con su música, bajar el fondo mientras lees, lanzar efectos y ajustar las figuras.
+
+<p align="center"><img src="docs/img/foundry-direccion.webp" alt="Barra del Narrador con la marca MR sobre la escena del funeral" width="100%"></p>
+
+- **Muévela donde quieras:** mantén pulsado el **botón derecho** sobre la barra y arrástrala. Recuerda su posición por usuario; «Centrar barra» la devuelve a su sitio.
+- **Plégala** a una sola fila cuando solo necesitas elegir y mostrar escena.
+- **Un botón por acción:** Leer escena · Mostrar a todos · Música · Modo lectura · Parar audio · Ajustar pantalla · Figuras. Los efectos de cada escena aparecen como botones redondos.
+- **Cubrir pantalla** adapta el lienzo de cada participante sin bandas grises ni deformar el dibujo.
+
+<p align="center"><img src="docs/img/foundry-figuras.webp" alt="Menú Figuras: tamaño al aparecer, presets, escala por profundidad, bloqueo de giro, ocultar recorrido y cubrir pantalla" width="100%"></p>
+
+## 🧍 Figuras que respetan la perspectiva
+
+Cada fondo declara su **zona de suelo** y los puntos donde realmente cabe una persona. Al colocar a los protagonistas y a los PNJ, cada figura pisa un lugar real de la escena y **su tamaño depende de lo lejos que esté**: los que quedan al fondo se ven pequeños y los que están en primer plano, grandes. Si arrastras una figura hacia el fondo, se encoge; hacia el frente, crece, conservando siempre su apoyo en el suelo. Se activa o desactiva desde **Figuras → Escala por profundidad**.
+
+| | |
+|---|---|
+| <img src="docs/img/foundry-camino.webp" alt="Camino de los chacales con figuras de distinto tamaño según la distancia"> | <img src="docs/img/foundry-dormitorio.webp" alt="Dormitorio de los seis con los cautivos y dos protagonistas en profundidad"> |
+| <img src="docs/img/foundry-pesaje.webp" alt="Cámara del Pesaje con los protagonistas, Merit, Neb-Sekhem y Khety"> | <img src="docs/img/foundry-galeria.webp" alt="Galería de los rostros borrados con Merit y los protagonistas"> |
+
+Los 26 fondos son de 1920 × 1080 y no llevan personajes integrados; las 22 siluetas completas, transparentes, llevan la marca **MR** bajo los pies.
+
+## 📖 Diarios, libros y fichas
+
+<p align="center"><img src="docs/img/foundry-diario.webp" alt="Diario de escena con lectura para leer en voz alta, controles de dirección, reparto y notas" width="100%"></p>
+
+Cada escena tiene su **diario de dirección**: el texto para leer en voz alta, los accesos a música y efectos, las fichas del reparto, las presentaciones de cada persona presente, los objetos y las notas para dirigir. Todo el texto sale de la misma fuente que el manual, así que nunca se contradicen.
+
+| | |
+|---|---|
+| <img src="docs/img/foundry-libro.webp" alt="Libro de los Muertos con pestañas"> | <img src="docs/img/foundry-altar.webp" alt="Altar de los siete nombres con las vasijas"> |
+
+- **Libro de los Muertos** (Alt+B): campaña, altar de los siete nombres, protagonistas, documentos, panel de Neb-Sekhem y guía de uso.
+- **Libro de los Recuerdos** (Alt+M): los recuerdos de cada protagonista y sus estados oficiales.
+
+<p align="center"><img src="docs/img/foundry-ficha.webp" alt="Ficha de Zahra con el arte completo y los cuatro temas nativos" width="100%"></p>
+
+Cinco héroes nativos con cuatro temas cada uno, mochila, relaciones y tema compartido; 34 actores en total, todos con las fichas oficiales del sistema.
+
+## 📚 Un manual a la altura
+
+<p align="center"><img src="docs/img/manual.webp" alt="Portada y páginas interiores del Manual del Narrador" width="100%"></p>
+
+El **Manual del Narrador** (74 páginas) y el **cuaderno de protagonistas** (10 páginas) están escritos y maquetados como una gran campaña gótica: introducción con «Cómo describir el horror», capítulo del villano con sus metas y su forma de interpretarlo, lugares con clave (M1–M7, C1–C6, P1–P5) y bloques fijos *Qué hay · Qué quieren · Pistas · Desarrollo · Etiquetas · Riesgos*, tarjetas de personaje, acontecimientos especiales, seis finales, tablas aleatorias y la **Lectura de la Arena**, que cambia tres hechos de la partida para que no se repita. Texto justificado y guionado en español, cajas de lectura, planos grabados en piedra y documentos para entregar.
+
+## 🎵 Sonido al servicio de la voz
+
+Muhar al atardecer, viento entre las tumbas, procesión, Laberinto, banquete, Merit, pesaje, coronación y último amanecer tienen su propio ambiente musical. Son piezas instrumentales de **Kevin MacLeod**, adaptadas a bucle con solapamiento y normalizadas para fondo. Los efectos incluyen viento, antorchas, piedra, campana, vasijas, corazón, sellos, pluma, pasos y agua.
+
+Las piezas conservan su licencia **CC BY 4.0** y su atribución en [AUDIO-CREDITS.md](AUDIO-CREDITS.md), en el manual y en un diario del módulo. Los efectos son síntesis originales sin voces. No hay pistas vacías ni dependencia de servicios de reproducción externos.
+
+## 🎒 Primeros pasos
+
+Al activar el módulo en un **mundo vacío**, el Narrador recibe la importación de la aventura y puede seguir el **tutorial guiado** (siete pasos para el Narrador, seis para los jugadores). Después: abre el Libro de los Muertos con **Alt+B**, elige una escena en la barra y pulsa **Mostrar a todos**.
+
+### 🗝️ Preparar la mesa
+
+Comparte únicamente el cuaderno inicial con los jugadores. Entrega a cada participante su secreto personal; las ayudas del misterio se revelan durante la partida. **Alt+B** abre el Libro de los Muertos y **Alt+M**, los recuerdos. Las etiquetas, estados y capacidades se seleccionan en las fichas oficiales.
+
+Las notas privadas de campaña se guardan cifradas, con clave en el navegador del Narrador. Usa localhost o HTTPS y descarga un respaldo privado desde la guía antes de cambiar de equipo o borrar los datos del navegador. Ese respaldo contiene tus notas legibles: consérvalo como material privado.
 
 ## ⚡ Instalar
 
@@ -20,76 +101,26 @@ Necesitas **Foundry VTT v13** y el sistema oficial gratuito **mist-engine-fvtt 1
 https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/module.json
 ```
 
-Activa **MR · El Trono de la Sed** en un mundo del sistema. En un mundo vacío, acepta la importación que ofrece el Narrador. En un mundo existente, entra en **Configuración → MR · El Trono de la Sed → Libro de los Muertos → Importar la aventura**. Asigna cada protagonista a su jugador; la compañía ya está vinculada.
-
-Si instalas a mano, reemplaza la carpeta completa del módulo en lugar de mezclar archivos de compendios de dos versiones. Al actualizar desde una edición local, reimporta para añadir las lecturas de escena y las listas de audio. En v1.2.0, al recargar el mundo se amplían automáticamente los textos que siguen siendo idénticos a la edición original y se adaptan a 16:9 las escenas que conservan su imagen y dimensiones originales. Las diferencias de un píxel de las antiguas exportaciones se reconocen. Tus textos, fondos o tamaños de escena personalizados se conservan, igual que la música y el progreso de la mesa. Los capítulos reorganizados se añaden como edición revisada con sus propios identificadores; los capítulos anteriores y sus anotaciones siguen disponibles en los diarios originales de Foundry. El Libro del Narrador consulta la edición revisada. No hace falta volver a importar para recibir esta revisión editorial.
-
-## 🖥️ Dirigir desde la escena
-
-La **barra del Narrador** aparece arriba, en el centro. Su selector permite ver una escena en privado. **Mostrar a todos** la activa para la mesa y arranca su música instrumental. **Leer escena** abre el diario privado con el texto preparado para leer en voz alta.
-
-Las introducciones tienen ahora tres párrafos amplios y las 22 presentaciones de personajes están disponibles en fichas y diarios. Lee solo a quienes estén presentes y adapta la lectura a lo que haya sucedido.
-
-Desde ese diario puedes iniciar la música, reducirla con **Modo lectura**, disparar efectos, abrir las fichas de personajes y PNJ, colocar sus figuras y acceder a los objetos de la escena. Colocar otra vez un mismo personaje no duplica el token. Los efectos en bucle se apagan al pulsarlos de nuevo; también puedes detenerlos por separado.
-
-El menú de la barra ajusta el volumen, trae a los cinco protagonistas y abre el Libro del Narrador. **Parar audio** detiene solo las pistas de este módulo. Los jugadores conservan sus controles de volumen de Foundry. La barra es exclusiva del Narrador.
-
-**Figuras** permite escribir el tamaño al aparecer (60–900 px de escena, 360 px por defecto), usar los botones de 240/360/480 px y cambiar las seleccionadas o todas las presentes. El cambio conserva su apoyo en el suelo. Puedes **mantener las figuras verticales al moverlas** y **ocultar la línea del recorrido** por separado; ambas opciones están activadas inicialmente. El tamaño se aplica también a los tokens arrastrados desde las fichas. Los fondos no colocan personajes automáticamente.
-
-**Cubrir pantalla** adapta el lienzo de cada participante y limita el paneo a la imagen, sin bandas grises. Conserva las proporciones; si el monitor no es 16:9 recorta los bordes necesarios. **Ajustar pantalla** recupera el encuadre inicial. Estos controles afectan únicamente a las escenas de esta aventura.
-
-<p align="center"><img src="docs/img/direccion.webp" alt="Barra superior y escena ilustrada con figuras completas" width="100%"></p>
-<p align="center"><img src="docs/img/diario.webp" alt="Diario de escena con lectura, música, efectos y reparto" width="100%"></p>
-
-## 📖 Una aventura para jugar
-
-En Muhar, la ausencia de un nombre se convierte en una investigación sobre seis personas desaparecidas. La corte que aguarda bajo la arena ofrece hospitalidad, conocimiento y la posibilidad de recuperar lo perdido. Cada regalo tiene una intención. Las elecciones de los protagonistas determinan qué nombres, testimonios y vínculos sobreviven.
-
-- **Manual de 73 páginas** y **cuaderno de protagonistas de nueve páginas**: texto justificado y guionado a dos columnas, lecturas en caja, claves de lugar (M1–M7, C1–C6, P1–P5), tarjetas de personaje, tablas aleatorias, Lectura de la Arena para variar la partida, ganchos y epílogos.
-- Cinco héroes nativos con cuatro temas cada uno, mochila, relaciones y tema compartido; 34 actores en total.
-- 29 fondos de escena **1920 × 1080, 16:9 y sin personajes integrados**, con diarios de dirección, pistas redundantes, negociación, rescate y seis desenlaces abiertos. Los personajes se añaden mediante tokens.
-- Una colección artística coherente; 22 siluetas completas transparentes para personajes y criaturas.
-- Mapas de orientación grabados sobre piedra, escenas sin cuadrícula y láminas de arte completo en el manual.
-- **Nueve bucles instrumentales** y **diez efectos y ambientes sin voces**, incluidos en el módulo y disponibles sin conexión.
-- Libro de los Muertos: campaña, nombres cautivos, sellos, corazón, pistas y panel del vampiro.
-- Libro de los Recuerdos: recuerdos de cada protagonista y lectura de sus estados oficiales.
-- Tutoriales del Narrador y los jugadores. No añade puntos de golpe ni otro motor de tiradas.
-
-<p align="center"><img src="docs/img/libro.webp" alt="Portada gótica y páginas del manual de la aventura" width="100%"></p>
-<p align="center"><img src="docs/img/ficha.webp" alt="Ficha oficial amplia de Zahra con el nuevo arte y temas nativos" width="100%"></p>
-
-## 🎵 Sonido al servicio de la voz
-
-Muhar al atardecer, viento entre las tumbas, procesión, Laberinto, banquete, Merit, pesaje, coronación y último amanecer tienen su propio ambiente musical. Son piezas instrumentales de **Kevin MacLeod**, adaptadas a bucle con solapamiento y normalizadas para fondo. Los efectos incluyen viento, antorchas, piedra, campana, vasijas, corazón, sellos, pluma, pasos y agua.
-
-Las piezas conservan su licencia **CC BY 4.0** y su atribución en [AUDIO-CREDITS.md](AUDIO-CREDITS.md), en el manual y en un diario del módulo. Los efectos son síntesis originales sin voces. No hay pistas vacías ni dependencia de servicios de reproducción externos.
-
-## 🗝️ Preparar la mesa
-
-Comparte únicamente el cuaderno inicial con los jugadores. Entrega a cada participante su secreto personal; las ayudas del misterio se revelan durante la partida. **Alt+B** abre el Libro de los Muertos y **Alt+M**, los recuerdos. Las etiquetas, estados y capacidades se seleccionan en las fichas oficiales.
-
-Las notas privadas de campaña se guardan cifradas, con clave en el navegador del Narrador. Usa localhost o HTTPS y descarga un respaldo privado desde la guía antes de cambiar de equipo o borrar los datos del navegador. Ese respaldo contiene tus notas legibles: consérvalo como material privado.
+Activa **MR · El Trono de la Sed** en un mundo del sistema. En un mundo vacío, acepta la importación que ofrece el Narrador; en un mundo existente, entra en **Configuración → MR · El Trono de la Sed → Libro de los Muertos → Importar la aventura**. Asigna cada protagonista a su jugador; la compañía ya está vinculada. Si instalas a mano, reemplaza la carpeta completa del módulo en lugar de mezclar archivos de dos versiones.
 
 ## 🛠️ Fuentes y validación
 
-El texto vive en `content/manual/*.md` (Markdown propio, un fichero por capítulo). `python3 tools/manual.py --sync` lo convierte en `content/narrative.json`, `readings.json` y `direction.json`, de modo que los diarios de Foundry y el PDF comparten una sola fuente; `python3 tools/manual.py` compone ambos PDF con Chrome (texto justificado, guionado en español y ajuste del texto a siluetas con `shape-outside`). El manuscrito en `content/manual/*.md` es la fuente editorial. `tools/manual.py --sync` actualiza los capítulos, lecturas y enlaces de escena; `content/presentations.json` conserva las presentaciones compartidas. Los JSON estructurados alimentan el compendio de Foundry. `content/direction.json` enlaza cada escena con su lectura, reparto y sonido. Los documentos nativos proceden de `content/actors.json` y `content/items.json`. Los assets de pantalla y audio están incluidos en el repositorio; no necesitas generar imágenes ni descargar música para instalar.
+El texto vive en `content/manual/*.md` (Markdown propio, un fichero por capítulo). `python3 tools/manual.py --sync` lo convierte en `content/narrative.json`, `readings.json` y `direction.json`, de modo que los diarios de Foundry y el PDF comparten una sola fuente; `python3 tools/manual.py` compone ambos PDF con Chrome. `content/stage.json` declara la zona de suelo y los puntos de apoyo de cada fondo, y `tools/brand.py` estampa la marca MR en las imágenes a partir de sus originales.
 
 ```sh
 npm ci
 python3 -m pip install -r requirements.txt
-npm test
-python3 tools/manual.py --sync
-python3 tools/maps.py
-python3 -m pip install pyphen pymupdf
+python3 tools/brand.py
 python3 tools/manual.py --sync
 python3 tools/content.py
 python3 tools/verify.py
+npm test
 python3 tools/manual.py
 python3 tools/pdf-validate.py
 npm run build
 ```
 
-La edición digital se prueba en Foundry 13.351 con Mist Engine 14.5.4. Las comprobaciones automatizadas y las capturas están en `docs`. No se ha realizado una prueba de mesa con un grupo ni una tirada de imprenta a doble página.
+La edición digital se prueba en Foundry 13.351 con Mist Engine 14.5.4. No se ha realizado una prueba de mesa con un grupo ni una tirada de imprenta a doble página.
 
 ## Créditos y licencia
 
@@ -97,8 +128,12 @@ Aventura de **Manuel Romera**. Publicada por indicación del autor y su declarac
 
 Las aportaciones originales del Proyecto MR se ofrecen bajo **CC BY-NC-SA 4.0**. La música y las tipografías conservan sus licencias propias; véanse [NOTICE.md](NOTICE.md), [LICENSE](LICENSE) y [créditos musicales](AUDIO-CREDITS.md). Se han utilizado herramientas de IA para texto, programación e ilustración.
 
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="brand/MR_11_Formal_Marfil_Transparente.png"><img src="brand/MR_08_Formal_Negro_Transparente.png" alt="Manu Romera · Digital RPG Design" width="220"></picture></p>
+
 ## 🇬🇧 English
 
-**The Throne of Thirst — The Court of the Nameless King** is a Spanish gothic horror adventure for **Legend in the Mist** in **Foundry VTT 13**. It includes five native heroes, a shared fellowship, a 73-page Narrator book, a nine-page player booklet, 29 character-free 16:9 scene backgrounds with linked reading journals, configurable full-body token sizes and movement controls, nine instrumental music loops, ten sound effects and ambiences, and a central Narrator toolbar.
+**The Throne of Thirst — The Court of the Nameless King** is a Spanish-language gothic horror adventure for **Legend in the Mist** in **Foundry VTT 13**: three two-hour sessions for four or five players. In the desert city of Muhar people vanish, and then the memory that they ever existed vanishes too. A funeral without a name leads to a court under the sand, to a courteous prince, and to a scale that weighs a promise.
 
-Install the manifest above, activate the module in a world using **mist-engine-fvtt 14.5.4**, and accept the adventure import. Existing documents and campaign progress are preserved. Scene journals provide reading text, music, effects, character sheets and token placement. Original MR contributions use CC BY-NC-SA 4.0; music uses CC BY 4.0 and fonts use SIL OFL. Full third-party notices are included. Adventure text is Spanish; interface controls include English translations.
+It includes a 74-page Narrator manual written and typeset like a major gothic campaign (justified, hyphenated columns; read-aloud boxes; keyed locations; NPC cards; random tables; a *Reading of the Sand* that varies the story), a 10-page player booklet, 26 character-free 16:9 scene backgrounds with reading journals, **depth-aware tokens** (figures stand on real spots of each scene and scale with their distance), a draggable Narrator toolbar (hold the right mouse button), nine instrumental music loops, ten sound effects and a guided tutorial.
+
+Install the manifest above, activate the module in a world using **mist-engine-fvtt 14.5.4** and accept the adventure import. Original MR contributions use CC BY-NC-SA 4.0; music uses CC BY 4.0 and fonts use SIL OFL. See the notices included in the repository.
