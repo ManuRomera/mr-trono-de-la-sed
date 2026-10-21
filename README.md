@@ -54,6 +54,16 @@ Cada fondo declara su **línea de horizonte** y los puntos donde realmente cabe 
 
 Los 26 fondos son de 1920 × 1080 y no llevan personajes integrados; las 22 siluetas completas, transparentes, llevan la marca **MR** diminuta cosida en la ropa.
 
+## 👑 Un dios y su corte
+
+Neb-Sekhem no es un villano al que se derrota: es un **rey que se cree dios**, y la aventura está escrita para que la mesa se sienta pequeña ante él (demostraciones de poder, la corte que se inclina, la sed). Un **reloj de siete lámparas** da urgencia, y sus muertos —**Borrados**, **Plañideras** y **Pesadores**, de horror gótico y sin una sola momia— traen acción, persecuciones e infiltración. El capítulo de **Har’Akir** reúne los símbolos egipcios (el nombre, el corazón, la pluma, la balanza) para que todo suene a Egipto.
+
+<p align="center"><img src="docs/img/foundry-borrados.webp" alt="Borrados y un Pesador en el Laberinto junto a los cinco protagonistas" width="100%"></p>
+
+El panel de hitos incluye, solo para el Narrador, el **marcador de las siete lámparas**:
+
+<p align="center"><img src="docs/img/foundry-lamparas.webp" alt="Panel con las siete lámparas, tres encendidas, y los hitos" width="100%"></p>
+
 ## 🌘 Ambiente y hitos
 
 <p align="center"><img src="docs/img/foundry-ambiente.webp" alt="Banquete en modo oscuro" width="100%"></p>
@@ -90,7 +100,7 @@ Cinco héroes nativos con cuatro temas cada uno, mochila, relaciones y tema comp
 
 <p align="center"><img src="docs/img/manual.webp" alt="Portada y páginas interiores del Manual del Narrador" width="100%"></p>
 
-El **Manual del Narrador** (74 páginas), el **cuaderno de protagonistas** (10) y las **tarjetas de PNJ** (2) están escritos y maquetados como una gran campaña gótica: introducción con «Cómo describir el horror», capítulo del villano con sus metas y su forma de interpretarlo, lugares con clave (M1–M7, C1–C6, P1–P5) y bloques fijos *Qué hay · Qué quieren · Pistas · Desarrollo · Etiquetas · Riesgos*, tarjetas de personaje, acontecimientos especiales, seis finales, tablas aleatorias y la **Lectura de la Arena**, que cambia tres hechos de la partida para que no se repita. Texto justificado y guionado en español, cajas de lectura, planos grabados en piedra y documentos para entregar. Cada release incluye además las **tarjetas de PNJ recortables** (6 por A4, con retrato) y una **edición de imprenta** con 3 mm de sangrado.
+El **Manual del Narrador** (87 páginas), el **cuaderno de protagonistas** (10) y las **tarjetas de PNJ** (2) están escritos y maquetados como una gran campaña gótica: introducción con «Cómo describir el horror», capítulo del villano con sus metas y su forma de interpretarlo, lugares con clave (M1–M7, C1–C6, P1–P5) y bloques fijos *Qué hay · Qué quieren · Pistas · Desarrollo · Etiquetas · Riesgos*, tarjetas de personaje, acontecimientos especiales, seis finales, tablas aleatorias y la **Lectura de la Arena**, que cambia tres hechos de la partida para que no se repita. Texto justificado y guionado en español, cajas de lectura, planos grabados en piedra y documentos para entregar. Cada release incluye además las **tarjetas de PNJ recortables** (6 por A4, con retrato) y una **edición de imprenta** con 3 mm de sangrado.
 
 ## 🎵 Sonido al servicio de la voz
 
@@ -149,6 +159,6 @@ Las aportaciones originales del Proyecto MR se ofrecen bajo **CC BY-NC-SA 4.0**.
 
 **The Throne of Thirst — The Court of the Nameless King** is a Spanish-language gothic horror adventure for **Legend in the Mist** in **Foundry VTT 13**: three two-hour sessions for four or five players. In the desert city of Muhar people vanish, and then the memory that they ever existed vanishes too. A funeral without a name leads to a court under the sand, to a courteous prince, and to a scale that weighs a promise.
 
-It includes a 74-page Narrator manual written and typeset like a major gothic campaign (justified, hyphenated columns; read-aloud boxes; keyed locations; NPC cards; random tables; a *Reading of the Sand* that varies the story), a 10-page player booklet, 26 character-free 16:9 scene backgrounds with reading journals, **depth-aware tokens** (figures stand on real spots of each scene and scale with their distance), a draggable Narrator toolbar (hold the right mouse button), bright/dim/dark ambience, spoiler-free investigation milestones, nine instrumental music loops, ten sound effects, three guided tutorials, printable NPC cards and a print edition with bleed.
+It includes a 87-page Narrator manual written and typeset like a major gothic campaign (justified, hyphenated columns; read-aloud boxes; keyed locations; NPC cards; random tables; a *Reading of the Sand* that varies the story), a 10-page player booklet, 26 character-free 16:9 scene backgrounds with reading journals, **depth-aware tokens** (figures stand on real spots of each scene and scale with their distance), a draggable Narrator toolbar (hold the right mouse button), bright/dim/dark ambience, spoiler-free investigation milestones, nine instrumental music loops, ten sound effects, three guided tutorials, printable NPC cards and a print edition with bleed.
 
 Install the manifest above, activate the module in a world using **mist-engine-fvtt 14.5.4** and accept the adventure import. Original MR contributions use CC BY-NC-SA 4.0; music uses CC BY 4.0 and fonts use SIL OFL. See the notices included in the repository.

@@ -48,7 +48,11 @@ Antes de bajar, pregunta quién acompaña a los cautivos, quién conserva los te
 
 **Qué hay.** El cofre es de madera oscura reforzada con oro, no un objeto gigantesco imposible de mover. Dentro late **el corazón del príncipe**. El cierre no pide pesar un alma inocente ni reemplazar un órgano: la balanza materializa un juramento, *nadie debe convertirse en precio de la voluntad de otro*. Las ranuras de su base permiten inmovilizarla con una herramienta, pero eso fuerza la protección y puede atraer a los custodios.
 
+**La confesión negativa.** Antes de que se abra el cofre, **la balanza pide** una frase a cada héroe: *una cosa que nunca hizo y una cosa que sí hizo* (ver capítulo 2). Si se apoya en un vínculo ya establecido, el platillo se inclina a su favor y cuenta como ventaja en la acción de abrir.
+
 **Cómo se abre.** Abrir correctamente requiere un acto reconocible que restituya agencia: liberar un nombre ante su dueño, devolver la pluma reconociendo la negativa de Merit o pedir al eco que decida y aceptar su respuesta. Si los héroes han salvado ya a una víctima, no les exijas repetir un sacrificio. Si intentan forzar el cofre, es una vía posible con oposición sobrenatural, estados pertinentes y riesgo anunciado de dañar el soporte. **No conviertas una única frase moral en contraseña obligatoria.**
+
+**Símbolos.** La balanza, la pluma de Ma’at y el corazón son el juicio de los muertos egipcio; la mano que se aparta es la negativa de Merit; el agua inmóvil es un lago sin llama.
 
 **Etiquetas.** [agua inmóvil] [manos talladas] [balanza que pesa un juramento]. **Riesgos.** *soporte-dañado-2* (si fuerzan el cofre), *custodios-alertados-2*.
 
@@ -64,14 +68,18 @@ Antes de bajar, pregunta quién acompaña a los cautivos, quién conserva los te
 
 **La custodia.** Si alguien propone renovar el juramento, explica que quedaría vinculado a la corte mientras el corazón subsista. Conservaría voz y voluntad, podría recibir visitas y comunicarse mediante la pluma, pero no abandonaría libremente el recinto. El jugador puede rechazarlo después de oírlo. Merit ofrece buscar otra solución antes de aceptar un custodio. No pide un sacrificio para demostrar amor.
 
+**Símbolos.** Su Ba (alma-pájaro) se posa en la pluma; su sombra está unida a la mano que se retira; no habla de su Ren, que perdió, sino del de los demás.
+
 ## P4. El príncipe pierde la cortesía · 15 minutos
 Neb-Sekhem llega por el arco superior cuando comprende que el cofre está abierto. Si los héroes han conseguido ocultarlo, llega al dormitorio buscando a las víctimas y la confrontación ocurre allí; adapta la posición, no anules su ventaja. Su primera reacción es hablar: «Os ha contado la parte en que fui cruel. ¿Os ha contado las noches en que sostuvo mi mano?». Merit responde si está presente: «Sí. Y mi mano seguía siendo mía».
 
 El vampiro ofrece liberar todos los nombres a cambio de que cierren el cofre y le entreguen los testimonios. Puede cumplir la primera parte si se estructura un intercambio verificable. Los héroes pueden exigir liberar uno a uno antes de entregar nada, reservar una copia o imponer una custodia compartida. Neb intenta buscar una cláusula que conserve su dominio, pero no obtiene derecho a incumplir una acción ya completada porque sea el antagonista.
 
+**El Primer Gesto.** Si los héroes atacan, la corte entera se inclina; la sombra del héroe que golpea se arrodilla (*sombra-arrodillada-2*) y Neb-Sekhem baja la mirada hacia él con una curiosidad infinita. **Su gracia.** Si los héroes consiguen detenerlo (corazón, sello o testimonio), él **no los mata**: se retira diciendo «Vuestros nombres me interesan demasiado para borrarlos». Esa clemencia es su victoria moral.
+
 Si la conversación termina en violencia, describe una amenaza concreta: soplar la lámpara para aislar al portador de la pluma, arrebatar el cofre, llamar a los custodios o susurrar un vínculo para confundir al héroe que lo protege. No despliegues todos sus poderes a la vez. Cada amenaza deja espacio a una acción, una reacción o una alternativa narrativa según las reglas del sistema.
 
-## P5. Siete nombres, una coronación posible · solo si el rito se cumple {slug=coronacion}
+## P5. Siete nombres, una coronación posible · acción, 30 minutos {slug=coronacion}
 @@fig scene-coronacion right w=60mm
 > Un temblor recorre el altar de extremo a extremo. Primero se oye la vibración de una tapa; después otra responde desde el lado contrario. Las siete vasijas quedan unidas por un ruido fino que hace sonar los metales de las lámparas. El aire huele a cera recalentada. Sobre el suelo, las sombras de los recipientes se estiran hacia la figura del príncipe, aunque las llamas no han cambiado de lugar.
 >
@@ -79,13 +87,33 @@ Si la conversación termina en violencia, describe una amenaza concreta: soplar 
 >
 > Desde algún punto del pozo asciende un golpe sordo. El príncipe dirige los ojos hacia el umbral y su sonrisa tarda en abandonarlos. Los custodios vuelven las máscaras en esa dirección. Nadie anuncia lo que ocurrirá después. Entre los chasquidos del fuego aún se distinguen las cintas tensándose, una tras otra, sobre el altar que tenéis delante.
 
-**Cuándo usarla.** Solo cuando el rito haya llegado a este punto: las siete vasijas en el altar requieren que sus traslados hayan sucedido en juego. Este texto no declara caído el sello de Merit; comprueba aparte sus testimonios. Detén la lectura si los héroes intervienen.
+**Cuándo usarla.** Cuando la última lámpara se apague, o cuando Khety (u otro sacerdote consagrado) esté ante el altar con la séptima vasija y un nombre. Si los héroes evitaron el sacrificio desde el principio, dedica este tiempo a la disputa por el corazón o al rescate final: **la ausencia de coronación es un éxito**.
 
-**El rito.** La coronación solo avanza si alguien conserva el recipiente séptimo, puede extraer un nombre y consigue presentarlo en el altar. Tiene tres actos visibles: **nombrar** a la víctima ante testigos, **atraer** su respuesta hacia la vasija y **sellarla** encajándola en la ranura. Los héroes pueden interrumpir cualquiera: retirar el recipiente, liberar a la persona, romper el soporte, sustituir la respuesta con un engaño plausible o convencer al oficiante de desistir. Resuelve la oposición con los desafíos configurados.
+### Tres actos, tres obstáculos
+La coronación es una **secuencia de acción en tres actos**; cada acto se puede interrumpir y cada interrupción cambia el siguiente. Resuelve la oposición con el desafío **La coronación** y los de sus servidores.
 
-Si el séptimo nombre queda preso, el sello sacerdotal se rompe. Se oye un golpe que asciende por la piedra y las estatuas del pozo giran hacia Muhar. Eso no destruye el sello de Merit: si queda un testimonio auténtico, Neb continúa encerrado y debe atacarlo, negociar o retirarse. Si ambos sellos han caído por hechos establecidos, puede cruzar el umbral; antes de hacerlo, permite una última acción derivada de la posición de los héroes, no una tirada gratuita que invalide las decisiones previas.
+1. **Nombrar.** El oficiante pronuncia el nombre ante testigos. *Interrumpir:* hablar más alto que él (Seneb), arrancarle la lectura (Zahra), poner otro nombre en su lugar. Los **Borrados** rodean el altar para protegerlo.
+2. **Atraer.** La respuesta del nombre se desliza hacia la vasija. *Interrumpir:* retirar la vasija (Neset), interponerse (Khaem), mostrar el símbolo que anula el sello (Iru). Las **Plañideras** gimen y desorientan.
+3. **Sellar.** La vasija se encaja en la ranura. *Interrumpir:* romper el soporte, liberar a la persona o cerrar el cofre. Los **Pesadores** avanzan.
 
-Si los héroes evitaron el sacrificio desde el principio, dedica este tiempo a la disputa por el corazón o al rescate final. **La ausencia de coronación es un éxito**, no una escena que haya que recuperar de otro modo.
+**Neb-Sekhem no combate: atiende.** No ataca al grupo; **ordena**. Por cada acto interrumpido, el príncipe da una orden a un tipo de muerto, y cada acto apaga o enciende una lámpara según su resultado.
+
+### Si se llena el séptimo hueco
+Se rompe el sello sacerdotal. Se oye un golpe que asciende por la piedra y las estatuas del pozo giran hacia Muhar. Eso **no destruye el sello de Merit**: si queda un testimonio auténtico, Neb continúa encerrado y debe atacarlo, negociar o retirarse. Si ambos sellos han caído por hechos establecidos, puede cruzar el umbral; antes de hacerlo, permite una última acción derivada de la posición de los héroes, no una tirada gratuita que invalide las decisiones previas.
+
+## P6. La caída de la corte · persecución, 20 minutos
+Si el corazón se destruye, si el sello se rompe o si Neb-Sekhem se retira, **la corte se viene abajo**. Los Borrados quedan inmóviles uno a uno; las lámparas se apagan en cadena; el techo de estrellas empieza a desprenderse.
+
+> No hay trueno. Solo una grieta que corre por el techo con la delicadeza de un hilo. Una lámpara se apaga. Después otra. Los Borrados dejan de avanzar, uno a uno, y cada uno se detiene en un gesto distinto: el brazo alzado hacia una jarra, el rostro vuelto hacia una puerta, la mano abierta como para recibir una moneda. Cuando cae la primera estrella, se oye un nombre. Después, muchos.
+
+**La persecución.** Los héroes deben sacar a las víctimas (y a sí mismos) por el Laberinto antes de que se hunda. Cada héroe tiene una tarea:
+- **Zahra** lee los nombres de los muertos que se desploman, y los nombrados dejan paso.
+- **Khaem** sostiene la salida y levanta a quien no pueda correr.
+- **Neset** encuentra un atajo y calza las losas que caen.
+- **Seneb** calma a los Borrados que aún se mueven; los últimos le piden una canción.
+- **Iru** reconoce los relieves y elige el camino que menos se derrumba.
+
+**Desafío.** **La caída de la corte**: **salidos 6** y **derrumbes 4**. Si fallan, alguien queda atrás; no muere, pero **se convierte en un nombre que hay que recuperar**.
 
 ## Llegan los servidores de Ankhtepot
 La intervención de Serekh depende de que conozca el pozo y disponga de ruta. Si lo han mantenido en secreto, no aparece milagrosamente bajo tierra. Si colaboraron con él, llega con cuatro custodios para guardar la salida y exige el corazón cuando lo descubre. No trae al faraón ni un poder que resuelva el conflicto. Sus hombres pueden sostener una puerta, escoltar cautivos y enfrentarse a servidores menores.

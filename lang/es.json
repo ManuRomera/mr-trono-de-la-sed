@@ -209,7 +209,14 @@
       "HelpGM": "Pulsa un hito para marcarlo o desmarcarlo: lo verá toda la mesa.",
       "HelpPlayer": "Lo que ya habéis descubierto. El Narrador los desbloquea durante la partida.",
       "Hidden": "Aún por descubrir",
-      "Unlocked": "Nuevo hito"
+      "Unlocked": "Nuevo hito",
+      "LampsTitle": "Las siete lámparas",
+      "Lamp7": "Hospitalidad. Neb sonríe y los Borrados están quietos.",
+      "Lamp4": "Los Borrados recorren los pasillos; una Plañidera gime.",
+      "Lamp3": "El cincel: los Borrados atacan los testimonios. Puertas cerradas.",
+      "Lamp2": "Neb abandona la cortesía; los Pesadores toman posiciones.",
+      "Lamp1": "La corte se vuelve hacia el altar; el príncipe baja.",
+      "Lamp0": "Se intenta la coronación (P5)."
     },
     "Ambient": {
       "Title": "Ambiente",

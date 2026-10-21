@@ -1,9 +1,9 @@
 ---
 id: mundo
 title: Muhar y las tierras de Har’Akir
-num: Capítulo 2
+num: Capítulo 4
 sub: Una ciudad de adobe, agua y nombres pronunciados en voz baja
-run: Capítulo 2 · Muhar
+run: Capítulo 4 · Muhar
 ---
 Antes de que los héroes entren en un funeral, conviene que tu mesa sepa dónde está. Muhar no es una capital ni una leyenda: es una ciudad de adobe del desierto occidental, con mercados, templos pequeños, acequias que nunca llevan agua suficiente y una necrópolis que se extiende más allá de las últimas casas. Aquí la muerte es un oficio, y el olvido, la peor falta de educación.
 

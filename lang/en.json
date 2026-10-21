@@ -209,7 +209,14 @@
       "HelpGM": "Click a milestone to mark or unmark it: the whole table sees it.",
       "HelpPlayer": "What you have already uncovered. The Narrator unlocks them during play.",
       "Hidden": "Still to be discovered",
-      "Unlocked": "New milestone"
+      "Unlocked": "New milestone",
+      "LampsTitle": "The seven lamps",
+      "Lamp7": "Hospitality. Neb smiles and the Erased stand still.",
+      "Lamp4": "The Erased walk the halls; a Wailer cries out.",
+      "Lamp3": "The chisel: the Erased attack the testimonies. Doors locked.",
+      "Lamp2": "Neb drops his courtesy; the Weighers take position.",
+      "Lamp1": "The court turns to the altar; the prince descends.",
+      "Lamp0": "The coronation is attempted (P5)."
     },
     "Ambient": {
       "Title": "Ambience",

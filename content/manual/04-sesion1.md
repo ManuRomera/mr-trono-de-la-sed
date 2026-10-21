@@ -33,6 +33,8 @@ Henut recoge el lino por reflejo profesional y encuentra una mancha azul en la c
 
 **Documentos.** «Resguardo del archivo funerario» (Panehsy) y «El trozo de lino azul» (Henut). Ver apéndice H.
 
+**Símbolos.** El escarabajo de oro ennegrecido bajo el lino; seis cuencos de agua como libación; una pluma de Ma’at pintada en la tapa con un trazo apresurado.
+
 **Etiquetas.** [plaza barrida] [incienso espeso] [dolientes que observan]. **Riesgos.** Forzar el ataúd: *escándalo-2*. Mostrar el escarabajo: *vigilancia-1*.
 
 ## M2. Los registros de Panehsy · 15 minutos {slug=casa-panehsy}
@@ -122,6 +124,19 @@ Si hay confrontación, los custodios intentan cerrar accesos y separar a los pre
 
 **Etiquetas.** [estatuas con hocico roto] [surcos que borra el viento] [luz que se aleja]. **Riesgos.** *desorientado-2*, *separado-1*.
 
+## A1. Los Borrados en el camino · acción, 15 minutos
+Esta escena es la primera ocasión de **acción** de la aventura. Úsala cuando los héroes sigan el cortejo, se detengan a hablar con los servidores o intenten raptar la vasija (**M5**), o cuando el grupo se retrase y quieras recordarles que esta noche el tiempo corre.
+
+> Detrás de vosotros la calle de tumbas está vacía; delante también. Entonces os dais cuenta de que las piedras del camino tienen ahora más sombras que estatuas. Una fila de figuras grises sale de entre dos pedestales, sin prisa, con jarras vacías colgadas del cinto y rostros lisos como cera pulida. No hay sonido de pasos. Cuando una de ellas se detiene, todas se detienen. Cuando la primera mueve la cabeza hacia vosotros, el resto la imita con un retraso de un latido. Algo que no habéis oído nunca, un lamento que no viene de ninguna boca, sube desde el pozo.
+
+**Qué hay.** Ocho **Borrados** y, si quieres dar una vuelta de tuerca, una **Plañidera** al fondo, cuyo lamento orienta a los demás. No atacan para matar: **rodean y arrebatan** (un recuerdo, un objeto, una palabra). Su objetivo es que los héroes no lleguen al pozo con la séptima vasija ni con Henut, o, si no hay nada que quitar, que el grupo se disperse.
+
+**Cómo se juega.** Es una **persecución con tres momentos**: 1) *romper el cerco* (Khaem, Neset), 2) *encontrar la salida* (Iru lee el relieve de los chacales; Zahra recuerda un nombre del recibo), 3) *llegar al pozo* (Seneb entona algo que ellos reconocen y los frena un instante). Cada momento tiene una acción incierta y una consecuencia; el desafío de los Borrados (**dispersados 4**, **nombrados 3**) se rellena con acciones.
+
+**Salidas.** Pronunciar el nombre de uno de ellos lo detiene (*el muerto con nombre*). Arrojar agua en el camino los frena una escena. Formar cadena y cantar, también. Si el grupo huye hacia Muhar, los Borrados se detienen en el límite de la ciudad.
+
+**Lámparas.** Si la escena termina sin una decisión, se apaga una.
+
 ## M5b. El cortejo de los sin nombre · si lo siguen {slug=procesion}
 > El cortejo aparece entre los monumentos como una hilera de retazos pálidos. Cuatro figuras avanzan bajo el peso de dos palanquines cubiertos; las varas se flexionan sobre sus hombros con cada desnivel. No hay cántico. Una lámpara suspendida de la carga describe círculos lentos y revela, por instantes, una mano envuelta en lino, una sandalia sin adornos, el borde encerado de un lienzo. El olor del aceite quemado alcanza el camino antes que ellos.
 >
@@ -154,6 +169,8 @@ Uno de los servidores dibuja siete círculos con un dedo y señala su garganta: 
 
 **Documentos.** «Dos puertas en la piedra». Ver apéndice H.
 
+**Símbolos.** Siete ranuras como siete bocas; las seis usadas llevan una mancha oscura en forma de ankh invertido. Una pluma blanca ha quedado en el brocal, quieta aunque haya viento.
+
 **Etiquetas.** [brocal helado] [siete ranuras] [corriente con olor a aceite]. **Riesgos.** *aviso-a-la-corte-1* (si descienden con ruido).
 
 ## M7. La invitación · cierre, 10 minutos
@@ -166,6 +183,8 @@ Venid con vuestros nombres. Dejad fuera las respuestas que os hayan dado otros.
 :::
 
 El servidor no exige acudir desarmados ni aceptar comida. Si rechazan la cena, pueden entrar por el corredor de servicio y explorar la corte: el príncipe los recibirá en la galería, sin todo el control ceremonial del banquete. Termina pidiendo a cada jugador que diga qué frase de la invitación le inquieta. Anota sus palabras: serán más valiosas que una tentación genérica.
+
+**Símbolos.** Un cartucho de oro sin nombre en el sobre; el lacre es un escarabajo. **Demostración de poder.** El nombre del héroe está escrito con una letra que no es de ningún escriba, y bajo él una línea sobre algo que *solo ese héroe sabe*.
 
 ## Acontecimientos especiales
 **El nombre que se cae.** Cuando un PNJ mencione a un desaparecido, deja que la frase se detenga. Un hombre pierde la palabra a media frase; una mujer mira su taza y no recuerda de quién es. Úsalo una vez por escena como máximo y siempre desde fuera: nadie sabe qué ha olvidado.

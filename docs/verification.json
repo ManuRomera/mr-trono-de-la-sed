@@ -2,16 +2,16 @@
   "status": "pass",
   "errors": [],
   "counts": {
-    "actors": 34,
+    "actors": 41,
     "items": 20,
-    "journal": 59,
+    "journal": 61,
     "scenes": 29,
     "macros": 1,
     "playlists": 2
   },
-  "assets": 123,
-  "asset_bytes": 56649094,
-  "image_references": 123,
+  "assets": 132,
+  "asset_bytes": 57317494,
+  "image_references": 132,
   "missing": 0,
   "runtime_evidence": [
     "foundry-presentation-v11.json",

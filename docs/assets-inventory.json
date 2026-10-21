@@ -755,6 +755,42 @@
     "use": "Token: cuerpo entero sin fondo ni marco"
   },
   {
+    "distributed": "assets/npc/borrado-portrait.webp",
+    "format": "webp",
+    "bytes": 46828,
+    "sha256": "ad2081c8a3cec1038332c9efbfa8e57c1db7fff7df63525131d7ce0bbddd7cc8",
+    "documents": [
+      "actors:Borrados"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": null
+  },
+  {
+    "distributed": "assets/npc/borrado-thumb.webp",
+    "format": "webp",
+    "bytes": 3348,
+    "sha256": "c686281dc4c718c8fffeecc304bff5bbdc1d4bd9ee07fc3eea5bebb65dca9705",
+    "documents": [
+      "actors:Borrados"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": null
+  },
+  {
+    "distributed": "assets/npc/borrado-token.webp",
+    "format": "webp",
+    "bytes": 152432,
+    "sha256": "15c993a19c7c70baa7a38a07c7a298ab34b919536ac087f6c8fb64dc42aaaf43",
+    "documents": [
+      "actors:Borrados"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": null
+  },
+  {
     "distributed": "assets/npc/dedi-portrait.webp",
     "format": "webp",
     "bytes": 60692,
@@ -1235,6 +1271,78 @@
     "use": "Token: cuerpo entero sin fondo ni marco"
   },
   {
+    "distributed": "assets/npc/pesador-portrait.webp",
+    "format": "webp",
+    "bytes": 50828,
+    "sha256": "9c8904dbba1c6b84ed1732c6eab2dacfe45712d6ff392dbba77de0ce19f2d283",
+    "documents": [
+      "actors:Pesadores"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": null
+  },
+  {
+    "distributed": "assets/npc/pesador-thumb.webp",
+    "format": "webp",
+    "bytes": 3102,
+    "sha256": "b2dc18dcd33ab12509c5dbb7166d7f838550693244eda601d727209ba5d8ddf0",
+    "documents": [
+      "actors:Pesadores"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": null
+  },
+  {
+    "distributed": "assets/npc/pesador-token.webp",
+    "format": "webp",
+    "bytes": 184144,
+    "sha256": "e2bfa2dadc645f02bff460c60519fc09d54b67e1dc81a45628c0e7c150e62414",
+    "documents": [
+      "actors:Pesadores"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": null
+  },
+  {
+    "distributed": "assets/npc/planidera-portrait.webp",
+    "format": "webp",
+    "bytes": 41074,
+    "sha256": "4eea8b4c2b6b15640345f9cc09925a71dd4616ad433685d863c9009352ec65a2",
+    "documents": [
+      "actors:Plañideras"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": null
+  },
+  {
+    "distributed": "assets/npc/planidera-thumb.webp",
+    "format": "webp",
+    "bytes": 2894,
+    "sha256": "a069c85f17ca5266e98ddfb01859f291eef07de9a8206de229f3d02bd1339d87",
+    "documents": [
+      "actors:Plañideras"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": null
+  },
+  {
+    "distributed": "assets/npc/planidera-token.webp",
+    "format": "webp",
+    "bytes": 183750,
+    "sha256": "5eca586a7de25a9b4b2ac4b372d756aaab7ab99d42661eef4fb713094e75f1ba",
+    "documents": [
+      "actors:Plañideras"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": null
+  },
+  {
     "distributed": "assets/npc/serekh-portrait.webp",
     "format": "webp",
     "bytes": 48100,
@@ -1435,9 +1543,13 @@
     "sha256": "7267696b42c9ea4b007d9dd15d0fbb2b55872698e08ac1718a8713eb67807a40",
     "documents": [
       "actors:El banquete de Neb-Sekhem",
+      "actors:El cincel",
       "actors:El corazón protegido",
       "actors:La Cámara del Pesaje",
+      "actors:La caída de la corte",
       "actors:La coronación",
+      "actors:La cámara que pesa",
+      "actors:La huida del dormitorio",
       "actors:La investigación de los registros",
       "actors:La liberación de los nombres robados",
       "actors:La presión de los agentes religiosos",

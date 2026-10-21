@@ -1,5 +1,15 @@
 # Cambios
 
+## 1.5.0 — 22 de octubre de 2026
+
+- **Neb-Sekhem es un dios.** Nuevo apartado «Un dios en la arena»: qué puede hacer en su corte, cómo mostrar su escala, cinco demostraciones de poder (el Primer Gesto, la sed, su gracia…), Palabra de Retirada, sombra arrodillada y las tres únicas vías para dañarlo. Aspecto de Might «Greatness» en su ficha.
+- **Se nota Egipto.** Nuevo capítulo 2 «Har’Akir, el reino del nombre»: las cinco partes del alma (Ren, Ka, Ba, Ib, Sheut) aplicadas a la trama, tabla de símbolos, las vasijas como canopes deformados, el cartucho vacío, la confesión negativa en la balanza, fórmulas, paleta y olores. Línea **Símbolos** en los lugares clave.
+- **Muertos dominados de horror gótico, sin momias.** Nuevo capítulo 3: **Borrados** (multitud sin rostro), **Plañideras** (heraldos), **Pesadores** (guardia) y sombras arrodilladas, con arte nuevo, fichas de desafío, tarjetas y tokens.
+- **Acción e infiltración:** A1 (los Borrados en el camino), C4b (la huida del dormitorio), C5b (la cámara que pesa), el cincel, la coronación en tres actos (P5) y la caída de la corte (P6), con una tarea para cada héroe. Tabla «Cuándo brilla cada héroe».
+- **Reloj de las siete lámparas** y **sed de la corte**, con marcador solo para el Narrador en el panel de hitos.
+- Fallos de guión corregidos: por qué Neb necesita a Khety (solo un sacerdote consagrado rompe el sello y los muertos no obran sin un vivo), el villano tiene dientes (el cincel) y la aventura tiene urgencia.
+- Manual de 87 páginas, 7 desafíos y 3 criaturas nuevos, dos láminas nuevas.
+
 ## 1.4.0 — 21 de octubre de 2026
 
 - **Escala por perspectiva real:** cada fondo declara su línea de horizonte (la cabeza de una persona de pie queda en ella) y puntos de apoyo solo sobre suelo firme; el tamaño de cada figura sale de su altura en el cuadro (más pequeña junto al trono, grande ante la mesa y las sillas) y se recalcula al arrastrarla.

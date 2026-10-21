@@ -354,7 +354,7 @@ figure.cut.right{float:right;margin:0 0 1mm 4mm}
 .themes h4{font-size:11.5pt;margin-bottom:1.2mm}
 .themes p{margin:0 0 1mm;text-align:left}
 .sheet .foot{margin-top:3mm;font-size:9.8pt;line-height:1.32;text-align:left}
-.stat{break-inside:avoid;border-top:.5mm solid var(--ruby);padding-top:1.4mm;margin-top:2.4mm}
+.stat{break-inside:auto;border-top:.5mm solid var(--ruby);padding-top:1.4mm;margin-top:2.4mm}
 .stat h3{font-size:12.4pt;margin:0 0 1mm}
 .stat p{margin:0 0 1mm;font-size:9.6pt;line-height:1.3}
 .handout{break-inside:avoid;background:#efe3c8;border:.3mm solid #b49a68;box-shadow:inset 0 0 8mm rgba(120,84,30,.22);padding:3.4mm 4.4mm 1.4mm;margin:0 0 4mm;font-size:10.8pt;font-style:italic;line-height:1.42}
@@ -617,7 +617,7 @@ def npc_cards():
                 name, _, role = title.partition(' · ')
                 cards.append((name.strip(), role.strip(), fields))
             i += 1
-    slug = {'Neb-Sekhem': 'neb-sekhem', 'Servidores sin nombre': 'servidor', 'Custodios de la corte': 'custodio', 'Sombras de chacal': 'sombra-chacal'}
+    slug = {'Neb-Sekhem': 'neb-sekhem', 'Servidores sin nombre': 'servidor', 'Custodios de la corte': 'custodio', 'Sombras de chacal': 'sombra-chacal', 'Los Borrados': 'borrado', 'Las Plañideras': 'planidera', 'Los Pesadores': 'pesador'}
     out = ''
     for n, (name, role, fields) in enumerate(cards):
         key = slug.get(name, name.split(' ')[0].lower())

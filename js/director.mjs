@@ -40,7 +40,7 @@ async function placeActors(scene,actors){
  const pending=missingCast(scene.tokens.contents,actors);if(!pending.length)return ui.notifications.info(label('AlreadyPlaced'));
  const docs=[];const settings=presentationSettings();const stage=settings.depthScale?stageFor(scene):null;const bounds=visiblePresentationBounds(scene);const positions=stage?stageLayout(scene,pending.length,scene.tokens.size,settings.tokenPixels,stage,bounds):figureLayout(scene,pending.length,scene.tokens.size,settings.tokenPixels,bounds);
  for(let i=0;i<pending.length;i++){
-  const actor=pending[i];const token=await actor.getTokenDocument({...positions[i],flags:{[MOD]:{placed:true}},lockRotation:settings.lockRotation,actorLink:actor.type==='litm-character'||!['Custodios de la corte','Servidores sin nombre','Sombras de chacal'].includes(actor.name)});docs.push(token.toObject());
+  const actor=pending[i];const token=await actor.getTokenDocument({...positions[i],flags:{[MOD]:{placed:true}},lockRotation:settings.lockRotation,actorLink:actor.type==='litm-character'||!['Custodios de la corte','Servidores sin nombre','Sombras de chacal','Borrados','Plañideras','Pesadores'].includes(actor.name)});docs.push(token.toObject());
  }
  await scene.createEmbeddedDocuments('Token',docs);
 }

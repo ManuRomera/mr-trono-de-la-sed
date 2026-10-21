@@ -1,21 +1,23 @@
 {
-  "narrative_paragraphs_checked": 395,
+  "narrative_paragraphs_checked": 532,
   "missing_content": [],
   "empty_content_pages": [],
   "sparse_content_pages": [],
-  "manual_pages": 74,
+  "manual_pages": 87,
   "player_pages": 10,
   "full_page_art_manual": [
     1,
-    16,
-    24,
-    33,
-    39,
-    43,
-    46,
-    54,
-    73,
-    74
+    8,
+    19,
+    26,
+    35,
+    45,
+    51,
+    55,
+    58,
+    66,
+    86,
+    87
   ],
   "new_artworks": 63,
   "pages": [
@@ -28,13 +30,13 @@
     {
       "book": "Manual",
       "page": 2,
-      "content_characters": 998,
+      "content_characters": 1010,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 3,
-      "content_characters": 689,
+      "content_characters": 859,
       "full_page_art": false
     },
     {
@@ -46,420 +48,498 @@
     {
       "book": "Manual",
       "page": 5,
-      "content_characters": 3372,
+      "content_characters": 3354,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 6,
-      "content_characters": 3553,
+      "content_characters": 3327,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 7,
-      "content_characters": 2145,
+      "content_characters": 2914,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 8,
-      "content_characters": 3381,
-      "full_page_art": false
+      "content_characters": 102,
+      "full_page_art": true
     },
     {
       "book": "Manual",
       "page": 9,
-      "content_characters": 3705,
+      "content_characters": 3384,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 10,
-      "content_characters": 3464,
+      "content_characters": 2998,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 11,
-      "content_characters": 2911,
+      "content_characters": 2968,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 12,
-      "content_characters": 2160,
+      "content_characters": 3512,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 13,
-      "content_characters": 1791,
+      "content_characters": 3423,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 14,
-      "content_characters": 2494,
+      "content_characters": 2579,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 15,
-      "content_characters": 1619,
+      "content_characters": 2160,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 16,
-      "content_characters": 88,
-      "full_page_art": true
+      "content_characters": 2364,
+      "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 17,
-      "content_characters": 3201,
+      "content_characters": 2713,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 18,
-      "content_characters": 3320,
+      "content_characters": 1013,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 19,
-      "content_characters": 3475,
-      "full_page_art": false
+      "content_characters": 89,
+      "full_page_art": true
     },
     {
       "book": "Manual",
       "page": 20,
-      "content_characters": 3382,
+      "content_characters": 2614,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 21,
-      "content_characters": 3122,
+      "content_characters": 2274,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 22,
-      "content_characters": 1175,
+      "content_characters": 752,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 23,
-      "content_characters": 2993,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 24,
-      "content_characters": 97,
-      "full_page_art": true
-    },
-    {
-      "book": "Manual",
-      "page": 25,
-      "content_characters": 1492,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 26,
-      "content_characters": 3507,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 27,
-      "content_characters": 3907,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 28,
-      "content_characters": 4141,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 29,
-      "content_characters": 3529,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 30,
-      "content_characters": 3279,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 31,
-      "content_characters": 3615,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 32,
-      "content_characters": 1803,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 33,
-      "content_characters": 81,
-      "full_page_art": true
-    },
-    {
-      "book": "Manual",
-      "page": 34,
-      "content_characters": 3485,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 35,
-      "content_characters": 3457,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 36,
-      "content_characters": 3266,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 37,
-      "content_characters": 3390,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 38,
-      "content_characters": 1071,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 39,
-      "content_characters": 81,
-      "full_page_art": true
-    },
-    {
-      "book": "Manual",
-      "page": 40,
-      "content_characters": 2814,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 41,
-      "content_characters": 2810,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 42,
-      "content_characters": 2629,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 43,
-      "content_characters": 73,
-      "full_page_art": true
-    },
-    {
-      "book": "Manual",
-      "page": 44,
-      "content_characters": 2268,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 45,
-      "content_characters": 2939,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 46,
-      "content_characters": 110,
-      "full_page_art": true
-    },
-    {
-      "book": "Manual",
-      "page": 47,
-      "content_characters": 3617,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 48,
-      "content_characters": 3753,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 49,
-      "content_characters": 1128,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 50,
-      "content_characters": 1703,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 51,
-      "content_characters": 3525,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 52,
-      "content_characters": 4018,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 53,
-      "content_characters": 989,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 54,
-      "content_characters": 112,
-      "full_page_art": true
-    },
-    {
-      "book": "Manual",
-      "page": 55,
-      "content_characters": 2190,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 56,
-      "content_characters": 2031,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 57,
-      "content_characters": 2113,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 58,
-      "content_characters": 2112,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 59,
-      "content_characters": 2201,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 60,
-      "content_characters": 863,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 61,
-      "content_characters": 3498,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 62,
-      "content_characters": 3727,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 63,
-      "content_characters": 3336,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 64,
-      "content_characters": 3973,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 65,
-      "content_characters": 2994,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 66,
-      "content_characters": 3202,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 67,
-      "content_characters": 3296,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 68,
-      "content_characters": 3316,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 69,
-      "content_characters": 990,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 70,
-      "content_characters": 1917,
-      "full_page_art": false
-    },
-    {
-      "book": "Manual",
-      "page": 71,
       "content_characters": 1791,
       "full_page_art": false
     },
     {
       "book": "Manual",
+      "page": 24,
+      "content_characters": 2494,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 25,
+      "content_characters": 1619,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 26,
+      "content_characters": 88,
+      "full_page_art": true
+    },
+    {
+      "book": "Manual",
+      "page": 27,
+      "content_characters": 3201,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 28,
+      "content_characters": 3402,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 29,
+      "content_characters": 3039,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 30,
+      "content_characters": 3286,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 31,
+      "content_characters": 3664,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 32,
+      "content_characters": 1692,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 33,
+      "content_characters": 1175,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 34,
+      "content_characters": 3340,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 35,
+      "content_characters": 97,
+      "full_page_art": true
+    },
+    {
+      "book": "Manual",
+      "page": 36,
+      "content_characters": 1492,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 37,
+      "content_characters": 3540,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 38,
+      "content_characters": 3864,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 39,
+      "content_characters": 4142,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 40,
+      "content_characters": 3503,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 41,
+      "content_characters": 3289,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 42,
+      "content_characters": 3282,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 43,
+      "content_characters": 3567,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 44,
+      "content_characters": 2840,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 45,
+      "content_characters": 81,
+      "full_page_art": true
+    },
+    {
+      "book": "Manual",
+      "page": 46,
+      "content_characters": 3485,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 47,
+      "content_characters": 3556,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 48,
+      "content_characters": 3898,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 49,
+      "content_characters": 2968,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 50,
+      "content_characters": 2946,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 51,
+      "content_characters": 81,
+      "full_page_art": true
+    },
+    {
+      "book": "Manual",
+      "page": 52,
+      "content_characters": 2814,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 53,
+      "content_characters": 2810,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 54,
+      "content_characters": 2629,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 55,
+      "content_characters": 73,
+      "full_page_art": true
+    },
+    {
+      "book": "Manual",
+      "page": 56,
+      "content_characters": 2268,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 57,
+      "content_characters": 2939,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 58,
+      "content_characters": 110,
+      "full_page_art": true
+    },
+    {
+      "book": "Manual",
+      "page": 59,
+      "content_characters": 3617,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 60,
+      "content_characters": 3753,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 61,
+      "content_characters": 1128,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 62,
+      "content_characters": 1703,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 63,
+      "content_characters": 3525,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 64,
+      "content_characters": 4024,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 65,
+      "content_characters": 2008,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 66,
+      "content_characters": 112,
+      "full_page_art": true
+    },
+    {
+      "book": "Manual",
+      "page": 67,
+      "content_characters": 2190,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 68,
+      "content_characters": 2031,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 69,
+      "content_characters": 2113,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 70,
+      "content_characters": 2112,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 71,
+      "content_characters": 2201,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
       "page": 72,
-      "content_characters": 2948,
+      "content_characters": 863,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 73,
+      "content_characters": 3814,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 74,
+      "content_characters": 3842,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 75,
+      "content_characters": 4065,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 76,
+      "content_characters": 4156,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 77,
+      "content_characters": 2293,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 78,
+      "content_characters": 2994,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 79,
+      "content_characters": 3202,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 80,
+      "content_characters": 3296,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 81,
+      "content_characters": 3316,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 82,
+      "content_characters": 2574,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 83,
+      "content_characters": 1917,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 84,
+      "content_characters": 1791,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 85,
+      "content_characters": 2948,
+      "full_page_art": false
+    },
+    {
+      "book": "Manual",
+      "page": 86,
       "content_characters": 387,
       "full_page_art": true
     },
     {
       "book": "Manual",
-      "page": 74,
+      "page": 87,
       "content_characters": 108,
       "full_page_art": true
     },

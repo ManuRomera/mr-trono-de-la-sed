@@ -82,6 +82,19 @@ La enseñanza de Zahra vuelve cuando el príncipe ofrece borrar su falta: cita l
 
 Después de una recuperación, cada respuesta regresa de forma favorable: otra persona recuerda la frase, reconoce la señal, devuelve el objeto, respeta el silencio de una canción o lee la copia. Así los vínculos no existen solo para que el vampiro los utilice.
 
+## Cuándo brilla cada héroe
+Cada héroe debería tener **al menos un momento estelar por sesión**. Esta tabla te recuerda dónde.
+
+| Héroe | Sesión I · Muhar | Sesión II · La Corte | Sesión III · La Cámara |
+|---|---|---|---|
+| **Zahra** (registros) | M2: lee las líneas vacías; recupera nombres por presión | C2: su tentación; C4b: lee nombres para mover a los cautivos | P5: arranca la lectura al oficiante; P6: nombra a los muertos |
+| **Khaem** (guardián) | M5/A1: rompe el cerco; escolta a Henut | C4b: sostiene la puerta; C5b: iguala el peso de la balanza | P5: se interpone al atraer; P6: levanta a quien cae |
+| **Neset** (saqueadora) | M1: sello rehecho; M3: la resina | C5b: calza las losas; C4b: abre la trampilla | P5: retira la vasija; P6: encuentra el atajo |
+| **Seneb** (cantor) | M3: la canción de la pluma; A1: frena a los Borrados | C2: su tentación; el eco de Merit | P5: cubre la voz del oficiante; P6: despide a los Borrados |
+| **Iru** (erudito) | M6: lee las dos puertas | C6: la inscripción; C5: las tapas | P5: el símbolo que anula el sello; P6: la ruta más segura |
+
+**Si un héroe falta o no ha brillado:** ofrécele un **detalle exclusivo** (algo que solo él sabe o nota) y deja que decida cuándo usarlo. Acciones en tres tiempos con tareas separadas ayudan a que nadie sea espectador.
+
 ## Tabla · Detalles del Laberinto
 Tira un dado de ocho caras por cada tramo recorrido, o elige el que mejor convenga.
 

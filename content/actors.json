@@ -2449,6 +2449,11 @@
    "appliedAddons": [],
    "mightyAspects": [
     {
+     "level": "greatness",
+     "aspect": "Un rey que se cree dios: su corte entera se inclina ante un gesto",
+     "mightIcon": "greatness"
+    },
+    {
      "level": "adventure",
      "aspect": "Soberanía sobre los ecos y las sombras de su corte",
      "mightIcon": "adventure"
@@ -2497,6 +2502,18 @@
     {
      "name": "Hospitalidad interesada",
      "description": "No inicia el banquete con una agresión. Pregunta, contrasta y ofrece. Una amenaza se anuncia antes de imponer una consecuencia, dando espacio a decisión y reacción cuando corresponda."
+    },
+    {
+     "name": "Tres vías",
+     "description": "Solo el corazón, el sello de Merit y el testimonio pueden dañarlo. Cualquier otro ataque lo entretiene."
+    },
+    {
+     "name": "Palabra de Retirada",
+     "description": "Aparta el nombre de un héroe durante una escena: nombre-retirado-3."
+    },
+    {
+     "name": "El Primer Gesto",
+     "description": "Quien lo ataca o lo desafía ve cómo la corte se inclina y su sombra se arrodilla: sombra-arrodillada-2."
     }
    ],
    "threatsAndConsequences": [
@@ -4310,6 +4327,521 @@
    "mr-trono-de-la-sed": {
     "contentKey": "henut",
     "role": "npc"
+   }
+  }
+ },
+ {
+  "_id": "fc75ef5b10bc5a55",
+  "name": "Borrados",
+  "type": "litm-npc",
+  "system": {
+   "biography": "<p>Muertos cuyo nombre bebió el príncipe. Rodean, no hieren: arrebatan una cosa pequeña a cada persona que alcanzan.</p>",
+   "editMode": false,
+   "shortDescription": "La multitud sin cara",
+   "customBackground": "",
+   "customFontColor": "",
+   "floatingTagsAndStatusesEditable": false,
+   "floatingTagsAndStatuses": [],
+   "difficulty": 3,
+   "roles": [
+    "Adversario"
+   ],
+   "appliedAddons": [],
+   "mightyAspects": [
+    {
+     "level": "adventure",
+     "aspect": "Un ejército que se mueve a la vez, sin voz y sin prisa",
+     "mightIcon": "adventure"
+    }
+   ],
+   "limits": [
+    {
+     "name": "dispersados",
+     "value": "4",
+     "consequence": "El cerco se rompe y el grupo gana una salida durante la escena."
+    },
+    {
+     "name": "nombrados",
+     "value": "3",
+     "consequence": "Uno de ellos recuerda su nombre y se detiene: el muerto con nombre."
+    }
+   ],
+   "secrets": [],
+   "specialFeatures": [
+    {
+     "name": "Obran por una voluntad viva",
+     "description": "Solo avanzan si un vivo (Khety, un oficiante) o el príncipe les abre la vía. No cruzan el límite de Muhar."
+    },
+    {
+     "name": "Su nombre los detiene",
+     "description": "Pronunciar el nombre verdadero de uno lo detiene y lo hace llorar; no muere. Una ofrenda de agua o una canción conocida los frena una escena."
+    }
+   ],
+   "threatsAndConsequences": [
+    {
+     "name": "El cerco se cierra",
+     "description": "Rodean sin atacar y arrebatan algo pequeño.",
+     "list": [
+      "[/sn rodeado-2]",
+      "[/sn objeto-perdido-1]",
+      "[/sn nombre-en-peligro-1] si alcanzan a alguien aislado"
+     ]
+    }
+   ]
+  },
+  "items": [],
+  "ownership": {
+   "default": 0
+  },
+  "prototypeToken": {
+   "name": "Borrados",
+   "actorLink": false,
+   "disposition": -1
+  },
+  "flags": {
+   "mr-trono-de-la-sed": {
+    "contentKey": "borrados",
+    "role": "creature"
+   }
+  }
+ },
+ {
+  "_id": "dd48af68fd8be1a2",
+  "name": "Plañideras",
+  "type": "litm-npc",
+  "system": {
+   "biography": "<p>Mujeres de párpados cosidos con hilo de oro. Su lamento orienta a la corte hacia quien lo provoca.</p>",
+   "editMode": false,
+   "shortDescription": "Los heraldos del dolor",
+   "customBackground": "",
+   "customFontColor": "",
+   "floatingTagsAndStatusesEditable": false,
+   "floatingTagsAndStatuses": [],
+   "difficulty": 3,
+   "roles": [
+    "Adversario"
+   ],
+   "appliedAddons": [],
+   "mightyAspects": [
+    {
+     "level": "origin",
+     "aspect": "El dolor de la corte, convertido en señal",
+     "mightIcon": "origin"
+    }
+   ],
+   "limits": [
+    {
+     "name": "silenciadas",
+     "value": "3",
+     "consequence": "Callan; la escena se calma una vez."
+    },
+    {
+     "name": "desorientadas",
+     "value": "3",
+     "consequence": "No encuentran a los héroes; los Borrados pierden la dirección."
+    }
+   ],
+   "secrets": [],
+   "specialFeatures": [
+    {
+     "name": "Ciegas",
+     "description": "No ven: el silencio compartido las desorienta."
+    },
+    {
+     "name": "Alarma",
+     "description": "Cuando una gime, la corte sabe dónde están los héroes."
+    }
+   ],
+   "threatsAndConsequences": [
+    {
+     "name": "El lamento",
+     "description": "Un sonido que cambia de tono según a quien señala.",
+     "list": [
+      "[/sn aviso-a-la-corte-2]",
+      "[/sn desorientado-1]",
+      "Los Borrados se orientan hacia el grupo"
+     ]
+    }
+   ]
+  },
+  "items": [],
+  "ownership": {
+   "default": 0
+  },
+  "prototypeToken": {
+   "name": "Plañideras",
+   "actorLink": false,
+   "disposition": -1
+  },
+  "flags": {
+   "mr-trono-de-la-sed": {
+    "contentKey": "planideras",
+    "role": "creature"
+   }
+  }
+ },
+ {
+  "_id": "6042552d659a96ed",
+  "name": "Pesadores",
+  "type": "litm-npc",
+  "system": {
+   "biography": "<p>Guardia ceremonial de armadura negra y máscara de chacal. Pesan antes de actuar y no se mueven sin orden formal.</p>",
+   "editMode": false,
+   "shortDescription": "Los guardianes de la balanza",
+   "customBackground": "",
+   "customFontColor": "",
+   "floatingTagsAndStatusesEditable": false,
+   "floatingTagsAndStatuses": [],
+   "difficulty": 3,
+   "roles": [
+    "Adversario"
+   ],
+   "appliedAddons": [],
+   "mightyAspects": [
+    {
+     "level": "adventure",
+     "aspect": "Dos Pesadores bastan para detener a un grupo entero",
+     "mightIcon": "adventure"
+    }
+   ],
+   "limits": [
+    {
+     "name": "desarmados",
+     "value": "4",
+     "consequence": "El Pesador pierde el bastón y la balanza; deja de ser una amenaza inmediata."
+    },
+    {
+     "name": "confundidos",
+     "value": "3",
+     "consequence": "Obedece una instrucción compatible con la duda sembrada."
+    },
+    {
+     "name": "detenidos",
+     "value": "3",
+     "consequence": "Se inmoviliza ante la pluma de Merit o un testimonio auténtico."
+    }
+   ],
+   "secrets": [],
+   "specialFeatures": [
+    {
+     "name": "Solo con orden",
+     "description": "No actúan sin la orden de un vivo o del príncipe."
+    },
+    {
+     "name": "Pesa",
+     "description": "Cuando alguien miente en su presencia dicen «Pesa» y avanzan un paso."
+    }
+   ],
+   "threatsAndConsequences": [
+    {
+     "name": "El peso cae",
+     "description": "El bastón baja como una balanza.",
+     "list": [
+      "[/sn golpeado-3]",
+      "[/sn acorralado-2]",
+      "[/sn peso-en-el-pecho-2]"
+     ]
+    }
+   ]
+  },
+  "items": [],
+  "ownership": {
+   "default": 0
+  },
+  "prototypeToken": {
+   "name": "Pesadores",
+   "actorLink": false,
+   "disposition": -1
+  },
+  "flags": {
+   "mr-trono-de-la-sed": {
+    "contentKey": "pesadores",
+    "role": "creature"
+   }
+  }
+ },
+ {
+  "_id": "69eda91c194c39e4",
+  "name": "La huida del dormitorio",
+  "type": "litm-npc",
+  "system": {
+   "biography": "<p>Escena de acción en tres tiempos: organizar, sostener la puerta y cruzar.</p>",
+   "editMode": false,
+   "shortDescription": "Salvar a las seis personas antes de que se cierren las puertas",
+   "customBackground": "",
+   "customFontColor": "",
+   "floatingTagsAndStatusesEditable": false,
+   "floatingTagsAndStatuses": [],
+   "difficulty": 3,
+   "roles": [
+    "Adversario"
+   ],
+   "appliedAddons": [],
+   "mightyAspects": [
+    {
+     "level": "adventure",
+     "aspect": "Un palacio que se cierra sobre los cautivos",
+     "mightIcon": "adventure"
+    }
+   ],
+   "limits": [
+    {
+     "name": "salvados",
+     "value": "6",
+     "consequence": "Una persona más sale del dormitorio."
+    },
+    {
+     "name": "cerrados",
+     "value": "4",
+     "consequence": "Una puerta queda cerrada y hay que rodear."
+    }
+   ],
+   "secrets": [],
+   "specialFeatures": [
+    {
+     "name": "En tres tiempos",
+     "description": "Despertar y organizar; cerrar y sostener; cruzar y salir. Cada tiempo permite lucirse a un héroe distinto."
+    },
+    {
+     "name": "Si falla",
+     "description": "Nadie muere: alguien vuelve al dormitorio y pasa a ser una escena de rescate."
+    }
+   ],
+   "threatsAndConsequences": [
+    {
+     "name": "Se cierra una puerta",
+     "description": "Los Pesadores cierran con llave cada pocos minutos.",
+     "list": [
+      "[/sn puerta-cerrada-2]",
+      "[/sn cautivo-recapturado-2]",
+      "[/sn desorientacion-2]"
+     ]
+    }
+   ]
+  },
+  "items": [],
+  "ownership": {
+   "default": 0
+  },
+  "prototypeToken": {
+   "name": "La huida del dormitorio",
+   "actorLink": false,
+   "disposition": -1
+  },
+  "flags": {
+   "mr-trono-de-la-sed": {
+    "contentKey": "huida",
+    "role": "challenge"
+   }
+  }
+ },
+ {
+  "_id": "bb802eb0c7cc696e",
+  "name": "La cámara que pesa",
+  "type": "litm-npc",
+  "system": {
+   "biography": "<p>Losas con una balanza grabada: suenan si pisas con un objeto robado o un nombre ajeno.</p>",
+   "editMode": false,
+   "shortDescription": "Un suelo que pesa lo que llevas",
+   "customBackground": "",
+   "customFontColor": "",
+   "floatingTagsAndStatusesEditable": false,
+   "floatingTagsAndStatuses": [],
+   "difficulty": 3,
+   "roles": [
+    "Adversario"
+   ],
+   "appliedAddons": [],
+   "mightyAspects": [
+    {
+     "level": "origin",
+     "aspect": "Una balanza que hace de suelo",
+     "mightIcon": "origin"
+    }
+   ],
+   "limits": [
+    {
+     "name": "cruzadas",
+     "value": "3",
+     "consequence": "Tres losas cruzadas: el camino queda abierto."
+    },
+    {
+     "name": "calladas",
+     "value": "3",
+     "consequence": "La balanza no suena; los Pesadores no se mueven."
+    }
+   ],
+   "secrets": [],
+   "specialFeatures": [
+    {
+     "name": "Tres soluciones",
+     "description": "Cruzar sin cargar nada, igualar el peso o calzar las losas. Una cuarta: una confesión negativa honesta."
+    }
+   ],
+   "threatsAndConsequences": [
+    {
+     "name": "La balanza suena",
+     "description": "El bronce frotado alerta a los Pesadores.",
+     "list": [
+      "[/sn balanza-sonando-2]",
+      "[/sn pesadores-alertados-2]"
+     ]
+    }
+   ]
+  },
+  "items": [],
+  "ownership": {
+   "default": 0
+  },
+  "prototypeToken": {
+   "name": "La cámara que pesa",
+   "actorLink": false,
+   "disposition": -1
+  },
+  "flags": {
+   "mr-trono-de-la-sed": {
+    "contentKey": "camara-pesa",
+    "role": "challenge"
+   }
+  }
+ },
+ {
+  "_id": "2b1d0a5cd34d73b6",
+  "name": "El cincel",
+  "type": "litm-npc",
+  "system": {
+   "biography": "<p>Cuando quedan pocas lámparas, los muertos llegan con cinceles a la galería y a la inscripción.</p>",
+   "editMode": false,
+   "shortDescription": "Los Borrados raspan el testimonio de Merit",
+   "customBackground": "",
+   "customFontColor": "",
+   "floatingTagsAndStatusesEditable": false,
+   "floatingTagsAndStatuses": [],
+   "difficulty": 3,
+   "roles": [
+    "Adversario"
+   ],
+   "appliedAddons": [],
+   "mightyAspects": [
+    {
+     "level": "adventure",
+     "aspect": "Siglos de piedra tallada contra una frase",
+     "mightIcon": "adventure"
+    }
+   ],
+   "limits": [
+    {
+     "name": "raspado",
+     "value": "4",
+     "consequence": "Un soporte del testimonio de Merit se pierde en la ficción."
+    },
+    {
+     "name": "repelidos",
+     "value": "3",
+     "consequence": "Los Borrados se apartan de la inscripción."
+    }
+   ],
+   "secrets": [],
+   "specialFeatures": [
+    {
+     "name": "Se puede copiar",
+     "description": "Copiar, esconder o proteger la inscripción cuenta como respuesta."
+    }
+   ],
+   "threatsAndConsequences": [
+    {
+     "name": "El cincel golpea",
+     "description": "Cada golpe quita una letra.",
+     "list": [
+      "[/sn testimonio-raspado-2]",
+      "[/sn lampara-apagada-1]"
+     ]
+    }
+   ]
+  },
+  "items": [],
+  "ownership": {
+   "default": 0
+  },
+  "prototypeToken": {
+   "name": "El cincel",
+   "actorLink": false,
+   "disposition": -1
+  },
+  "flags": {
+   "mr-trono-de-la-sed": {
+    "contentKey": "cincel",
+    "role": "challenge"
+   }
+  }
+ },
+ {
+  "_id": "90b950ddc1db282d",
+  "name": "La caída de la corte",
+  "type": "litm-npc",
+  "system": {
+   "biography": "<p>Persecución final cuando el corazón se destruye o el sello se rompe.</p>",
+   "editMode": false,
+   "shortDescription": "Sacar a todos por el Laberinto antes de que se hunda",
+   "customBackground": "",
+   "customFontColor": "",
+   "floatingTagsAndStatusesEditable": false,
+   "floatingTagsAndStatuses": [],
+   "difficulty": 3,
+   "roles": [
+    "Adversario"
+   ],
+   "appliedAddons": [],
+   "mightyAspects": [
+    {
+     "level": "adventure",
+     "aspect": "Un palacio que se desprende como una estrella",
+     "mightIcon": "adventure"
+    }
+   ],
+   "limits": [
+    {
+     "name": "salidos",
+     "value": "6",
+     "consequence": "Alguien más llega a la superficie."
+    },
+    {
+     "name": "derrumbes",
+     "value": "4",
+     "consequence": "El camino se corta y hay que rodear."
+    }
+   ],
+   "secrets": [],
+   "specialFeatures": [
+    {
+     "name": "Una tarea por héroe",
+     "description": "Nombrar a los caídos, sostener la salida, calzar las losas, calmar a los Borrados, elegir la ruta."
+    }
+   ],
+   "threatsAndConsequences": [
+    {
+     "name": "El techo cede",
+     "description": "Una estrella cae y la grieta corre.",
+     "list": [
+      "[/sn camino-cortado-2]",
+      "[/sn alguien-queda-atras-2]"
+     ]
+    }
+   ]
+  },
+  "items": [],
+  "ownership": {
+   "default": 0
+  },
+  "prototypeToken": {
+   "name": "La caída de la corte",
+   "actorLink": false,
+   "disposition": -1
+  },
+  "flags": {
+   "mr-trono-de-la-sed": {
+    "contentKey": "caida",
+    "role": "challenge"
    }
   }
  }

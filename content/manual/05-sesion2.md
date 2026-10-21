@@ -35,6 +35,8 @@ La segunda sesión transcurre en un solo edificio y aprovecha su arquitectura: u
 
 Quien examine al servidor encuentra una costura reciente en su manga y una antigua marca de alfarero: fue un artesano de otra época, no una de las seis víctimas. Puede responder con gestos. Si le conceden un nombre provisional elegido por él, vuelve a expresar una preferencia: quiere que se abra una salida al desierto cuando termine la noche. Eso no elimina su condición, pero le permite actuar como persona durante la aventura.
 
+**Símbolos.** Un cartucho de oro vacío sobre el arco central; un disco solar alado cubierto de hollín; estrellas desprendidas como lágrimas de lapislázuli.
+
 **Etiquetas.** [cielo de estrellas caídas] [cortinas que respiran] [cuenco ceremonial].
 
 ## C1b. El rey en el umbral · si llegan sin invitación {slug=neb-sekhem}
@@ -66,6 +68,8 @@ La comida es real y segura: beber no entrega el nombre ni impone un pacto. El ho
 3. **Precio.** Pide el escarabajo, la pluma o la séptima vasija; si no los tienen, solicita que no lean la inscripción de la galería. Expresa la condición con la claridad suficiente para poder rechazarla.
 
 Al concluir, deja que los héroes elijan entre investigar, exigir ver a los cautivos, retirarse o negociar. La cena está lograda si han tomado una decisión informada sobre su anfitrión, aunque no hayan descubierto todos los secretos.
+
+**Demostración de poder.** Cuando los héroes se sientan, Neb recita lo último que cada uno comió, bebió y calló antes de bajar al pozo: «No os asustéis. Hace mucho que aprendí a escuchar». Si alguien lo ataca, insulta o le da la espalda, **la corte se inclina** (servidores, Borrados y lámparas) y la sombra del héroe se arrodilla (*sombra-arrodillada-2*). Él no se mueve. **La sed.** Cada lámpara que se apague añade *sed-1* a los héroes que no lleven agua de Muhar (ver «La sed de la corte», capítulo 1).
 
 **Etiquetas.** [lámparas sin humo] [copas de alabastro sin tapa] [silla vacía junto al rey]. **Riesgos.** *aceptación-de-la-hospitalidad-1*, *voz-confundida-2*, *nombre-en-peligro-1*.
 
@@ -120,6 +124,8 @@ Neb presenta un pergamino anterior al traslado de la corte. Contiene un procedim
 
 **Documentos.** «Bajo el rostro velado». Ver apéndice H.
 
+**Símbolos.** Un ankh partido en las vidrieras; la mano que se retira, trazo de escultor; la pluma que cruza una puerta (el sello de Merit).
+
 **Etiquetas.** [retratos sin rostro] [hoja de oro nueva] [lámparas bajas]. **Riesgos.** *aviso-al-palacio-2* (romper la placa), *custodios-alertados-1*.
 
 ## C4. El dormitorio de los seis · 15 minutos {slug=dormitorio-victimas}
@@ -136,6 +142,22 @@ Hay **dos salidas**: la galería y un pasillo de lavandería hacia el pozo. Una 
 
 **Etiquetas.** [seis lechos] [agua tibia] [pasador accesible desde la trampilla]. **Riesgos.** *desorientación-2* (si dejan a alguien solo), *hambre-1*.
 
+## C4b. La huida del dormitorio · acción, 20 minutos
+Cuando los héroes decidan sacar a las víctimas, o cuando la tercera lámpara se apague, la corte reacciona. Esta es la **gran escena de acción de la segunda sesión**.
+
+> Un golpe seco recorre el palacio, como de una puerta de piedra que se cierra a mucha distancia. Después otro, más cerca. La luz de la hornacina se inclina hacia la entrada y las sombras de los lechos se estiran. Alguien murmura, muy bajo, el nombre de un corredor que ya no existe. En la galería, tres siluetas grises cruzan sin ruido el vano. Detrás, una cuarta. Y luego, con la lentitud de un sueño, una quinta.
+
+**Qué pasa.** Los Pesadores cierran las puertas con llave (una cada tres minutos) y los Borrados avanzan por la galería para recuperar a los cautivos. Las víctimas pueden andar pero **no correr**: hay que llevarlas, esconderlas o abrir camino.
+
+**La secuencia, en tres tiempos.**
+1. **Despertar y organizar** (*Zahra y Seneb*): leer los nombres y calmar a los cautivos para que se muevan juntos; cada persona sacada del dormitorio cuenta una marca.
+2. **Cerrar y sostener** (*Khaem, Neset*): Khaem aguanta la puerta con el cuerpo; Neset abre la trampilla que da a la lavandería y la salida hacia el pozo.
+3. **Cruzar y salir** (*Iru, todos*): hay dos rutas. Iru reconoce que la lavandería comunica con el pasillo del pozo; el que se queda a cubrir la retirada sabe que no podrá volver.
+
+**Desafío.** Un desafío de situación **La huida del dormitorio** con **salvados 6** (uno por víctima) y **cerrados 4** (puertas que se cierran). Estados: *puerta-cerrada-2*, *cautivo-recapturado-2*, *desorientación-2*.
+
+**Si falla.** No mueren: **se dispersan**. Una víctima puede volver a quedar en el dormitorio y pasa a ser una nueva escena de rescate; los nombres siguen vivos en las vasijas. **Si triunfa**, se enciende una lámpara.
+
 ## C5. La sala de las vasijas · 20 minutos {slug=sala-vasijas}
 @@fig scene-sala-vasijas col cap="Seis marcas conservan los nombres; una séptima repisa espera."
 > La sala se enfría antes de que terminéis de cruzar el umbral. Sobre las repisas descansan seis vasijas de alabastro, cada una con una tapa distinta. La luz penetra en sus paredes pálidas y queda prendida allí, amarillenta, como bajo una uña. Hay espigas, cuerdas y trazos de pigmento en los cuerpos de los recipientes. Las marcas se conservan mejor que la piedra que los rodea. En el aire flota polvo fino; no cae sobre los sellos.
@@ -150,7 +172,20 @@ Hay **dos salidas**: la galería y un pasillo de lavandería hacia el pozo. Una 
 
 Tras liberar la primera, un corredor antes oculto se ilumina hacia la Cámara del Pesaje. La piedra responde a un acto que restaura voluntad, no a una contraseña. Si rompen todas las vasijas de golpe, las identidades se dispersan en voces alrededor del patio. Organiza una escena de reconocimiento con los objetos y gestos ya presentados: las víctimas siguen siendo recuperables.
 
+**Símbolos.** Las vasijas imitan a los canopes de los hijos de Horus pero son siete; las tapas son el ibis, el halcón, el chacal, la gata, el carnero y una máscara humana; el séptimo lugar tiene una pluma blanca de piedra.
+
 **Etiquetas.** [seis vasijas] [séptimo lugar limpio] [polvo que no cae]. **Riesgos.** *identidad-dispersa-3* (si rompen todas), *voz-confundida-2*.
+
+## C5b. La cámara que pesa · infiltración, 15 minutos
+La puerta de las vasijas tiene **otra defensa** además de la llave de Khety. Es un obstáculo diseñado para **Neset y Khaem** (y para quien quiera ayudarles).
+
+> El suelo de la sala está hecho de losas de piedra negra, cada una con una balanza grabada. Cuando alguien las pisa, la balanza oscila y de las paredes sale un sonido de bronce frotado. Las losas más cercanas a la puerta de las vasijas tienen un peso diferente: algunas se hunden un dedo, otras no se mueven. Cerca de la puerta, dos Pesadores se mantienen inmóviles con la balanza en alto. Si miráis las balanzas con atención, la de la derecha parece tener un platillo más bajo que el otro.
+
+**Cómo funciona.** El suelo **pesa lo que llevas**: quien camina con un objeto robado o con un nombre que no es suyo hace sonar la balanza. Hay tres formas de pasar: **cruzar sin cargar nada** (dejar los objetos, que los lleve otra persona), **igualar el peso** con un contrapeso de piedra o de agua (Khaem), o **cambiar la balanza** (Neset descubre que las losas se pueden calzar con una moneda). Una cuarta: **distraer a los Pesadores** con una confesión negativa honesta.
+
+**Desafío.** **La cámara que pesa**: **cruzadas 3** (tres losas), **calladas 3** (silencio de la balanza). Estados: *balanza-sonando-2*, *pesadores-alertados-2*.
+
+**Si falla.** Los Pesadores avanzan un paso. Se apaga una lámpara **solo** si se rompe el silencio dos veces.
 
 ## C6. La inscripción y la pluma · revelación, 20 minutos {slug=inscripcion-merit}
 @@fig scene-inscripcion-merit col cap="Una pluma inmóvil descansa donde el aire no consigue moverla."
@@ -164,9 +199,16 @@ Tras liberar la primera, un corredor antes oculto se ilumina hacia la Cámara de
 
 La pluma permite hacer una copia duradera con pigmento corriente y trazar la marca en el cofre. No es obligatoria: liberar a una víctima abre una ruta equivalente. El nombre de Merit no devuelve al vampiro una humanidad perdida ni lo cura por sí solo. Él no lo retiene y entiende, por la reacción de los presentes, que ha perdido el monopolio de su relato.
 
+**Lámparas.** Termina la sesión contando cuántas siguen encendidas: ese número es el estado de la corte al empezar la tercera parte.
+
 **Cierre de sesión.** El eco todavía no se manifiesta por completo. Puede confirmar que el corazón está abajo y que Khety escucha a un hijo que no ha vuelto. Termina la sesión con una pausa entre héroes: uno sostiene un objeto y otro relata por qué importa. Es un momento apropiado para los procedimientos de descanso y relación del sistema, sin imponer mejoras automáticas.
 
+**Símbolos.** La pluma de Ma’at como firma; una balanza dibujada con carbón; el cartucho de Merit raspado y vuelto a pintar.
+
 **Etiquetas.** [oro agrietado] [mano que se retira] [pluma inmóvil]. **Riesgos.** *palacio-alertado-1* (al raspar el mortero).
+
+### El cincel · cuando queden tres lámparas
+Si se apagan cuatro lámparas, los **Borrados** llegan a la galería y a la sala de la inscripción con cinceles: quieren **raspar el testimonio de Merit**. Es un acontecimiento de **acción y defensa**: los héroes pueden proteger la inscripción, copiarla, esconder la pluma o enfrentarse a los Borrados con un nombre. El desafío es **El cincel** (**raspado 4**, **repelidos 3**). Si se completa *raspado*, un soporte del testimonio se pierde *en la ficción*, y los héroes lo saben.
 
 ## Acontecimientos especiales
 **La cena se enfría.** Si los héroes abandonan el banquete sin decir nada, los servidores apagan una lámpara cada minuto hasta que solo queda la del anfitrión. No es una amenaza: es una forma de recordarles que la hospitalidad también tiene hora.

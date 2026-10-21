@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import {HITOS,hitosState,hitosProgress} from '../js/hitos.mjs';
+import {HITOS,hitosState,hitosProgress,lampsValue,lampsAfterClick,lampsStage} from '../js/hitos.mjs';
 import {ambientFor,AMBIENTS} from '../js/director.mjs';
 test('milestones normalise unknown or missing values and count progress',()=>{
  assert.equal(hitosState(undefined).funeral,false);
@@ -10,4 +10,9 @@ test('ambient presets are ordered from bright to dark and unknown keys are rejec
  assert.ok(AMBIENTS.light.dark<AMBIENTS.dim.dark&&AMBIENTS.dim.dark<AMBIENTS.dark.dark);
  assert.ok(AMBIENTS.light.level>AMBIENTS.dark.level);
  assert.equal(ambientFor('nope'),null);assert.equal(ambientFor('dim').dark,.38);
+});
+test('the seven lamps clamp, toggle from the clicked lamp and map to court stages',()=>{
+ assert.equal(lampsValue(undefined),7);assert.equal(lampsValue(-3),0);assert.equal(lampsValue(99),7);
+ assert.equal(lampsAfterClick(7,3),3);assert.equal(lampsAfterClick(3,5),6);assert.equal(lampsAfterClick(1,0),0);
+ assert.deepEqual([7,5,4,3,2,1,0].map(lampsStage),['7','7','4','3','2','1','0']);
 });

@@ -149,3 +149,12 @@ section.mr-box p,section.mr-npc p,section.mr-doc p{margin:0 0 6px;color:#2a2630}
 #mr-trono-hitos-panel li.is-done .mr-hito-mark{color:#caa66b}
 #mr-trono-hitos-panel li[role=button]{cursor:pointer}
 #mr-trono-hitos-panel li[role=button]:hover{background:rgba(154,63,88,.25)}
+
+/* Reloj de las siete lámparas (solo Narrador) */
+#mr-trono-hitos-panel .mr-lamps{margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid rgba(202,166,107,.25)}
+#mr-trono-hitos-panel .mr-lamp-row{display:flex;gap:8px;margin:6px 0}
+#mr-trono-hitos-panel .mr-lamp{width:26px;height:34px;padding:0;border:1px solid rgba(202,166,107,.35);border-radius:6px 6px 12px 12px;background:#17141d;cursor:pointer;display:flex;align-items:flex-end;justify-content:center;box-shadow:none}
+#mr-trono-hitos-panel .mr-lamp span{display:block;width:8px;height:16px;border-radius:50% 50% 40% 40%;background:#3a3340;margin-bottom:5px}
+#mr-trono-hitos-panel .mr-lamp.is-lit{border-color:#caa66b;background:linear-gradient(180deg,#2c2230,#1a1520)}
+#mr-trono-hitos-panel .mr-lamp.is-lit span{background:radial-gradient(circle at 50% 70%,#fff2c0,#f0b44c 55%,#b8591f);box-shadow:0 0 12px 3px rgba(240,180,76,.65)}
+#mr-trono-hitos-panel .mr-lamp:focus-visible{outline:2px solid #f0d28f;outline-offset:2px}

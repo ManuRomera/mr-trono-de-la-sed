@@ -4,6 +4,7 @@ title: El rey sin nombre
 num: Capítulo 1
 sub: Lo que el Narrador necesita saber antes de que los héroes crucen la plaza
 run: Capítulo 1 · El rey sin nombre
+plate: lamina-dios | El señor de la arena | CAPÍTULO 1 · EL REY SIN NOMBRE | Ante él no sois un enemigo. Sois una oportunidad de recordar algo antiguo.
 ---
 Una aventura gótica tiene un villano que trabaja aunque nadie lo moleste. Neb-Sekhem lleva siglos sentado a una mesa con las sillas puestas, esperando a que alguien llegue lo bastante hambriento. Este capítulo reúne lo que necesitas saber de él, de la mujer que lo encerró, del sacerdote que se ha convertido en su mano y de las dos prisiones que sostienen el clímax. Léelo entero antes de la primera sesión.
 
@@ -22,12 +23,13 @@ Neb-Sekhem perteneció a una corte mortal fuera de Har’Akir. Su esposa Merit e
 Merit descubrió lo ocurrido y rechazó tanto los crímenes como la obligación de agradecerlos. En una noche en que él creyó recibir su perdón, ella le extrajo el corazón mediante el encantamiento funerario que todavía protege la cámara. Dejó testimonio de su nombre y de su decisión. Después las Nieblas arrastraron la corte a Har’Akir: Neb-Sekhem intentó someter a los muertos del dominio y los sacerdotes de Ankhtepot añadieron una segunda prisión a la primera.
 
 ### Qué quiere
-Neb-Sekhem persigue cuatro metas a lo largo de la aventura. Mientras los héroes se mueven, él trabaja en ellas.
+Neb-Sekhem persigue cinco metas a lo largo de la aventura. Mientras los héroes se mueven, él trabaja en ellas.
 
 1. **Conseguir el séptimo nombre.** Un nombre robado, depositado en la vasija vacía y presentado en el altar, rompe el sello de los sacerdotes. Khety es su mano; Henut, su candidata inicial.
 2. **Borrar a Merit.** No puede conservar su nombre —al oírlo percibe una ausencia, al leerlo ve una discontinuidad en la escritura—, pero sí ordenar la destrucción de las inscripciones vinculadas a ella y quebrar a quien las proteja.
 3. **Conservar su imagen.** Quiere seguir siendo el esposo fiel que no pudo salvar a su mujer, y eliminar cualquier voz que lo contradiga.
-4. **Recuperar el corazón.** Su corazón late fuera de él, en un cofre. Quien lo controle puede decidir su destino.
+4. **Recuperar su nombre.** Lo que más ansía, aunque no lo diga: el cartucho vacío de su corte. Solo Merit lo recuerda y no lo dirá.
+5. **Recuperar el corazón.** Su corazón late fuera de él, en un cofre. Quien lo controle puede decidir su destino.
 
 Para llegar a ellas necesita testigos: personas que acepten su relato. Por eso el banquete no busca completar un sacrificio. Busca reclutar a los héroes contra sus propios recuerdos.
 
@@ -42,6 +44,78 @@ Respeta una regla de cortesía mientras le conviene: nadie toca la sangre ajena 
 Recuerda el rostro, los gestos y la voz de Merit. Reconoce dónde se halla una inscripción vinculada a ella, puede seguir a quien la protege y ordenar su destrucción. Conoce la existencia del corazón y de ambos sellos. **No puede** certificar que una copia engañosa sea auténtica, ignora qué testimonio ocultó Tia y no sabe que el eco de Merit puede hablar ante el cofre abierto. Promete resurrecciones que sabe imposibles. Sus servidores transportan objetos, secuestran personas y se comunican fuera de la corte. Su cuerpo no cruza los umbrales exteriores mientras cualquiera de los dos sellos permanezca intacto.
 
 No lee pensamientos ni conoce lo que nadie le ha comunicado. Si Iru confiesa conocer ya el símbolo del escarabajo, pregunta dónde lo vio y escucha si miente: no demuestra omnisciencia.
+
+## Un dios en la arena
+Strahd es un monstruo porque nadie puede con él. Neb-Sekhem debe producir la misma sensación, y en Har’Akir además tiene una coartada: **los faraones eran dioses**. Los héroes no se enfrentan a un vampiro; se presentan ante algo que lleva siglos acostumbrado a que el mundo se incline. Tu tarea es que la mesa **sienta su tamaño** sin que nadie tire un dado.
+
+### Lo que Neb-Sekhem puede hacer en su corte
+- **Saberlo todo.** Cada lámpara, cada puerta y cada Borrado es un ojo. Conoce los nombres de los héroes antes de que se pronuncien y recuerda cada cosa que dijeron desde que bajaron al pozo.
+- **Ordenar a los muertos con un gesto.** No levanta la voz: abre la mano y miles de cuerpos se vuelven a la vez.
+- **Quitar un nombre.** Con la *Palabra de Retirada* aparta el nombre de un héroe durante una escena (*nombre-retirado-3*): nadie puede pronunciarlo, el héroe no consigue oírlo y su hoja se vuelve ilegible para él.
+- **Beber agua de una copa sin tocarla** y dejar la boca de quien lo mira reseca (*sed-2*).
+- **Hacer arrodillar la sombra** de quien lo desafía (*sombra-arrodillada-2*).
+- **No morir en su corte.** Un golpe lo molesta; una herida se cierra mientras la mira. Mientras su corazón lata y el sello de Merit se mantenga, solo hay **tres vías** para dañarlo: el corazón, el sello y el testimonio. Cualquier otro ataque le sirve de entretenimiento.
+
+### Cómo se muestra la escala
+1. **Nunca lo describas entero.** Sus pies, su sombra sobre una escalera, la mano que se abre: el cuerpo completo no cabe en una frase.
+2. **Que todo lo grande sea de él.** Columnas, estatuas, escaleras demasiado largas. Los héroes tardan en cruzar una sala que él atravesó con un paso.
+3. **Que la gente se haga pequeña a su lado.** Los servidores bajan la cabeza *sin que él lo pida*. Los héroes notan que sus propios hombros se encogen.
+4. **Dale el don de la gracia.** Hace regalos y perdona ofensas con una sonrisa, y esa **magnanimidad** humilla más que un castigo: les demuestra que puede hacerlo porque no les teme.
+5. **Que no lleve prisa.** Tiene todas las noches del mundo. Un héroe que llega tarde descubre que lo han esperado.
+
+### Cinco demostraciones de poder
+Usa al menos tres a lo largo de la aventura. Ninguna es un ataque: son **lecciones**.
+
+| Cuándo | Qué ocurre |
+|---|---|
+| **M7 · La invitación** | Cada sobre contiene el nombre del héroe escrito con una letra que no es de ningún escriba, y una línea sobre algo que *solo él* sabe. |
+| **C2 · La cena** | Neb recita, uno a uno, lo último que cada héroe comió, bebió y calló antes de bajar. «No os asustéis. Hace mucho que aprendí a escuchar.» |
+| **C2/P4 · El Primer Gesto** | Si alguien lo ataca, lo insulta o le da la espalda, **la corte se inclina**: los servidores, los Borrados, las lámparas. La sombra del héroe se arrodilla. Neb ni se mueve. |
+| **C5 · La sed** | Las copas de la cena se vacían sin que nadie las toque. Los héroes sienten la lengua pegada al paladar. «El agua es mía. Lo era antes de que llegaseis.» |
+| **P4 · Su gracia** | Si los héroes lo derrotan en el cofre, no los mata: **los deja marchar**, y esa clemencia pesa más que una muerte. |
+
+### El miedo no se tira
+Los jugadores deciden lo que sienten sus héroes. No pidas tiradas contra su presencia. Describe qué hace Neb-Sekhem y qué nota el héroe. Si una acción choca con su poder, **explica antes lo que costaría**: el jugador elige con información. Lo que sí tiene reglas son los tres puntos débiles; son lo único a lo que debe aferrarse una mesa que se siente diminuta.
+
+## Por qué necesita a Khety
+Un lector atento se preguntará por qué un dios con ejércitos de muertos necesita a un sacerdote humano. La respuesta es una regla de la aventura:
+
+- **Los muertos de la corte solo obran con una voluntad viva que les abra la vía.** Los Borrados cargan, los servidores llevan, los Pesadores guardan; pero **nadie sin nombre puede entregar un nombre**.
+- **El sello de los sacerdotes solo lo rompe un sacerdote consagrado de Ankhtepot.** Khety lo es. Si Khety desiste, Neb necesita *otro* oficiante, y no lo tiene a mano: debe cazarlo, convencerlo o engañarlo, y eso es una aventura entera.
+- **Los muertos no cruzan Muhar sin un vivo que los lleve.** Por eso el cortejo de la procesión lo acompaña un servidor *con consentimiento de Khety*.
+
+Esa es la verdadera debilidad de Neb-Sekhem: **para salir, necesita una persona que todavía tenga nombre y lo ceda**.
+
+## El reloj de las siete lámparas
+En el altar de la corte arden siete lámparas de oro. Neb-Sekhem las ha apagado de una en una durante siglos; cuando se apague la última, el séptimo nombre quedará entregado y los dos sellos habrán caído. Úsalas como **reloj de la aventura**. Empieza con las siete encendidas al terminar la primera sesión.
+
+**Cuándo se apaga una:**
+- Termina una escena importante **sin que los héroes tomen una decisión**.
+- Se rompe la tregua de la cena (alguien toca la sangre ajena).
+- Un nombre es robado, un recibo es destruido o una vasija se rompe sin preparación.
+- Los héroes descansan o se demoran en la corte sin avanzar (una vez por escena).
+- Un testimonio de Merit es dañado por los Borrados (*el cincel*).
+
+**Cuándo se enciende una:**
+- Se libera un nombre ante su dueño.
+- Se asegura un testimonio de Merit.
+- Los héroes obtienen una promesa de Serekh por escrito.
+
+| Lámparas | Qué cambia en la corte |
+|---|---|
+| **7–5** | Hospitalidad. Neb sonríe y juega; los Borrados, quietos. |
+| **4** | Los Borrados se mueven por los pasillos. Una Plañidera gime una vez. |
+| **3** | El cincel: los Borrados atacan los testimonios de Merit. Las puertas se cierran con llave. |
+| **2** | Neb abandona la cortesía. Los Pesadores toman posiciones. |
+| **1** | La corte entera se vuelve hacia el altar. El príncipe baja. |
+| **0** | Se intenta la coronación. Resuelve **P5** con todo lo anterior. |
+
+El Libro de los Muertos (Alt+B) y el panel de hitos incluyen un **marcador de las siete lámparas** visible solo para el Narrador.
+
+## La sed de la corte
+La corte es un lugar de **sed**. Cada vez que se apaga una lámpara, todos los héroes reciben un nivel de *sed* (*sed-1*, luego *sed-2*…) **salvo que lleven agua de Muhar**: un cuenco de la calle, la jarra de Tia, un trago que Nefru les guarde. El agua que ofrece Neb es real y segura, pero **no sacia**. Con *sed-3* el héroe tiene dificultad para hablar con claridad; con *sed-4* no puede pronunciar un nombre sin ayuda.
+
+La sed es una presión que no mata: **obliga a elegir** entre beber el agua del príncipe (y aceptar su hospitalidad) o conservar la poca que se trajo.
 
 ## Merit, la negativa completa
 :::pnj Merit · esposa, eco consciente, guardiana de su propio testimonio

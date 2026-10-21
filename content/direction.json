@@ -82,7 +82,8 @@
   "section": 5,
   "music": "tumbas",
   "actors": [
-   "Sombras de chacal"
+   "Sombras de chacal",
+   "Borrados"
   ],
   "effects": [
    "viento",
@@ -93,7 +94,7 @@
  {
   "slug": "procesion",
   "chapter": "sesion1",
-  "section": 6,
+  "section": 7,
   "music": "procesion",
   "actors": [
    "Servidores sin nombre"
@@ -107,7 +108,7 @@
  {
   "slug": "pozo",
   "chapter": "sesion1",
-  "section": 7,
+  "section": 8,
   "music": "laberinto",
   "actors": [
    "Custodios de la corte"
@@ -125,7 +126,9 @@
   "music": "laberinto",
   "actors": [
    "Sombras de chacal",
-   "Servidores sin nombre"
+   "Servidores sin nombre",
+   "Borrados",
+   "Plañideras"
   ],
   "effects": [
    "pasos",
@@ -191,7 +194,9 @@
    "Tamerit",
    "Kasa",
    "Beset",
-   "Dedi"
+   "Dedi",
+   "Borrados",
+   "Pesadores"
   ],
   "effects": [
    "agua",
@@ -202,7 +207,7 @@
  {
   "slug": "sala-vasijas",
   "chapter": "sesion2",
-  "section": 11,
+  "section": 12,
   "music": "pesaje",
   "actors": [
    "Custodios de la corte",
@@ -211,7 +216,8 @@
    "Tamerit",
    "Kasa",
    "Beset",
-   "Dedi"
+   "Dedi",
+   "Pesadores"
   ],
   "effects": [
    "vasija",
@@ -230,7 +236,7 @@
  {
   "slug": "inscripcion-merit",
   "chapter": "sesion2",
-  "section": 12,
+  "section": 14,
   "music": "merit",
   "actors": [
    "Merit",
@@ -266,7 +272,8 @@
   "actors": [
    "Neb-Sekhem",
    "Merit",
-   "Khety"
+   "Khety",
+   "Pesadores"
   ],
   "effects": [
    "corazon",
@@ -301,7 +308,10 @@
   "actors": [
    "Neb-Sekhem",
    "Khety",
-   "Custodios de la corte"
+   "Custodios de la corte",
+   "Borrados",
+   "Plañideras",
+   "Pesadores"
   ],
   "effects": [
    "sello",
@@ -364,7 +374,7 @@
  {
   "slug": "map-pozo",
   "chapter": "sesion1",
-  "section": 7,
+  "section": 8,
   "music": "laberinto",
   "actors": [
    "Custodios de la corte"
@@ -397,7 +407,7 @@
  {
   "slug": "lamina-procesion",
   "chapter": "sesion1",
-  "section": 6,
+  "section": 7,
   "music": "procesion",
   "actors": [
    "Servidores sin nombre"
@@ -412,7 +422,7 @@
  {
   "slug": "lamina-nombres",
   "chapter": "sesion2",
-  "section": 11,
+  "section": 12,
   "music": "pesaje",
   "actors": [
    "Custodios de la corte",

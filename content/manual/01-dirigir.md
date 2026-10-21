@@ -27,6 +27,9 @@ La aventura se divide en tres partes, una por sesión. Cada parte se abre con un
 
 No hay un orden obligatorio dentro de cada parte. Las escenas son lugares con gente dentro, no estaciones de un recorrido: los héroes pueden visitar el taller de Tia antes del archivo, saltarse la casa de Nefru o bajar al pozo sin esperar la invitación. Cada lugar ofrece una verdad esencial y, al menos, otra ruta que lleva a la misma verdad.
 
+## Lo que cambia en esta edición
+Esta edición refuerza tres cosas. **Neb-Sekhem es un dios, no un enemigo:** el capítulo 1 explica cómo hacer que la mesa se sienta pequeña ante él. **Har’Akir se nota:** el capítulo 2 reúne los símbolos, las cinco partes del alma y las fórmulas que dan sabor egipcio. **Hay muertos y hay acción:** el capítulo 3 presenta a los Borrados, las Plañideras y los Pesadores, y cada parte incluye escenas de acción e infiltración (**A1**, **C4b**, **C5b**, **P5**, **P6**). Un **reloj de siete lámparas** da urgencia a todo ello.
+
 ## Cómo usar este libro
 Tu mesa necesita tres cosas de este libro: **lo que ocurre**, **lo que cambia** y **lo que se dice en voz alta**. El texto está organizado para encontrarlas deprisa.
 
@@ -55,6 +58,7 @@ Lee tres cosas: «El rey sin nombre», la escena del banquete (**C2**) y la Cám
 - Reparte los cinco protagonistas. Con cuatro jugadores, el héroe sobrante cuida de Tia en Muhar; no lo conviertas en portavoz de soluciones.
 - Acuerda con la mesa los vínculos amenazables y anótalos en el Libro de los Recuerdos.
 - Reserva para cada héroe una tentación, una ocasión de ayudar a otro y una pregunta de epílogo (todo ello está en las fichas y en el capítulo de epílogos).
+- Pon las **siete lámparas** del capítulo 1 en el panel (Alt+H) y decide cuándo se apaga la primera.
 - Fija los **cuatro hechos** que moverás durante la partida: dónde está la séptima vasija, quién protege a Henut, qué testimonios de Merit sobreviven y quién controla el corazón. El panel del Narrador los registra.
 - Si quieres variar la partida, haz la **Lectura de la Arena** (capítulo siguiente).
 

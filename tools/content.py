@@ -26,7 +26,7 @@ for it in items:
  if slug:it['img']=prefix+f'assets/objects/{slug}.webp'
  it.setdefault('flags',{}).setdefault(mod,{}).update({'source':mod,'slug':it['name'].lower()})
 for a in actors:
- npcslug={'Merit':'merit','Khety':'khety','Tia':'tia','Panehsy':'panehsy','Nefru':'nefru','Serekh':'serekh','Neb-Sekhem':'neb-sekhem','Hori':'hori','Paser':'paser','Tamerit':'tamerit','Kasa':'kasa','Beset':'beset','Dedi':'dedi','Henut':'henut'}.get(a['name'])
+ npcslug={'Merit':'merit','Khety':'khety','Tia':'tia','Panehsy':'panehsy','Nefru':'nefru','Serekh':'serekh','Neb-Sekhem':'neb-sekhem','Hori':'hori','Paser':'paser','Tamerit':'tamerit','Kasa':'kasa','Beset':'beset','Dedi':'dedi','Henut':'henut','Borrados':'borrado','Plañideras':'planidera','Pesadores':'pesador'}.get(a['name'])
  if npcslug:
   a['img']=prefix+f'assets/npc/{npcslug}-portrait.webp'
   a['flags'][mod]['thumbnail']=prefix+f'assets/npc/{npcslug}-thumb.webp'
