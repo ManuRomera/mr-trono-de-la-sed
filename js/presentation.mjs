@@ -26,22 +26,23 @@ export async function loadStages(){
 export function stageFor(scene){return owned(scene)?(STAGES[scene.getFlag(MOD,'slug')]??null):null;}
 export function setStages(value){STAGES=value;}
 const clamp=(n,min,max)=>Math.min(max,Math.max(min,n));
-/** Factor de tamaño de una figura cuyos pies están en footY (px de escena): far en el horizonte, 1 en primer plano. */
-export function depthFactor(stage,footY,height){
- const span=Math.max(.01,stage.front-stage.horizon),t=clamp((footY/height-stage.horizon)/span,0,1);
- return stage.far+(1-stage.far)*t;
+/** Perspectiva: la cabeza de una persona de pie queda en la línea de horizonte (eye), así que su altura en pantalla es (pies − eye) × alto.
+ *  El token mide más que la figura (margen transparente arriba y abajo); `pixels` (360 por defecto) escala todo el reparto a la vez. */
+export const VISIBLE=.885;
+export function figureSize(stage,footY,height,pixels=360,width=Infinity){
+ const base=Math.max(.02,footY/height-stage.eye)*height/VISIBLE;
+ return Math.min(900,width,height,Math.max(60,base*(pixels/360)));
 }
-/** Reparte figuras por la banda de suelo alternando profundidades; el tamaño depende de la posición de los pies. */
+export function depthFactor(stage,footY,height){return figureSize(stage,footY,height,360)/360;}
 const DEPTHS=[.8,.25,.62,.08,.5,.95,.35,.7];
 export function stageLayout(scene,count,start,pixels,stage,bounds={x:0,y:0,width:scene.width,height:scene.height}){
- const unit=scene.grid.size||100,slots=Math.max(5,start+count),anchors=stage.anchors??[];
- const x0=Math.max(bounds.x,stage.x0*scene.width),x1=Math.min(bounds.x+bounds.width,stage.x1*scene.width),step=(x1-x0)/slots;
+ const unit=scene.grid.size||100,anchors=stage.anchors??[];
  return Array.from({length:count},(_,i)=>{
-  const j=start+i,a=anchors[j];
-  // Con puntos de apoyo definidos, cada figura pisa un lugar real del fondo; si se agotan, se usa la banda de suelo.
-  const feet=a?a[1]*scene.height:(stage.horizon+DEPTHS[j%DEPTHS.length]*(stage.front-stage.horizon))*scene.height;
-  const cx=a?a[0]*scene.width:x0+(j%slots+.5)*step;
-  const size=Math.min(pixels*depthFactor(stage,feet,scene.height),bounds.width,bounds.height);
+  const j=start+i,a=anchors[j%Math.max(1,anchors.length)];
+  const jitter=Math.floor(j/Math.max(1,anchors.length))*.035; // si hay más figuras que puntos, se desplazan un poco sin salir del suelo
+  const fx=a?a[0]+jitter:.3+((j*.137)%.5),fy=a?a[1]:.9;
+  const feet=fy*scene.height,cx=fx*scene.width;
+  const size=figureSize(stage,feet,scene.height,pixels,bounds.width);
   return {x:clamp(cx-size/2,bounds.x,bounds.x+bounds.width-size),y:clamp(feet-size*(1-FOOT),bounds.y,bounds.y+bounds.height-size),width:size/unit,height:size/unit};
  });
 }
@@ -49,7 +50,7 @@ export function stageLayout(scene,count,start,pixels,stage,bounds={x:0,y:0,width
 export function depthPatch(scene,token,pixels,stage,pos={}){
  const unit=scene.grid.size||100,size0=token.width*unit,h0=token.height*unit;
  const x=pos.x??token.x,y=pos.y??token.y,cx=x+size0/2,feet=y+h0*(1-FOOT);
- const size=Math.min(pixels*depthFactor(stage,feet,scene.height),scene.width,scene.height);
+ const size=figureSize(stage,feet,scene.height,pixels,scene.width);
  return {width:size/unit,height:size/unit,x:cx-size/2,y:feet-size*(1-FOOT)};
 }
 let adjusting=false;

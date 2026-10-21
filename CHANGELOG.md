@@ -2,6 +2,7 @@
 
 ## 1.4.0 — 21 de octubre de 2026
 
+- **Escala por perspectiva real:** cada fondo declara su línea de horizonte (la cabeza de una persona de pie queda en ella) y puntos de apoyo solo sobre suelo firme; el tamaño de cada figura sale de su altura en el cuadro (más pequeña junto al trono, grande ante la mesa y las sillas) y se recalcula al arrastrarla.
 - La marca MR de los tokens pasa a ser un sello diminuto y muy discreto cosido en la ropa de cada figura (antes iba bajo los pies).
 - **Ambiente por escena:** claro, penumbra u oscuro cambian la luz de la escena y el volumen del fondo a la vez; se recuerda por escena.
 - **Hitos de la investigación:** doce descubrimientos sin spoilers que marca el Narrador; insignia y panel visibles para toda la mesa (Alt+H) con aviso en cada hito nuevo.

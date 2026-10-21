@@ -45,7 +45,7 @@ La **barra del Narrador** vive sobre el lienzo y reúne lo que necesitas durante
 
 ## 🧍 Figuras que respetan la perspectiva
 
-Cada fondo declara su **zona de suelo** y los puntos donde realmente cabe una persona. Al colocar a los protagonistas y a los PNJ, cada figura pisa un lugar real de la escena y **su tamaño depende de lo lejos que esté**: los que quedan al fondo se ven pequeños y los que están en primer plano, grandes. Si arrastras una figura hacia el fondo, se encoge; hacia el frente, crece, conservando siempre su apoyo en el suelo. Se activa o desactiva desde **Figuras → Escala por profundidad**.
+Cada fondo declara su **línea de horizonte** y los puntos donde realmente cabe una persona (solo suelo firme). Al colocar a los protagonistas y a los PNJ, cada figura pisa un lugar real de la escena y **su tamaño sale de la perspectiva del dibujo**: junto al trono se ve pequeña, ante la mesa y las sillas del banquete, a escala con ellas. Si arrastras una figura hacia el fondo, se encoge; hacia el frente, crece, conservando siempre su apoyo en el suelo. Se activa o desactiva desde **Figuras → Escala por profundidad**.
 
 | | |
 |---|---|
