@@ -1,0 +1,728 @@
+{
+  "version": "0.3.0",
+  "records": [
+    {
+      "key": "beset",
+      "name": "Beset",
+      "master": "art/masters/npc-beset.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching the supplied STYLE reference's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Create a NEW original single full-body character for Muhar in an Egyptian gothic fantasy adventure. The supplied first image is STYLE ONLY; do not copy its woman, ravens, objects, glowing eyes, outfit, meadow or logo. The second image is only a family resemblance reference, not this person's exact identity. Adult Egyptian woman about forty, sister of herbalist Nefru whose portrait is the additional family reference: recognisable resemblance but distinctly different face, a little rounder, wry determined expression. Brown skin, dark braided hair in navy headscarf, cream and muted indigo dress, red knotted bracelet, small pouch of remedies and an ordinary cup. No ceremonial crown or weapon. Entire head, both hands, legs and both feet visible inside portrait canvas with margin. TRUE transparent alpha background, no backdrop, no ground, no drop shadow or halo, no circular framing or border. Consistent ink line and gouache colour planes, no photographic skin, no 3D.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png",
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/archive/v0.2.1/masters/npc-nefru.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/beset-portrait.webp",
+          "sources": [
+            "art/masters/npc-beset.png"
+          ],
+          "source": "art/masters/npc-beset.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 73512,
+          "alpha": false,
+          "sha256": "fed91b77af0c336502ea99fb1cd7a9c1f3bae1b821d78cba41db45b9f0abd864"
+        },
+        {
+          "distributed": "assets/npc/beset-thumb.webp",
+          "sources": [
+            "art/masters/npc-beset.png"
+          ],
+          "source": "art/masters/npc-beset.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5264,
+          "alpha": false,
+          "sha256": "7cc69e1212c7bb0323b5dafd9bcd917fe3a6681eb278a5bae4d423efcd30b2e7"
+        },
+        {
+          "distributed": "assets/npc/beset-token.webp",
+          "sources": [
+            "art/masters/npc-beset.png"
+          ],
+          "source": "art/masters/npc-beset.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 449750,
+          "alpha": true,
+          "sha256": "802c11fed2e91761d050c2cbd40e3fe098f72a6d42e8a67c06c88aef01ca94f2"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "dedi",
+      "name": "Dedi",
+      "master": "art/masters/npc-dedi.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching the supplied STYLE reference's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Create a NEW original single full-body character for Muhar in an Egyptian gothic fantasy adventure. The supplied first image is STYLE ONLY; do not copy its woman, ravens, objects, glowing eyes, outfit, meadow or logo. Older Egyptian male sandal repairer about sixty-five, lean slightly stooped build, brown skin, receding grey hair and short grey beard, observant kindly but unsentimental face. Worn cream tunic and patched brown leather work apron, practical sandals, small awl secured in belt, holding a repaired leather sandal and strap. Ordinary craftsman, no weapon or armour. Entire head, both hands, legs and both feet visible inside portrait canvas with margin. TRUE transparent alpha background, no backdrop, no ground, no drop shadow or halo, no circular framing or border. Consistent ink line and gouache colour planes, no photographic skin, no 3D.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/dedi-portrait.webp",
+          "sources": [
+            "art/masters/npc-dedi.png"
+          ],
+          "source": "art/masters/npc-dedi.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 82088,
+          "alpha": false,
+          "sha256": "cb09b94a171ea7b354b68102dfd9f1bd2845cb6c6da48e74d6ea2d34c7611fd2"
+        },
+        {
+          "distributed": "assets/npc/dedi-thumb.webp",
+          "sources": [
+            "art/masters/npc-dedi.png"
+          ],
+          "source": "art/masters/npc-dedi.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5480,
+          "alpha": false,
+          "sha256": "27f1741c3596f24fa2eca1a264fd3dffa8dbafd4021a73e24bedf0423ed4f381"
+        },
+        {
+          "distributed": "assets/npc/dedi-token.webp",
+          "sources": [
+            "art/masters/npc-dedi.png"
+          ],
+          "source": "art/masters/npc-dedi.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 356480,
+          "alpha": true,
+          "sha256": "1687573a90a3e7b87f29bcd6ebfe412a1f5e8804f4b2648f270327336e32fe11"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "henut",
+      "name": "Henut",
+      "master": "art/masters/npc-henut.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching the supplied STYLE reference's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Create a NEW original single full-body character for Muhar in an Egyptian gothic fantasy adventure. The supplied first image is STYLE ONLY; do not copy its woman, ravens, objects, glowing eyes, outfit, meadow or logo. Adult Egyptian washerwoman about forty, brown skin, muscular working forearms, dark hair wrapped in faded indigo headcloth, practical cream linen dress with rolled sleeves, simple sandals. Holding a basket of folded linen against her hip, one hand free to gesture with alert self-possession. Resolute and resourceful, not cowering or injured, no chains, no armed escort. Entire head, both hands, legs and both feet visible inside portrait canvas with margin. TRUE transparent alpha background, no backdrop, no ground, no drop shadow or halo, no circular framing or border. Consistent ink line and gouache colour planes, no photographic skin, no 3D.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/henut-portrait.webp",
+          "sources": [
+            "art/masters/npc-henut.png"
+          ],
+          "source": "art/masters/npc-henut.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 79598,
+          "alpha": false,
+          "sha256": "620858fc8005b6110735e85f9598137891436efb76a1a079f46bb00e43dc098c"
+        },
+        {
+          "distributed": "assets/npc/henut-thumb.webp",
+          "sources": [
+            "art/masters/npc-henut.png"
+          ],
+          "source": "art/masters/npc-henut.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5932,
+          "alpha": false,
+          "sha256": "126e58c5e2cc8ef4427442f4121d52ff4603a4cd5d298ff7ad977c531ed0dfac"
+        },
+        {
+          "distributed": "assets/npc/henut-token.webp",
+          "sources": [
+            "art/masters/npc-henut.png"
+          ],
+          "source": "art/masters/npc-henut.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 435128,
+          "alpha": true,
+          "sha256": "7174a53acb59cf8d7468dd75fa9cb9358a29bdcd1054a9d57fcff61004fb7432"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "hori",
+      "name": "Hori",
+      "master": "art/masters/npc-hori.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching the supplied STYLE reference's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Create a NEW original single full-body character for Muhar in an Egyptian gothic fantasy adventure. The supplied first image is STYLE ONLY; do not copy its woman, ravens, objects, glowing eyes, outfit, meadow or logo. The second image is only a family resemblance reference, not this person's exact identity. Adult man in his mid-thirties, brother of the scribe Panehsy whose portrait is the additional family reference: family resemblance but a distinct face. Medium-brown skin, short curly black hair, warm slightly crooked smile, practical cream linen tunic edged blue, narrow belt, worn sandals. Holds a small piece of bread in one hand and two reed pens tucked into his belt. A neighbour and archive helper, no armour, no royal ornaments. Entire head, both hands, legs and both feet visible inside portrait canvas with margin. TRUE transparent alpha background, no backdrop, no ground, no drop shadow or halo, no circular framing or border. Consistent ink line and gouache colour planes, no photographic skin, no 3D.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png",
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/archive/v0.2.1/masters/npc-panehsy.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/hori-portrait.webp",
+          "sources": [
+            "art/masters/npc-hori.png"
+          ],
+          "source": "art/masters/npc-hori.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 75274,
+          "alpha": false,
+          "sha256": "49e833afcef0c07eadf7f3bd329c79d7b9d187de90e944f4a5c9e8666956cb37"
+        },
+        {
+          "distributed": "assets/npc/hori-thumb.webp",
+          "sources": [
+            "art/masters/npc-hori.png"
+          ],
+          "source": "art/masters/npc-hori.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5140,
+          "alpha": false,
+          "sha256": "593ae10da7b65667be89f3fcd5fa65fcc4b99b91fab277e982f70a5ab1c755f9"
+        },
+        {
+          "distributed": "assets/npc/hori-token.webp",
+          "sources": [
+            "art/masters/npc-hori.png"
+          ],
+          "source": "art/masters/npc-hori.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 348916,
+          "alpha": true,
+          "sha256": "fd52ac62dfc33e079aa797993de7e0b5ef01d88e9c0f5cef97dabda8401c3292"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "kasa",
+      "name": "Kasa",
+      "master": "art/masters/npc-kasa.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching the supplied STYLE reference's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Create a NEW original single full-body character for Muhar in an Egyptian gothic fantasy adventure. The supplied first image is STYLE ONLY; do not copy its woman, ravens, objects, glowing eyes, outfit, meadow or logo. Adult Egyptian male warehouse porter about forty, broad stocky powerful build, dark brown skin, short black hair, tired but resolute expressive face. Plain linen working tunic and wrapped kilt, leather belt, practical sandals. A coil of carrying rope repaired with distinctive blue thread over one shoulder; one open hand offering support. Ordinary worker, no armour, no royal jewellery. Entire head, both hands, legs and both feet visible inside portrait canvas with margin. TRUE transparent alpha background, no backdrop, no ground, no drop shadow or halo, no circular framing or border. Consistent ink line and gouache colour planes, no photographic skin, no 3D.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/kasa-portrait.webp",
+          "sources": [
+            "art/masters/npc-kasa.png"
+          ],
+          "source": "art/masters/npc-kasa.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 75582,
+          "alpha": false,
+          "sha256": "658683c95e2e3a28d67e55117eabf6f47d8abda7df579ce3fe136dec1a1d3585"
+        },
+        {
+          "distributed": "assets/npc/kasa-thumb.webp",
+          "sources": [
+            "art/masters/npc-kasa.png"
+          ],
+          "source": "art/masters/npc-kasa.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5526,
+          "alpha": false,
+          "sha256": "bfc7a71e3eef388ee434e8be370c214b75122fe6fa1387ed69133c01a9bcd37d"
+        },
+        {
+          "distributed": "assets/npc/kasa-token.webp",
+          "sources": [
+            "art/masters/npc-kasa.png"
+          ],
+          "source": "art/masters/npc-kasa.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 392812,
+          "alpha": true,
+          "sha256": "98f019439766acc26e2a7d16bc6ad9d94065741960bfe4449fa7223e9cb551ae"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "khety",
+      "name": "Khety",
+      "master": "art/masters/npc-khety.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching reference image 2's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Image 1 is the CONTENT/IDENTITY reference, image 2 is STYLE ONLY: do not import its woman, birds, flowers, glowing eyes or outfit into the subject. FULL-BODY CHARACTER CUTOUT for a virtual tabletop token: entire head, crown or hair, both hands, all equipment, both legs and both feet entirely inside canvas with 6% margin; strong natural standing pose. One character only. ACTUAL TRANSPARENT ALPHA BACKGROUND, no backdrop of any colour, no ground, no scene, no oval/circle, no border, no drop shadow, no halo, no vignette, no shadow glow or smoky base. Crisp clean silhouette edges. Retain age, gender, skin tone, face, hairstyle, costume, props and personality of image 1. Draw all anatomy, hands, face and costume anew in this graphic style. Portrait format, maximum available resolution. The content reference is a bust: extend the SAME person coherently into a full-length illustration, not a face crop. Same grieving middle-aged bald priest, short salt-and-pepper beard, cream linen with red borders and scarab medallion; full long robe and sandals, hands clutching a small folded linen cloth. Do not add a child.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/archive/v0.2.1/masters/npc-khety.png",
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/khety-portrait.webp",
+          "sources": [
+            "art/masters/npc-khety.png"
+          ],
+          "source": "art/masters/npc-khety.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 80686,
+          "alpha": false,
+          "sha256": "2c100a62772f5306cb98fe811910112f5ff09e8de0688d669095730cfc3c32c7"
+        },
+        {
+          "distributed": "assets/npc/khety-thumb.webp",
+          "sources": [
+            "art/masters/npc-khety.png"
+          ],
+          "source": "art/masters/npc-khety.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5606,
+          "alpha": false,
+          "sha256": "f96cc18d5020d3227865a8bbf22475546a0ba4b5c46ae7bb123c56d3b810085f"
+        },
+        {
+          "distributed": "assets/npc/khety-token.webp",
+          "sources": [
+            "art/masters/npc-khety.png"
+          ],
+          "source": "art/masters/npc-khety.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 431134,
+          "alpha": true,
+          "sha256": "8f65f0a21dbf63369bc807b49f8ceadcb83cdc5c4168a76d3c9822367224ae77"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "merit",
+      "name": "Merit",
+      "master": "art/masters/npc-merit.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching reference image 2's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Image 1 is the CONTENT/IDENTITY reference, image 2 is STYLE ONLY: do not import its woman, birds, flowers, glowing eyes or outfit into the subject. FULL-BODY CHARACTER CUTOUT for a virtual tabletop token: entire head, crown or hair, both hands, all equipment, both legs and both feet entirely inside canvas with 6% margin; strong natural standing pose. One character only. ACTUAL TRANSPARENT ALPHA BACKGROUND, no backdrop of any colour, no ground, no scene, no oval/circle, no border, no drop shadow, no halo, no vignette, no shadow glow or smoky base. Crisp clean silhouette edges. Retain age, gender, skin tone, face, hairstyle, costume, props and personality of image 1. Draw all anatomy, hands, face and costume anew in this graphic style. Portrait format, maximum available resolution. The content reference is a bust: extend the SAME person coherently into a full-length illustration, not a face crop. Same poised adult woman with her cream veil and broad gold collar. Extend her cream ceremonial linen into a complete modest flowing dress with sandals. Keep her calm open-palm gesture and her own dignity; she is not a seductive vampire.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/archive/v0.2.1/masters/npc-merit.png",
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/merit-portrait.webp",
+          "sources": [
+            "art/masters/npc-merit.png"
+          ],
+          "source": "art/masters/npc-merit.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 87332,
+          "alpha": false,
+          "sha256": "0fca9fdd7bcf5c2a19d2e614f7f72ffbe4cdad40b6078f7ac692f9c481324c06"
+        },
+        {
+          "distributed": "assets/npc/merit-thumb.webp",
+          "sources": [
+            "art/masters/npc-merit.png"
+          ],
+          "source": "art/masters/npc-merit.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5966,
+          "alpha": false,
+          "sha256": "3779d3279300e94707bbae9493c51eee496679ff8a92d779249d003a710980d0"
+        },
+        {
+          "distributed": "assets/npc/merit-token.webp",
+          "sources": [
+            "art/masters/npc-merit.png"
+          ],
+          "source": "art/masters/npc-merit.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 571440,
+          "alpha": true,
+          "sha256": "4be235177bf51da7a7dea231e470149c1e3daa087a08a91ff5e8afa898304cc3"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "neb-sekhem",
+      "name": "Neb-Sekhem",
+      "master": "art/masters/npc-neb-sekhem.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching reference image 2's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Image 1 is the CONTENT/IDENTITY reference, image 2 is STYLE ONLY: do not import its woman, birds, flowers, glowing eyes or outfit into the subject. FULL-BODY CHARACTER CUTOUT for a virtual tabletop token: entire head, crown or hair, both hands, all equipment, both legs and both feet entirely inside canvas with 6% margin; strong natural standing pose. One character only. ACTUAL TRANSPARENT ALPHA BACKGROUND, no backdrop of any colour, no ground, no scene, no oval/circle, no border, no drop shadow, no halo, no vignette, no shadow glow or smoky base. Crisp clean silhouette edges. Retain age, gender, skin tone, face, hairstyle, costume, props and personality of image 1. Draw all anatomy, hands, face and costume anew in this graphic style. Portrait format, maximum available resolution. Identity is the adult pale long-black-haired Egyptian vampire ruler of image 1: angular aristocratic face, red eyes, gold-and-black nemes with cobra crown, cream ceremonial linen, ornate gold collar and belt with crimson gems, long crimson cloak, same open-palm invitation and gold scarab sceptre. Extend his robe to its hem and show his dark ceremonial sandals; remove ALL temple, jackals, skeletons, moon, torches and mist. Keep the same recognisable face, crown, clothes and presence.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/neb-sekhem-original.png",
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/neb-sekhem-portrait.webp",
+          "sources": [
+            "art/masters/npc-neb-sekhem.png"
+          ],
+          "source": "art/masters/npc-neb-sekhem.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 75616,
+          "alpha": false,
+          "sha256": "1485ff13989777c7172b0ca2d3f9dc3a5eac6795bc8bdaabca1cd36bcdda7e3c"
+        },
+        {
+          "distributed": "assets/npc/neb-sekhem-thumb.webp",
+          "sources": [
+            "art/masters/npc-neb-sekhem.png"
+          ],
+          "source": "art/masters/npc-neb-sekhem.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5560,
+          "alpha": false,
+          "sha256": "3e3344544889f58cf3ecd23237fc5880f4035377ef2ae5940631cdf5e6370083"
+        },
+        {
+          "distributed": "assets/npc/neb-sekhem-token.webp",
+          "sources": [
+            "art/masters/npc-neb-sekhem.png"
+          ],
+          "source": "art/masters/npc-neb-sekhem.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 576062,
+          "alpha": true,
+          "sha256": "3efdbe286a92f3b68cd13f1a735f91a1f71413e603f2abe9fefce09308167eee"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "nefru",
+      "name": "Nefru",
+      "master": "art/masters/npc-nefru.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching reference image 2's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Image 1 is the CONTENT/IDENTITY reference, image 2 is STYLE ONLY: do not import its woman, birds, flowers, glowing eyes or outfit into the subject. FULL-BODY CHARACTER CUTOUT for a virtual tabletop token: entire head, crown or hair, both hands, all equipment, both legs and both feet entirely inside canvas with 6% margin; strong natural standing pose. One character only. ACTUAL TRANSPARENT ALPHA BACKGROUND, no backdrop of any colour, no ground, no scene, no oval/circle, no border, no drop shadow, no halo, no vignette, no shadow glow or smoky base. Crisp clean silhouette edges. Retain age, gender, skin tone, face, hairstyle, costume, props and personality of image 1. Draw all anatomy, hands, face and costume anew in this graphic style. Portrait format, maximum available resolution. The content reference is a bust: extend the SAME person coherently into a full-length illustration, not a face crop. Same adult woman, dark braided hair beneath navy headscarf, cream and blue dress, a bowl of herbs and linen rolls; extend to practical full dress and sandals. Keep her concerned, discerning face.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/archive/v0.2.1/masters/npc-nefru.png",
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/nefru-portrait.webp",
+          "sources": [
+            "art/masters/npc-nefru.png"
+          ],
+          "source": "art/masters/npc-nefru.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 76492,
+          "alpha": false,
+          "sha256": "101d8c913bd8c74e84d609012527efecf60c329b5dc31b71df9128edbbc7dca1"
+        },
+        {
+          "distributed": "assets/npc/nefru-thumb.webp",
+          "sources": [
+            "art/masters/npc-nefru.png"
+          ],
+          "source": "art/masters/npc-nefru.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5594,
+          "alpha": false,
+          "sha256": "614e442fe12ad70ac0e79e5f6dcf75506a0de3658e149f657676d607af73de52"
+        },
+        {
+          "distributed": "assets/npc/nefru-token.webp",
+          "sources": [
+            "art/masters/npc-nefru.png"
+          ],
+          "source": "art/masters/npc-nefru.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 493890,
+          "alpha": true,
+          "sha256": "581e4ca78f2f041d86528c1a563e7ae00355953c13b753e4c5a9c8d02d6f7700"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "panehsy",
+      "name": "Panehsy",
+      "master": "art/masters/npc-panehsy.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching reference image 2's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Image 1 is the CONTENT/IDENTITY reference, image 2 is STYLE ONLY: do not import its woman, birds, flowers, glowing eyes or outfit into the subject. FULL-BODY CHARACTER CUTOUT for a virtual tabletop token: entire head, crown or hair, both hands, all equipment, both legs and both feet entirely inside canvas with 6% margin; strong natural standing pose. One character only. ACTUAL TRANSPARENT ALPHA BACKGROUND, no backdrop of any colour, no ground, no scene, no oval/circle, no border, no drop shadow, no halo, no vignette, no shadow glow or smoky base. Crisp clean silhouette edges. Retain age, gender, skin tone, face, hairstyle, costume, props and personality of image 1. Draw all anatomy, hands, face and costume anew in this graphic style. Portrait format, maximum available resolution. The content reference is a bust: extend the SAME person coherently into a full-length illustration, not a face crop. Same young adult male scribe, short curly black hair, anxious face, cream linen with blue border and thin red neck tie, holding reed pen and writing tablet; extend tunic to below knees and sandals.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/archive/v0.2.1/masters/npc-panehsy.png",
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/panehsy-portrait.webp",
+          "sources": [
+            "art/masters/npc-panehsy.png"
+          ],
+          "source": "art/masters/npc-panehsy.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 74572,
+          "alpha": false,
+          "sha256": "396ed3fa5b6265bc1bf5bce4be65da93382d28d544cba8d462ad26dd6f4798aa"
+        },
+        {
+          "distributed": "assets/npc/panehsy-thumb.webp",
+          "sources": [
+            "art/masters/npc-panehsy.png"
+          ],
+          "source": "art/masters/npc-panehsy.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5328,
+          "alpha": false,
+          "sha256": "f342872612ce31887ad46e6144e470abd29cbf6d401fe065a0443e8fb71d7504"
+        },
+        {
+          "distributed": "assets/npc/panehsy-token.webp",
+          "sources": [
+            "art/masters/npc-panehsy.png"
+          ],
+          "source": "art/masters/npc-panehsy.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 353450,
+          "alpha": true,
+          "sha256": "abd67dd42da5cd895f8bd870d1ef6f131ab9de2dffb075dc1a263baab188653b"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "paser",
+      "name": "Paser",
+      "master": "art/masters/npc-paser.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching the supplied STYLE reference's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Create a NEW original single full-body character for Muhar in an Egyptian gothic fantasy adventure. The supplied first image is STYLE ONLY; do not copy its woman, ravens, objects, glowing eyes, outfit, meadow or logo. Middle-aged Egyptian male potter about fifty, sturdy build, dark brown skin, close-cropped greying hair and short stubble, broad expressive face, strong hands stained with clay. Simple cream linen, dusty ochre work apron, worn sandals, holding one ordinary slightly crooked clay jug with tenderness. No ceremonial canopic jar, no headress, no weapon. Entire head, both hands, legs and both feet visible inside portrait canvas with margin. TRUE transparent alpha background, no backdrop, no ground, no drop shadow or halo, no circular framing or border. Consistent ink line and gouache colour planes, no photographic skin, no 3D.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/paser-portrait.webp",
+          "sources": [
+            "art/masters/npc-paser.png"
+          ],
+          "source": "art/masters/npc-paser.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 74820,
+          "alpha": false,
+          "sha256": "010300986574222b90d45ef8aa6fa8fac895a1d45e341e7e51538b1be8dba4c2"
+        },
+        {
+          "distributed": "assets/npc/paser-thumb.webp",
+          "sources": [
+            "art/masters/npc-paser.png"
+          ],
+          "source": "art/masters/npc-paser.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5164,
+          "alpha": false,
+          "sha256": "a5a7ffcf1d408f749d626923d5a63ba5a99e77b1438be054294b472aeb348a45"
+        },
+        {
+          "distributed": "assets/npc/paser-token.webp",
+          "sources": [
+            "art/masters/npc-paser.png"
+          ],
+          "source": "art/masters/npc-paser.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 395294,
+          "alpha": true,
+          "sha256": "4597b4f405895406ad753c537867730b456c9989377fb48b21b5fb7f96530b59"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "serekh",
+      "name": "Serekh",
+      "master": "art/masters/npc-serekh.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching reference image 2's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Image 1 is the CONTENT/IDENTITY reference, image 2 is STYLE ONLY: do not import its woman, birds, flowers, glowing eyes or outfit into the subject. FULL-BODY CHARACTER CUTOUT for a virtual tabletop token: entire head, crown or hair, both hands, all equipment, both legs and both feet entirely inside canvas with 6% margin; strong natural standing pose. One character only. ACTUAL TRANSPARENT ALPHA BACKGROUND, no backdrop of any colour, no ground, no scene, no oval/circle, no border, no drop shadow, no halo, no vignette, no shadow glow or smoky base. Crisp clean silhouette edges. Retain age, gender, skin tone, face, hairstyle, costume, props and personality of image 1. Draw all anatomy, hands, face and costume anew in this graphic style. Portrait format, maximum available resolution. The content reference is a bust: extend the SAME person coherently into a full-length illustration, not a face crop. Same adult bald clean-shaven male religious inspector, severe reserved face, dark indigo robes, gold broad collar, red sash, holding the rolled document, full long robe and sandals. No sword or new weapon.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/archive/v0.2.1/masters/npc-serekh.png",
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/serekh-portrait.webp",
+          "sources": [
+            "art/masters/npc-serekh.png"
+          ],
+          "source": "art/masters/npc-serekh.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 63564,
+          "alpha": false,
+          "sha256": "05fb36092d7dab4ac8cd1c4fe03f2774e8d27c7ae60dcb6421be4b7ae30042ea"
+        },
+        {
+          "distributed": "assets/npc/serekh-thumb.webp",
+          "sources": [
+            "art/masters/npc-serekh.png"
+          ],
+          "source": "art/masters/npc-serekh.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 4692,
+          "alpha": false,
+          "sha256": "9610a6485cc0335c5d093917360f50c821506df8df39b840e0af2759290b5b01"
+        },
+        {
+          "distributed": "assets/npc/serekh-token.webp",
+          "sources": [
+            "art/masters/npc-serekh.png"
+          ],
+          "source": "art/masters/npc-serekh.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 419352,
+          "alpha": true,
+          "sha256": "fa71e2741857d199422ea1f5b4f5f40d458b6fd0e781dc7e55bb0fb891e110e0"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "tamerit",
+      "name": "Tamerit",
+      "master": "art/masters/npc-tamerit.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching the supplied STYLE reference's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Create a NEW original single full-body character for Muhar in an Egyptian gothic fantasy adventure. The supplied first image is STYLE ONLY; do not copy its woman, ravens, objects, glowing eyes, outfit, meadow or logo. Older Egyptian midwife and caregiver about sixty, brown skin, deep purposeful face wrinkles, grey hair braided beneath a modest dark-blue scarf. Plain cream ankle-length linen dress, small medicinal herb pouch, strip of linen knotted three times held in one hand. Sturdy sandals and sensible stance with slightly stiff knees, compassionate but firm presence. No baby or patient, no weapon. Entire head, both hands, legs and both feet visible inside portrait canvas with margin. TRUE transparent alpha background, no backdrop, no ground, no drop shadow or halo, no circular framing or border. Consistent ink line and gouache colour planes, no photographic skin, no 3D.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/tamerit-portrait.webp",
+          "sources": [
+            "art/masters/npc-tamerit.png"
+          ],
+          "source": "art/masters/npc-tamerit.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 72358,
+          "alpha": false,
+          "sha256": "3712c448bccbf73b97f39b6c9d98c32b6e1eb47393e6ad11abcfb3c19a87fb3d"
+        },
+        {
+          "distributed": "assets/npc/tamerit-thumb.webp",
+          "sources": [
+            "art/masters/npc-tamerit.png"
+          ],
+          "source": "art/masters/npc-tamerit.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5236,
+          "alpha": false,
+          "sha256": "9dd43f540b0714565032601a4f17c6922f33acd4441820b5074782e558729797"
+        },
+        {
+          "distributed": "assets/npc/tamerit-token.webp",
+          "sources": [
+            "art/masters/npc-tamerit.png"
+          ],
+          "source": "art/masters/npc-tamerit.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 468634,
+          "alpha": true,
+          "sha256": "de4c2e08e7bb9b4075f2d4491d7e910aedf6f0784f7927819a4c3769907112c7"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    },
+    {
+      "key": "tia",
+      "name": "Tia",
+      "master": "art/masters/npc-tia.png",
+      "prompt": "REBUILD the artwork from scratch as expressive hand-drawn European narrative fantasy editorial 2D illustration, matching reference image 2's drawing language. Clearly visible organic dark ink outlines with varied line weight; stylised believable anatomy and expressive simplified facial planes; bold constructed shadows and flat-to-painterly colour shapes; restrained handmade gouache/acrylic brush texture. NOT realistic oil portraiture, NOT photographic, NOT smooth 3D or game render. Strong readable silhouette and intentional linework, like the newly defined illustrated storybook collection. Rich midnight blues, alabaster linen, aged gold, muted crimson when already present; preserve each character's original palette and identity. No copied logo or lettering. Image 1 is the CONTENT/IDENTITY reference, image 2 is STYLE ONLY: do not import its woman, birds, flowers, glowing eyes or outfit into the subject. FULL-BODY CHARACTER CUTOUT for a virtual tabletop token: entire head, crown or hair, both hands, all equipment, both legs and both feet entirely inside canvas with 6% margin; strong natural standing pose. One character only. ACTUAL TRANSPARENT ALPHA BACKGROUND, no backdrop of any colour, no ground, no scene, no oval/circle, no border, no drop shadow, no halo, no vignette, no shadow glow or smoky base. Crisp clean silhouette edges. Retain age, gender, skin tone, face, hairstyle, costume, props and personality of image 1. Draw all anatomy, hands, face and costume anew in this graphic style. Portrait format, maximum available resolution. The content reference is a bust: extend the SAME person coherently into a full-length illustration, not a face crop. Same elderly embalmer woman, white hair in a practical bun, wrinkled face, dark blue dress and pale work apron, holding a strip of linen; extend to sturdy sandals, keep her age and practical posture.",
+      "references": [
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/archive/v0.2.1/masters/npc-tia.png",
+        "/Users/mromera/.codex/.chatgpt-projects/g-p-67b9a44d8ea88191bb17f5cb90d9a04f/mr-trono-de-la-sed/art/v3/references/style-cuervos.png"
+      ],
+      "variants": [
+        {
+          "distributed": "assets/npc/tia-portrait.webp",
+          "sources": [
+            "art/masters/npc-tia.png"
+          ],
+          "source": "art/masters/npc-tia.png",
+          "use": "Retrato compacto",
+          "width": 512,
+          "height": 512,
+          "bytes": 73356,
+          "alpha": false,
+          "sha256": "dea53bb9b4d05e245bb9ea35059c1c877ff2e9d713356ad057255784919fc8e9"
+        },
+        {
+          "distributed": "assets/npc/tia-thumb.webp",
+          "sources": [
+            "art/masters/npc-tia.png"
+          ],
+          "source": "art/masters/npc-tia.png",
+          "use": "Miniatura",
+          "width": 110,
+          "height": 110,
+          "bytes": 5048,
+          "alpha": false,
+          "sha256": "609c5b8819a662612e9e5e96ba83ac5addc98b097c056c9280253a0525ed1698"
+        },
+        {
+          "distributed": "assets/npc/tia-token.webp",
+          "sources": [
+            "art/masters/npc-tia.png"
+          ],
+          "source": "art/masters/npc-tia.png",
+          "use": "Token: cuerpo entero sin fondo ni marco",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 411048,
+          "alpha": true,
+          "sha256": "75662fcbe7eb9c8f0613d2dea4cb9b6211348eb0f36a8ad44585042b01abfc4c"
+        }
+      ],
+      "review": "Cuerpo completo y transparencia revisados en colección; encuadre compacto independiente."
+    }
+  ]
+}

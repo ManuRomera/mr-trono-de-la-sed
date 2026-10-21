@@ -2,7 +2,7 @@
   "id": "mr-trono-de-la-sed",
   "title": "MR · El Trono de la Sed — La Corte del Rey sin Nombre",
   "description": "Aventura de horror gótico para Legend in the Mist en Har’Akir. 29 fondos panorámicos sin personajes, figuras configurables, lecturas ampliadas, música instrumental y barra del Narrador.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "authors": [
     {
       "name": "Manu Romera",
@@ -58,7 +58,7 @@
   ],
   "url": "https://github.com/ManuRomera/mr-trono-de-la-sed",
   "manifest": "https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/module.json",
-  "download": "https://github.com/ManuRomera/mr-trono-de-la-sed/releases/download/v1.3.0/mr-trono-de-la-sed.zip",
+  "download": "https://github.com/ManuRomera/mr-trono-de-la-sed/releases/download/v1.4.0/mr-trono-de-la-sed.zip",
   "bugs": "https://github.com/ManuRomera/mr-trono-de-la-sed/issues",
   "readme": "https://github.com/ManuRomera/mr-trono-de-la-sed#readme",
   "changelog": "https://github.com/ManuRomera/mr-trono-de-la-sed/blob/main/CHANGELOG.md",

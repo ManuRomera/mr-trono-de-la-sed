@@ -7,6 +7,7 @@ import {registerPresentation} from './presentation.mjs';
 import {upgradeArtwork} from './art-upgrade.mjs';
 import {upgradeEditorial} from './editorial-upgrade.mjs';
 import {upgradeDirection} from './direction-upgrade.mjs';
+import {registerHitos,setupHitos} from './hitos.mjs';
 import {registerDirector,setupDirector,openSceneGuide,dispatchDirector} from './director.mjs';
 
 const PACK = `${MOD}.aventura`;
@@ -335,6 +336,7 @@ class BookBase extends ApplicationV2 {
     if (action === 'import') return importAdventure();
     if (action === 'tutorialGM') return startTutorial('narrator');
     if (action === 'tutorialPlayer') return startTutorial('players');
+    if (action === 'tutorialScene') return startTutorial('escena');
     if (action === 'discard') { this.dirty = false; this.message = t('ChangesDiscarded'); return this.render({force: true}); }
   }
   documentList(collection, list = docs(collection)) {
@@ -437,7 +439,7 @@ class TronoTour extends foundry.nue.Tour {
     this.originalSelectors = new Map(config.steps.map(step => [step.id, step.selector]));
   }
   async start() {
-    const book = this.id === 'narrator' ? gmBook : memoryBook;
+    const book = this.id === 'narrator' ? gmBook : this.id === 'players' ? memoryBook : null;
     if (book?.dirty) return ui.notifications.warn(t('SaveBeforeNavigation'));
     return super.start();
   }
@@ -445,6 +447,13 @@ class TronoTour extends foundry.nue.Tour {
     await super._preStep();
     const step = this.currentStep;
     if (!step) return;
+    if (this.id === 'escena') {
+      for (const d of document.querySelectorAll('#mr-trono-director details')) d.open = d.contains(document.querySelector(this.originalSelectors.get(step.id) ?? '#none'));
+      document.getElementById('mr-trono-hitos-panel')?.setAttribute('hidden','');
+      const sel = this.originalSelectors.get(step.id);
+      step.selector = sel && document.querySelector(sel) ? sel : '';
+      return;
+    }
     if (this.id === 'narrator') {
       if (!game.user.isGM) throw new Error(t('GMOnly'));
       gmBook ??= new BookGM();
@@ -464,7 +473,7 @@ class TronoTour extends foundry.nue.Tour {
 }
 
 async function registerTours() {
-  for (const id of ['narrator','players']) {
+  for (const id of ['narrator','players','escena']) {
     if (game.tours.has(`${MOD}.${id}`)) continue;
     const tour = await TronoTour.fromJSON(`modules/${MOD}/tours/${id}.json`);
     game.tours.register(MOD, id, tour);
@@ -472,9 +481,9 @@ async function registerTours() {
 }
 
 export async function startTutorial(id = game.user.isGM ? 'narrator' : 'players') {
-  if (!['narrator','players'].includes(id)) return;
-  if (id === 'narrator' && !game.user.isGM) return ui.notifications.warn(t('GMOnly'));
-  const book = id === 'narrator' ? gmBook : memoryBook;
+  if (!['narrator','players','escena'].includes(id)) return;
+  if (['narrator','escena'].includes(id) && !game.user.isGM) return ui.notifications.warn(t('GMOnly'));
+  const book = id === 'narrator' ? gmBook : id === 'players' ? memoryBook : null;
   if (book?.dirty) return ui.notifications.warn(t('SaveBeforeNavigation'));
   try {
     await registerTours();
@@ -483,7 +492,7 @@ export async function startTutorial(id = game.user.isGM ? 'narrator' : 'players'
     const tour = game.tours.get(`${MOD}.${id}`);
     await tour.reset();
     // Opening the correct book precedes the native Tour, even when started via API.
-    if (id === 'narrator') await openGMBook(); else await openMemories();
+    if (id === 'narrator') await openGMBook(); else if (id === 'players') await openMemories();
     return tour.start();
   } catch (error) { console.error(`${MOD} | tutorial`, error); ui.notifications.error(error.message); }
 }
@@ -491,7 +500,7 @@ export async function startTutorial(id = game.user.isGM ? 'narrator' : 'players'
 class TutorialMenu extends BookBase {
   static DEFAULT_OPTIONS = {id:'mr-trono-tutorials',position:{width:560,height:350},window:{title:'MRTRONO.Tutorials'}};
   async content() {
-    return this.header(t('Tutorials'), t('TutorialsHelp')) + `<section class="mr-paper"><div class="mr-actions">${game.user.isGM ? button('tutorialGM',t('NarratorTutorial')) : ''}${button('tutorialPlayer',t('PlayerTutorial'))}</div></section>`;
+    return this.header(t('Tutorials'), t('TutorialsHelp')) + `<section class="mr-paper"><div class="mr-actions">${game.user.isGM ? button('tutorialGM',t('NarratorTutorial')) + button('tutorialScene',t('SceneTutorial')) : ''}${button('tutorialPlayer',t('PlayerTutorial'))}</div></section>`;
   }
 }
 
@@ -544,7 +553,7 @@ Hooks.once('ready', async () => {
     try {await upgradeDirection();await upgradeEditorial();}
     catch(error){console.error(`${MOD} | editorial upgrade`,error);ui.notifications.warn(t('EditorialUpgradeFailed'));}
   }
-  setupDirector();
+  setupDirector();setupHitos();
   try { await registerTours(); } catch (error) { console.error(`${MOD} | register tours`, error); ui.notifications.warn(t('ToursUnavailable')); }
   // Offer only once and only to the active GM. Existing worlds use the manual menu.
   const offer = activeNarrator() && !game.settings.get(MOD, 'offered') && !game.settings.get(MOD, 'imported') && emptyWorld();
@@ -554,4 +563,4 @@ Hooks.once('ready', async () => {
   } else if (game.user.isGM && game.settings.get(MOD,'imported')) await ensureRegistry();
 });
 
-Hooks.once('init',()=>{registerPresentation();registerDirector();});
+Hooks.once('init',()=>{registerPresentation();registerDirector();registerHitos();});

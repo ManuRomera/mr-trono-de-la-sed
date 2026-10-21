@@ -1,0 +1,222 @@
+[
+  {
+    "file": "assets/characters/iru-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7354183197021484,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/characters/khaem-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7167530059814453,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/characters/neset-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7641000747680664,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/characters/seneb-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7719755172729492,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/characters/zahra-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7618589401245117,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/beset-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7738637924194336,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/dedi-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.8141641616821289,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/henut-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.771824836730957,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/hori-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.8246498107910156,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/kasa-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7866878509521484,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/khety-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7721691131591797,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/merit-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7139348983764648,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/neb-sekhem-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.6621742248535156,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/nefru-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7404861450195312,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/panehsy-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.8155460357666016,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/paser-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7948694229125977,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/serekh-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7567110061645508,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/tamerit-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7497177124023438,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/npc/tia-token.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7861547470092773,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/objects/custodio.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7061281204223633,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/objects/servidor.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7564115524291992,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  },
+  {
+    "file": "assets/objects/sombra-chacal.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "transparent_fraction": 0.7086324691772461,
+    "max_edge_alpha": 0,
+    "nonempty": true
+  }
+]

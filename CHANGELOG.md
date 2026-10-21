@@ -1,5 +1,15 @@
 # Cambios
 
+## 1.4.0 — 21 de octubre de 2026
+
+- La marca MR de los tokens pasa a ser un sello diminuto y muy discreto cosido en la ropa de cada figura (antes iba bajo los pies).
+- **Ambiente por escena:** claro, penumbra u oscuro cambian la luz de la escena y el volumen del fondo a la vez; se recuerda por escena.
+- **Hitos de la investigación:** doce descubrimientos sin spoilers que marca el Narrador; insignia y panel visibles para toda la mesa (Alt+H) con aviso en cada hito nuevo.
+- **Tutoriales:** nuevo recorrido de dirección de escena (barra arrastrable, figuras, escala por profundidad, ambiente y hitos) y paso de hitos en el de jugadores.
+- Las 22 presentaciones de personajes y criaturas, revisadas y ampliadas, con el mismo texto en fichas, diarios y manual.
+- **Tarjetas de PNJ** recortables (PDF aparte) y **edición de imprenta** del manual con 3 mm de sangrado.
+- README con GIF de recorrido y capturas nuevas.
+
 ## 1.3.0 — 21 de octubre de 2026
 
 - **Figuras con profundidad.** Cada fondo declara su zona de suelo y puntos de apoyo reales (`content/stage.json`). Al colocar protagonistas y PNJ, cada figura pisa un lugar de la escena y su tamaño depende de la distancia; al arrastrarla hacia el fondo se encoge y hacia el frente crece, conservando el apoyo. Opción «Escala por profundidad» en el menú Figuras.

@@ -1,0 +1,92 @@
+[
+  {
+    "source": "art/masters/vasija-paser.png",
+    "distributed": "assets/objects/vasija-paser.webp",
+    "use": "vasija-paser",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 201438
+  },
+  {
+    "source": "art/masters/vasija-tamerit.png",
+    "distributed": "assets/objects/vasija-tamerit.webp",
+    "use": "vasija-tamerit",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 166320
+  },
+  {
+    "source": "art/masters/vasija-kasa.png",
+    "distributed": "assets/objects/vasija-kasa.webp",
+    "use": "vasija-kasa",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 183176
+  },
+  {
+    "source": "art/masters/vasija-beset.png",
+    "distributed": "assets/objects/vasija-beset.webp",
+    "use": "vasija-beset",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 185090
+  },
+  {
+    "source": "art/masters/vasija-dedi.png",
+    "distributed": "assets/objects/vasija-dedi.webp",
+    "use": "vasija-dedi",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 167312
+  },
+  {
+    "source": "art/masters/vasija-septima.png",
+    "distributed": "assets/objects/vasija-septima.webp",
+    "use": "vasija-septima",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 243322
+  },
+  {
+    "source": "art/masters/sombra-chacal.png",
+    "distributed": "assets/objects/sombra-chacal.webp",
+    "use": "sombra-chacal",
+    "width": 512,
+    "height": 341,
+    "format": "webp",
+    "bytes": 198050
+  },
+  {
+    "source": "art/masters/custodio.png",
+    "distributed": "assets/objects/custodio.webp",
+    "use": "custodio",
+    "width": 341,
+    "height": 512,
+    "format": "webp",
+    "bytes": 191116
+  },
+  {
+    "source": "art/masters/arpa.png",
+    "distributed": "assets/objects/arpa.webp",
+    "use": "arpa",
+    "width": 488,
+    "height": 512,
+    "format": "webp",
+    "bytes": 218632
+  },
+  {
+    "source": "art/masters/invitacion.png",
+    "distributed": "assets/objects/invitacion.webp",
+    "use": "invitacion",
+    "width": 512,
+    "height": 427,
+    "format": "webp",
+    "bytes": 235640
+  }
+]

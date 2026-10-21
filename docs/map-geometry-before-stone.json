@@ -1,0 +1,708 @@
+[
+  {
+    "_id": "91bc934ef28ef427",
+    "name": "La Corte · Plano de orientación",
+    "width": 2300,
+    "height": 1700,
+    "padding": 0.1,
+    "grid": {
+      "type": 0,
+      "size": 100,
+      "distance": 1,
+      "units": "pasos"
+    },
+    "background": {
+      "src": "modules/mr-trono-de-la-sed/assets/maps/corte.svg"
+    },
+    "walls": [
+      {
+        "_id": "ff0725ac766515aa",
+        "c": [
+          300,
+          700,
+          450.0,
+          700
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "6a9082fe8165726a",
+        "c": [
+          550.0,
+          700,
+          700,
+          700
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "2a68bf79265ba3b1",
+        "c": [
+          300,
+          700,
+          300,
+          950
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "e14d0fbcb002174d",
+        "c": [
+          700,
+          700,
+          700,
+          950
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "a220733b08d4308b",
+        "c": [
+          300,
+          950,
+          450.0,
+          950
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "d451151b93fd6a0e",
+        "c": [
+          550.0,
+          950,
+          700,
+          950
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "0fca83fdc78acb4f",
+        "c": [
+          800,
+          650,
+          1100.0,
+          650
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "b89fa12e1ada596d",
+        "c": [
+          1200.0,
+          650,
+          1500,
+          650
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "801c217a480ee936",
+        "c": [
+          800,
+          650,
+          800,
+          1000
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "60f240b3cd37adee",
+        "c": [
+          1500,
+          650,
+          1500,
+          1000
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "91558dc4e8eb5458",
+        "c": [
+          800,
+          1000,
+          1100.0,
+          1000
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "18455b6118967542",
+        "c": [
+          1200.0,
+          1000,
+          1500,
+          1000
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "3b80593f55661937",
+        "c": [
+          250,
+          200,
+          450.0,
+          200
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "9318ed7d48c79a2f",
+        "c": [
+          550.0,
+          200,
+          750,
+          200
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "2a779b551e87ead0",
+        "c": [
+          250,
+          200,
+          250,
+          500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "fd71b293e31eef6e",
+        "c": [
+          750,
+          200,
+          750,
+          500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "9127afe0767ed145",
+        "c": [
+          250,
+          500,
+          450.0,
+          500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "2d3d23d849f3c908",
+        "c": [
+          550.0,
+          500,
+          750,
+          500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "682b450533abdd72",
+        "c": [
+          900,
+          150,
+          1075.0,
+          150
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "0e566aee49f9aa5e",
+        "c": [
+          1175.0,
+          150,
+          1350,
+          150
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "70f0954ca8606018",
+        "c": [
+          900,
+          150,
+          900,
+          450
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "a30061b9be512436",
+        "c": [
+          1350,
+          150,
+          1350,
+          450
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "80649383ee359f42",
+        "c": [
+          900,
+          450,
+          1075.0,
+          450
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "69cba6c9a3bfe455",
+        "c": [
+          1175.0,
+          450,
+          1350,
+          450
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "c413e9c4f63d1f6c",
+        "c": [
+          1550,
+          200,
+          1725.0,
+          200
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "0999480665e67f92",
+        "c": [
+          1825.0,
+          200,
+          2000,
+          200
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "9bb730714303b053",
+        "c": [
+          1550,
+          200,
+          1550,
+          500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "fc97da9c75bd93c8",
+        "c": [
+          2000,
+          200,
+          2000,
+          500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "b77e216d7d568ef9",
+        "c": [
+          1550,
+          500,
+          1725.0,
+          500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "2e620ee88aa91c7e",
+        "c": [
+          1825.0,
+          500,
+          2000,
+          500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "ea10c8a201756869",
+        "c": [
+          1600,
+          650,
+          1750.0,
+          650
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "f668e5e610ddd6c4",
+        "c": [
+          1850.0,
+          650,
+          2000,
+          650
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "13a41fb5adbfe8ef",
+        "c": [
+          1600,
+          650,
+          1600,
+          950
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "25b4825afd90917b",
+        "c": [
+          2000,
+          650,
+          2000,
+          950
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "59f6a7670e254e10",
+        "c": [
+          1600,
+          950,
+          1750.0,
+          950
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "89240476b23a74cd",
+        "c": [
+          1850.0,
+          950,
+          2000,
+          950
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "6cd2be8b6cc0f182",
+        "c": [
+          800,
+          1150,
+          1100.0,
+          1150
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "c2eb740f42e959ff",
+        "c": [
+          1200.0,
+          1150,
+          1500,
+          1150
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "069f4c5093bf3aa9",
+        "c": [
+          800,
+          1150,
+          800,
+          1500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "ca8621fcada69b01",
+        "c": [
+          1500,
+          1150,
+          1500,
+          1500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "837256de251382ab",
+        "c": [
+          800,
+          1500,
+          1100.0,
+          1500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      },
+      {
+        "_id": "11f89ec7cbb703d7",
+        "c": [
+          1200.0,
+          1500,
+          1500,
+          1500
+        ],
+        "move": 20,
+        "sight": 20,
+        "light": 20,
+        "sound": 20,
+        "door": 0
+      }
+    ],
+    "tokens": [
+      {
+        "_id": "d8cb7405ac2d67f4",
+        "name": "Zahra",
+        "actorId": "37d44832b56ae268",
+        "actorLink": true,
+        "x": 200,
+        "y": 1500,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/mr-trono-de-la-sed/assets/characters/zahra-token.webp"
+        },
+        "disposition": 1
+      },
+      {
+        "_id": "135311309bc68ba9",
+        "name": "Khaem",
+        "actorId": "5f29196c374a7f02",
+        "actorLink": true,
+        "x": 380,
+        "y": 1500,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/mr-trono-de-la-sed/assets/characters/khaem-token.webp"
+        },
+        "disposition": 1
+      },
+      {
+        "_id": "31975d7dc5bfd484",
+        "name": "Neset",
+        "actorId": "202be959feb5f3d2",
+        "actorLink": true,
+        "x": 560,
+        "y": 1500,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/mr-trono-de-la-sed/assets/characters/neset-token.webp"
+        },
+        "disposition": 1
+      },
+      {
+        "_id": "78ca46b44874c55d",
+        "name": "Seneb",
+        "actorId": "ae63d4a51ece8961",
+        "actorLink": true,
+        "x": 740,
+        "y": 1500,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/mr-trono-de-la-sed/assets/characters/seneb-token.webp"
+        },
+        "disposition": 1
+      },
+      {
+        "_id": "ea612cf7bceb676d",
+        "name": "Iru",
+        "actorId": "e9bdff44e16b2b74",
+        "actorLink": true,
+        "x": 920,
+        "y": 1500,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/mr-trono-de-la-sed/assets/characters/iru-token.webp"
+        },
+        "disposition": 1
+      }
+    ]
+  },
+  {
+    "_id": "6833e9c385f787d4",
+    "name": "Muhar · Plano de rutas",
+    "width": 2000,
+    "height": 1200,
+    "padding": 0,
+    "grid": {
+      "type": 0,
+      "size": 100
+    },
+    "background": {
+      "src": "modules/mr-trono-de-la-sed/assets/maps/muhar.svg"
+    }
+  },
+  {
+    "_id": "4cf32398a1b63f7f",
+    "name": "Pozo · Plano de las siete ranuras",
+    "width": 1400,
+    "height": 1400,
+    "padding": 0,
+    "grid": {
+      "type": 0,
+      "size": 100
+    },
+    "background": {
+      "src": "modules/mr-trono-de-la-sed/assets/maps/pozo.svg"
+    }
+  }
+]

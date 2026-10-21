@@ -1,0 +1,26 @@
+{
+  "tool": "image_gen integrado",
+  "transparent_background": true,
+  "assets": [
+    {
+      "source": "art/masters/zahra.png",
+      "prompt": "Original traditional painterly fantasy storybook character illustration for gothic Egyptian desert tabletop adventure. Zahra, young adult brown-skinned female funerary acolyte, expressive dark eyes, short black curly hair, cream linen layered robe with midnight blue sash and aged-gold small scarab pendant, a reed pen and wax writing tablet tied to belt, lantern held at waist. Full body vertical portrait, clearly readable distinctive silhouette, feet and head fully visible with generous padding, three quarter pose facing right. Warm torchlit rim light, visible gouache brush strokes and textured edges, melancholy and determination, elegant fantasy illustration, no photography or 3D, no lettering. Isolated on genuine transparent background, no floor, no scenery, no glow outside silhouette."
+    },
+    {
+      "source": "art/masters/khaem.png",
+      "prompt": "Original traditional painterly fantasy storybook character illustration, same cohesive gothic Egyptian desert palette midnight blue, aged gold, alabaster linen, muted crimson. Khaem, middle aged broad shouldered dark brown skinned male tomb guardian, shaved head, short greying beard, tired protective expression, scar on left eyebrow, weathered indigo linen mantle over sand colored tunic, bronze bracers, simple round hide shield and a plain spear held safely upright. Full body vertical portrait feet and head visible with generous padding, three quarter pose facing right, distinctive grounded silhouette. Handcrafted gouache and oil brush strokes, expressive face, atmospheric torch rim light, no photography, no 3D, no lettering. Isolated on genuinely transparent background, no scenery or floor."
+    },
+    {
+      "source": "art/masters/neset.png",
+      "prompt": "Original traditional painterly fantasy storybook character illustration in cohesive gothic Egyptian desert style, visible gouache brush strokes, midnight blue, aged gold, alabaster and muted crimson. Neset, adult lean brown skinned woman tomb scavenger with keen amused dark eyes, black hair in one thick side braid, faded crimson hood lowered, dark sand colored practical linen layers, ropes coiled at hip, small bronze dagger sheathed, a single alabaster bead at neck, holding a slender tomb lantern. Full body vertical isolated portrait, head and feet visible generous padding, distinctive agile silhouette three quarter view facing right, confident wary expression. Atmospheric painted torch rim light. Not photographic, not 3D, no text, genuine transparent background, no scenery no floor."
+    },
+    {
+      "source": "art/masters/seneb.png",
+      "prompt": "Original painterly traditional fantasy storybook character for gothic Egyptian desert adventure, handcrafted gouache oil brush strokes, atmospheric subtle light, same palette midnight blue aged gold alabaster crimson. Seneb, slim adult brown skinned male funerary singer, shoulder length wavy black hair, gentle melancholic expressive eyes, narrow moustache, layered ivory linen robe with dark wine red embroidered scarf, holding a small wooden arched harp with seven visible strings, woven sandals. Full body vertical portrait generous clear margin around head and feet, three quarter facing right, instantly recognizable silhouette. No photography, no 3D rendering, no text. Isolated genuinely transparent background, no scenery or floor."
+    },
+    {
+      "source": "art/masters/iru.png",
+      "prompt": "Original painterly traditional fantasy storybook character for gothic Egyptian desert adventure, handmade gouache and oil texture, expressive character, palette midnight blue aged gold alabaster muted crimson. Iru, older slim brown skinned male scholar of forbidden inscriptions, long angular face, black hair streaked silver tied at nape, small trimmed silver beard, ink stained fingertips, dark indigo robe with cream collar and bronze fasteners, leather scroll case at hip, holding a chipped stone tablet with abstract unreadable ancient markings. Full body vertical composition with head and feet entirely visible generous margin, three quarter facing right, curious haunted gaze. Painted warm rim light. No photography, 3D or legible lettering. Isolated on truly transparent background no scenery no floor."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "setup": {
+    "user": "WdCc4Tq0m8w8i6TO",
+    "actor": "37d44832b56ae268",
+    "shared": "da175d4c0c293cfe",
+    "registry": "DkFEw1NvdlcKAL5P",
+    "merged": {
+      "backpacks": 1,
+      "entries": 6,
+      "originalEntries": 5,
+      "hasScarab": false
+    }
+  },
+  "tour": [
+    {
+      "index": 0,
+      "id": "welcome",
+      "selector": "#mr-trono-gm .mr-book",
+      "exists": true
+    },
+    {
+      "index": 1,
+      "id": "campaign",
+      "selector": "#mr-trono-gm [name=\"ritual\"]",
+      "exists": true
+    },
+    {
+      "index": 2,
+      "id": "heroes",
+      "selector": "#mr-trono-gm .mr-grid",
+      "exists": true
+    },
+    {
+      "index": 3,
+      "id": "altar",
+      "selector": "#mr-trono-gm .mr-altar",
+      "exists": true
+    },
+    {
+      "index": 4,
+      "id": "documents",
+      "selector": "#mr-trono-gm .mr-doclist",
+      "exists": true
+    },
+    {
+      "index": 5,
+      "id": "neb",
+      "selector": "#mr-trono-gm [name=\"nebNotes\"]",
+      "exists": true
+    },
+    {
+      "index": 6,
+      "id": "finish",
+      "selector": "#mr-trono-gm .mr-paper",
+      "exists": true
+    }
+  ],
+  "privacy": {
+    "isGM": false,
+    "gmBookRendered": false,
+    "ownedHeroes": [
+      "Zahra"
+    ],
+    "privateRegistryAccessible": false,
+    "privateRegistryFlags": {
+      "schemaVersion": 1,
+      "session": "1",
+      "ritual": "preparation",
+      "meritSeal": "intact",
+      "priestSeal": "intact",
+      "heart": "protected",
+      "vessels": [
+        {
+          "name": "Hori",
+          "state": "freed",
+          "notes": "Hori ha recuperado su nombre en la prueba."
+        },
+        {
+          "name": "Paser",
+          "state": "captive",
+          "notes": ""
+        },
+        {
+          "name": "Tamerit",
+          "state": "captive",
+          "notes": ""
+        },
+        {
+          "name": "Kasa",
+          "state": "captive",
+          "notes": ""
+        },
+        {
+          "name": "Beset",
+          "state": "captive",
+          "notes": ""
+        },
+        {
+          "name": "Dedi",
+          "state": "captive",
+          "notes": ""
+        },
+        {
+          "name": "Séptimo nombre",
+          "state": "empty",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "threats": "",
+      "clues": "",
+      "nebNotes": "",
+      "modifiedBy": "Gamemaster",
+      "modifiedAt": "2026-10-20T21:34:21.317Z"
+    },
+    "fellowshipOwner": true,
+    "sharedWrite": "Prueba de compañía compartida"
+  },
+  "errors": [],
+  "historicalFinding": "Prueba anterior a la corrección: detectó que Foundry enviaba flags privados a jugadores. No es el resultado de la versión entregada.",
+  "supersededBy": "foundry-privacy-fixed.json"
+}

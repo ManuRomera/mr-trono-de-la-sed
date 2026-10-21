@@ -1,0 +1,18 @@
+[
+  {
+    "source": "art/masters/merit-eco.png",
+    "distributed": "assets/scenes/merit-eco.webp",
+    "use": "merit-eco",
+    "width": 1672,
+    "height": 941,
+    "bytes": 591452
+  },
+  {
+    "source": "art/masters/servidor.png",
+    "distributed": "assets/objects/servidor.webp",
+    "use": "servidor",
+    "width": 341,
+    "height": 512,
+    "bytes": 129594
+  }
+]

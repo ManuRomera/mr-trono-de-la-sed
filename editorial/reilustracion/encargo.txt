@@ -1,0 +1,162 @@
+# REILUSTRACIÓN ARTÍSTICA — ESTILO LEGEND IN THE MIST
+
+## OBJETIVO
+
+Recrea la imagen original adjunta como una ilustración completamente nueva, manteniendo su identidad, personajes, composición, ambientación y narrativa, pero transformando radicalmente su acabado artístico para ajustarlo al lenguaje visual de las ilustraciones del juego de rol **Legend in the Mist**, tomando como referencia de calidad y estilo la ilustración adjunta de Strahd como faraón egipcio.
+
+No se trata de aplicar un filtro, modificar colores o superponer una textura. **Debes volver a dibujar y pintar toda la escena desde cero**, reinterpretándola con un lenguaje gráfico coherente y reconocible.
+
+## 1. REFERENCIAS Y PRIORIDADES
+
+Se proporcionarán dos referencias:
+
+- **IMAGEN ORIGINAL:** determina los personajes, rasgos físicos, vestuario, objetos, escenario, acciones, encuadre y composición que deben conservarse.
+- **IMAGEN DE ESTILO (STRAHD EGIPCIO):** determina exclusivamente la técnica de ilustración, las características del dibujo, las pinceladas, el tratamiento de las sombras y la interpretación artística.
+
+Nunca traslades elementos narrativos de la imagen de estilo a la imagen original: no añadas motivos egipcios, tocados faraónicos, cetros, pirámides ni elementos vampíricos salvo que ya formen parte de la imagen original.
+
+La imagen de estilo establece la estética, no el contenido.
+
+## 2. ESTILO ARTÍSTICO OBLIGATORIO
+
+Reinterpreta la escena como una ilustración editorial 2D de fantasía narrativa de alta calidad, próxima al lenguaje pictórico y gráfico de Legend in the Mist.
+
+Características fundamentales:
+
+- Contornos de tinta expresivos, definidos, orgánicos y con variaciones de grosor.
+- Dibujo estilizado de influencia europea, con anatomías creíbles pero claramente ilustradas.
+- Rostros expresivos, rasgos simplificados con intención artística, siluetas elegantes.
+- Pintura digital que reproduce el aspecto de gouache, acrílico y pincel tradicional.
+- Pinceladas visibles y texturas pictóricas integradas naturalmente.
+- Sombreado mediante planos de color, con transiciones deliberadas y bordes claramente construidos.
+- Iluminación artística y narrativa, nunca fotográfica.
+- Contraste entre grandes masas de sombra y zonas iluminadas.
+- Colores ricos, profundos y cuidadosamente armonizados.
+- Equilibrio entre áreas muy detalladas y superficies pictóricas simplificadas.
+- Sensación inequívoca de ilustración dibujada a mano.
+
+**La ilustración debe parecer una página excepcional de un libro de rol ilustrado, no un fotograma de una película ni una captura de un videojuego.**
+
+## 3. TRATAMIENTO DE LOS PERSONAJES
+
+Respeta rigurosamente la identidad visual de todos los personajes presentes en la imagen original.
+
+Conserva edad aparente, género, constitución, proporciones, facciones reconocibles, peinado, color de cabello, vestuario, accesorios, rasgos especiales, expresión y lenguaje corporal.
+
+Los personajes deben ser inmediatamente identificables como los mismos de la ilustración original.
+
+Adapta los detalles anatómicos a un dibujo estilizado, sin convertirlos en caricaturas, personajes infantiles ni figuras excesivamente idealizadas.
+
+Manos y rostros deben estar dibujados con especial atención. Las poses deben conservar naturalidad, expresividad e intención dramática.
+
+No embellezcas indiscriminadamente a los personajes. Mantén cicatrices, edad, deformidades, suciedad, cansancio o cualquier otro rasgo narrativo relevante.
+
+## 4. COMPOSICIÓN Y FIDELIDAD
+
+Mantén la composición principal de la imagen original.
+
+Respeta la posición relativa de los personajes, su orientación, el ángulo de cámara, la perspectiva, los objetos importantes, las relaciones espaciales y el momento narrativo.
+
+Conserva el formato y la proporción de la imagen original.
+
+No añadas ni elimines personajes. No cambies su identidad, indumentaria, acciones ni interacciones.
+
+No sustituyas elementos característicos por alternativas más espectaculares.
+
+Puedes mejorar la distribución de luces, la legibilidad de las siluetas, la jerarquía visual y la separación entre planos cuando sea necesario, sin alterar la escena.
+
+## 5. COLOR E ILUMINACIÓN
+
+Adapta la paleta a la ambientación original, respetando su tono emocional.
+
+Utiliza una dirección cromática propia de la ilustración narrativa: azules petróleo, verdes profundos, ocres, rojos terrosos, violetas apagados, dorados envejecidos o cualquier otra combinación que resulte adecuada a la escena.
+
+No utilices automáticamente esos colores si contradicen la imagen original.
+
+Construye la iluminación mediante contrastes pictóricos y masas de color.
+
+Evita los degradados fotográficos, el brillo plástico, los reflejos metálicos excesivamente realistas y los efectos de posprocesado cinematográfico.
+
+La luz debe orientar la atención del espectador, revelar emociones y generar profundidad.
+
+## 6. ESCENARIOS Y ATMÓSFERA
+
+Redibuja también los escenarios usando exactamente el mismo lenguaje artístico que los personajes.
+
+Simplifica los detalles secundarios sin perder los elementos que identifican el entorno.
+
+Utiliza perspectiva atmosférica, formas sugeridas y pinceladas expresivas para crear profundidad.
+
+Los escenarios deben acompañar a los protagonistas, evitando una saturación de detalles que compita con ellos.
+
+Mantén la ambientación específica de cada imagen: fantasía medieval, horror gótico, ciencia ficción, investigación noir, terror cósmico, escenarios históricos o cualquier otro género representado.
+
+En las escenas de horror, prioriza la inquietud, las sombras, la decadencia y la tensión narrativa frente al efectismo gratuito.
+
+## 7. ACABADO Y CALIDAD
+
+Ilustración final editorial de máxima calidad, completamente terminada.
+
+Dibujo preciso donde importa y pinceladas más libres en zonas secundarias.
+
+Textura pictórica visible y uniforme.
+
+Siluetas legibles incluso a tamaño reducido.
+
+Profundidad y riqueza de color sin apariencia fotográfica.
+
+Acabado coherente entre personajes, objetos y fondos.
+
+Conserva transparencias reales cuando la imagen original carezca de fondo. Si la original tiene fondo, conserva el escenario.
+
+No añadas títulos, textos, logotipos ni marcos nuevos. Conserva los elementos gráficos existentes cuando sean necesarios, respetando su diseño y posición.
+
+## 8. RESTRICCIONES NEGATIVAS
+
+NO fotorrealismo.
+
+NO render 3D ni CGI.
+
+NO apariencia de Unreal Engine.
+
+NO estética genérica de videojuego AAA.
+
+NO aspecto de fotografía cinematográfica.
+
+NO piel con textura fotográfica.
+
+NO aerografía excesivamente suave.
+
+NO iluminación HDR ni efectos de lens flare.
+
+NO colores neón gratuitos.
+
+NO acabado plástico o excesivamente pulido.
+
+NO anatomía hiperrealista.
+
+NO sombreado uniforme sin expresividad.
+
+NO filtro de óleo superpuesto a una imagen realista.
+
+NO reinterpretaciones radicales de personajes existentes.
+
+NO cambios innecesarios de vestuario, raza, edad o constitución.
+
+NO introducir elementos de otras imágenes de referencia.
+
+## 9. CRITERIO FINAL DE ACEPTACIÓN
+
+El resultado debe cumplir simultáneamente estas tres condiciones:
+
+**FIDELIDAD:** reconocer inmediatamente la imagen original y todos sus elementos importantes.
+
+**COHERENCIA:** pertenecer visualmente a la misma colección que la ilustración de Strahd egipcio utilizada como referencia artística.
+
+**CALIDAD EDITORIAL:** parecer una ilustración profesional de un libro de rol de fantasía narrativa, con personalidad gráfica, expresividad y una ejecución pictórica cuidada.
+
+Si una decisión obliga a elegir entre aumentar el realismo o conservar el estilo de Legend in the Mist, prioriza siempre el estilo ilustrado.
+
+Si una decisión obliga a elegir entre embellecer la imagen o preservar la identidad de sus personajes, prioriza siempre la fidelidad.
+
+**Genera la ilustración final directamente, sin explicaciones ni propuestas intermedias.**

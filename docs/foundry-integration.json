@@ -1,0 +1,112 @@
+{
+  "compact": [
+    {
+      "name": "Iru",
+      "sheet": "MistEngineCompactCharacterSheet",
+      "portrait": "modules/mr-trono-de-la-sed/assets/characters/iru-portrait.webp"
+    },
+    {
+      "name": "Khaem",
+      "sheet": "MistEngineCompactCharacterSheet",
+      "portrait": "modules/mr-trono-de-la-sed/assets/characters/khaem-portrait.webp"
+    },
+    {
+      "name": "Neset",
+      "sheet": "MistEngineCompactCharacterSheet",
+      "portrait": "modules/mr-trono-de-la-sed/assets/characters/neset-portrait.webp"
+    },
+    {
+      "name": "Seneb",
+      "sheet": "MistEngineCompactCharacterSheet",
+      "portrait": "modules/mr-trono-de-la-sed/assets/characters/seneb-portrait.webp"
+    },
+    {
+      "name": "Zahra",
+      "sheet": "MistEngineCompactCharacterSheet",
+      "portrait": "modules/mr-trono-de-la-sed/assets/characters/zahra-portrait.webp"
+    }
+  ],
+  "native": {
+    "rote": "Bendición del umbral recordado",
+    "included": true,
+    "prepared": [
+      {
+        "name": "Bendición del umbral recordado",
+        "positive": true,
+        "source": "rote",
+        "roteId": "LKU8ZbhWHavdOJoL"
+      }
+    ],
+    "models": [
+      {
+        "name": "Bendición del umbral recordado",
+        "model": "MistEngineItemRote",
+        "validation": {
+          "fields": null,
+          "joint": null
+        }
+      },
+      {
+        "name": "Canto del testigo",
+        "model": "MistEngineItemRote",
+        "validation": {
+          "fields": null,
+          "joint": null
+        }
+      },
+      {
+        "name": "Contrafirma de la negativa",
+        "model": "MistEngineItemRote",
+        "validation": {
+          "fields": null,
+          "joint": null
+        }
+      },
+      {
+        "name": "Lectura del nombre velado",
+        "model": "MistEngineItemRote",
+        "validation": {
+          "fields": null,
+          "joint": null
+        }
+      }
+    ]
+  },
+  "before": {
+    "a": 34,
+    "j": 8,
+    "s": 2,
+    "i": 21
+  },
+  "after": {
+    "a": 34,
+    "j": 8,
+    "s": 2,
+    "i": 21
+  },
+  "persistence": {
+    "memories": {
+      "trueName": "Zahra",
+      "bonds": "Seneb recuerda mi primera letra.",
+      "changes": "",
+      "entries": [
+        {
+          "title": "La primera letra",
+          "detail": "Mi maestra sostuvo mi mano sin corregir el trazo.",
+          "anchor": "Tablilla de cera",
+          "condition": "established"
+        }
+      ]
+    },
+    "vessel": {
+      "name": "Hori",
+      "state": "freed",
+      "notes": "Hori ha recuperado su nombre en la prueba."
+    },
+    "registryOwnership": {
+      "default": 0,
+      "u4coXursc5AB0eDb": 3
+    }
+  },
+  "errors": []
+}

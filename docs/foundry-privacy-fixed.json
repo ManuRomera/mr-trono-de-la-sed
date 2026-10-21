@@ -1,0 +1,27 @@
+{
+  "migrated": {
+    "id": "DkFEw1NvdlcKAL5P",
+    "legacyRemoved": true,
+    "encrypted": true,
+    "vessel": {
+      "name": "Hori",
+      "state": "freed",
+      "notes": "Hori recuperado en fixture de migración"
+    },
+    "player": "WdCc4Tq0m8w8i6TO"
+  },
+  "player": {
+    "notesExposed": false,
+    "legacyPresent": false,
+    "envelopeKeys": [
+      "v",
+      "iv",
+      "ciphertext"
+    ],
+    "localKeysEmpty": true
+  },
+  "reloadPreserved": true,
+  "missingKeyRecoveryShown": true,
+  "restoredFromLocalBackup": true,
+  "errors": []
+}

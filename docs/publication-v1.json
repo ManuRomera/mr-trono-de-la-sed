@@ -1,0 +1,12 @@
+{
+  "status": "published-and-verified",
+  "version": "1.0.0",
+  "repository": "https://github.com/ManuRomera/mr-trono-de-la-sed",
+  "release": "https://github.com/ManuRomera/mr-trono-de-la-sed/releases/tag/v1.0.0",
+  "manifest": "https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/module.json",
+  "commit": "8901651ae2c4296ebf5fa4ba33f265817f9ee1c4",
+  "ci": "https://github.com/ManuRomera/mr-trono-de-la-sed/actions/runs/39608936056",
+  "ci_result": "success",
+  "remote_zip_matches_local": true,
+  "zip_sha256": "c78e7119c3f0527420961d4b56e98b61a57a45ac186bd0e28c83346f97ad9835"
+}

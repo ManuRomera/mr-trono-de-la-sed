@@ -191,6 +191,47 @@
       "DepthScale": "Escala por profundidad",
       "DepthScaleHelp": "Las figuras se hacen más pequeñas al alejarse hacia el fondo y mayores al acercarse, según el suelo de cada escena."
     },
-    "EditorialUpgradeFailed": "La revisión editorial no se ha completado. La barra sigue disponible; recarga el mundo para reintentarlo. Tus documentos personalizados se conservan."
+    "EditorialUpgradeFailed": "La revisión editorial no se ha completado. La barra sigue disponible; recarga el mundo para reintentarlo. Tus documentos personalizados se conservan.",
+    "Hitos": {
+      "funeral": "Un funeral sin nombre",
+      "ataud": "El ataúd está vacío",
+      "registros": "Seis entregas y un hueco",
+      "pluma": "Una pluma que recuerda",
+      "henut": "Henut sabe que corre peligro",
+      "pozo": "El pozo de las siete ranuras",
+      "invitacion": "Una invitación a cenar",
+      "banquete": "La mesa de los lugares vacíos",
+      "vivos": "Seis personas todavía respiran",
+      "merit": "Una mujer que dijo no",
+      "camara": "La Cámara del Pesaje",
+      "final": "Una decisión tomada",
+      "Title": "Hitos",
+      "HelpGM": "Pulsa un hito para marcarlo o desmarcarlo: lo verá toda la mesa.",
+      "HelpPlayer": "Lo que ya habéis descubierto. El Narrador los desbloquea durante la partida.",
+      "Hidden": "Aún por descubrir",
+      "Unlocked": "Nuevo hito"
+    },
+    "Ambient": {
+      "Title": "Ambiente",
+      "Light": "Claro",
+      "Dim": "Penumbra",
+      "Dark": "Oscuro"
+    },
+    "SceneTutorial": "Tutorial de dirección de escena",
+    "SceneTutorialDescription": "Recorre la barra del Narrador: mover, mostrar, figuras con profundidad, ambiente y hitos.",
+    "TourSceneBarTitle": "Tu barra, donde quieras",
+    "TourSceneBarText": "Mantén pulsado el botón derecho sobre esta zona y arrastra la barra a donde no moleste. Recuerda su posición. En «Más controles» está «Centrar barra» y la flecha de la derecha la pliega a una fila.",
+    "TourSceneShowTitle": "Mostrar a todos",
+    "TourSceneShowText": "Activa la escena para la mesa y arranca su música. «Leer escena» abre el texto preparado para leer en voz alta.",
+    "TourSceneFiguresTitle": "Figuras",
+    "TourSceneFiguresText": "Aquí eliges el tamaño al aparecer y cambias el de las figuras presentes. Los fondos no colocan personajes solos: los traes desde el diario o con «Traer protagonistas».",
+    "TourSceneDepthTitle": "Escala por profundidad",
+    "TourSceneDepthText": "Cada fondo conoce su suelo. Con esta opción las figuras pisan lugares reales y se hacen pequeñas al alejarse y grandes al acercarse, también cuando las arrastras.",
+    "TourSceneAmbientTitle": "Ambiente",
+    "TourSceneAmbientText": "Claro, penumbra u oscuro: cambia a la vez la luz de la escena y el volumen del fondo musical. Se recuerda por escena.",
+    "TourSceneHitosTitle": "Hitos de la investigación",
+    "TourSceneHitosText": "Marca aquí lo que la mesa va descubriendo (Alt+H). Los jugadores ven el progreso sin spoilers y reciben un aviso en cada hito nuevo.",
+    "TourPlayerHitosTitle": "Hitos de la investigación",
+    "TourPlayerHitosText": "Esta insignia (Alt+H) muestra lo que habéis descubierto como grupo. El Narrador desbloquea cada hito durante la partida y recibiréis un aviso."
   }
 }

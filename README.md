@@ -10,11 +10,11 @@
 
 <h3 align="center">El ataúd está vacío. Nadie recuerda el nombre del difunto.<br>Bajo la arena, un rey conserva todo aquello que los demás han olvidado.</h3>
 <p align="center"><b>Horror gótico · identidad · memoria · duelo</b><br><sub>4–5 protagonistas · tres sesiones de unas dos horas · en español · Foundry VTT v13</sub></p>
-<p align="center"><a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest"><b>⬇️ Descargar</b></a> · <a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/El-Trono-de-la-Sed-Manual.pdf"><b>📖 Manual (PDF)</b></a> · <a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/El-Trono-de-la-Sed-Material-de-Juego.pdf"><b>🎒 Cuaderno de jugadores</b></a> · <a href="#-instalar"><b>⚡ Instalar</b></a></p>
+<p align="center"><a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest"><b>⬇️ Descargar</b></a> · <a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/El-Trono-de-la-Sed-Manual.pdf"><b>📖 Manual (PDF)</b></a> · <a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/El-Trono-de-la-Sed-Material-de-Juego.pdf"><b>🎒 Cuaderno de jugadores</b></a> · <a href="https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/El-Trono-de-la-Sed-Tarjetas-de-PNJ.pdf"><b>🃏 Tarjetas de PNJ</b></a> · <a href="#-instalar"><b>⚡ Instalar</b></a></p>
 
 ---
 
-<p align="center"><img src="docs/img/foundry-banquete.webp" alt="El banquete del rey: los cinco protagonistas, Neb-Sekhem y Khety de pie sobre el suelo del salón, cada uno con el tamaño que le corresponde a su posición" width="100%"></p>
+<p align="center"><img src="docs/img/recorrido.gif" alt="Recorrido: las figuras aparecen sobre el suelo del banquete, la barra se arrastra con el botón derecho, el ambiente pasa de claro a oscuro y se marcan los hitos" width="100%"></p>
 
 ## 🕯️ La aventura
 
@@ -52,7 +52,22 @@ Cada fondo declara su **zona de suelo** y los puntos donde realmente cabe una pe
 | <img src="docs/img/foundry-camino.webp" alt="Camino de los chacales con figuras de distinto tamaño según la distancia"> | <img src="docs/img/foundry-dormitorio.webp" alt="Dormitorio de los seis con los cautivos y dos protagonistas en profundidad"> |
 | <img src="docs/img/foundry-pesaje.webp" alt="Cámara del Pesaje con los protagonistas, Merit, Neb-Sekhem y Khety"> | <img src="docs/img/foundry-galeria.webp" alt="Galería de los rostros borrados con Merit y los protagonistas"> |
 
-Los 26 fondos son de 1920 × 1080 y no llevan personajes integrados; las 22 siluetas completas, transparentes, llevan la marca **MR** bajo los pies.
+Los 26 fondos son de 1920 × 1080 y no llevan personajes integrados; las 22 siluetas completas, transparentes, llevan la marca **MR** diminuta cosida en la ropa.
+
+## 🌘 Ambiente y hitos
+
+<p align="center"><img src="docs/img/foundry-ambiente.webp" alt="Banquete en modo oscuro" width="100%"></p>
+
+- **Ambiente** (menú de la barra): *claro, penumbra u oscuro* cambian a la vez la luz de la escena y el volumen del fondo musical, y se recuerdan por escena.
+- **Hitos de la investigación** (insignia abajo a la izquierda o **Alt+H**): doce descubrimientos sin spoilers que marca el Narrador. Toda la mesa ve el progreso y recibe un aviso con cada hito nuevo; sirven de pausa natural al cierre de una escena.
+
+<p align="center"><img src="docs/img/foundry-hitos.webp" alt="Panel de hitos con cuatro desbloqueados" width="100%"></p>
+
+## 🎓 Tutoriales guiados
+
+Tres recorridos nativos de Foundry (Configuración → MR · El Trono de la Sed → Tutoriales): **Narrador** (libros), **dirección de escena** (mover la barra, figuras con profundidad, ambiente y hitos) y **jugadores** (recuerdos e hitos).
+
+<p align="center"><img src="docs/img/foundry-tutorial.webp" alt="Tutorial de dirección de escena señalando la escala por profundidad" width="100%"></p>
 
 ## 📖 Diarios, libros y fichas
 
@@ -75,7 +90,7 @@ Cinco héroes nativos con cuatro temas cada uno, mochila, relaciones y tema comp
 
 <p align="center"><img src="docs/img/manual.webp" alt="Portada y páginas interiores del Manual del Narrador" width="100%"></p>
 
-El **Manual del Narrador** (74 páginas) y el **cuaderno de protagonistas** (10 páginas) están escritos y maquetados como una gran campaña gótica: introducción con «Cómo describir el horror», capítulo del villano con sus metas y su forma de interpretarlo, lugares con clave (M1–M7, C1–C6, P1–P5) y bloques fijos *Qué hay · Qué quieren · Pistas · Desarrollo · Etiquetas · Riesgos*, tarjetas de personaje, acontecimientos especiales, seis finales, tablas aleatorias y la **Lectura de la Arena**, que cambia tres hechos de la partida para que no se repita. Texto justificado y guionado en español, cajas de lectura, planos grabados en piedra y documentos para entregar.
+El **Manual del Narrador** (74 páginas), el **cuaderno de protagonistas** (10) y las **tarjetas de PNJ** (2) están escritos y maquetados como una gran campaña gótica: introducción con «Cómo describir el horror», capítulo del villano con sus metas y su forma de interpretarlo, lugares con clave (M1–M7, C1–C6, P1–P5) y bloques fijos *Qué hay · Qué quieren · Pistas · Desarrollo · Etiquetas · Riesgos*, tarjetas de personaje, acontecimientos especiales, seis finales, tablas aleatorias y la **Lectura de la Arena**, que cambia tres hechos de la partida para que no se repita. Texto justificado y guionado en español, cajas de lectura, planos grabados en piedra y documentos para entregar. Cada release incluye además las **tarjetas de PNJ recortables** (6 por A4, con retrato) y una **edición de imprenta** con 3 mm de sangrado.
 
 ## 🎵 Sonido al servicio de la voz
 
@@ -134,6 +149,6 @@ Las aportaciones originales del Proyecto MR se ofrecen bajo **CC BY-NC-SA 4.0**.
 
 **The Throne of Thirst — The Court of the Nameless King** is a Spanish-language gothic horror adventure for **Legend in the Mist** in **Foundry VTT 13**: three two-hour sessions for four or five players. In the desert city of Muhar people vanish, and then the memory that they ever existed vanishes too. A funeral without a name leads to a court under the sand, to a courteous prince, and to a scale that weighs a promise.
 
-It includes a 74-page Narrator manual written and typeset like a major gothic campaign (justified, hyphenated columns; read-aloud boxes; keyed locations; NPC cards; random tables; a *Reading of the Sand* that varies the story), a 10-page player booklet, 26 character-free 16:9 scene backgrounds with reading journals, **depth-aware tokens** (figures stand on real spots of each scene and scale with their distance), a draggable Narrator toolbar (hold the right mouse button), nine instrumental music loops, ten sound effects and a guided tutorial.
+It includes a 74-page Narrator manual written and typeset like a major gothic campaign (justified, hyphenated columns; read-aloud boxes; keyed locations; NPC cards; random tables; a *Reading of the Sand* that varies the story), a 10-page player booklet, 26 character-free 16:9 scene backgrounds with reading journals, **depth-aware tokens** (figures stand on real spots of each scene and scale with their distance), a draggable Narrator toolbar (hold the right mouse button), bright/dim/dark ambience, spoiler-free investigation milestones, nine instrumental music loops, ten sound effects, three guided tutorials, printable NPC cards and a print edition with bleed.
 
 Install the manifest above, activate the module in a world using **mist-engine-fvtt 14.5.4** and accept the adventure import. Original MR contributions use CC BY-NC-SA 4.0; music uses CC BY 4.0 and fonts use SIL OFL. See the notices included in the repository.

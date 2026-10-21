@@ -131,3 +131,21 @@ section.mr-box p,section.mr-npc p,section.mr-doc p{margin:0 0 6px;color:#2a2630}
 .mr-trono-book button[aria-current=page]{background:linear-gradient(180deg,#a8445f,#7a2c42);border-color:#e0bd83}
 .mr-trono-book .mr-paper button{background:linear-gradient(180deg,#5a2a3a,#431f2c);border-color:#a8445f;color:#fff8e7}
 .mr-trono-book .mr-paper{border-radius:10px;border-left:4px solid #ae8e50}
+
+/* ───────────── Hitos de la investigación ───────────── */
+#mr-trono-hitos{position:fixed;left:16px;bottom:112px;z-index:60;display:flex;align-items:center;gap:8px;height:34px;padding:0 12px 0 9px;cursor:pointer;color:#f4e9d2;font:12.5px Georgia,serif;
+ background:linear-gradient(160deg,rgba(25,22,33,.95),rgba(43,30,43,.95));border:1px solid rgba(202,166,107,.5);border-radius:999px;box-shadow:0 6px 18px #000a;position:fixed;overflow:hidden}
+#mr-trono-hitos img{width:20px;height:auto;opacity:.9}
+#mr-trono-hitos b{color:#caa66b;font-weight:700}
+#mr-trono-hitos i{position:absolute;left:0;bottom:0;height:3px;width:var(--p);background:linear-gradient(90deg,#9a3f58,#caa66b)}
+#mr-trono-hitos:hover,#mr-trono-hitos:focus-visible{border-color:#caa66b;outline:2px solid #f0d28f;outline-offset:2px}
+#mr-trono-hitos-panel{position:fixed;left:16px;bottom:154px;z-index:61;width:310px;padding:14px 16px;color:#f4e9d2;background:rgba(27,23,34,.97);border:1px solid rgba(202,166,107,.55);border-radius:12px;box-shadow:0 14px 30px #000c}
+#mr-trono-hitos-panel[hidden]{display:none}
+#mr-trono-hitos-panel h3{margin:0 0 4px;font:700 13px Georgia,serif;letter-spacing:.16em;text-transform:uppercase;color:#caa66b;border:0}
+#mr-trono-hitos-panel .mr-hitos-help{margin:0 0 10px;font-size:11.5px;color:#cdbf9f;line-height:1.4}
+#mr-trono-hitos-panel ol{list-style:none;margin:0;padding:0}
+#mr-trono-hitos-panel li{display:flex;gap:9px;align-items:baseline;padding:5px 6px;border-radius:7px;font-size:13px;color:#8d8576}
+#mr-trono-hitos-panel li.is-done{color:#f4e9d2}
+#mr-trono-hitos-panel li.is-done .mr-hito-mark{color:#caa66b}
+#mr-trono-hitos-panel li[role=button]{cursor:pointer}
+#mr-trono-hitos-panel li[role=button]:hover{background:rgba(154,63,88,.25)}

@@ -1,0 +1,221 @@
+{
+  "previous_masters": 53,
+  "all_replaced": true,
+  "masters_now": 68,
+  "distributed": 104,
+  "all_sources_from_new_collection": true,
+  "records": [
+    {
+      "slug": "lamina-corazon",
+      "replaced": true
+    },
+    {
+      "slug": "vasija-paser",
+      "replaced": true
+    },
+    {
+      "slug": "arpa",
+      "replaced": true
+    },
+    {
+      "slug": "corazon",
+      "replaced": true
+    },
+    {
+      "slug": "pesaje",
+      "replaced": true
+    },
+    {
+      "slug": "vasija-kasa",
+      "replaced": true
+    },
+    {
+      "slug": "iru",
+      "replaced": true
+    },
+    {
+      "slug": "vasija-tamerit",
+      "replaced": true
+    },
+    {
+      "slug": "npc-serekh",
+      "replaced": true
+    },
+    {
+      "slug": "scene-amanecer",
+      "replaced": true
+    },
+    {
+      "slug": "invitacion",
+      "replaced": true
+    },
+    {
+      "slug": "mapa-pozo-piedra",
+      "replaced": true
+    },
+    {
+      "slug": "scene-casa-nefru",
+      "replaced": true
+    },
+    {
+      "slug": "pluma",
+      "replaced": true
+    },
+    {
+      "slug": "npc-panehsy",
+      "replaced": true
+    },
+    {
+      "slug": "npc-khety",
+      "replaced": true
+    },
+    {
+      "slug": "scene-pozo",
+      "replaced": true
+    },
+    {
+      "slug": "lamina-merit",
+      "replaced": true
+    },
+    {
+      "slug": "scene-casa-panehsy",
+      "replaced": true
+    },
+    {
+      "slug": "khaem",
+      "replaced": true
+    },
+    {
+      "slug": "funeral",
+      "replaced": true
+    },
+    {
+      "slug": "mapa-corte-piedra",
+      "replaced": true
+    },
+    {
+      "slug": "banquete",
+      "replaced": true
+    },
+    {
+      "slug": "servidor",
+      "replaced": true
+    },
+    {
+      "slug": "seneb",
+      "replaced": true
+    },
+    {
+      "slug": "lamina-funeral",
+      "replaced": true
+    },
+    {
+      "slug": "escarabajo",
+      "replaced": true
+    },
+    {
+      "slug": "scene-sala-vasijas",
+      "replaced": true
+    },
+    {
+      "slug": "neset",
+      "replaced": true
+    },
+    {
+      "slug": "merit-eco",
+      "replaced": true
+    },
+    {
+      "slug": "scene-inscripcion-merit",
+      "replaced": true
+    },
+    {
+      "slug": "scene-camino-chacales",
+      "replaced": true
+    },
+    {
+      "slug": "vasija-dedi",
+      "replaced": true
+    },
+    {
+      "slug": "scene-taller-tia",
+      "replaced": true
+    },
+    {
+      "slug": "lamina-procesion",
+      "replaced": true
+    },
+    {
+      "slug": "vasija-hori",
+      "replaced": true
+    },
+    {
+      "slug": "lamina-nombres",
+      "replaced": true
+    },
+    {
+      "slug": "scene-entrada-palacio",
+      "replaced": true
+    },
+    {
+      "slug": "scene-galeria-rostros",
+      "replaced": true
+    },
+    {
+      "slug": "vasija-septima",
+      "replaced": true
+    },
+    {
+      "slug": "scene-muhar",
+      "replaced": true
+    },
+    {
+      "slug": "vasija-beset",
+      "replaced": true
+    },
+    {
+      "slug": "custodio",
+      "replaced": true
+    },
+    {
+      "slug": "scene-dormitorio-victimas",
+      "replaced": true
+    },
+    {
+      "slug": "mapa-muhar-piedra",
+      "replaced": true
+    },
+    {
+      "slug": "npc-nefru",
+      "replaced": true
+    },
+    {
+      "slug": "npc-merit",
+      "replaced": true
+    },
+    {
+      "slug": "sombra-chacal",
+      "replaced": true
+    },
+    {
+      "slug": "lamina-khety",
+      "replaced": true
+    },
+    {
+      "slug": "npc-tia",
+      "replaced": true
+    },
+    {
+      "slug": "laberinto",
+      "replaced": true
+    },
+    {
+      "slug": "zahra",
+      "replaced": true
+    },
+    {
+      "slug": "scene-procesion",
+      "replaced": true
+    }
+  ]
+}

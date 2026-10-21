@@ -1,0 +1,38 @@
+[
+  {
+    "source": "art/masters/funeral.png",
+    "distributed": "assets/scenes/funeral.webp",
+    "use": "scene:funeral",
+    "width": 1672,
+    "height": 941,
+    "format": "webp",
+    "bytes": 452012
+  },
+  {
+    "source": "art/masters/banquete.png",
+    "distributed": "assets/scenes/banquete.webp",
+    "use": "scene:banquete",
+    "width": 1672,
+    "height": 941,
+    "format": "webp",
+    "bytes": 455628
+  },
+  {
+    "source": "art/masters/pesaje.png",
+    "distributed": "assets/scenes/pesaje.webp",
+    "use": "scene:pesaje",
+    "width": 1672,
+    "height": 941,
+    "format": "webp",
+    "bytes": 479680
+  },
+  {
+    "source": "art/masters/laberinto.png",
+    "distributed": "assets/scenes/laberinto.webp",
+    "use": "scene:laberinto",
+    "width": 1672,
+    "height": 941,
+    "format": "webp",
+    "bytes": 536134
+  }
+]

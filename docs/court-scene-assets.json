@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "tool": "image_gen built-in",
+  "records": [
+    {
+      "key": "entrada-palacio",
+      "sourceGeneratedPath": "/Users/mromera/.codex/generated_images/01a15b28-1a12-7e42-bcb1-acab98737cf3/exec-c61e7991-27d1-4f52-a5f9-f890ab5a6005.png",
+      "prompt": "Use case: illustration-story. Asset type: wide 16:9 narrative scene background for an original gothic Egyptian fantasy illustrated book and Foundry VTT. Scene: the buried entrance to a monumental funerary palace beneath the desert, threshold half swallowed by sand, a steep sandstone stair emerging from a narrow labyrinth passage into a huge black and antique-gold carved doorway. Weathered Egyptian-inspired jackal reliefs and immense columns, alabaster dust on dark stone, two small dim torches, blue-black shadow beyond the doorway. No river, no characters, no vampire, no throne, no visible writing. Composition emphasizes coherent entrance geometry, low steps leading the eye into a mysterious palace, wide horizontal cinematic storytelling while remaining an unmistakable HAND-PAINTED storybook fantasy illustration. Thick opaque gouache and oil-like brushwork on textured paper, broad expressive shapes, visible bristle strokes and dry-brush edges, stylized architecture, NOT photograph, NOT hyperreal, NOT 3D render. Palette midnight blue, alabaster, antique gold, black and tiny muted crimson fabric remnants. Deep melancholic gothic atmosphere, readable doorway silhouette, no text, no lettering, no logos, no watermark, original artwork. Wide panoramic 1920x1080 or proportional landscape composition.",
+      "master": "art/masters/scene-entrada-palacio.png",
+      "distributed": "assets/scenes/entrada-palacio.webp",
+      "use": "Escena narrativa panorámica sin cuadrícula; ilustración editorial del mismo lugar.",
+      "intendedSceneContentKey": "entrada-palacio",
+      "visualReview": {
+        "reviewed": true,
+        "notes": "Umbral enterrado, peldaños y columnas coherentes; sin personajes ni Neb-Sekhem.",
+        "distributedWebpReviewed": true
+      },
+      "masterInfo": {
+        "resolution": [
+          1672,
+          941
+        ],
+        "format": "PNG",
+        "bytes": 2986411,
+        "includedInModuleZip": false
+      },
+      "distributedInfo": {
+        "resolution": [
+          1672,
+          941
+        ],
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "bytes": 523930,
+        "resampled": false
+      },
+      "editorialNote": "Resolución nativa preservada, sin ampliación artificial. Calcular ppp efectivos según tamaño colocado; una doble página impresa puede requerir un maestro de mayor resolución."
+    },
+    {
+      "key": "galeria-rostros",
+      "sourceGeneratedPath": "/Users/mromera/.codex/generated_images/01a15b28-1a12-7e42-bcb1-acab98737cf3/exec-af7eb802-82bc-4ee3-8942-fa1c3846dbf6.png",
+      "prompt": "Use case: illustration-story. Asset type: wide panoramic narrative background for an original gothic Egyptian fantasy illustrated adventure and Foundry VTT. Scene: the Gallery of Erased Faces inside an ancient buried funerary palace. A coherent long stone corridor with tall sandstone wall reliefs, figures portrayed in formal ancient Egyptian-inspired profile. Every human face in the carved reliefs has been deliberately rasped into a shallow rough blank oval, tool scratches still visible; bodies, hands and clothing survive, making the erasure disturbing. One large relief in left foreground shows the scraped face clearly; repeated smaller niches recede toward a dark arched end. Powdered stone on the floor, narrow alabaster light from a high slit, two dying amber lamps, antique-gold traces and tiny dark crimson scraps. No living characters, no vampire, no ghosts with identifiable faces, no readable writing. Must be unmistakable hand-painted storybook fantasy: thick gouache and oil-like bristle strokes, dry-brush texture, simplified expressive architectural shapes on rough paper; NOT photograph, NOT photorealistic, NOT 3D rendering. Palette black-blue, alabaster, dusty stone, old gold. Elegant melancholy gothic dread, no gore. Wide 16:9 composition, clear visual flow and legible erasure motif at screen scale. No captions, lettering, logos or watermarks. Original artwork.",
+      "master": "art/masters/scene-galeria-rostros.png",
+      "distributed": "assets/scenes/galeria-rostros.webp",
+      "use": "Escena narrativa panorámica sin cuadrícula; ilustración editorial del mismo lugar.",
+      "intendedSceneContentKey": "galeria-rostros",
+      "visualReview": {
+        "reviewed": true,
+        "notes": "Rostros de relieves raspados y vacíos legibles; sin texto ni personas presentes.",
+        "distributedWebpReviewed": true
+      },
+      "masterInfo": {
+        "resolution": [
+          1672,
+          941
+        ],
+        "format": "PNG",
+        "bytes": 3521617,
+        "includedInModuleZip": false
+      },
+      "distributedInfo": {
+        "resolution": [
+          1672,
+          941
+        ],
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "bytes": 663474,
+        "resampled": false
+      },
+      "editorialNote": "Resolución nativa preservada, sin ampliación artificial. Calcular ppp efectivos según tamaño colocado; una doble página impresa puede requerir un maestro de mayor resolución."
+    },
+    {
+      "key": "dormitorio-victimas",
+      "sourceGeneratedPath": "/Users/mromera/.codex/generated_images/01a15b28-1a12-7e42-bcb1-acab98737cf3/exec-585a6c9f-b0c6-4ba2-9298-45ccf44a040f.png",
+      "prompt": "Use case: illustration-story. Asset type: wide 16:9 narrative background for an original gothic Egyptian fantasy illustrated adventure and Foundry VTT. Scene: the private dormitory where six abducted adults are held in a buried funerary palace, shown while temporarily empty. EXACTLY SIX simple separate low wooden cots with thin rumpled alabaster linen, arranged clearly in TWO ROWS OF THREE, three against left wall and three against right wall, with a broad empty central aisle. All six cots individually visible and countable, no extra bench or bed, no people, no bodies, no silhouettes on bedding. Beside each cot one small plain drinking bowl; a few ordinary personal cloths, a coil of clean bandage and a sandal subtly suggest interrupted lives. Six small beds rather than coffins or sarcophagi. Sandstone chamber with black-blue painted ceiling, worn antique-gold funerary cornice, one low amber oil lamp and a high narrow shaft of cool light. Geometrically coherent room with door at far end. Hand-painted fantasy picture-book art: thick textured gouache and oil-like brushwork, obvious bristle strokes, dry-brush edges, stylized planes on fibrous paper. NOT photo, NOT photoreal, NOT 3D. Alabaster, midnight blue, old gold, dusty sandstone, restrained crimson thread. Melancholic humane dread, not a torture chamber, no gore. No vampire, no throne, no lettering, no text, no logos or watermark. Original wide panoramic composition.",
+      "master": "art/masters/scene-dormitorio-victimas.png",
+      "distributed": "assets/scenes/dormitorio-victimas.webp",
+      "use": "Escena narrativa panorámica sin cuadrícula; ilustración editorial del mismo lugar.",
+      "intendedSceneContentKey": "dormitorio-victimas",
+      "visualReview": {
+        "reviewed": true,
+        "notes": "Seis camastros vacíos, tres a cada lado; no cuerpos ni identidades visuales impuestas.",
+        "distributedWebpReviewed": true
+      },
+      "masterInfo": {
+        "resolution": [
+          1672,
+          940
+        ],
+        "format": "PNG",
+        "bytes": 2837817,
+        "includedInModuleZip": false
+      },
+      "distributedInfo": {
+        "resolution": [
+          1672,
+          940
+        ],
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "bytes": 477462,
+        "resampled": false
+      },
+      "editorialNote": "Resolución nativa preservada, sin ampliación artificial. Calcular ppp efectivos según tamaño colocado; una doble página impresa puede requerir un maestro de mayor resolución."
+    },
+    {
+      "key": "sala-vasijas",
+      "sourceGeneratedPath": "/Users/mromera/.codex/generated_images/01a15b28-1a12-7e42-bcb1-acab98737cf3/exec-e0d8ce98-e806-439e-b21f-f5c2792da078.png",
+      "prompt": "Use case: illustration-story. Asset type: wide 16:9 narrative scene background for an original gothic Egyptian fantasy illustrated adventure and Foundry VTT. Scene: the Chamber of Six Name Jars. A dark stone ritual altar crosses the image as one SINGLE STRAIGHT ROW of SEVEN clearly separated small stone pedestals. On the FIRST SIX pedestals, from left to right, exactly SIX closed alabaster funerary jars, each with a fitted lid tied by a thin dark crimson sealing cord. On the SEVENTH pedestal at the far right, NO JAR, only a conspicuously empty circular recess lit by cool light. Six jars total, seven positions total, do not add any other jars, urns or vessels anywhere in the background. The jars are human-hand-sized ceremonial objects, not sarcophagi. Slightly distinct abstract carved motifs, no human readable words, no lettering. A shallow view from waist height makes every vessel and the empty seventh position separately countable. Background ancient buried Egyptian-inspired funerary chamber, immense black-blue columns, old-gold wing and jackal motifs, subtle amber torches, alabaster dust drifting in cool shadow. No people, no vampire, no throne. Strong handmade painterly fantasy storybook style, thick gouache and oil-like bristle strokes, textured paper, simplified painted planes, visible dry-brush edges, absolutely not photo or photorealistic or 3D. Palette midnight blue, alabaster, old gold, black, restrained crimson. Refined gothic dread and melancholy, no gore. Wide panoramic composition, no logos, no watermark, original art.",
+      "master": "art/masters/scene-sala-vasijas.png",
+      "distributed": "assets/scenes/sala-vasijas.webp",
+      "use": "Escena narrativa panorámica sin cuadrícula; ilustración editorial del mismo lugar.",
+      "intendedSceneContentKey": "sala-vasijas",
+      "visualReview": {
+        "reviewed": true,
+        "notes": "Conteo visual confirmado: seis vasijas selladas y un séptimo pedestal vacío a la derecha.",
+        "distributedWebpReviewed": true
+      },
+      "masterInfo": {
+        "resolution": [
+          1672,
+          941
+        ],
+        "format": "PNG",
+        "bytes": 2787874,
+        "includedInModuleZip": false
+      },
+      "distributedInfo": {
+        "resolution": [
+          1672,
+          941
+        ],
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "bytes": 468446,
+        "resampled": false
+      },
+      "editorialNote": "Resolución nativa preservada, sin ampliación artificial. Calcular ppp efectivos según tamaño colocado; una doble página impresa puede requerir un maestro de mayor resolución."
+    },
+    {
+      "key": "inscripcion-merit",
+      "sourceGeneratedPath": "/Users/mromera/.codex/generated_images/01a15b28-1a12-7e42-bcb1-acab98737cf3/exec-985f50ed-de95-44bb-ac61-6abe753cc4f9.png",
+      "prompt": "Use case: illustration-story. Asset type: wide 16:9 narrative background for an original gothic Egyptian fantasy illustrated adventure and Foundry VTT. Input image: supporting reference for the small sacred feather object ONLY; retain its ivory-white feather, old-gold quill fitting and dark midnight-blue binding, but reinterpret it with the scene's hand-painted brushwork. New scene: the testimony stone of Merit, a low sandstone table in a quiet side chamber of a buried funerary palace. On the table lies a chipped pale alabaster tablet, with shallow abstract incised marks and a few geometric funerary motifs, NO readable words, NO legible alphabet or invented lines pretending to be text. The white feather with old-gold shaft and dark blue binding rests diagonally across one corner of the tablet. A second larger upright weathered relief slab stands behind the table, its surface worn into faint abstract traces, no portrait, no identifiable character. Warm low oil lamp makes the feather and tablet readable, deep midnight-blue shadows around the chamber, a few dust motes, old-gold trim on dark columns. The feather and testimony are the narrative focus; enough surrounding space for an immersive scene rather than a flat item catalogue. No people, no vampire, no throne, no coffin, no actual written name. Strongly handmade fantasy picture-book art: thick textured gouache and oil-like visible bristle strokes on rough paper, broad expressive painted shapes, dry-brush edges, NOT photography, NOT photorealistic, NOT 3D render. Palette alabaster, old gold, midnight blue, tiny crimson lamp thread. Original melancholic gothic composition, wide panoramic 16:9. No captions, labels, logos, or watermark.",
+      "master": "art/masters/scene-inscripcion-merit.png",
+      "distributed": "assets/scenes/inscripcion-merit.webp",
+      "use": "Escena narrativa panorámica sin cuadrícula; ilustración editorial del mismo lugar.",
+      "intendedSceneContentKey": "inscripcion-merit",
+      "visualReview": {
+        "reviewed": true,
+        "notes": "Pluma blanca, herraje oro viejo y atadura azul coherentes con el objeto de referencia; piedra con motivos abstractos sin texto legible.",
+        "distributedWebpReviewed": true
+      },
+      "supportingReference": "assets/objects/pluma.webp",
+      "masterInfo": {
+        "resolution": [
+          1672,
+          940
+        ],
+        "format": "PNG",
+        "bytes": 2856649,
+        "includedInModuleZip": false
+      },
+      "distributedInfo": {
+        "resolution": [
+          1672,
+          940
+        ],
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "bytes": 494968,
+        "resampled": false
+      },
+      "editorialNote": "Resolución nativa preservada, sin ampliación artificial. Calcular ppp efectivos según tamaño colocado; una doble página impresa puede requerir un maestro de mayor resolución."
+    },
+    {
+      "key": "amanecer",
+      "sourceGeneratedPath": "/Users/mromera/.codex/generated_images/01a15b28-1a12-7e42-bcb1-acab98737cf3/exec-ce12c7a9-cc3c-4013-b2f7-fff1590aed68.png",
+      "prompt": "Use case: illustration-story. Asset type: wide 16:9 closing narrative scene background for an original gothic Egyptian fantasy illustrated book and Foundry VTT. Scene: first dawn in Muhar, an isolated desert settlement, after a long fearful night. A narrow EMPTY sandstone and mudbrick street between flat-roofed houses opens toward a small square and distant funerary temple silhouettes; pale dunes and dry rocky hills beyond, absolutely NO river, NO canal, NO waterway, NO lush landscape. A few hanging linen cloths and unlit oil lamps, sand lightly accumulated against the thresholds, a closed wooden door in foreground, simple clay cups on a windowsill but no coffin and no funeral procession. No people or identifiable characters. The first alabaster and old-gold sunlight crosses the street, long cool midnight-blue shadows remain beneath doorways, muted crimson awning hangs still. Quiet ambiguous melancholy rather than triumphant victory: the night has ended but the consequences remain unwritten. Original hand-painted storybook fantasy, thick textured gouache with oil-like bristle strokes and broad expressive painted shapes on fibrous paper, clearly visible handmade brushwork; NOT photograph, NOT photorealistic, NOT 3D render. Coherent street geometry, wide narrative composition, warm horizon readable at screen size. No writing, no letters, no logos, no watermark, no vampire, no throne. Original wide panoramic illustration.",
+      "master": "art/masters/scene-amanecer.png",
+      "distributed": "assets/scenes/amanecer.webp",
+      "use": "Escena narrativa panorámica sin cuadrícula; ilustración editorial del mismo lugar.",
+      "intendedSceneContentKey": "amanecer",
+      "visualReview": {
+        "reviewed": true,
+        "notes": "Calle desértica vacía de Muhar, dunas y luz de alba; sin río, ataúd ni desenlace impuesto.",
+        "distributedWebpReviewed": true
+      },
+      "masterInfo": {
+        "resolution": [
+          1672,
+          941
+        ],
+        "format": "PNG",
+        "bytes": 2997468,
+        "includedInModuleZip": false
+      },
+      "distributedInfo": {
+        "resolution": [
+          1672,
+          941
+        ],
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "bytes": 522304,
+        "resampled": false
+      },
+      "editorialNote": "Resolución nativa preservada, sin ampliación artificial. Calcular ppp efectivos según tamaño colocado; una doble página impresa puede requerir un maestro de mayor resolución."
+    }
+  ],
+  "distributedBytes": 3150584,
+  "masterBytes": 17987836,
+  "reviewContact": "art/review/court-scenes-contact.jpg"
+}

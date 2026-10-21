@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "lamina-funeral",
+    "prompt": "Use case: illustration-story. Asset type: original full-bleed portrait illustration for a professional Spanish gothic fantasy roleplaying adventure, also shown in Foundry VTT. Portrait 2:3 composition, richly painted scene all the way to the edges, not a framed illustration, no typography, no border, no watermark. Medium: handmade traditional gouache and oil storybook fantasy, expressive visible brushwork and tactile paper, illustrated faces, NOT photorealism, NOT polished 3D. Palette: midnight indigo, dusty ochre, aged gold, ivory linen, very restrained crimson. Egyptian gothic horror of memory and grief, emotional dignity, subtle supernatural dread. Clear focal point with depth and legible silhouettes; generous scene detail, no empty blank paper. Scene: the impossible funeral in the ancient desert city Muhar. Foreground open EMPTY wooden coffin holding only a tiny worn sandal; no corpse. A grieving adult woman in linen kneels nearby, neighbours offer clay bowls of water. Towering mudbrick alleys and temple pylons recede behind a silent crowd, scraps of blank funerary papyrus blow through warm dusk. Strong diagonal from coffin in lower foreground to the woman and distant temple; human-scale sorrow, no gore. Upper fifth contains dark painted architecture suitable for a small title overlay.",
+    "source": "/Users/mromera/.codex/generated_images/01a15b26-454b-7e40-a4dc-208e9dcd3fe3/exec-7cd9054a-b71e-4751-a061-9316da99c523.png",
+    "method": "built-in image_gen",
+    "master": "art/masters/lamina-funeral.png",
+    "foundry": "assets/scenes/lamina-funeral.webp",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  {
+    "slug": "lamina-procesion",
+    "prompt": "Use case: illustration-story. Asset type: original full-bleed portrait illustration for a professional Spanish gothic fantasy roleplaying adventure, also shown in Foundry VTT. Portrait 2:3 composition, richly painted scene all the way to the edges, not a framed illustration, no typography, no border, no watermark. Medium: handmade traditional gouache and oil storybook fantasy, expressive visible brushwork and tactile paper, illustrated faces, NOT photorealism, NOT polished 3D. Palette: midnight indigo, dusty ochre, aged gold, ivory linen, very restrained crimson. Egyptian gothic horror of memory and grief, emotional dignity, subtle supernatural dread. Clear focal point with depth and legible silhouettes; generous scene detail, no empty blank paper. Scene: a secret funeral procession descends a huge ancient well into an underground Egyptian palace. Seen from an elevated stone stair: linen-robed bearers with small bronze lamps curve down the spiral staircase around a deep indigo void. Seven shallow niches cut into sandstone, faint golden ritual light far below, distant jackal shadows carved on walls. The procession is small against immense architecture. Dynamic curling composition from upper left to lower center, close chipped stone and rope in foreground, deep layered atmosphere. No vampire portrait, no royal character, no readable writing.",
+    "source": "/Users/mromera/.codex/generated_images/01a15b26-454b-7e40-a4dc-208e9dcd3fe3/exec-39c95585-1e63-46cc-8c30-617537f6acb0.png",
+    "method": "built-in image_gen",
+    "master": "art/masters/lamina-procesion.png",
+    "foundry": "assets/scenes/lamina-procesion.webp",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  {
+    "slug": "lamina-nombres",
+    "prompt": "Use case: illustration-story. Asset type: original full-bleed portrait illustration for a professional Spanish gothic fantasy roleplaying adventure, also shown in Foundry VTT. Portrait 2:3 composition, richly painted scene all the way to the edges, not a framed illustration, no typography, no border, no watermark. Medium: handmade traditional gouache and oil storybook fantasy, expressive visible brushwork and tactile paper, illustrated faces, NOT photorealism, NOT polished 3D. Palette: midnight indigo, dusty ochre, aged gold, ivory linen, very restrained crimson. Egyptian gothic horror of memory and grief, emotional dignity, subtle supernatural dread. Clear focal point with depth and legible silhouettes; generous scene detail, no empty blank paper. Scene: the prison of stolen names in an underground Egyptian ritual chamber. EXACTLY six sealed canopic jars on six stone alcoves, each distinct: reed motifs, pottery spiral with ram lid, medicinal leaves with ibis lid, braided rope with jackal lid, linked rings with cat lid, little oil lamp with hawk lid. A seventh EMPTY jar with a smooth human face lid stands alone in the foreground beside an unlit lamp. Thin golden traces like breath suggest captive memories without readable letters. Deep shelves, worn steps, midnight shadows, lamp lit gold glaze. Dramatic high-low layered composition, no modern objects, no human bodies, no extra jars. Fill full vertical page.",
+    "source": "/Users/mromera/.codex/generated_images/01a15b26-454b-7e40-a4dc-208e9dcd3fe3/exec-0af272aa-ebc5-4efc-92fe-287dc33307b0.png",
+    "method": "built-in image_gen",
+    "master": "art/masters/lamina-nombres.png",
+    "foundry": "assets/scenes/lamina-nombres.webp",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  {
+    "slug": "lamina-corazon",
+    "prompt": "Use case: illustration-story. Asset type: original full-bleed portrait illustration for a professional Spanish gothic fantasy roleplaying adventure, also shown in Foundry VTT. Portrait 2:3 composition, richly painted scene all the way to the edges, not a framed illustration, no typography, no border, no watermark. Medium: handmade traditional gouache and oil storybook fantasy, expressive visible brushwork and tactile paper, illustrated faces, NOT photorealism, NOT polished 3D. Palette: midnight indigo, dusty ochre, aged gold, ivory linen, very restrained crimson. Egyptian gothic horror of memory and grief, emotional dignity, subtle supernatural dread. Clear focal point with depth and legible silhouettes; generous scene detail, no empty blank paper. Scene: the final Chamber of Weighing beneath an ancient Egyptian palace. A heavy black-and-gold coffer is OPEN on a sandstone altar, revealing a small crystalline crimson heart giving a faint pulse of light; no anatomical gore. Beside it an antique bronze balance with a white feather on one pan. Broken wax seal, sand, linen and reflected firelight in foreground; tall columns, seven distant ritual niches and dark vaulted ceiling rising into indigo above. A hand of an ordinary linen-clad human enters the lower edge approaching but not touching the coffer: a meaningful choice, not a battle. Monumental architectural depth, no throne king and no definitive vampire face.",
+    "source": "/Users/mromera/.codex/generated_images/01a15b26-454b-7e40-a4dc-208e9dcd3fe3/exec-db9771a6-1859-4b4a-8290-544398e73cb8.png",
+    "method": "built-in image_gen",
+    "master": "art/masters/lamina-corazon.png",
+    "foundry": "assets/scenes/lamina-corazon.webp",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  {
+    "slug": "lamina-merit",
+    "refs": [
+      "npc-merit.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset type: original full-bleed portrait illustration for a professional Spanish gothic fantasy roleplaying adventure, also shown in Foundry VTT. Portrait 2:3 composition, richly painted scene all the way to the edges, not a framed illustration, no typography, no border, no watermark. Medium: handmade traditional gouache and oil storybook fantasy, expressive visible brushwork and tactile paper, illustrated faces, NOT photorealism, NOT polished 3D. Palette: midnight indigo, dusty ochre, aged gold, ivory linen, very restrained crimson. Egyptian gothic horror of memory and grief, emotional dignity, subtle supernatural dread. Clear focal point with depth and legible silhouettes; generous scene detail, no empty blank paper. Reference image 1 establishes Merit’s exact face, dark braided hair, cream veil, golden collar and painterly visual language. Preserve her recognisable identity. Create a new narrative scene with the same adult woman as a luminous but grounded echo, standing beside a wall of damaged reliefs in a monumental underground chamber. Her open palm is raised in a clear gesture of refusal, calm resolute gaze. A single white feather and fragments of her testimony rest on stone at her feet. Bronze balance in distant background. Warm gold light on her face against midnight blue; texture of old painted plaster and linen; dignified agency, no seduction, no tears, no extra main character. Her figure fills lower two-thirds with architecture above, full portrait page.",
+    "source": "/Users/mromera/.codex/generated_images/01a15b26-454b-7e40-a4dc-208e9dcd3fe3/exec-0bcd9792-a683-4f56-9626-318b52798e2d.png",
+    "method": "built-in image_gen",
+    "master": "art/masters/lamina-merit.png",
+    "foundry": "assets/scenes/lamina-merit.webp",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  {
+    "slug": "lamina-khety",
+    "refs": [
+      "npc-khety.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset type: original full-bleed portrait illustration for a professional Spanish gothic fantasy roleplaying adventure, also shown in Foundry VTT. Portrait 2:3 composition, richly painted scene all the way to the edges, not a framed illustration, no typography, no border, no watermark. Medium: handmade traditional gouache and oil storybook fantasy, expressive visible brushwork and tactile paper, illustrated faces, NOT photorealism, NOT polished 3D. Palette: midnight indigo, dusty ochre, aged gold, ivory linen, very restrained crimson. Egyptian gothic horror of memory and grief, emotional dignity, subtle supernatural dread. Clear focal point with depth and legible silhouettes; generous scene detail, no empty blank paper. Reference image 1 establishes Khety’s exact middle-aged face, shaved head, short dark-grey beard, ivory robes with crimson edging and scarab medallion. Preserve identity. New narrative scene: Khety kneels on worn temple steps holding a little empty linen cloth in both hands, looking toward a faint deceptive child-shaped reflection formed by golden dust beyond a narrow doorway. The reflection is ambiguous, no real child body, no corpse; theme is manipulative false hope. An empty seventh ritual jar with a smooth face lid and a key lie on the steps. Tall columns and restrained torchlight, deep indigo depth; expressive hand-painted face and hands, intimate human grief within vast architecture. No typography.",
+    "source": "/Users/mromera/.codex/generated_images/01a15b26-454b-7e40-a4dc-208e9dcd3fe3/exec-0411f921-79c3-40de-92e8-c829da82b856.png",
+    "method": "built-in image_gen",
+    "master": "art/masters/lamina-khety.png",
+    "foundry": "assets/scenes/lamina-khety.webp",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  }
+]

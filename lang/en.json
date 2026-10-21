@@ -191,6 +191,47 @@
       "DepthScale": "Depth scaling",
       "DepthScaleHelp": "Figures shrink as they move toward the background and grow toward the foreground, following each scene’s floor."
     },
-    "EditorialUpgradeFailed": "The editorial upgrade did not finish. The toolbar remains available; reload the world to retry. Your custom documents are preserved."
+    "EditorialUpgradeFailed": "The editorial upgrade did not finish. The toolbar remains available; reload the world to retry. Your custom documents are preserved.",
+    "Hitos": {
+      "funeral": "A funeral without a name",
+      "ataud": "The coffin is empty",
+      "registros": "Six deliveries and a gap",
+      "pluma": "A feather that remembers",
+      "henut": "Henut knows she is in danger",
+      "pozo": "The well of seven slots",
+      "invitacion": "An invitation to dinner",
+      "banquete": "The table of empty places",
+      "vivos": "Six people are still breathing",
+      "merit": "A woman who said no",
+      "camara": "The Weighing Chamber",
+      "final": "A decision made",
+      "Title": "Milestones",
+      "HelpGM": "Click a milestone to mark or unmark it: the whole table sees it.",
+      "HelpPlayer": "What you have already uncovered. The Narrator unlocks them during play.",
+      "Hidden": "Still to be discovered",
+      "Unlocked": "New milestone"
+    },
+    "Ambient": {
+      "Title": "Ambience",
+      "Light": "Bright",
+      "Dim": "Dim",
+      "Dark": "Dark"
+    },
+    "SceneTutorial": "Scene direction tutorial",
+    "SceneTutorialDescription": "Tour of the Narrator bar: move it, show scenes, depth-aware figures, ambience and milestones.",
+    "TourSceneBarTitle": "Your bar, wherever you like",
+    "TourSceneBarText": "Hold the right mouse button here and drag the bar out of the way. It remembers its position. “More controls” has “Center bar” and the arrow on the right collapses it to one row.",
+    "TourSceneShowTitle": "Show to everyone",
+    "TourSceneShowText": "Activates the scene for the table and starts its music. “Read scene” opens the text prepared to be read aloud.",
+    "TourSceneFiguresTitle": "Figures",
+    "TourSceneFiguresText": "Pick the spawn size and resize the figures already present. Scenes never place characters by themselves: bring them from the journal or with “Place heroes”.",
+    "TourSceneDepthTitle": "Depth scaling",
+    "TourSceneDepthText": "Every background knows its floor. With this option figures stand on real spots and shrink as they move away and grow as they come closer, also when you drag them.",
+    "TourSceneAmbientTitle": "Ambience",
+    "TourSceneAmbientText": "Bright, dim or dark: changes the scene light and the score volume together. It is remembered per scene.",
+    "TourSceneHitosTitle": "Investigation milestones",
+    "TourSceneHitosText": "Mark here what the table discovers (Alt+H). Players see progress without spoilers and get a notice on each new milestone.",
+    "TourPlayerHitosTitle": "Investigation milestones",
+    "TourPlayerHitosText": "This badge (Alt+H) shows what the group has discovered. The Narrator unlocks each milestone during play and you will get a notice."
   }
 }

@@ -1,5 +1,5 @@
 {
-  "narrative_paragraphs_checked": 392,
+  "narrative_paragraphs_checked": 395,
   "missing_content": [],
   "empty_content_pages": [],
   "sparse_content_pages": [],
@@ -46,19 +46,19 @@
     {
       "book": "Manual",
       "page": 5,
-      "content_characters": 3366,
+      "content_characters": 3372,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 6,
-      "content_characters": 3527,
+      "content_characters": 3553,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 7,
-      "content_characters": 1354,
+      "content_characters": 2145,
       "full_page_art": false
     },
     {
@@ -130,13 +130,13 @@
     {
       "book": "Manual",
       "page": 19,
-      "content_characters": 3474,
+      "content_characters": 3475,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 20,
-      "content_characters": 3383,
+      "content_characters": 3382,
       "full_page_art": false
     },
     {
@@ -220,7 +220,7 @@
     {
       "book": "Manual",
       "page": 34,
-      "content_characters": 3487,
+      "content_characters": 3485,
       "full_page_art": false
     },
     {
@@ -286,7 +286,7 @@
     {
       "book": "Manual",
       "page": 45,
-      "content_characters": 2940,
+      "content_characters": 2939,
       "full_page_art": false
     },
     {
@@ -406,31 +406,31 @@
     {
       "book": "Manual",
       "page": 65,
-      "content_characters": 2750,
+      "content_characters": 2994,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 66,
-      "content_characters": 3445,
+      "content_characters": 3202,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 67,
-      "content_characters": 3512,
+      "content_characters": 3296,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 68,
-      "content_characters": 3495,
+      "content_characters": 3316,
       "full_page_art": false
     },
     {
       "book": "Manual",
       "page": 69,
-      "content_characters": 1308,
+      "content_characters": 990,
       "full_page_art": false
     },
     {
@@ -478,7 +478,7 @@
     {
       "book": "Protagonistas",
       "page": 3,
-      "content_characters": 3299,
+      "content_characters": 3021,
       "full_page_art": false
     },
     {

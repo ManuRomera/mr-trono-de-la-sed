@@ -1,0 +1,17 @@
+[
+  {
+    "file": "dist/mr-trono-de-la-sed.zip",
+    "bytes": 65120523,
+    "sha256": "c78e7119c3f0527420961d4b56e98b61a57a45ac186bd0e28c83346f97ad9835"
+  },
+  {
+    "file": "output/pdf/El-Trono-de-la-Sed-Manual.pdf",
+    "bytes": 38677733,
+    "sha256": "8f30bc51553b19a38b73ba8b280f1e3814ff7d2912e94000191d2b183f70762f"
+  },
+  {
+    "file": "output/pdf/El-Trono-de-la-Sed-Material-de-Juego.pdf",
+    "bytes": 6248157,
+    "sha256": "c40c1d7b9d2bc8d16aeb5e1ff7fcf0a936ecba859d2725f2f1c15d939d4b5696"
+  }
+]

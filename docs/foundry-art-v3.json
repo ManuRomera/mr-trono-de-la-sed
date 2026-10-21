@@ -1,0 +1,994 @@
+{
+  "startupErrors": [],
+  "backgrounds": [
+    {
+      "name": "Casa de Nefru",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Casa de Panehsy",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Coronación · El triunfo de la sed",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "El Laberinto",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "El banquete",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "El camino de los chacales",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "El dormitorio de las víctimas",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "El funeral imposible",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "El pozo de las siete ranuras",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "El testimonio de Merit",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "El umbral de la corte",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "El último amanecer",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "La Corte · Plano de orientación",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "La Cámara del Pesaje",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "La galería de los rostros borrados",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "La procesión funeraria",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "La sala de las vasijas",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Lámina · El corazón y la balanza",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Lámina · El descenso a la corte",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Lámina · El funeral imposible",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Lámina · La falsa promesa de Khety",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Lámina · La negativa de Merit",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Lámina · Los nombres cautivos",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Merit · El eco que elige",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Muhar al anochecer",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Muhar · Plano de rutas",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Neb-Sekhem · La invitación del rey",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Pozo · Plano de las siete ranuras",
+      "ready": true,
+      "textureValid": true
+    },
+    {
+      "name": "Taller de Tia",
+      "ready": true,
+      "textureValid": true
+    }
+  ],
+  "canvasState": {
+    "ready": true,
+    "tokens": [
+      {
+        "name": "Zahra",
+        "texture": "modules/mr-trono-de-la-sed/assets/characters/zahra-token.webp",
+        "valid": true
+      },
+      {
+        "name": "Khaem",
+        "texture": "modules/mr-trono-de-la-sed/assets/characters/khaem-token.webp",
+        "valid": true
+      },
+      {
+        "name": "Neset",
+        "texture": "modules/mr-trono-de-la-sed/assets/characters/neset-token.webp",
+        "valid": true
+      },
+      {
+        "name": "Seneb",
+        "texture": "modules/mr-trono-de-la-sed/assets/characters/seneb-token.webp",
+        "valid": true
+      },
+      {
+        "name": "Iru",
+        "texture": "modules/mr-trono-de-la-sed/assets/characters/iru-token.webp",
+        "valid": true
+      }
+    ]
+  },
+  "version": "0.3.0",
+  "results": [
+    {
+      "id": "MistEngineLegendInTheMistCharacterSheet-Actor-e9bdff44e16b2b74",
+      "name": "Iru",
+      "background": "url(\"http://localhost:30001/modules/mr-trono-de-la-sed/assets/characters/iru-sheet.webp\")",
+      "img": "modules/mr-trono-de-la-sed/assets/characters/iru-portrait.webp",
+      "token": "modules/mr-trono-de-la-sed/assets/characters/iru-token.webp",
+      "width": 1100,
+      "height": 800
+    },
+    {
+      "id": "MistEngineLegendInTheMistCharacterSheet-Actor-5f29196c374a7f02",
+      "name": "Khaem",
+      "background": "url(\"http://localhost:30001/modules/mr-trono-de-la-sed/assets/characters/khaem-sheet.webp\")",
+      "img": "modules/mr-trono-de-la-sed/assets/characters/khaem-portrait.webp",
+      "token": "modules/mr-trono-de-la-sed/assets/characters/khaem-token.webp",
+      "width": 1100,
+      "height": 800
+    },
+    {
+      "id": "MistEngineLegendInTheMistCharacterSheet-Actor-202be959feb5f3d2",
+      "name": "Neset",
+      "background": "url(\"http://localhost:30001/modules/mr-trono-de-la-sed/assets/characters/neset-sheet.webp\")",
+      "img": "modules/mr-trono-de-la-sed/assets/characters/neset-portrait.webp",
+      "token": "modules/mr-trono-de-la-sed/assets/characters/neset-token.webp",
+      "width": 1100,
+      "height": 800
+    },
+    {
+      "id": "MistEngineLegendInTheMistCharacterSheet-Actor-ae63d4a51ece8961",
+      "name": "Seneb",
+      "background": "url(\"http://localhost:30001/modules/mr-trono-de-la-sed/assets/characters/seneb-sheet.webp\")",
+      "img": "modules/mr-trono-de-la-sed/assets/characters/seneb-portrait.webp",
+      "token": "modules/mr-trono-de-la-sed/assets/characters/seneb-token.webp",
+      "width": 1100,
+      "height": 800
+    },
+    {
+      "id": "MistEngineLegendInTheMistCharacterSheet-Actor-37d44832b56ae268",
+      "name": "Zahra",
+      "background": "url(\"http://localhost:30001/modules/mr-trono-de-la-sed/assets/characters/zahra-sheet.webp\")",
+      "img": "modules/mr-trono-de-la-sed/assets/characters/zahra-portrait.webp",
+      "token": "modules/mr-trono-de-la-sed/assets/characters/zahra-token.webp",
+      "width": 1100,
+      "height": 800
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Henut",
+      "img": "modules/mr-trono-de-la-sed/assets/npc/henut-portrait.webp",
+      "token": "modules/mr-trono-de-la-sed/assets/npc/henut-token.webp"
+    },
+    {
+      "name": "Hori",
+      "img": "modules/mr-trono-de-la-sed/assets/npc/hori-portrait.webp",
+      "token": "modules/mr-trono-de-la-sed/assets/npc/hori-token.webp"
+    },
+    {
+      "name": "Merit",
+      "img": "modules/mr-trono-de-la-sed/assets/npc/merit-portrait.webp",
+      "token": "modules/mr-trono-de-la-sed/assets/npc/merit-token.webp"
+    },
+    {
+      "name": "Neb-Sekhem",
+      "img": "modules/mr-trono-de-la-sed/assets/npc/neb-sekhem-portrait.webp",
+      "token": "modules/mr-trono-de-la-sed/assets/npc/neb-sekhem-token.webp"
+    }
+  ],
+  "court": {
+    "id": "91bc934ef28ef427",
+    "tokens": 5
+  },
+  "assetResults": {
+    "module": "0.3.0",
+    "images": [
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/zahra-sheet.webp",
+        "ok": true,
+        "w": 1100,
+        "h": 800
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/zahra-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/zahra-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/khaem-sheet.webp",
+        "ok": true,
+        "w": 1100,
+        "h": 800
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/khaem-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/khaem-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/neset-sheet.webp",
+        "ok": true,
+        "w": 1100,
+        "h": 800
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/neset-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/neset-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/seneb-sheet.webp",
+        "ok": true,
+        "w": 1100,
+        "h": 800
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/seneb-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/seneb-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/iru-sheet.webp",
+        "ok": true,
+        "w": 1100,
+        "h": 800
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/iru-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/characters/iru-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/escarabajo.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/neb-sekhem-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/neb-sekhem-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/neb-sekhem-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/merit-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/merit-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/merit-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/khety-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/khety-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/khety-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/tia-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/tia-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/tia-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/panehsy-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/panehsy-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/panehsy-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/nefru-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/nefru-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/nefru-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/serekh-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/serekh-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/serekh-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/hori-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/hori-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/hori-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/paser-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/paser-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/paser-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/tamerit-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/tamerit-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/tamerit-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/kasa-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/kasa-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/kasa-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/beset-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/beset-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/beset-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/dedi-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/dedi-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/dedi-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/custodio.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/sombra-chacal.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/servidor.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/funeral.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/henut-token.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/henut-thumb.webp",
+        "ok": true,
+        "w": 110,
+        "h": 110
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/npc/henut-portrait.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/arpa.webp",
+        "ok": true,
+        "w": 488,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/pluma.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/vasija-septima.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/corazon.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/invitacion.webp",
+        "ok": true,
+        "w": 512,
+        "h": 427
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/vasija-hori.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/vasija-paser.webp",
+        "ok": true,
+        "w": 493,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/vasija-tamerit.webp",
+        "ok": true,
+        "w": 505,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/vasija-kasa.webp",
+        "ok": true,
+        "w": 480,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/vasija-beset.webp",
+        "ok": true,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/objects/vasija-dedi.webp",
+        "ok": true,
+        "w": 503,
+        "h": 512
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/maps/corte.svg",
+        "ok": true,
+        "w": 2300,
+        "h": 1700
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/maps/muhar.svg",
+        "ok": true,
+        "w": 2000,
+        "h": 1200
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/maps/pozo.svg",
+        "ok": true,
+        "w": 1400,
+        "h": 1400
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/banquete.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/pesaje.webp",
+        "ok": true,
+        "w": 1671,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/laberinto.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/muhar.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/casa-panehsy.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/taller-tia.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/casa-nefru.webp",
+        "ok": true,
+        "w": 1671,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/camino-chacales.webp",
+        "ok": true,
+        "w": 1671,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/procesion.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/pozo.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/entrada-palacio.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/galeria-rostros.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/dormitorio-victimas.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/sala-vasijas.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/inscripcion-merit.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 940
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/amanecer.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/merit-eco.webp",
+        "ok": true,
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/neb-sekhem.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/coronacion.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/lamina-funeral.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/lamina-procesion.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/lamina-nombres.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/lamina-corazon.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/lamina-merit.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "path": "modules/mr-trono-de-la-sed/assets/scenes/lamina-khety.webp",
+        "ok": true,
+        "w": 1024,
+        "h": 1536
+      }
+    ]
+  },
+  "sceneControlRecheck": {
+    "nativeTourDismissed": true,
+    "reloadedAfterNativeTour": true,
+    "results": [
+      {
+        "name": "Casa de Nefru",
+        "textureValid": true
+      },
+      {
+        "name": "Casa de Panehsy",
+        "textureValid": true
+      },
+      {
+        "name": "Coronación · El triunfo de la sed",
+        "textureValid": true
+      },
+      {
+        "name": "El Laberinto",
+        "textureValid": true
+      },
+      {
+        "name": "El banquete",
+        "textureValid": true
+      },
+      {
+        "name": "El camino de los chacales",
+        "textureValid": true
+      },
+      {
+        "name": "El dormitorio de las víctimas",
+        "textureValid": true
+      },
+      {
+        "name": "El funeral imposible",
+        "textureValid": true
+      },
+      {
+        "name": "El pozo de las siete ranuras",
+        "textureValid": true
+      },
+      {
+        "name": "El testimonio de Merit",
+        "textureValid": true
+      },
+      {
+        "name": "El umbral de la corte",
+        "textureValid": true
+      },
+      {
+        "name": "El último amanecer",
+        "textureValid": true
+      },
+      {
+        "name": "La Corte · Plano de orientación",
+        "textureValid": true
+      },
+      {
+        "name": "La Cámara del Pesaje",
+        "textureValid": true
+      },
+      {
+        "name": "La galería de los rostros borrados",
+        "textureValid": true
+      },
+      {
+        "name": "La procesión funeraria",
+        "textureValid": true
+      },
+      {
+        "name": "La sala de las vasijas",
+        "textureValid": true
+      },
+      {
+        "name": "Lámina · El corazón y la balanza",
+        "textureValid": true
+      },
+      {
+        "name": "Lámina · El descenso a la corte",
+        "textureValid": true
+      },
+      {
+        "name": "Lámina · El funeral imposible",
+        "textureValid": true
+      },
+      {
+        "name": "Lámina · La falsa promesa de Khety",
+        "textureValid": true
+      },
+      {
+        "name": "Lámina · La negativa de Merit",
+        "textureValid": true
+      },
+      {
+        "name": "Lámina · Los nombres cautivos",
+        "textureValid": true
+      },
+      {
+        "name": "Merit · El eco que elige",
+        "textureValid": true
+      },
+      {
+        "name": "Muhar al anochecer",
+        "textureValid": true
+      },
+      {
+        "name": "Muhar · Plano de rutas",
+        "textureValid": true
+      },
+      {
+        "name": "Neb-Sekhem · La invitación del rey",
+        "textureValid": true
+      },
+      {
+        "name": "Pozo · Plano de las siete ranuras",
+        "textureValid": true
+      },
+      {
+        "name": "Taller de Tia",
+        "textureValid": true
+      }
+    ],
+    "errors": []
+  },
+  "initialNativeTourErrors": [
+    "TypeError: Cannot read properties of undefined (reading 'onChange')\n    at #onChange (http://localhost:30001/scripts/foundry.mjs:116424:24)\n    at #onToolChange (http://localhost:30001/scripts/foundry.mjs:116444:19)\n    at #preActivate (http://localhost:30001/scripts/foundry.mjs:116392:41)\n    at SceneControls.activate (http://localhost:30001/scripts/foundry.mjs:116200:37)\n    at TokenLayer.activate (http://localhost:30001/scripts/foundry.mjs:91047:19)\n    at #initializeCanvasLayer (http://localhost:30001/scripts/foundry.mjs:94595:11)\n    at #initialize (http://localhost:30001/scripts/foundry.mjs:94536:32)\n    at async #draw (http://localhost:30001/scripts/foundry.mjs:94383:5)\n    at async Canvas.draw (http://localhost:30001/scripts/foundry.mjs:94245:5)\n    at async Scene.view (http://localhost:30001/scripts/foundry.mjs:46164:7)"
+  ],
+  "errors": [],
+  "status": "pass",
+  "scope": "Cinco fichas completas y compactas, 101 imágenes, 29 fondos y tokens; repetición limpia después de cerrar el tutorial nativo y recargar."
+}

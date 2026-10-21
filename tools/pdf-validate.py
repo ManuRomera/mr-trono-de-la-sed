@@ -39,7 +39,7 @@ for a in actors:
   if it['type']=='themebook':targets += [it['name'],s['quest']]+[t['name'] for t in s['powertags'] if not t.get('planned')]+[t['name'] for t in s['weaknesstags']]
   elif it['type']=='backpack':targets += [t['name'] for t in s.get('items',[])]
  for t in [x for x in targets if not x.startswith('Primera impresión')]:
-  if norm(t) not in text or norm(t) not in playertext:missing.append('Protagonista: '+a['name']+' / '+re.sub('<[^>]+>','',t)[:35])
+  if not present(t,text) or not present(t,playertext):missing.append('Protagonista: '+a['name']+' / '+re.sub('<[^>]+>','',t)[:35])
  if norm(secrets[a['name']]) not in text:missing.append('Secreto: '+a['name'])
  if norm(secrets[a['name']]) in playertext:missing.append('Secreto filtrado al cuaderno: '+a['name'])
 pages=[];empty=[];sparse=[]

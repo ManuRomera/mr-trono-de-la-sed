@@ -1,0 +1,17 @@
+[
+  {
+    "scene": "La Corte · Plano de orientación",
+    "same_stored_geometry": true,
+    "same_background_path": true
+  },
+  {
+    "scene": "Muhar · Plano de rutas",
+    "same_stored_geometry": true,
+    "same_background_path": true
+  },
+  {
+    "scene": "Pozo · Plano de las siete ranuras",
+    "same_stored_geometry": true,
+    "same_background_path": true
+  }
+]

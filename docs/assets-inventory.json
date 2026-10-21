@@ -1,0 +1,2054 @@
+[
+  {
+    "distributed": "assets/audio/music/amanecer.ogg",
+    "format": "ogg",
+    "bytes": 2263369,
+    "sha256": "010182bc22e56ca4ce3c1ab03c97973799f0ea3f93a4844903a3bd29ef493acf",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/amanecer.ogg",
+    "seconds": 143.1065,
+    "slug": "amanecer",
+    "name": "El último amanecer",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "title": "Evening Fall (Piano)",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100235",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/banquete.ogg",
+    "format": "ogg",
+    "bytes": 3275068,
+    "sha256": "699f43e3f9c8a9a606a410e2946edb3658521b96625aaf0c2bf6d9d72d093709",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/banquete.ogg",
+    "seconds": 242.106521,
+    "slug": "banquete",
+    "name": "El banquete",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "title": "Ritual",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100466",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/coronacion.ogg",
+    "format": "ogg",
+    "bytes": 4758631,
+    "sha256": "7b1b50d3c9439f1720acc6666a7276d11a22ad5648358890b08714f1f9c49f14",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/coronacion.ogg",
+    "seconds": 357.906521,
+    "slug": "coronacion",
+    "name": "La coronación",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "title": "Lightless Dawn",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100655",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/laberinto.ogg",
+    "format": "ogg",
+    "bytes": 2245262,
+    "sha256": "27955a07a1242d1af1d67750d0284c3423ed3b262194677a23100a8a1ba05a2a",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/laberinto.ogg",
+    "seconds": 188.106521,
+    "slug": "laberinto",
+    "name": "El Laberinto",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "title": "Night of Chaos",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300042",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/merit.ogg",
+    "format": "ogg",
+    "bytes": 2088963,
+    "sha256": "c10cbaec8b40fe5003cbf01da3aceb26ed49cbe611e7591f8244eb3b997caead",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/merit.ogg",
+    "seconds": 123.3065,
+    "slug": "merit",
+    "name": "La negativa de Merit",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "title": "Evening Fall (Harp)",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100236",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/muhar.ogg",
+    "format": "ogg",
+    "bytes": 998264,
+    "sha256": "5f7380b018760b0dd95fefdf493845e812c0095453208b5702c510051d9de090",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/muhar.ogg",
+    "seconds": 67.4065,
+    "slug": "muhar",
+    "name": "Muhar al atardecer",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "title": "Desert City",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100564",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/pesaje.ogg",
+    "format": "ogg",
+    "bytes": 2829852,
+    "sha256": "c783418dea035d97696cbefe04e8053e4c6a9670e14dd0bb49f162107bec86c2",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/pesaje.ogg",
+    "seconds": 217.1065,
+    "slug": "pesaje",
+    "name": "La Cámara del Pesaje",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "title": "Dark Fog",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300031",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/procesion.ogg",
+    "format": "ogg",
+    "bytes": 2143326,
+    "sha256": "e5ffa2eb25089d54fad96aee73b89b80bf6e6ca091434dc012b5cc8b55fb777d",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/procesion.ogg",
+    "seconds": 177.406521,
+    "slug": "procesion",
+    "name": "Procesión funeraria",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "title": "Oppressive Gloom",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100885",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/tumbas.ogg",
+    "format": "ogg",
+    "bytes": 3888995,
+    "sha256": "075ed9754f1657ad6f85d809527a86063f1b3bfbbe4edef7d59ac3d8db2f38d0",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/tumbas.ogg",
+    "seconds": 263.206521,
+    "slug": "tumbas",
+    "name": "Viento entre las tumbas",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "title": "Echoes of Time v2",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300030",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/sfx/agua.ogg",
+    "format": "ogg",
+    "bytes": 316281,
+    "sha256": "28c6692cd3c8b8bb7ba8139a32613e4cf573340d99144414a64f77156599ae84",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/agua.ogg",
+    "seconds": 22.0065,
+    "slug": "agua",
+    "name": "Agua en la cámara",
+    "kind": "sfx",
+    "repeat": true,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/antorchas.ogg",
+    "format": "ogg",
+    "bytes": 192508,
+    "sha256": "ec6a608fc132fd161fa8074d763813ce470bc40f26aa410e3e78d8b516fb1168",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/antorchas.ogg",
+    "seconds": 30.0065,
+    "slug": "antorchas",
+    "name": "Antorchas",
+    "kind": "sfx",
+    "repeat": true,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/campana.ogg",
+    "format": "ogg",
+    "bytes": 100933,
+    "sha256": "d68aa3794b3708dbde6eb7d472b01182aa7da9f6dc73b17bd8102fd393e21f07",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/campana.ogg",
+    "seconds": 7.0065,
+    "slug": "campana",
+    "name": "Campana funeraria",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/corazon.ogg",
+    "format": "ogg",
+    "bytes": 70901,
+    "sha256": "0e4387e6cca730b44a0dc14ebf50bbaaa1eba674a886aba3350302f14bc11855",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/corazon.ogg",
+    "seconds": 6.0065,
+    "slug": "corazon",
+    "name": "Latido del corazón cautivo",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/pasos.ogg",
+    "format": "ogg",
+    "bytes": 56041,
+    "sha256": "a6be9a82b10f8438501f0e189d5b78789328b30ddd62b708fd06fad8e1c84436",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/pasos.ogg",
+    "seconds": 6.0065,
+    "slug": "pasos",
+    "name": "Pasos en la tumba",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/piedra.ogg",
+    "format": "ogg",
+    "bytes": 53870,
+    "sha256": "112f9aedf2e51555b2adfbfd1619c888e862af91dc70ac4c661cb97b3a93bd20",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/piedra.ogg",
+    "seconds": 5.0065,
+    "slug": "piedra",
+    "name": "Puerta de piedra",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/pluma.ogg",
+    "format": "ogg",
+    "bytes": 48707,
+    "sha256": "dd477af55f239056639f3fdff907a1a736e0263f707b89a80024f5f7c00a87c4",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/pluma.ogg",
+    "seconds": 4.0065,
+    "slug": "pluma",
+    "name": "El testimonio permanece",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/sello.ogg",
+    "format": "ogg",
+    "bytes": 47597,
+    "sha256": "f1648952cfad996f8a2b52a432fd1c4d45cbdf0448f0f4d57ca44571a7acf0f1",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/sello.ogg",
+    "seconds": 5.0065,
+    "slug": "sello",
+    "name": "Ruptura del sello",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/vasija.ogg",
+    "format": "ogg",
+    "bytes": 55826,
+    "sha256": "8d3c3a0012b42bd32f94b85612b19c34e9b3dbbd79192ca01b9d87577a4c5ed7",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/vasija.ogg",
+    "seconds": 3.0065,
+    "slug": "vasija",
+    "name": "Vasija de alabastro",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/viento.ogg",
+    "format": "ogg",
+    "bytes": 324676,
+    "sha256": "13ed419350618311c9a02523ac5118331331373645defd4626da021777b47c5c",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/viento.ogg",
+    "seconds": 30.0065,
+    "slug": "viento",
+    "name": "Viento sobre la arena",
+    "kind": "sfx",
+    "repeat": true,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/characters/iru-portrait.webp",
+    "format": "webp",
+    "bytes": 57214,
+    "sha256": "0ac7a302ba19fce594f33d063f0a935ad6bc4f117b1900789663575e33a78f18",
+    "documents": [
+      "actors:Iru"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/iru.png",
+    "sources": [
+      "art/masters/iru.png"
+    ],
+    "use": "Compacto y listados"
+  },
+  {
+    "distributed": "assets/characters/iru-sheet.webp",
+    "format": "webp",
+    "bytes": 109642,
+    "sha256": "ed861de1f5c3513010c4f3245b688dd85ea0e98a85bf0aaf136423f45cacaf61",
+    "documents": [
+      "actors:Iru"
+    ],
+    "width": 1100,
+    "height": 800,
+    "source": "art/masters/iru.png",
+    "sources": [
+      "art/masters/iru.png",
+      "art/masters/iru-sheet-background.png"
+    ],
+    "use": "Ficha amplia nativa, guía de identidad x=300"
+  },
+  {
+    "distributed": "assets/characters/iru-token.webp",
+    "format": "webp",
+    "bytes": 187572,
+    "sha256": "19580c882b64e3e840dc9f059ad563272140137d336dca0143cdb1db1cdb9b65",
+    "documents": [
+      "actors:Iru"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/iru.png",
+    "sources": [
+      "art/masters/iru.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/characters/khaem-portrait.webp",
+    "format": "webp",
+    "bytes": 42948,
+    "sha256": "3a4bb8e2389240f1f65f51ca10f73a6287a12f3e6d2e5006a998b91ecc2cdfd2",
+    "documents": [
+      "actors:Khaem"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/khaem.png",
+    "sources": [
+      "art/masters/khaem.png"
+    ],
+    "use": "Compacto y listados"
+  },
+  {
+    "distributed": "assets/characters/khaem-sheet.webp",
+    "format": "webp",
+    "bytes": 133324,
+    "sha256": "ed46e0a16b4bb3ff68a1b3c60649740398b1fb8151a17e3f38d5edd1aeef814b",
+    "documents": [
+      "actors:Khaem"
+    ],
+    "width": 1100,
+    "height": 800,
+    "source": "art/masters/khaem.png",
+    "sources": [
+      "art/masters/khaem.png",
+      "art/masters/khaem-sheet-background.png"
+    ],
+    "use": "Ficha amplia nativa, guía de identidad x=300"
+  },
+  {
+    "distributed": "assets/characters/khaem-token.webp",
+    "format": "webp",
+    "bytes": 224278,
+    "sha256": "84175b0a2011cc68848c87138572f371aedc377a608a61b07515b9f4c4204d22",
+    "documents": [
+      "actors:Khaem"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/khaem.png",
+    "sources": [
+      "art/masters/khaem.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/characters/neset-portrait.webp",
+    "format": "webp",
+    "bytes": 61264,
+    "sha256": "58d50ded747371fc5662262d08300c1d3810739499151faee461aa097935d12f",
+    "documents": [
+      "actors:Neset"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/neset.png",
+    "sources": [
+      "art/masters/neset.png"
+    ],
+    "use": "Compacto y listados"
+  },
+  {
+    "distributed": "assets/characters/neset-sheet.webp",
+    "format": "webp",
+    "bytes": 120560,
+    "sha256": "df7e559c4c8295492be2db7fa7e173b3d08e3ff087d86673b43f2894f56004b5",
+    "documents": [
+      "actors:Neset"
+    ],
+    "width": 1100,
+    "height": 800,
+    "source": "art/masters/neset.png",
+    "sources": [
+      "art/masters/neset.png",
+      "art/masters/neset-sheet-background.png"
+    ],
+    "use": "Ficha amplia nativa, guía de identidad x=300"
+  },
+  {
+    "distributed": "assets/characters/neset-token.webp",
+    "format": "webp",
+    "bytes": 195298,
+    "sha256": "b2d7ea9994f1bd58797746cbc3d449b388ac45ceb8d30e3766834e9cecf2d2eb",
+    "documents": [
+      "actors:Neset"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/neset.png",
+    "sources": [
+      "art/masters/neset.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/characters/seneb-portrait.webp",
+    "format": "webp",
+    "bytes": 59902,
+    "sha256": "5fe6f48add1112f594234e4a568920cd4924460622925ea49c7b2c36f93101b4",
+    "documents": [
+      "actors:Seneb"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/seneb.png",
+    "sources": [
+      "art/masters/seneb.png"
+    ],
+    "use": "Compacto y listados"
+  },
+  {
+    "distributed": "assets/characters/seneb-sheet.webp",
+    "format": "webp",
+    "bytes": 138924,
+    "sha256": "60656a508862456ac08b2d46ec89da4956602b6c6d836f6bbec5e488befc82dd",
+    "documents": [
+      "actors:Seneb"
+    ],
+    "width": 1100,
+    "height": 800,
+    "source": "art/masters/seneb.png",
+    "sources": [
+      "art/masters/seneb.png",
+      "art/masters/seneb-sheet-background.png"
+    ],
+    "use": "Ficha amplia nativa, guía de identidad x=300"
+  },
+  {
+    "distributed": "assets/characters/seneb-token.webp",
+    "format": "webp",
+    "bytes": 182898,
+    "sha256": "0a74b6630482ec8a98e6b36eb3464ec5b0c40d607969d625b155107bb1f4c49b",
+    "documents": [
+      "actors:Seneb"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/seneb.png",
+    "sources": [
+      "art/masters/seneb.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/characters/zahra-portrait.webp",
+    "format": "webp",
+    "bytes": 58968,
+    "sha256": "f99e2dfa979634def7b93141bab24f05d56dbffcb765b6bdf932d8fd63fd571a",
+    "documents": [
+      "actors:Zahra"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/zahra.png",
+    "sources": [
+      "art/masters/zahra.png"
+    ],
+    "use": "Compacto y listados"
+  },
+  {
+    "distributed": "assets/characters/zahra-sheet.webp",
+    "format": "webp",
+    "bytes": 107602,
+    "sha256": "40df769c35d8f3e57d108a7a8b659cb3f233c622e46810184b21fa7ae559efdc",
+    "documents": [
+      "actors:Zahra"
+    ],
+    "width": 1100,
+    "height": 800,
+    "source": "art/masters/zahra.png",
+    "sources": [
+      "art/masters/zahra.png",
+      "art/masters/zahra-sheet-background.png"
+    ],
+    "use": "Ficha amplia nativa, guía de identidad x=300"
+  },
+  {
+    "distributed": "assets/characters/zahra-token.webp",
+    "format": "webp",
+    "bytes": 183718,
+    "sha256": "c598b7d8a0bf735c1a306275332e3f1cba36bcab331cf0136997b0a565a0598f",
+    "documents": [
+      "actors:Zahra"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/zahra.png",
+    "sources": [
+      "art/masters/zahra.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/maps/corte-piedra.webp",
+    "format": "webp",
+    "bytes": 863050,
+    "sha256": "e37c7258c3040ce559d3443e8b360a0c72f312a80dc214a297396871465f65ac",
+    "documents": [
+      "Mapa grabado incrustado: corte"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/maps/corte.png",
+    "sources": [
+      "art/v4/maps/corte.png"
+    ],
+    "use": "Plano 16:9 grabado en piedra · sin personajes"
+  },
+  {
+    "distributed": "assets/maps/corte.svg",
+    "format": "svg",
+    "bytes": 1150926,
+    "sha256": "943256c49fc46163161b262b4921a143e49aa0a23c7bd179526fca21902f6e6f",
+    "documents": [
+      "scenes:La Corte · Plano de orientación"
+    ],
+    "source": "art/masters/mapa-corte-piedra.png",
+    "embedded": "assets/maps/corte-piedra.webp",
+    "legacy_path_preserved": true
+  },
+  {
+    "distributed": "assets/maps/muhar-piedra.webp",
+    "format": "webp",
+    "bytes": 785204,
+    "sha256": "e3399f60a60713a0311ade1a4a1f4067954cd9cac6587d6d81d20e526c909068",
+    "documents": [
+      "Mapa grabado incrustado: muhar"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/maps/muhar.png",
+    "sources": [
+      "art/v4/maps/muhar.png"
+    ],
+    "use": "Plano 16:9 grabado en piedra · sin personajes"
+  },
+  {
+    "distributed": "assets/maps/muhar.svg",
+    "format": "svg",
+    "bytes": 1047130,
+    "sha256": "b3b019f49bfea28aa60a7506abd2a813ed382e5c9caf7885ed2af86b678333e3",
+    "documents": [
+      "scenes:Muhar · Plano de rutas"
+    ],
+    "source": "art/masters/mapa-muhar-piedra.png",
+    "embedded": "assets/maps/muhar-piedra.webp",
+    "legacy_path_preserved": true
+  },
+  {
+    "distributed": "assets/maps/pozo-piedra.webp",
+    "format": "webp",
+    "bytes": 856526,
+    "sha256": "79b8c0ee600876cbe0cbb7426fcfe51ee21a27413f45b903a6f60c21cc330021",
+    "documents": [
+      "Mapa grabado incrustado: pozo"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/maps/pozo.png",
+    "sources": [
+      "art/v4/maps/pozo.png"
+    ],
+    "use": "Plano 16:9 grabado en piedra · sin personajes"
+  },
+  {
+    "distributed": "assets/maps/pozo.svg",
+    "format": "svg",
+    "bytes": 1142226,
+    "sha256": "1282deda5fa03481b3f53bc821b8987267243a401990e9981c2b633f12fa0317",
+    "documents": [
+      "scenes:Pozo · Plano de las siete ranuras"
+    ],
+    "source": "art/masters/mapa-pozo-piedra.png",
+    "embedded": "assets/maps/pozo-piedra.webp",
+    "legacy_path_preserved": true
+  },
+  {
+    "distributed": "assets/npc/beset-portrait.webp",
+    "format": "webp",
+    "bytes": 55616,
+    "sha256": "ec4b458ac23a395dc019fc4516bafa6014e535e021fd58c787ad3630c0ee0e27",
+    "documents": [
+      "actors:Beset"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-beset.png",
+    "sources": [
+      "art/masters/npc-beset.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/beset-thumb.webp",
+    "format": "webp",
+    "bytes": 5264,
+    "sha256": "7cc69e1212c7bb0323b5dafd9bcd917fe3a6681eb278a5bae4d423efcd30b2e7",
+    "documents": [
+      "actors:Beset"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-beset.png",
+    "sources": [
+      "art/masters/npc-beset.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/beset-token.webp",
+    "format": "webp",
+    "bytes": 163956,
+    "sha256": "6bf37dad6b71e51870f30ce4bc2ab4b4b7ed3e4aa272098bd78ce5f4f816b6da",
+    "documents": [
+      "actors:Beset"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-beset.png",
+    "sources": [
+      "art/masters/npc-beset.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/dedi-portrait.webp",
+    "format": "webp",
+    "bytes": 60692,
+    "sha256": "4b8dbbf97ca8cbc4510d41658e3e13983eafb6804261b7ef81ed085886f2d93a",
+    "documents": [
+      "actors:Dedi"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-dedi.png",
+    "sources": [
+      "art/masters/npc-dedi.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/dedi-thumb.webp",
+    "format": "webp",
+    "bytes": 5480,
+    "sha256": "27f1741c3596f24fa2eca1a264fd3dffa8dbafd4021a73e24bedf0423ed4f381",
+    "documents": [
+      "actors:Dedi"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-dedi.png",
+    "sources": [
+      "art/masters/npc-dedi.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/dedi-token.webp",
+    "format": "webp",
+    "bytes": 135886,
+    "sha256": "bea11be4aea69673afe5842d6a8ac9dfb850e50d77726ef545159b9e6c8dbfe6",
+    "documents": [
+      "actors:Dedi"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-dedi.png",
+    "sources": [
+      "art/masters/npc-dedi.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/henut-portrait.webp",
+    "format": "webp",
+    "bytes": 58928,
+    "sha256": "d193f7680ef1bb3d1d49d4757a84352895ee7033be4ffefb464e55a73b6a53f8",
+    "documents": [
+      "actors:Henut"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-henut.png",
+    "sources": [
+      "art/masters/npc-henut.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/henut-thumb.webp",
+    "format": "webp",
+    "bytes": 5932,
+    "sha256": "126e58c5e2cc8ef4427442f4121d52ff4603a4cd5d298ff7ad977c531ed0dfac",
+    "documents": [
+      "actors:Henut"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-henut.png",
+    "sources": [
+      "art/masters/npc-henut.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/henut-token.webp",
+    "format": "webp",
+    "bytes": 164804,
+    "sha256": "2bb0391f74b9d34bfe1431c8738c933b04e681c14f0321534194922fa9e4947a",
+    "documents": [
+      "actors:Henut"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-henut.png",
+    "sources": [
+      "art/masters/npc-henut.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/hori-portrait.webp",
+    "format": "webp",
+    "bytes": 55918,
+    "sha256": "6440344bb4842e6e1c40ad836b03962d45fda7223622c285dfe22c52947f7b4f",
+    "documents": [
+      "actors:Hori"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-hori.png",
+    "sources": [
+      "art/masters/npc-hori.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/hori-thumb.webp",
+    "format": "webp",
+    "bytes": 5140,
+    "sha256": "593ae10da7b65667be89f3fcd5fa65fcc4b99b91fab277e982f70a5ab1c755f9",
+    "documents": [
+      "actors:Hori"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-hori.png",
+    "sources": [
+      "art/masters/npc-hori.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/hori-token.webp",
+    "format": "webp",
+    "bytes": 135758,
+    "sha256": "dc3447e71d101cd1e447a9ccdbf9ed91f6ec03354abddfffa4fcc6eb1e61ea45",
+    "documents": [
+      "actors:Hori"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-hori.png",
+    "sources": [
+      "art/masters/npc-hori.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/kasa-portrait.webp",
+    "format": "webp",
+    "bytes": 55950,
+    "sha256": "a9cd344c743957607df3e02a989338977dd28eb2e60c85871bd1382182ee7d5a",
+    "documents": [
+      "actors:Kasa"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-kasa.png",
+    "sources": [
+      "art/masters/npc-kasa.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/kasa-thumb.webp",
+    "format": "webp",
+    "bytes": 5526,
+    "sha256": "bfc7a71e3eef388ee434e8be370c214b75122fe6fa1387ed69133c01a9bcd37d",
+    "documents": [
+      "actors:Kasa"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-kasa.png",
+    "sources": [
+      "art/masters/npc-kasa.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/kasa-token.webp",
+    "format": "webp",
+    "bytes": 144280,
+    "sha256": "e853ee1c434629e9bb9f6d16f6e2a18ad6ee84b725253dff829897b4d709d3e6",
+    "documents": [
+      "actors:Kasa"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-kasa.png",
+    "sources": [
+      "art/masters/npc-kasa.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/khety-portrait.webp",
+    "format": "webp",
+    "bytes": 59760,
+    "sha256": "d6afb2fb765aadabc47c6bb10709312b48983102fe119fd0c6f48063ba121946",
+    "documents": [
+      "actors:Khety"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-khety.png",
+    "sources": [
+      "art/masters/npc-khety.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/khety-thumb.webp",
+    "format": "webp",
+    "bytes": 5606,
+    "sha256": "f96cc18d5020d3227865a8bbf22475546a0ba4b5c46ae7bb123c56d3b810085f",
+    "documents": [
+      "actors:Khety"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-khety.png",
+    "sources": [
+      "art/masters/npc-khety.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/khety-token.webp",
+    "format": "webp",
+    "bytes": 145758,
+    "sha256": "d0bbec6473560a78dae979abfec3062fc9d3eb5ba7eb71fa899eda142d5719ae",
+    "documents": [
+      "actors:Khety"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-khety.png",
+    "sources": [
+      "art/masters/npc-khety.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/merit-portrait.webp",
+    "format": "webp",
+    "bytes": 66662,
+    "sha256": "3e0ef31a50b8887ee25c79cdcad6ef30c5a958386d56a850b30f6b92b091a9a8",
+    "documents": [
+      "actors:Merit"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-merit.png",
+    "sources": [
+      "art/masters/npc-merit.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/merit-thumb.webp",
+    "format": "webp",
+    "bytes": 5966,
+    "sha256": "3779d3279300e94707bbae9493c51eee496679ff8a92d779249d003a710980d0",
+    "documents": [
+      "actors:Merit"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-merit.png",
+    "sources": [
+      "art/masters/npc-merit.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/merit-token.webp",
+    "format": "webp",
+    "bytes": 212172,
+    "sha256": "cd7efa3657149367dd40674d4ca3ef9a917e1960dbdb4c902e4993169d521619",
+    "documents": [
+      "actors:Merit"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-merit.png",
+    "sources": [
+      "art/masters/npc-merit.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/neb-sekhem-portrait.webp",
+    "format": "webp",
+    "bytes": 57192,
+    "sha256": "efb3524865d0cb60d53eb59ade4349c2aaddd8803f12db94ed4cbc4af7a19163",
+    "documents": [
+      "actors:Neb-Sekhem"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-neb-sekhem.png",
+    "sources": [
+      "art/masters/npc-neb-sekhem.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/neb-sekhem-thumb.webp",
+    "format": "webp",
+    "bytes": 5560,
+    "sha256": "3e3344544889f58cf3ecd23237fc5880f4035377ef2ae5940631cdf5e6370083",
+    "documents": [
+      "actors:Neb-Sekhem"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-neb-sekhem.png",
+    "sources": [
+      "art/masters/npc-neb-sekhem.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/neb-sekhem-token.webp",
+    "format": "webp",
+    "bytes": 189778,
+    "sha256": "fd7267afa649f1c4646d93805a4a46791d5f5d4b8c3c780f59b128b1e9ec4457",
+    "documents": [
+      "actors:Neb-Sekhem"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-neb-sekhem.png",
+    "sources": [
+      "art/masters/npc-neb-sekhem.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/nefru-portrait.webp",
+    "format": "webp",
+    "bytes": 57236,
+    "sha256": "520dfa4bc98dc2d221a974bcbacba20c3af7cc22543d6804be84f377a279cb35",
+    "documents": [
+      "actors:Nefru"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-nefru.png",
+    "sources": [
+      "art/masters/npc-nefru.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/nefru-thumb.webp",
+    "format": "webp",
+    "bytes": 5594,
+    "sha256": "614e442fe12ad70ac0e79e5f6dcf75506a0de3658e149f657676d607af73de52",
+    "documents": [
+      "actors:Nefru"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-nefru.png",
+    "sources": [
+      "art/masters/npc-nefru.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/nefru-token.webp",
+    "format": "webp",
+    "bytes": 169510,
+    "sha256": "cb813b8806adab549e58a1a674823e57677a0f222cd80f956244f1e1513fafd7",
+    "documents": [
+      "actors:Nefru"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-nefru.png",
+    "sources": [
+      "art/masters/npc-nefru.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/panehsy-portrait.webp",
+    "format": "webp",
+    "bytes": 55690,
+    "sha256": "fad7208b67ebb154856c0d76472b17291f2ce9bd88111ce333e7f92b343b2bb1",
+    "documents": [
+      "actors:Panehsy"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-panehsy.png",
+    "sources": [
+      "art/masters/npc-panehsy.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/panehsy-thumb.webp",
+    "format": "webp",
+    "bytes": 5328,
+    "sha256": "f342872612ce31887ad46e6144e470abd29cbf6d401fe065a0443e8fb71d7504",
+    "documents": [
+      "actors:Panehsy"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-panehsy.png",
+    "sources": [
+      "art/masters/npc-panehsy.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/panehsy-token.webp",
+    "format": "webp",
+    "bytes": 127344,
+    "sha256": "6dcb71ed38a8fcfc92209ebdbebf53c8de5be04728bab09a722ba44dab2179f2",
+    "documents": [
+      "actors:Panehsy"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-panehsy.png",
+    "sources": [
+      "art/masters/npc-panehsy.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/paser-portrait.webp",
+    "format": "webp",
+    "bytes": 55992,
+    "sha256": "5a0f358fdf35fd6b5f8bb8916a6b2b139500f85529f03f44be6346265d161c66",
+    "documents": [
+      "actors:Paser"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-paser.png",
+    "sources": [
+      "art/masters/npc-paser.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/paser-thumb.webp",
+    "format": "webp",
+    "bytes": 5164,
+    "sha256": "a5a7ffcf1d408f749d626923d5a63ba5a99e77b1438be054294b472aeb348a45",
+    "documents": [
+      "actors:Paser"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-paser.png",
+    "sources": [
+      "art/masters/npc-paser.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/paser-token.webp",
+    "format": "webp",
+    "bytes": 148738,
+    "sha256": "f84b63ade4e4c3546ed11c0ab6172f6540f2df3554362cd2cd55d8288ac9950d",
+    "documents": [
+      "actors:Paser"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-paser.png",
+    "sources": [
+      "art/masters/npc-paser.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/serekh-portrait.webp",
+    "format": "webp",
+    "bytes": 48100,
+    "sha256": "1307f41f0ed7b35981a3210dba441f441e9dee722ad1d1a91aaa11b59df76452",
+    "documents": [
+      "actors:Serekh"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-serekh.png",
+    "sources": [
+      "art/masters/npc-serekh.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/serekh-thumb.webp",
+    "format": "webp",
+    "bytes": 4692,
+    "sha256": "9610a6485cc0335c5d093917360f50c821506df8df39b840e0af2759290b5b01",
+    "documents": [
+      "actors:Serekh"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-serekh.png",
+    "sources": [
+      "art/masters/npc-serekh.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/serekh-token.webp",
+    "format": "webp",
+    "bytes": 132972,
+    "sha256": "bb20fb7999967816a635e020fc977cf90f95baa8d861ebf1702cfb9eaf7dbea3",
+    "documents": [
+      "actors:Serekh"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-serekh.png",
+    "sources": [
+      "art/masters/npc-serekh.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/tamerit-portrait.webp",
+    "format": "webp",
+    "bytes": 53834,
+    "sha256": "e428fcd64af66400aa0287db375c26a0d106f5174d8dc143b713da583810e3ab",
+    "documents": [
+      "actors:Tamerit"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-tamerit.png",
+    "sources": [
+      "art/masters/npc-tamerit.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/tamerit-thumb.webp",
+    "format": "webp",
+    "bytes": 5236,
+    "sha256": "9dd43f540b0714565032601a4f17c6922f33acd4441820b5074782e558729797",
+    "documents": [
+      "actors:Tamerit"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-tamerit.png",
+    "sources": [
+      "art/masters/npc-tamerit.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/tamerit-token.webp",
+    "format": "webp",
+    "bytes": 167492,
+    "sha256": "a7961b85b9aa2d6349408516c64fec6c5b7bd50941ac994e7bbb29b30729b574",
+    "documents": [
+      "actors:Tamerit"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-tamerit.png",
+    "sources": [
+      "art/masters/npc-tamerit.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/npc/tia-portrait.webp",
+    "format": "webp",
+    "bytes": 54514,
+    "sha256": "a4e3ef1247aac5f371e86ca60ebdb2dd16bde8d953e5ec626dc835bf35ee2b09",
+    "documents": [
+      "actors:Tia"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/npc-tia.png",
+    "sources": [
+      "art/masters/npc-tia.png"
+    ],
+    "use": "Retrato compacto"
+  },
+  {
+    "distributed": "assets/npc/tia-thumb.webp",
+    "format": "webp",
+    "bytes": 5048,
+    "sha256": "609c5b8819a662612e9e5e96ba83ac5addc98b097c056c9280253a0525ed1698",
+    "documents": [
+      "actors:Tia"
+    ],
+    "width": 110,
+    "height": 110,
+    "source": "art/masters/npc-tia.png",
+    "sources": [
+      "art/masters/npc-tia.png"
+    ],
+    "use": "Miniatura"
+  },
+  {
+    "distributed": "assets/npc/tia-token.webp",
+    "format": "webp",
+    "bytes": 141066,
+    "sha256": "7f15d3750b3acfc14dc2c7c51e18534cccbdb531f71224d504c37ee964efc635",
+    "documents": [
+      "actors:Tia"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/npc-tia.png",
+    "sources": [
+      "art/masters/npc-tia.png"
+    ],
+    "use": "Token: cuerpo entero sin fondo ni marco"
+  },
+  {
+    "distributed": "assets/objects/arpa.webp",
+    "format": "webp",
+    "bytes": 242718,
+    "sha256": "c953c781f6a76954f28c47ad5a66d07278469c1299ff7d7c6b2e2807be7310ba",
+    "documents": [
+      "items:Arpa de Seneb",
+      "items:Canto del testigo"
+    ],
+    "width": 488,
+    "height": 512,
+    "source": "art/masters/arpa.png",
+    "sources": [
+      "art/masters/arpa.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/corazon.webp",
+    "format": "webp",
+    "bytes": 345300,
+    "sha256": "44d23d7d66ad94b6d43b1fccf7ecea299e16435fbc92f0bad2dc3bebc329bf4f",
+    "documents": [
+      "items:Cofre del corazón",
+      "items:Corazón de Neb-Sekhem"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/corazon.png",
+    "sources": [
+      "art/masters/corazon.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/custodio.webp",
+    "format": "webp",
+    "bytes": 268776,
+    "sha256": "de01f15c2badc15319086d321bfe81db076dba72789511702567a25ce797b28e",
+    "documents": [
+      "actors:Custodios de la corte"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/custodio.png",
+    "sources": [
+      "art/masters/custodio.png"
+    ],
+    "use": "Criatura completa transparente"
+  },
+  {
+    "distributed": "assets/objects/escarabajo.webp",
+    "format": "webp",
+    "bytes": 310608,
+    "sha256": "7267696b42c9ea4b007d9dd15d0fbb2b55872698e08ac1718a8713eb67807a40",
+    "documents": [
+      "actors:El banquete de Neb-Sekhem",
+      "actors:El corazón protegido",
+      "actors:La Cámara del Pesaje",
+      "actors:La coronación",
+      "actors:La investigación de los registros",
+      "actors:La liberación de los nombres robados",
+      "actors:La presión de los agentes religiosos",
+      "actors:La procesión funeraria",
+      "actors:La seducción sobrenatural",
+      "actors:Los que todavía recuerdan",
+      "actors:Los sacerdotes de Ankhtepot",
+      "items:Bendición del umbral recordado",
+      "items:Escarabajo funerario",
+      "items:Lectura del nombre velado"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/escarabajo.png",
+    "sources": [
+      "art/masters/escarabajo.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/invitacion.webp",
+    "format": "webp",
+    "bytes": 244428,
+    "sha256": "3eda410a1c47d4a4dccb6ad46774290973914cd87a039779b5a5bf2a24afc494",
+    "documents": [
+      "items:Invitación al banquete"
+    ],
+    "width": 512,
+    "height": 427,
+    "source": "art/masters/invitacion.png",
+    "sources": [
+      "art/masters/invitacion.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/pluma.webp",
+    "format": "webp",
+    "bytes": 297998,
+    "sha256": "154f667e1e5408ecc10110f546707778d260220daf8c4ab0881fd7026c272cb0",
+    "documents": [
+      "items:Contrafirma de la negativa",
+      "items:Pluma de Merit"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/pluma.png",
+    "sources": [
+      "art/masters/pluma.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/servidor.webp",
+    "format": "webp",
+    "bytes": 201792,
+    "sha256": "0e18c2282a0ccfaa373fe22c27155a1e800cc8524b88fcff016d71120aa192b8",
+    "documents": [
+      "actors:Servidores sin nombre"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/servidor.png",
+    "sources": [
+      "art/masters/servidor.png"
+    ],
+    "use": "Criatura completa transparente"
+  },
+  {
+    "distributed": "assets/objects/sombra-chacal.webp",
+    "format": "webp",
+    "bytes": 263752,
+    "sha256": "c846f7b5f2902fcfae804c64fb072ab2f0d3b397005a5bc0ed7756fc459d9283",
+    "documents": [
+      "actors:Sombras de chacal"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": "art/masters/sombra-chacal.png",
+    "sources": [
+      "art/masters/sombra-chacal.png"
+    ],
+    "use": "Criatura completa transparente"
+  },
+  {
+    "distributed": "assets/objects/vasija-beset.webp",
+    "format": "webp",
+    "bytes": 195540,
+    "sha256": "09c4554097f1b9721579754b5d237c0fd3bddeec8bb1d7a2981a29ea375fd5e0",
+    "documents": [
+      "items:Vasija de Beset"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/vasija-beset.png",
+    "sources": [
+      "art/masters/vasija-beset.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/vasija-dedi.webp",
+    "format": "webp",
+    "bytes": 186600,
+    "sha256": "381553c474db08e73c2d86897e35082097f04df1eba2e7c8da98dc0eba2f7069",
+    "documents": [
+      "items:Vasija de Dedi"
+    ],
+    "width": 503,
+    "height": 512,
+    "source": "art/masters/vasija-dedi.png",
+    "sources": [
+      "art/masters/vasija-dedi.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/vasija-hori.webp",
+    "format": "webp",
+    "bytes": 187678,
+    "sha256": "2211a115b4db350c8aed3162c702b085f463fe31c445834902e692359333cbb0",
+    "documents": [
+      "items:Vasija de Hori"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/vasija-hori.png",
+    "sources": [
+      "art/masters/vasija-hori.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/vasija-kasa.webp",
+    "format": "webp",
+    "bytes": 193798,
+    "sha256": "6a485ffdc54d0fd2d915dab6ded50584cb92198ea21a0d4fa411ac5470275e55",
+    "documents": [
+      "items:Vasija de Kasa"
+    ],
+    "width": 480,
+    "height": 512,
+    "source": "art/masters/vasija-kasa.png",
+    "sources": [
+      "art/masters/vasija-kasa.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/vasija-paser.webp",
+    "format": "webp",
+    "bytes": 229056,
+    "sha256": "56cc2aaced5f9aa10a4d66fa7f4e068833e04b1eeef7667f7bf0176f040e3165",
+    "documents": [
+      "items:Vasija de Paser"
+    ],
+    "width": 493,
+    "height": 512,
+    "source": "art/masters/vasija-paser.png",
+    "sources": [
+      "art/masters/vasija-paser.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/vasija-septima.webp",
+    "format": "webp",
+    "bytes": 298560,
+    "sha256": "da30cec8f3fc9ad397249f92ebc892b2859e78191ee85cbad4ca9a55b2b5063b",
+    "documents": [
+      "items:Séptima vasija"
+    ],
+    "width": 512,
+    "height": 512,
+    "source": "art/masters/vasija-septima.png",
+    "sources": [
+      "art/masters/vasija-septima.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/vasija-tamerit.webp",
+    "format": "webp",
+    "bytes": 183252,
+    "sha256": "59c83912032d916b7a6d522d96dc9bd572e0c663b8f09629b8571b01909948be",
+    "documents": [
+      "items:Vasija de Tamerit"
+    ],
+    "width": 505,
+    "height": 512,
+    "source": "art/masters/vasija-tamerit.png",
+    "sources": [
+      "art/masters/vasija-tamerit.png"
+    ],
+    "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/scenes/amanecer.webp",
+    "format": "webp",
+    "bytes": 577508,
+    "sha256": "bf867cc9482636baaa4623d707b26070d0bcea8abca47b4ecfa76fdc5ee957ef",
+    "documents": [
+      "scenes:El último amanecer"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-amanecer.png",
+    "sources": [
+      "art/masters/scene-amanecer.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/banquete.webp",
+    "format": "webp",
+    "bytes": 543240,
+    "sha256": "70062aeeb1005684d462306b9597d65d22be0a633caca8d8c56c61008e87a083",
+    "documents": [
+      "scenes:El banquete"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/banquete.png",
+    "sources": [
+      "art/masters/banquete.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/camino-chacales.webp",
+    "format": "webp",
+    "bytes": 582346,
+    "sha256": "6e2fb4717a2f6e2ae69ded7c0a867fbc3b101e424494ca12cfb5c29811bf751e",
+    "documents": [
+      "scenes:El camino de los chacales"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-camino-chacales.png",
+    "sources": [
+      "art/masters/scene-camino-chacales.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/casa-nefru.webp",
+    "format": "webp",
+    "bytes": 660446,
+    "sha256": "698e57b417a9c016e0785ed744e3922aaa750c756759f00af767f7896afe3894",
+    "documents": [
+      "scenes:Casa de Nefru"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-casa-nefru.png",
+    "sources": [
+      "art/masters/scene-casa-nefru.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/casa-panehsy.webp",
+    "format": "webp",
+    "bytes": 502570,
+    "sha256": "c9887c6dd3b202f41e572521734278cac0f79a59ea326432fd3f431a605ad7fc",
+    "documents": [
+      "scenes:Casa de Panehsy"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-casa-panehsy.png",
+    "sources": [
+      "art/masters/scene-casa-panehsy.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/coronacion.webp",
+    "format": "webp",
+    "bytes": 644636,
+    "sha256": "0347927be9d7e9eeeb91bd11cf6b4b4dd40c2ac8d612bfa4e7105154ff1311d7",
+    "documents": [
+      "scenes:Coronación · El triunfo de la sed"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/coronacion.png",
+    "sources": [
+      "art/v4/empty/coronacion.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/dormitorio-victimas.webp",
+    "format": "webp",
+    "bytes": 551666,
+    "sha256": "81abb602bd63c12ab07561a63581f8c036e3c1a16004e7bfa38df5700754fde7",
+    "documents": [
+      "scenes:El dormitorio de las víctimas"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-dormitorio-victimas.png",
+    "sources": [
+      "art/masters/scene-dormitorio-victimas.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/entrada-palacio.webp",
+    "format": "webp",
+    "bytes": 673706,
+    "sha256": "2b4577f90a938fb5dd7382bbc634b6bd99d75a35c4c0c0d1c3d0fdc9ab1f22c7",
+    "documents": [
+      "scenes:El umbral de la corte"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-entrada-palacio.png",
+    "sources": [
+      "art/masters/scene-entrada-palacio.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/funeral.webp",
+    "format": "webp",
+    "bytes": 632642,
+    "sha256": "8ff46cc82949af6a9760b1039b692b8a834e6ace6f05b68849f623bfa28f4818",
+    "documents": [
+      "actors:El funeral imposible",
+      "scenes:El funeral imposible"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/funeral.png",
+    "sources": [
+      "art/v4/empty/funeral.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/galeria-rostros.webp",
+    "format": "webp",
+    "bytes": 713836,
+    "sha256": "37cfdcf96877ee4bd5633e9aaa8677766a1f09463611e0a6bcf7fcd0420a91d0",
+    "documents": [
+      "scenes:La galería de los rostros borrados"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-galeria-rostros.png",
+    "sources": [
+      "art/masters/scene-galeria-rostros.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/inscripcion-merit.webp",
+    "format": "webp",
+    "bytes": 537896,
+    "sha256": "b15096e15e2e15912c02f1dc15c50073069ed410ae5b72823c1acf0f16f7d1dd",
+    "documents": [
+      "scenes:El testimonio de Merit"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-inscripcion-merit.png",
+    "sources": [
+      "art/masters/scene-inscripcion-merit.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/laberinto.webp",
+    "format": "webp",
+    "bytes": 610448,
+    "sha256": "af6b30f3e8e6bac95a9053f8c1c4707df2cb43c5dc9a5675c8431b2881429185",
+    "documents": [
+      "scenes:El Laberinto"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/laberinto.png",
+    "sources": [
+      "art/v4/empty/laberinto.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/lamina-corazon.webp",
+    "format": "webp",
+    "bytes": 725672,
+    "sha256": "3e1f8a9e5fac8f70e3c2b9c2f9acfa16421bed8034c439b480955b57cc77281d",
+    "documents": [
+      "scenes:Lámina · El corazón y la balanza"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/lamina-corazon.png",
+    "sources": [
+      "art/v4/empty/lamina-corazon.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/lamina-funeral.webp",
+    "format": "webp",
+    "bytes": 733876,
+    "sha256": "f8a3d6ce3a458ca5e066c190bfa64f0ac6dc9405d43bdc2d51287d3c3ea0d2b1",
+    "documents": [
+      "scenes:Lámina · El funeral imposible"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/lamina-funeral.png",
+    "sources": [
+      "art/v4/empty/lamina-funeral.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/lamina-khety.webp",
+    "format": "webp",
+    "bytes": 711244,
+    "sha256": "1d81aaaba4fc0bc25b8fc17ddee27a66e77bffff78359108aadd9ce3d93f1cc7",
+    "documents": [
+      "scenes:Lámina · La falsa promesa de Khety"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/lamina-khety.png",
+    "sources": [
+      "art/v4/empty/lamina-khety.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/lamina-merit.webp",
+    "format": "webp",
+    "bytes": 736264,
+    "sha256": "f537b4509c41a33b73795ab6896e2917822b2fd808737d77bd5f6a4499af779f",
+    "documents": [
+      "scenes:Lámina · La negativa de Merit"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/lamina-merit.png",
+    "sources": [
+      "art/v4/empty/lamina-merit.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/lamina-nombres.webp",
+    "format": "webp",
+    "bytes": 767800,
+    "sha256": "e5ce48369fb4668f55fd793f56379b4675a2a5ad117c5273aad419e23e1b6ee9",
+    "documents": [
+      "scenes:Lámina · Los nombres cautivos"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/wide/lamina-nombres.png",
+    "sources": [
+      "art/v4/wide/lamina-nombres.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/lamina-procesion.webp",
+    "format": "webp",
+    "bytes": 665858,
+    "sha256": "4478083a4b22f894f09032c75973ac94a7f52391bfd1e874a8f208034d9d2dda",
+    "documents": [
+      "scenes:Lámina · El descenso a la corte"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/lamina-procesion.png",
+    "sources": [
+      "art/v4/empty/lamina-procesion.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/merit-eco.webp",
+    "format": "webp",
+    "bytes": 617730,
+    "sha256": "3a6e48c1348fd56576584ffe29552cd85abb4efe67f172b581450bc3a833db8c",
+    "documents": [
+      "scenes:Merit · El eco que elige"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/merit-eco.png",
+    "sources": [
+      "art/v4/empty/merit-eco.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/muhar.webp",
+    "format": "webp",
+    "bytes": 564374,
+    "sha256": "0d8a168febd7d5d559f8eaa5c1250915b551c9d02022b4987590e63f326493ed",
+    "documents": [
+      "scenes:Muhar al anochecer"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-muhar.png",
+    "sources": [
+      "art/masters/scene-muhar.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/neb-sekhem.webp",
+    "format": "webp",
+    "bytes": 663688,
+    "sha256": "e0c50123e75c2acd0ebfcda112643e0df36643858704de186b1ed668ae5e474b",
+    "documents": [
+      "scenes:Neb-Sekhem · La invitación del rey"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/neb-sekhem.png",
+    "sources": [
+      "art/v4/empty/neb-sekhem.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/pesaje.webp",
+    "format": "webp",
+    "bytes": 548982,
+    "sha256": "6226fd096151433e10fd6c8333a6e8e50d11b32dea165c7da487b4f04d0662c4",
+    "documents": [
+      "scenes:La Cámara del Pesaje"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/pesaje.png",
+    "sources": [
+      "art/masters/pesaje.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/pozo.webp",
+    "format": "webp",
+    "bytes": 611982,
+    "sha256": "98ef87ca91f0ebee66c0be11b662088209041fda7a4274c495c584d66f30b123",
+    "documents": [
+      "scenes:El pozo de las siete ranuras"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-pozo.png",
+    "sources": [
+      "art/masters/scene-pozo.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/procesion.webp",
+    "format": "webp",
+    "bytes": 607452,
+    "sha256": "1f6033469fbe15b95b3c33594265428042a361daaffa2816d58f1e4ab423379b",
+    "documents": [
+      "scenes:La procesión funeraria"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/v4/empty/procesion.png",
+    "sources": [
+      "art/v4/empty/procesion.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/sala-vasijas.webp",
+    "format": "webp",
+    "bytes": 673998,
+    "sha256": "d151bcca2ada9be13bad7f4e482cbe5a051f06cf2bfe28987a282a7a9df249c4",
+    "documents": [
+      "scenes:La sala de las vasijas"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-sala-vasijas.png",
+    "sources": [
+      "art/masters/scene-sala-vasijas.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/scenes/taller-tia.webp",
+    "format": "webp",
+    "bytes": 620000,
+    "sha256": "c6c2db2854c73d08614733a1483694e1bad7a6ac61bfd56b8faca0ce7d867f5c",
+    "documents": [
+      "scenes:Taller de Tia"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "source": "art/masters/scene-taller-tia.png",
+    "sources": [
+      "art/masters/scene-taller-tia.png"
+    ],
+    "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  }
+]

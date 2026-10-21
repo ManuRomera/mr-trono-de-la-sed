@@ -1,0 +1,38 @@
+[
+  {
+    "source": "art/masters/vasija-hori.png",
+    "distributed": "assets/objects/vasija-hori.webp",
+    "use": "vasija-hori",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 174892
+  },
+  {
+    "source": "art/masters/escarabajo.png",
+    "distributed": "assets/objects/escarabajo.webp",
+    "use": "escarabajo",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 294258
+  },
+  {
+    "source": "art/masters/corazon.png",
+    "distributed": "assets/objects/corazon.webp",
+    "use": "corazon",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 323272
+  },
+  {
+    "source": "art/masters/pluma.png",
+    "distributed": "assets/objects/pluma.webp",
+    "use": "pluma",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 252032
+  }
+]

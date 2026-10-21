@@ -1,0 +1,182 @@
+[
+  {
+    "source": "art/masters/zahra.png",
+    "distributed": "assets/characters/zahra-portrait.webp",
+    "use": "zahra:retrato",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 42592,
+    "documents": [
+      "zahra"
+    ]
+  },
+  {
+    "source": "art/masters/zahra.png",
+    "distributed": "assets/characters/zahra-token.webp",
+    "use": "zahra:token",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 186930,
+    "documents": [
+      "zahra"
+    ]
+  },
+  {
+    "source": "art/masters/zahra.png",
+    "distributed": "assets/characters/zahra-sheet.webp",
+    "use": "zahra:ficha completa",
+    "width": 1100,
+    "height": 800,
+    "format": "webp",
+    "bytes": 23758,
+    "documents": [
+      "zahra"
+    ]
+  },
+  {
+    "source": "art/masters/khaem.png",
+    "distributed": "assets/characters/khaem-portrait.webp",
+    "use": "khaem:retrato",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 44542,
+    "documents": [
+      "khaem"
+    ]
+  },
+  {
+    "source": "art/masters/khaem.png",
+    "distributed": "assets/characters/khaem-token.webp",
+    "use": "khaem:token",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 163130,
+    "documents": [
+      "khaem"
+    ]
+  },
+  {
+    "source": "art/masters/khaem.png",
+    "distributed": "assets/characters/khaem-sheet.webp",
+    "use": "khaem:ficha completa",
+    "width": 1100,
+    "height": 800,
+    "format": "webp",
+    "bytes": 26704,
+    "documents": [
+      "khaem"
+    ]
+  },
+  {
+    "source": "art/masters/neset.png",
+    "distributed": "assets/characters/neset-portrait.webp",
+    "use": "neset:retrato",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 42780,
+    "documents": [
+      "neset"
+    ]
+  },
+  {
+    "source": "art/masters/neset.png",
+    "distributed": "assets/characters/neset-token.webp",
+    "use": "neset:token",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 170746,
+    "documents": [
+      "neset"
+    ]
+  },
+  {
+    "source": "art/masters/neset.png",
+    "distributed": "assets/characters/neset-sheet.webp",
+    "use": "neset:ficha completa",
+    "width": 1100,
+    "height": 800,
+    "format": "webp",
+    "bytes": 22562,
+    "documents": [
+      "neset"
+    ]
+  },
+  {
+    "source": "art/masters/seneb.png",
+    "distributed": "assets/characters/seneb-portrait.webp",
+    "use": "seneb:retrato",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 44202,
+    "documents": [
+      "seneb"
+    ]
+  },
+  {
+    "source": "art/masters/seneb.png",
+    "distributed": "assets/characters/seneb-token.webp",
+    "use": "seneb:token",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 179642,
+    "documents": [
+      "seneb"
+    ]
+  },
+  {
+    "source": "art/masters/seneb.png",
+    "distributed": "assets/characters/seneb-sheet.webp",
+    "use": "seneb:ficha completa",
+    "width": 1100,
+    "height": 800,
+    "format": "webp",
+    "bytes": 23088,
+    "documents": [
+      "seneb"
+    ]
+  },
+  {
+    "source": "art/masters/iru.png",
+    "distributed": "assets/characters/iru-portrait.webp",
+    "use": "iru:retrato",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 59504,
+    "documents": [
+      "iru"
+    ]
+  },
+  {
+    "source": "art/masters/iru.png",
+    "distributed": "assets/characters/iru-token.webp",
+    "use": "iru:token",
+    "width": 512,
+    "height": 512,
+    "format": "webp",
+    "bytes": 185876,
+    "documents": [
+      "iru"
+    ]
+  },
+  {
+    "source": "art/masters/iru.png",
+    "distributed": "assets/characters/iru-sheet.webp",
+    "use": "iru:ficha completa",
+    "width": 1100,
+    "height": 800,
+    "format": "webp",
+    "bytes": 26354,
+    "documents": [
+      "iru"
+    ]
+  }
+]

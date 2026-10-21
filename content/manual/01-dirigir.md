@@ -42,6 +42,13 @@ Las **tarjetas de personaje** resumen a cada PNJ en seis líneas: presencia, ide
 La aventura usa como marco Har’Akir, el dominio desértico de Ravenloft, Muhar, sus tumbas y el Laberinto. Ankhtepot es una autoridad funeraria remota cuya sombra pesa sobre la religión; las Nieblas aíslan este mundo y atravesar el desierto no es una salida. La Corte de las Siete Lenguas, Neb-Sekhem, Merit, Khety, el mecanismo de los dos sellos y los detalles locales son creaciones de esta aventura, no canon oficial. Ni el faraón ni las Nieblas aparecen para resolver el clímax: liberar al vampiro le permite moverse por Har’Akir, no abandonar Ravenloft.
 :::
 
+## Las herramientas de Foundry
+La barra del Narrador reúne lo que usarás en mesa: **Leer escena**, **Mostrar a todos**, música, modo lectura, efectos, **Figuras** y un menú de **Ambiente** (claro, penumbra, oscuro) que cambia a la vez la luz de la escena y el volumen del fondo. Se mueve con el botón derecho pulsado y recuerda su sitio. Las figuras se colocan sobre puntos reales de cada fondo y **escalan por profundidad**: al alejarse se hacen pequeñas y al acercarse, grandes.
+
+Los **Hitos** (Alt+H) son la memoria visible de la mesa: doce descubrimientos sin spoilers que marcas tú y que todos ven. Úsalos como pausa natural al final de una escena: «¿qué ha cambiado para vosotros?». Hay un tutorial guiado para el Narrador, otro para la barra de escena y otro para los jugadores (Configuración → MR · El Trono de la Sed → Tutoriales).
+
+El apéndice de este libro incluye además las **tarjetas de PNJ** recortables (un PDF aparte) y existe una **edición de imprenta** con 3 mm de sangrado.
+
 ## Preparación en quince minutos
 Lee tres cosas: «El rey sin nombre», la escena del banquete (**C2**) y la Cámara del Pesaje (**P2**). Son los tres apoyos del misterio. Después:
 

@@ -1,0 +1,45 @@
+{
+  "title": "MRTRONO.SceneTutorial",
+  "description": "MRTRONO.SceneTutorialDescription",
+  "display": true,
+  "restricted": true,
+  "canBeResumed": true,
+  "steps": [
+    {
+      "id": "bar",
+      "title": "MRTRONO.TourSceneBarTitle",
+      "content": "MRTRONO.TourSceneBarText",
+      "selector": "#mr-trono-director .mr-grip"
+    },
+    {
+      "id": "show",
+      "title": "MRTRONO.TourSceneShowTitle",
+      "content": "MRTRONO.TourSceneShowText",
+      "selector": "#mr-trono-director [data-trono-action=activate]"
+    },
+    {
+      "id": "figures",
+      "title": "MRTRONO.TourSceneFiguresTitle",
+      "content": "MRTRONO.TourSceneFiguresText",
+      "selector": "#mr-trono-director details[data-menu=figures] summary"
+    },
+    {
+      "id": "depth",
+      "title": "MRTRONO.TourSceneDepthTitle",
+      "content": "MRTRONO.TourSceneDepthText",
+      "selector": "#mr-trono-director input[data-presentation=depthScale]"
+    },
+    {
+      "id": "ambient",
+      "title": "MRTRONO.TourSceneAmbientTitle",
+      "content": "MRTRONO.TourSceneAmbientText",
+      "selector": "#mr-trono-director [data-trono-action=ambient]"
+    },
+    {
+      "id": "hitos",
+      "title": "MRTRONO.TourSceneHitosTitle",
+      "content": "MRTRONO.TourSceneHitosText",
+      "selector": "#mr-trono-hitos"
+    }
+  ]
+}

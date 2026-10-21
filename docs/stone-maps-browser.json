@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "corte",
+    "svg_sha256": "fb0a0f9f09697ff09e9cf97b99b3d6dd5dc2243df5b567bb9976f78e1644fd77",
+    "width": 2300,
+    "height": 1700,
+    "pixel": [
+      75,
+      38,
+      4,
+      255
+    ],
+    "readable": true
+  },
+  {
+    "slug": "muhar",
+    "svg_sha256": "d66232ad93ed850906498cc8b277180f00576bde20b2e84ec447c2c6588f2585",
+    "width": 2000,
+    "height": 1200,
+    "pixel": [
+      207,
+      170,
+      122,
+      255
+    ],
+    "readable": true
+  },
+  {
+    "slug": "pozo",
+    "svg_sha256": "391039724d62759ea706d641414e1d38b4266b5cb1bb2b32b079236b3ee1cd2e",
+    "width": 1400,
+    "height": 1400,
+    "pixel": [
+      246,
+      212,
+      172,
+      255
+    ],
+    "readable": true
+  }
+]

@@ -1,0 +1,163 @@
+{
+  "empty": {
+    "actors": 0,
+    "journal": 0,
+    "items": [
+      "scene-data"
+    ],
+    "scenes": [
+      "NUEDEFAULTSCENE0"
+    ]
+  },
+  "importOffered": true,
+  "counts": {
+    "actors": 34,
+    "items": 21,
+    "journals": 28,
+    "scenes": 22,
+    "folders": 12,
+    "heroes": 5,
+    "sharedOwner": 3
+  },
+  "backgrounds": [
+    {
+      "name": "Casa de Nefru",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "Casa de Panehsy",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "El Laberinto",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "El banquete",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "El camino de los chacales",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "El dormitorio de las víctimas",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "El funeral imposible",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "El pozo de las siete ranuras",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "El testimonio de Merit",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "El umbral de la corte",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "El último amanecer",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "La Corte · Plano de orientación",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 5
+    },
+    {
+      "name": "La Cámara del Pesaje",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "La galería de los rostros borrados",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "La procesión funeraria",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "La sala de las vasijas",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "Merit · El eco que elige",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "Muhar al anochecer",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "Muhar · Plano de rutas",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "Pozo · Plano de las siete ranuras",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    },
+    {
+      "name": "Taller de Tia",
+      "drawn": true,
+      "texture": true,
+      "tokenCount": 0
+    }
+  ],
+  "privateSeed": {
+    "sixCaptives": true,
+    "seventhEmpty": true,
+    "victimNotesSeeded": true,
+    "nebNotesSeeded": true,
+    "legacyAbsent": true
+  },
+  "errors": [],
+  "assets": {
+    "checked": 69,
+    "missing": []
+  },
+  "harnessCorrection": "La primera pasada cerró aplicaciones centrales de Foundry. Se repitió sin cerrar SceneControls ni otras aplicaciones del núcleo; no se cambió el módulo."
+}

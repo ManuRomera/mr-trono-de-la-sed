@@ -40,6 +40,12 @@
       "title": "MRTRONO.TourPlayerSaveTitle",
       "content": "MRTRONO.TourPlayerSaveText",
       "selector": "#mr-trono-memories [data-mr-action=\"saveMemories\"]"
+    },
+    {
+      "id": "hitos",
+      "title": "MRTRONO.TourPlayerHitosTitle",
+      "content": "MRTRONO.TourPlayerHitosText",
+      "selector": "#mr-trono-hitos"
     }
   ]
 }

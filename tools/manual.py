@@ -362,6 +362,19 @@ figure.cut.right{float:right;margin:0 0 1mm 4mm}
 .handout p{text-align:left;margin-bottom:2mm}
 '''
 
+PRINT = False
+def print_css(css):
+    """Variante de imprenta: A4 + 3 mm de sangrado por lado; las láminas llegan al borde del sangrado."""
+    css = css.replace('size:210mm 297mm;margin:22mm 16mm 22mm 16mm;', 'size:216mm 303mm;margin:25mm 19mm 25mm 19mm;')
+    css = css.replace('width:210mm;height:297mm;', 'width:216mm;height:303mm;')
+    css = css.replace('.plate .txt{position:absolute;left:16mm;right:16mm;bottom:16mm', '.plate .txt{position:absolute;left:19mm;right:19mm;bottom:19mm')
+    css = css.replace('.cover .k{top:11mm', '.cover .k{top:14mm')
+    css = css.replace('.cover .el{bottom:96mm', '.cover .el{bottom:99mm').replace('.cover .trono{bottom:68mm', '.cover .trono{bottom:71mm').replace('.cover .dela{bottom:62mm', '.cover .dela{bottom:65mm')
+    css = css.replace('.cover .sed{bottom:30mm', '.cover .sed{bottom:33mm').replace('.cover .sub{bottom:22mm', '.cover .sub{bottom:25mm').replace('.cover .au{bottom:13mm', '.cover .au{bottom:16mm').replace('.cover .ed{bottom:7mm', '.cover .ed{bottom:10mm')
+    css = css.replace('inset:auto 12mm 11mm auto', 'inset:auto 15mm 14mm auto')
+    css = css.replace('.back .in{position:absolute;left:24mm;right:24mm;top:52mm}', '.back .in{position:absolute;left:27mm;right:27mm;top:55mm}')
+    return css
+
 # ───────────────────────── Piezas del libro ─────────────────────────
 def plate_html(art, title, kicker, quote):
     f = web_image(art, 2000)
@@ -475,7 +488,9 @@ def brand_assets():
 
 def render(doc_html_, name, header='MANUAL DEL NARRADOR'):
     brand_assets()
-    (WORK / 'book.css').write_text(CSS.replace('"MANUAL DEL NARRADOR"', '"' + header + '"'))
+    css = CSS.replace('"MANUAL DEL NARRADOR"', '"' + header + '"')
+    css = print_css(css) if PRINT else css
+    (WORK / 'book.css').write_text(css)
     for f in FONTS.rglob('*.ttf'):
         dest = WORK / 'fonts' / f.relative_to(FONTS)
         dest.parent.mkdir(parents=True, exist_ok=True)
@@ -492,7 +507,7 @@ def render(doc_html_, name, header='MANUAL DEL NARRADOR'):
     if cover:
         import hashlib
         from pypdf import PdfReader, PdfWriter
-        key = hashlib.sha256(('standalone-cover-v2' + cover.group(1) + CSS).encode()).hexdigest()[:16]
+        key = hashlib.sha256(('standalone-cover-v2' + cover.group(1) + css).encode()).hexdigest()[:16]
         cover_pdf = WORK / f'cover-{key}.pdf'
         if not cover_pdf.exists():
             cover_html = WORK / f'cover-{key}.html'
@@ -544,7 +559,7 @@ def closing_html():
             '<p>Instala mist-engine-fvtt 14.5.4 en Foundry v13. Descomprime el módulo en Data/modules y actívalo en un mundo del sistema; acepta la importación en un mundo vacío o usa Configuración → MR · El Trono de la Sed → Libro de los Muertos → Importar la aventura. La barra del Narrador, los diarios de escena, las listas de audio y las fichas nativas se enlazan desde esa importación.</p>'
             '<h3>Banda sonora instrumental</h3><p style="font-size:9.6pt">Música de Kevin MacLeod (incompetech.com), Creative Commons Attribution 4.0. Edición: recorte, bucle y normalización.</p>' + music + notice + '</div></div>')
 
-def build_manual():
+def build_manual(name='El-Trono-de-la-Sed-Manual'):
     chapters = [c for c in load_chapters(True) if c.get('audience', 'gm') != 'players']
     story = load('content/narrative.json'); actors = load('content/actors.json'); secrets = load('content/personal-secrets.json')
     heroes = [a for a in actors if a['type'] == 'litm-character']
@@ -572,8 +587,8 @@ def build_manual():
         {'id': 'docs', 'title': 'Documentos para descubrir', 'num': 'Apéndice H', 'sections': []}]
     def doc(pages):
         return cover_html('Manual del Narrador') + front.replace('@@TOC@@', toc_html(book_chapters, pages)) + ''.join(body)
-    pdf = render(doc(None), 'El-Trono-de-la-Sed-Manual')
-    pdf = render(doc(locate(pdf, book_chapters)), 'El-Trono-de-la-Sed-Manual')
+    pdf = render(doc(None), name)
+    pdf = render(doc(locate(pdf, book_chapters)), name)
     return pdf
 
 def build_players():
@@ -589,8 +604,52 @@ def build_players():
     body.append(back_html())
     return render(''.join(body), 'El-Trono-de-la-Sed-Material-de-Juego', 'CUADERNO DE PROTAGONISTAS')
 
+def npc_cards():
+    """Tarjetas de PNJ imprimibles (95 × 88 mm, seis por A4) con marcas de corte, desde los bloques :::pnj del manual."""
+    cards = []
+    for f in sorted(SRC.glob('*.md')):
+        lines = f.read_text(encoding='utf-8').split('\n'); i = 0
+        while i < len(lines):
+            if lines[i].startswith(':::pnj'):
+                title = lines[i][6:].strip(); body = []; i += 1
+                while i < len(lines) and not lines[i].startswith(':::'): body.append(lines[i]); i += 1
+                fields = [m.groups() for l in body for m in [re.match(r'([A-ZÁÉÍÓÚa-záéíóúñ ]{3,18})\.\s+(.*)', l)] if m]
+                name, _, role = title.partition(' · ')
+                cards.append((name.strip(), role.strip(), fields))
+            i += 1
+    slug = {'Neb-Sekhem': 'neb-sekhem', 'Servidores sin nombre': 'servidor', 'Custodios de la corte': 'custodio', 'Sombras de chacal': 'sombra-chacal'}
+    out = ''
+    for n, (name, role, fields) in enumerate(cards):
+        key = slug.get(name, name.split(' ')[0].lower())
+        try: art = web_image(key, 420, alpha=True)
+        except FileNotFoundError: art = None
+        out += ('<div class="npc-card">' + (f'<img src="{art}" alt="">' if art else '') + f'<div class="nm">{html.escape(name)}</div><div class="rl">{html.escape(role)}</div>' +
+                ''.join(f'<p><b>{inline(k)}.</b> {inline(v)}</p>' for k, v in fields) + '<span class="mk">MR</span></div>')
+    return out
+
+def build_cards():
+    css_extra = '''
+@page{size:A4;margin:10mm 10mm;background:#f6f0e3}
+.sheet-cards{display:grid;grid-template-columns:repeat(2,95mm);grid-auto-rows:88mm;gap:0;justify-content:center}
+.npc-card{position:relative;box-sizing:border-box;width:95mm;height:88mm;padding:5mm 5mm 4mm 31mm;border:.25mm dashed #a78850;overflow:hidden;font-size:7.7pt;line-height:1.22;text-align:left;break-inside:avoid;background:#f1e8d4}
+.npc-card img{position:absolute;left:3mm;bottom:3mm;width:26mm;height:auto;max-height:76mm;object-fit:contain}
+.npc-card .nm{font:700 12.5pt/1.05 Cin;color:#713447;margin-bottom:.4mm}
+.npc-card .rl{font:italic 7.6pt EBG;color:#6b5c4b;margin-bottom:1.6mm;border-bottom:.3mm solid #a78850;padding-bottom:1mm}
+.npc-card p{margin:0 0 1mm;text-align:left}
+.npc-card .mk{position:absolute;right:2.5mm;bottom:1.5mm;font:700 6pt EBG;letter-spacing:.2em;color:#b8a27a}
+'''
+    global CSS
+    saved = CSS; CSS = CSS + css_extra
+    try:
+        doc = '<div class="sheet-cards">' + npc_cards() + '</div>'
+        return render(doc, 'El-Trono-de-la-Sed-Tarjetas-de-PNJ', 'TARJETAS')
+    finally: CSS = saved
+
 if __name__ == '__main__':
     args = sys.argv[1:]
     if '--sync' in args: sync()
     if '--manual' in args or not args: print(build_manual())
     if '--players' in args or not args: print(build_players())
+    if '--print' in args or not args:
+        PRINT = True; print(build_manual('El-Trono-de-la-Sed-Manual-Imprenta')); PRINT = False
+    if '--cards' in args or not args: print(build_cards())

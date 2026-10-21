@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "corte",
+    "prompt": "Use case: style-transfer. Edit target: the attached existing adventure map. Replace the flat diagram style with an exquisitely crafted ancient Egyptian SUNKEN STONE ENGRAVING. Only the map is visible, filling the entire image. Flat frontal orthographic view of the carved surface: absolutely NO perspective, NO pyramid interior, NO room around it, NO exterior wall edges, NO props, NO frame, NO archaeologist, NO table. The surface itself is pale warm aged limestone with fine grain, small abrasions and restrained patina. Map lines and symbols are physically incised into the same stone with shallow bevels, tiny chisel marks, dark recesses and gentle upper-left raking light; not ink drawn on top. Handcrafted fantasy illustration with tactile carved detail, not a photograph or 3D render. Extremely readable geometry and clear negative space between routes. Preserve the input map's layout, proportional positions, complete route topology, number and shapes of chambers/nodes, and all entrance gaps EXACTLY. Do not add routes or remove connections. Remove flat navy fills and modern color blocks. Keep the stone relatively light for contrast, with traces of old ochre in grooves. No unreadable decorative writing. Keep source aspect ratio and highest available resolution. Map: THE COURT. All SEVEN numbered chambers must remain exactly as in the source: 3 upper left, 4 upper center, 5 upper right; 1 middle left, 2 middle center, 6 middle right; 7 bottom center. Keep corridor U shape and central vertical axis, the narrow gaps centered in north and south walls of each chamber. All original wall lines must be deep precise incisions, chamber interiors subtly hollowed limestone, no isometric buildings or furniture. Preserve simple engraved numerals 1,2,3,4,5,6,7 centered in the same rooms. Engrave title 'LA CORTE DE LAS SIETE LENGUAS'. Omit the source's bottom explanatory footer. Subtle concentric wear is allowed, but no additional map shapes or corridors.",
+    "source": "/Users/mromera/.codex/generated_images/01a15b26-454b-7e40-a4dc-208e9dcd3fe3/exec-bd7f4a2b-497e-4585-a460-c25e0d89f544.png",
+    "method": "built-in image_gen / style-transfer",
+    "reference": "editorial/map-references/corte.png",
+    "master": "art/masters/mapa-corte-piedra.png",
+    "foundry": "assets/maps/corte-piedra.webp",
+    "dimensions": [
+      1458,
+      1079
+    ],
+    "webp_quality": 94
+  },
+  {
+    "slug": "muhar",
+    "prompt": "Use case: style-transfer. Edit target: the attached existing adventure map. Replace the flat diagram style with an exquisitely crafted ancient Egyptian SUNKEN STONE ENGRAVING. Only the map is visible, filling the entire image. Flat frontal orthographic view of the carved surface: absolutely NO perspective, NO pyramid interior, NO room around it, NO exterior wall edges, NO props, NO frame, NO archaeologist, NO table. The surface itself is pale warm aged limestone with fine grain, small abrasions and restrained patina. Map lines and symbols are physically incised into the same stone with shallow bevels, tiny chisel marks, dark recesses and gentle upper-left raking light; not ink drawn on top. Handcrafted fantasy illustration with tactile carved detail, not a photograph or 3D render. Extremely readable geometry and clear negative space between routes. Preserve the input map's layout, proportional positions, complete route topology, number and shapes of chambers/nodes, and all entrance gaps EXACTLY. Do not add routes or remove connections. Remove flat navy fills and modern color blocks. Keep the stone relatively light for contrast, with traces of old ochre in grooves. No unreadable decorative writing. Keep source aspect ratio and highest available resolution. Map: MUHAR. Preserve exactly FIVE places and SEVEN streets connecting them in the same graph as source. Number the place markers in lieu of long names: 1 at Plaza del funeral (upper left), 2 at Archivo de Panehsy (top center), 3 at Taller de Tia (bottom left), 4 at Casa de Nefru (lower center right), 5 at Camino al pozo (right). Streets: 1-2,2-5,5-4,4-3,3-1,1-4,2-4. The place markers may be shallow carved cartographic building symbols within their original small footprint, not realistic buildings in perspective. Each node gets its simple incised numeral. Engrave only title 'MUHAR'; omit all source subtitles, long names, explanatory footers. No extra streets, no dense decorative network. A restrained incised north arrow can remain.",
+    "source": "/Users/mromera/.codex/generated_images/01a15b26-454b-7e40-a4dc-208e9dcd3fe3/exec-3956529f-0062-4cb6-84ab-1c718c3a7a83.png",
+    "method": "built-in image_gen / style-transfer",
+    "reference": "editorial/map-references/muhar.png",
+    "master": "art/masters/mapa-muhar-piedra.png",
+    "foundry": "assets/maps/muhar-piedra.webp",
+    "dimensions": [
+      1619,
+      971
+    ],
+    "webp_quality": 94
+  },
+  {
+    "slug": "pozo",
+    "prompt": "Use case: style-transfer. Edit target: the attached existing adventure map. Replace the flat diagram style with an exquisitely crafted ancient Egyptian SUNKEN STONE ENGRAVING. Only the map is visible, filling the entire image. Flat frontal orthographic view of the carved surface: absolutely NO perspective, NO pyramid interior, NO room around it, NO exterior wall edges, NO props, NO frame, NO archaeologist, NO table. The surface itself is pale warm aged limestone with fine grain, small abrasions and restrained patina. Map lines and symbols are physically incised into the same stone with shallow bevels, tiny chisel marks, dark recesses and gentle upper-left raking light; not ink drawn on top. Handcrafted fantasy illustration with tactile carved detail, not a photograph or 3D render. Extremely readable geometry and clear negative space between routes. Preserve the input map's layout, proportional positions, complete route topology, number and shapes of chambers/nodes, and all entrance gaps EXACTLY. Do not add routes or remove connections. Remove flat navy fills and modern color blocks. Keep the stone relatively light for contrast, with traces of old ochre in grooves. No unreadable decorative writing. Keep source aspect ratio and highest available resolution. Map: THE WELL. Preserve the circular annulus and central open descent, entrance passage at bottom, and EXACTLY SEVEN elongated recessed slots around the ring at the same locations. Six slots have worn chiselled marks with faint old dark crimson pigment; the seventh at UPPER LEFT (about ten o'clock) is visibly CLEAN and empty. Do not change which slot is empty. No jars or objects physically standing on map. The whole well is a diagram carved into one continuous stone surface, not an overhead view of a real well. Engrave title 'EL POZO' and center text 'DESCENSO AL LABERINTO'. Omit the source explanatory subtitle. No additional slots, concentric ornamental rings must not resemble additional routes.",
+    "source": "/Users/mromera/.codex/generated_images/01a15b26-454b-7e40-a4dc-208e9dcd3fe3/exec-21ecf574-dac3-4407-b48a-e864bafefaf7.png",
+    "method": "built-in image_gen / style-transfer",
+    "reference": "editorial/map-references/pozo.png",
+    "master": "art/masters/mapa-pozo-piedra.png",
+    "foundry": "assets/maps/pozo-piedra.webp",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "webp_quality": 94
+  }
+]

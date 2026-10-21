@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "name": "Iru",
+      "sheet": "MistEngineLegendInTheMistCharacterSheet",
+      "id": "MistEngineLegendInTheMistCharacterSheet-Actor-e9bdff44e16b2b74",
+      "themes": 4,
+      "power": 12,
+      "weakness": 4,
+      "backpacks": 1,
+      "fellowship": "Los que todavía recuerdan"
+    },
+    {
+      "name": "Khaem",
+      "sheet": "MistEngineLegendInTheMistCharacterSheet",
+      "id": "MistEngineLegendInTheMistCharacterSheet-Actor-5f29196c374a7f02",
+      "themes": 4,
+      "power": 12,
+      "weakness": 4,
+      "backpacks": 1,
+      "fellowship": "Los que todavía recuerdan"
+    },
+    {
+      "name": "Neset",
+      "sheet": "MistEngineLegendInTheMistCharacterSheet",
+      "id": "MistEngineLegendInTheMistCharacterSheet-Actor-202be959feb5f3d2",
+      "themes": 4,
+      "power": 12,
+      "weakness": 4,
+      "backpacks": 1,
+      "fellowship": "Los que todavía recuerdan"
+    },
+    {
+      "name": "Seneb",
+      "sheet": "MistEngineLegendInTheMistCharacterSheet",
+      "id": "MistEngineLegendInTheMistCharacterSheet-Actor-ae63d4a51ece8961",
+      "themes": 4,
+      "power": 12,
+      "weakness": 4,
+      "backpacks": 1,
+      "fellowship": "Los que todavía recuerdan"
+    },
+    {
+      "name": "Zahra",
+      "sheet": "MistEngineLegendInTheMistCharacterSheet",
+      "id": "MistEngineLegendInTheMistCharacterSheet-Actor-37d44832b56ae268",
+      "themes": 4,
+      "power": 12,
+      "weakness": 4,
+      "backpacks": 1,
+      "fellowship": "Los que todavía recuerdan"
+    }
+  ],
+  "errors": []
+}
