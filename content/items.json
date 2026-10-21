@@ -1,0 +1,606 @@
+[
+  {
+    "_id": "bcca2a043727e559",
+    "name": "Lectura del nombre velado",
+    "type": "rote",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Una inscripción, una pertenencia o una voz conserva una huella que puede interpretarse. El rito no revela una identidad de la nada ni obliga a un muerto a hablar.</p>",
+      "practitioners": "Zahra o Iru con permiso ficticio y aprendizaje del rito",
+      "actionType": "detailed",
+      "powertags": [
+        {
+          "name": "Leer inscripciones"
+        },
+        {
+          "name": "Escuchar una voz conservada"
+        }
+      ],
+      "weaknesstags": [
+        {
+          "name": "Un soporte dañado"
+        }
+      ],
+      "success": "<p>Emplea Poder en descubrir detalles verificables del vínculo; un detalle por punto cuando se use la opción nativa de descubrir. Una prueba esencial no se retiene por un fallo.</p>",
+      "consequences": "<p>La corte percibe la lectura, una prueba material queda expuesta o el lector recibe una consecuencia pertinente al recuerdo observado.</p>",
+      "selected": false
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "lectura-del-nombre",
+        "acquisition": "Se entrega solo cuando la escena y el aprendizaje lo permiten; no es un bono inicial gratuito."
+      }
+    }
+  },
+  {
+    "_id": "4e73d71822d4842c",
+    "name": "Canto del testigo",
+    "type": "rote",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Una voz cercana contesta a otra y mantiene un recuerdo compartido frente a una alteración. Exige un vínculo o un testimonio establecido por los jugadores.</p>",
+      "practitioners": "Seneb, tras aprender la estrofa conservada por Tia",
+      "actionType": "detailed",
+      "powertags": [
+        {
+          "name": "Música funeraria"
+        },
+        {
+          "name": "Un recuerdo contrastado"
+        }
+      ],
+      "weaknesstags": [
+        {
+          "name": "Sin otra voz"
+        }
+      ],
+      "success": "<p>Emplea Poder para reducir el estado de olvido pertinente o crear una etiqueta de historia con las opciones nativas. No restaura de golpe cualquier recuerdo ni añade mejoras permanentes.</p>",
+      "consequences": "<p>La voz se quiebra, un custodio oye el canto o el recuerdo recuperado exige afrontar un hecho doloroso.</p>",
+      "selected": false
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "canto-del-testigo",
+        "acquisition": "Se entrega solo cuando la escena y el aprendizaje lo permiten; no es un bono inicial gratuito."
+      }
+    }
+  },
+  {
+    "_id": "1cdad66ee0200072",
+    "name": "Bendición del umbral recordado",
+    "type": "rote",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Un umbral consagrado recuerda a quienes han cruzado libremente y dificulta que una sombra los siga. No encierra contra su voluntad a un héroe.</p>",
+      "practitioners": "Zahra, tras conocer el sentido del sello de Merit",
+      "actionType": "detailed",
+      "powertags": [
+        {
+          "name": "Consagración funeraria"
+        },
+        {
+          "name": "Nombre verdadero conocido"
+        }
+      ],
+      "weaknesstags": [
+        {
+          "name": "Interrupción de la fórmula"
+        }
+      ],
+      "success": "<p>Emplea Poder en un estado protector o una etiqueta de historia pertinente al paso. La duración y alcance dependen de la ficción acordada.</p>",
+      "consequences": "<p>La protección atrae atención, requiere conservar una prueba en el lugar o deja otro acceso sin cubrir.</p>",
+      "selected": false
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "bendicion-del-umbral",
+        "acquisition": "Se entrega solo cuando la escena y el aprendizaje lo permiten; no es un bono inicial gratuito."
+      }
+    }
+  },
+  {
+    "_id": "fe7989001087ec4e",
+    "name": "Contrafirma de la negativa",
+    "type": "rote",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Una inscripción declara quién no consiente el vínculo y qué testimonio sostiene esa negativa. Es una técnica original para esta aventura, no una regla nueva del motor.</p>",
+      "practitioners": "Iru, después de comprender la inscripción y contar con la aceptación de Merit",
+      "actionType": "detailed",
+      "powertags": [
+        {
+          "name": "Interpretar un vínculo"
+        },
+        {
+          "name": "Testimonio preservado"
+        }
+      ],
+      "weaknesstags": [
+        {
+          "name": "Sin tiempo de preparación"
+        }
+      ],
+      "success": "<p>Emplea Poder para avanzar un estado sobre el desafío del corazón o de la cámara conforme al propósito acordado. Abrir, destruir y liberar siguen siendo tareas distintas.</p>",
+      "consequences": "<p>Un testimonio queda vulnerable, el cofre revela su posición o la corte intenta interrumpir al practicante.</p>",
+      "selected": false
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "contrafirma-del-sello",
+        "acquisition": "Se entrega solo cuando la escena y el aprendizaje lo permiten; no es un bono inicial gratuito."
+      }
+    }
+  },
+  {
+    "_id": "d739037db3d74f9f",
+    "name": "Escarabajo funerario",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Un escarabajo de oro oscuro que reproduce el signo visto por Iru. Al sostenerlo cerca del pozo vibra apenas. Su procedencia relaciona la corte con las desapariciones; no abre por sí solo todos los sellos.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Escarabajo de la corte",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "escarabajo",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "2b331917cd7c224d",
+    "name": "Séptima vasija",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Recipiente de alabastro sin nombre. Está preparado para una nueva identidad, pero permanece vacío al comienzo de la aventura. Portarlo no convierte al portador en víctima.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Séptima vasija vacía",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "septima-vasija",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "e634b4b24dc23c64",
+    "name": "Corazón de Neb-Sekhem",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>El corazón exterior del vampiro sigue latiendo bajo una película de oro oscuro. Solo se vuelve accesible tras resolver la protección del cofre. No se destruye ni libera víctimas al arrastrarlo a una ficha.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Corazón exterior de Neb-Sekhem",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "corazon-objeto",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "6e6619fedbef584a",
+    "name": "Pluma de Merit",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Una pluma de escritura antigua, gastada donde descansaban los dedos. Conserva una decisión expresada por su dueña y vale como testimonio material; no representa su consentimiento a decisiones futuras.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Pluma de Merit",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "pluma-merit",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "1fc14cbe41c75b09",
+    "name": "Cofre del corazón",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Caja de madera oscura reforzada con oro. La protección se representa mediante el desafío nativo El corazón protegido, no por puntos de golpe. Liberar un nombre, reconocer la negativa de Merit con su pluma o respetar una decisión expresa del eco ofrece una apertura correcta; también puede forzarse con riesgo anunciado y oposición. Las llaves de servicio de Khety permiten llegar a la cámara, pero no abren automáticamente el cofre.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Cofre ritual sellado",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "cofre",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "4edf475ac37ea9fe",
+    "name": "Invitación al banquete",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Un papiro sellado con una cortesía que parece conocer al destinatario. Se entrega cuando la corte ha decidido recibir al grupo. El texto completo pertenece a la ayuda que el Narrador revela entonces.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Invitación de Neb-Sekhem",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "invitacion",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "6a59f73f8e4b93a5",
+    "name": "Registro de ofrendas",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Una copia cotejada conserva huecos, fechas y cantidades. Al compararla con la memoria de una familia revela que hubo una persona donde el archivo deja un espacio.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Copia de los registros",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "pergamino-ofrendas",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "7cb64e3da0006a86",
+    "name": "Testimonio de Merit",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Fragmento de inscripción que conserva el nombre y una negativa inequívoca. Es una prueba que se puede proteger, copiar, ocultar o entregar. Saber su contenido no permite fingir una aceptación de Merit.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Testimonio del nombre de Merit",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "tablilla-merit",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "cde655ab99cd3a14",
+    "name": "Arpa de Seneb",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Instrumento de viaje con reparaciones visibles, familiar al cantor y a quienes han oído su voz. Ya figura en su Backpack inicial; esta ficha es una referencia de objeto, no debe duplicarse para obtener otro bono.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Arpa de viaje remendada",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "arpa-seneb",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "a15a690cc08f3e1f",
+    "name": "Cordón de Zahra",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Cordón azul con un nudo que Zahra asocia a quien le enseñó a escribir. Su significado se completa en la pregunta de creación. Se convierte en etiqueta mecánica solo si una acción o la ficción lo establece.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Cordón del primer nombre",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "reliquia-zahra",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "3c4914c81b2e5150",
+    "name": "Vasija de Hori",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Alabastro con dos cálamos cruzados. Custodia el nombre de Hori, hermano de Panehsy y colaborador del archivo. Identificar el recipiente y reunir un recuerdo verdadero o un objeto reconocido por su portador permite una liberación segura. Su estado se consulta en el altar; no se añade como un segundo estado mecánico.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Vasija del nombre de Hori",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "vasija-hori",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "1e3cc42158a2b14d",
+    "name": "Vasija de Paser",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Alabastro con una espiral de alfarería. Custodia el nombre de Paser, alfarero. Identificar el recipiente y reunir un recuerdo verdadero o un objeto reconocido por su portador permite una liberación segura. Su estado se consulta en el altar; no se añade como un segundo estado mecánico.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Vasija del nombre de Paser",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "vasija-paser",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "969b7b5b0f8d4ade",
+    "name": "Vasija de Tamerit",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Alabastro con plantas incisas y una tapa de ibis. Custodia el nombre de Tamerit, comadrona y cuidadora. Identificar el recipiente y reunir un recuerdo verdadero o un objeto reconocido por su portador permite una liberación segura. Su estado se consulta en el altar; no se añade como un segundo estado mecánico.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Vasija del nombre de Tamerit",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "vasija-tamerit",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "e319880fbb3cf64b",
+    "name": "Vasija de Kasa",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Alabastro con un motivo de cuerda y una tapa de chacal. Custodia el nombre de Kasa, porteador de almacén. Identificar el recipiente y reunir un recuerdo verdadero o un objeto reconocido por su portador permite una liberación segura. Su estado se consulta en el altar; no se añade como un segundo estado mecánico.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Vasija del nombre de Kasa",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "vasija-kasa",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "fd116385441c2cd4",
+    "name": "Vasija de Beset",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Alabastro con dos anillos enlazados y una tapa de gata. Custodia el nombre de Beset, hermana de Nefru y repartidora de remedios. Identificar el recipiente y reunir un recuerdo verdadero o un objeto reconocido por su portador permite una liberación segura. Su estado se consulta en el altar; no se añade como un segundo estado mecánico.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Vasija del nombre de Beset",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "vasija-beset",
+        "role": "object-card"
+      }
+    }
+  },
+  {
+    "_id": "f4bd1253e01392b0",
+    "name": "Vasija de Dedi",
+    "type": "backpack",
+    "ownership": {
+      "default": 0
+    },
+    "system": {
+      "description": "<p>Alabastro con un candil y una tapa de halcón. Custodia el nombre de Dedi, reparador de sandalias y correas. Identificar el recipiente y reunir un recuerdo verdadero o un objeto reconocido por su portador permite una liberación segura. Su estado se consulta en el altar; no se añade como un segundo estado mecánico.</p><p>Entrega esta tarjeta solo cuando se obtiene el objeto. Si ya existe su etiqueta en una mochila, no crees otra copia para duplicar Poder.</p>",
+      "items": [
+        {
+          "name": "Vasija del nombre de Dedi",
+          "question": "",
+          "burned": false,
+          "toBurn": false,
+          "planned": false,
+          "selected": false,
+          "expiring": false,
+          "expired": false
+        }
+      ]
+    },
+    "flags": {
+      "mr-trono-de-la-sed": {
+        "contentKey": "vasija-dedi",
+        "role": "object-card"
+      }
+    }
+  }
+]

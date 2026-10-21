@@ -1,0 +1,51 @@
+{
+  "title": "MRTRONO.NarratorTutorial",
+  "description": "MRTRONO.NarratorTutorialDescription",
+  "display": true,
+  "restricted": true,
+  "canBeResumed": true,
+  "steps": [
+    {
+      "id": "welcome",
+      "title": "MRTRONO.TourGMWelcomeTitle",
+      "content": "MRTRONO.TourGMWelcomeText",
+      "selector": "#mr-trono-gm .mr-book"
+    },
+    {
+      "id": "campaign",
+      "title": "MRTRONO.TourGMCampaignTitle",
+      "content": "MRTRONO.TourGMCampaignText",
+      "selector": "#mr-trono-gm [name=\"ritual\"]"
+    },
+    {
+      "id": "heroes",
+      "title": "MRTRONO.TourGMHeroesTitle",
+      "content": "MRTRONO.TourGMHeroesText",
+      "selector": "#mr-trono-gm .mr-grid"
+    },
+    {
+      "id": "altar",
+      "title": "MRTRONO.TourGMAltarTitle",
+      "content": "MRTRONO.TourGMAltarText",
+      "selector": "#mr-trono-gm .mr-altar"
+    },
+    {
+      "id": "documents",
+      "title": "MRTRONO.TourGMDocumentsTitle",
+      "content": "MRTRONO.TourGMDocumentsText",
+      "selector": "#mr-trono-gm .mr-doclist"
+    },
+    {
+      "id": "neb",
+      "title": "MRTRONO.TourGMNebTitle",
+      "content": "MRTRONO.TourGMNebText",
+      "selector": "#mr-trono-gm [name=\"nebNotes\"]"
+    },
+    {
+      "id": "finish",
+      "title": "MRTRONO.TourGMFinishTitle",
+      "content": "MRTRONO.TourGMFinishText",
+      "selector": "#mr-trono-gm .mr-paper"
+    }
+  ]
+}

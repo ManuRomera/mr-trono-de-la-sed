@@ -1,0 +1,1320 @@
+[
+  {
+    "distributed": "assets/characters/zahra-portrait.webp",
+    "sources": [
+      "art/masters/zahra.png"
+    ],
+    "source": "art/masters/zahra.png",
+    "use": "Compacto y listados",
+    "width": 512,
+    "height": 512,
+    "bytes": 78224,
+    "alpha": false,
+    "sha256": "f0dc00f2dfeec5e7687e59bc0ad66d274741757058b72ddab876b1cd6074f5d5"
+  },
+  {
+    "distributed": "assets/characters/zahra-token.webp",
+    "sources": [
+      "art/masters/zahra.png"
+    ],
+    "source": "art/masters/zahra.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 496496,
+    "alpha": true,
+    "sha256": "069456deb4770e648fc0b170b94cfe843c65f740f3df5bc8bfd44c90b3561c09"
+  },
+  {
+    "distributed": "assets/characters/zahra-sheet.webp",
+    "sources": [
+      "art/masters/zahra.png",
+      "art/masters/zahra-sheet-background.png"
+    ],
+    "source": "art/masters/zahra.png",
+    "use": "Ficha amplia nativa, guía de identidad x=300",
+    "width": 1100,
+    "height": 800,
+    "bytes": 147112,
+    "alpha": false,
+    "sha256": "0a88ad9e68ab70e13d79637cd874fe619c8515612a83c76540c833b6bcd54157"
+  },
+  {
+    "distributed": "assets/characters/khaem-portrait.webp",
+    "sources": [
+      "art/masters/khaem.png"
+    ],
+    "source": "art/masters/khaem.png",
+    "use": "Compacto y listados",
+    "width": 512,
+    "height": 512,
+    "bytes": 54514,
+    "alpha": false,
+    "sha256": "52777a5afccc05f0097346ffeb40edccaa98e3ab77849fc9e21ac0ba41541612"
+  },
+  {
+    "distributed": "assets/characters/khaem-token.webp",
+    "sources": [
+      "art/masters/khaem.png"
+    ],
+    "source": "art/masters/khaem.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 600914,
+    "alpha": true,
+    "sha256": "e9611b1edcb35ca0a0e606bd02a41ae68bbd04c9c03dcec675406322730e6fad"
+  },
+  {
+    "distributed": "assets/characters/khaem-sheet.webp",
+    "sources": [
+      "art/masters/khaem.png",
+      "art/masters/khaem-sheet-background.png"
+    ],
+    "source": "art/masters/khaem.png",
+    "use": "Ficha amplia nativa, guía de identidad x=300",
+    "width": 1100,
+    "height": 800,
+    "bytes": 180992,
+    "alpha": false,
+    "sha256": "e3ddc02c5c8923da324d0ed318b5041adb7ef6a95148d5fc6e27c49122b7ce42"
+  },
+  {
+    "distributed": "assets/characters/neset-portrait.webp",
+    "sources": [
+      "art/masters/neset.png"
+    ],
+    "source": "art/masters/neset.png",
+    "use": "Compacto y listados",
+    "width": 512,
+    "height": 512,
+    "bytes": 80486,
+    "alpha": false,
+    "sha256": "759138bfe29f398eee4cac57503be4fcc0d2f79c5f71bd4dd9ec23654901f036"
+  },
+  {
+    "distributed": "assets/characters/neset-token.webp",
+    "sources": [
+      "art/masters/neset.png"
+    ],
+    "source": "art/masters/neset.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 485266,
+    "alpha": true,
+    "sha256": "51450db0b778fa16ca667bd5b757c97b24e6f9feb995f1008c2267e6a89f3d32"
+  },
+  {
+    "distributed": "assets/characters/neset-sheet.webp",
+    "sources": [
+      "art/masters/neset.png",
+      "art/masters/neset-sheet-background.png"
+    ],
+    "source": "art/masters/neset.png",
+    "use": "Ficha amplia nativa, guía de identidad x=300",
+    "width": 1100,
+    "height": 800,
+    "bytes": 166246,
+    "alpha": false,
+    "sha256": "dcc14eb16d814440d894b85dd3c7d0f6fe112a3fe82097c0190a923522f08ad9"
+  },
+  {
+    "distributed": "assets/characters/seneb-portrait.webp",
+    "sources": [
+      "art/masters/seneb.png"
+    ],
+    "source": "art/masters/seneb.png",
+    "use": "Compacto y listados",
+    "width": 512,
+    "height": 512,
+    "bytes": 81246,
+    "alpha": false,
+    "sha256": "d88539cb176410f78c4bd8c27afc143f3cfbabf9dba15f599a2f5aa6ac49f0f4"
+  },
+  {
+    "distributed": "assets/characters/seneb-token.webp",
+    "sources": [
+      "art/masters/seneb.png"
+    ],
+    "source": "art/masters/seneb.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 489150,
+    "alpha": true,
+    "sha256": "6968e052c2e278c0a51f39177e3e02635bdc086d51220559c38211355d9dbcad"
+  },
+  {
+    "distributed": "assets/characters/seneb-sheet.webp",
+    "sources": [
+      "art/masters/seneb.png",
+      "art/masters/seneb-sheet-background.png"
+    ],
+    "source": "art/masters/seneb.png",
+    "use": "Ficha amplia nativa, guía de identidad x=300",
+    "width": 1100,
+    "height": 800,
+    "bytes": 179178,
+    "alpha": false,
+    "sha256": "31df699a58f4436a09688ca8e5da96f8ee46b63e7b615b49487830a0c8ee2192"
+  },
+  {
+    "distributed": "assets/characters/iru-portrait.webp",
+    "sources": [
+      "art/masters/iru.png"
+    ],
+    "source": "art/masters/iru.png",
+    "use": "Compacto y listados",
+    "width": 512,
+    "height": 512,
+    "bytes": 75554,
+    "alpha": false,
+    "sha256": "ac10f0af0fdc13dd8ebd23deb608d2eeff950aa6f33a458e9c30e994ae64f664"
+  },
+  {
+    "distributed": "assets/characters/iru-token.webp",
+    "sources": [
+      "art/masters/iru.png"
+    ],
+    "source": "art/masters/iru.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 542962,
+    "alpha": true,
+    "sha256": "51f85756c122878aa1e48d32dbb796fc3d1043e1c873f7e8a075c98d30a07bb9"
+  },
+  {
+    "distributed": "assets/characters/iru-sheet.webp",
+    "sources": [
+      "art/masters/iru.png",
+      "art/masters/iru-sheet-background.png"
+    ],
+    "source": "art/masters/iru.png",
+    "use": "Ficha amplia nativa, guía de identidad x=300",
+    "width": 1100,
+    "height": 800,
+    "bytes": 146202,
+    "alpha": false,
+    "sha256": "a14585a09429fe2a75d475497133d139cff9e7fca5e9de9533ed25495df5b950"
+  },
+  {
+    "distributed": "assets/npc/merit-portrait.webp",
+    "sources": [
+      "art/masters/npc-merit.png"
+    ],
+    "source": "art/masters/npc-merit.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 87332,
+    "alpha": false,
+    "sha256": "0fca9fdd7bcf5c2a19d2e614f7f72ffbe4cdad40b6078f7ac692f9c481324c06"
+  },
+  {
+    "distributed": "assets/npc/merit-thumb.webp",
+    "sources": [
+      "art/masters/npc-merit.png"
+    ],
+    "source": "art/masters/npc-merit.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5966,
+    "alpha": false,
+    "sha256": "3779d3279300e94707bbae9493c51eee496679ff8a92d779249d003a710980d0"
+  },
+  {
+    "distributed": "assets/npc/merit-token.webp",
+    "sources": [
+      "art/masters/npc-merit.png"
+    ],
+    "source": "art/masters/npc-merit.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 571440,
+    "alpha": true,
+    "sha256": "4be235177bf51da7a7dea231e470149c1e3daa087a08a91ff5e8afa898304cc3"
+  },
+  {
+    "distributed": "assets/npc/khety-portrait.webp",
+    "sources": [
+      "art/masters/npc-khety.png"
+    ],
+    "source": "art/masters/npc-khety.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 80686,
+    "alpha": false,
+    "sha256": "2c100a62772f5306cb98fe811910112f5ff09e8de0688d669095730cfc3c32c7"
+  },
+  {
+    "distributed": "assets/npc/khety-thumb.webp",
+    "sources": [
+      "art/masters/npc-khety.png"
+    ],
+    "source": "art/masters/npc-khety.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5606,
+    "alpha": false,
+    "sha256": "f96cc18d5020d3227865a8bbf22475546a0ba4b5c46ae7bb123c56d3b810085f"
+  },
+  {
+    "distributed": "assets/npc/khety-token.webp",
+    "sources": [
+      "art/masters/npc-khety.png"
+    ],
+    "source": "art/masters/npc-khety.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 431134,
+    "alpha": true,
+    "sha256": "8f65f0a21dbf63369bc807b49f8ceadcb83cdc5c4168a76d3c9822367224ae77"
+  },
+  {
+    "distributed": "assets/npc/tia-portrait.webp",
+    "sources": [
+      "art/masters/npc-tia.png"
+    ],
+    "source": "art/masters/npc-tia.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 73356,
+    "alpha": false,
+    "sha256": "dea53bb9b4d05e245bb9ea35059c1c877ff2e9d713356ad057255784919fc8e9"
+  },
+  {
+    "distributed": "assets/npc/tia-thumb.webp",
+    "sources": [
+      "art/masters/npc-tia.png"
+    ],
+    "source": "art/masters/npc-tia.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5048,
+    "alpha": false,
+    "sha256": "609c5b8819a662612e9e5e96ba83ac5addc98b097c056c9280253a0525ed1698"
+  },
+  {
+    "distributed": "assets/npc/tia-token.webp",
+    "sources": [
+      "art/masters/npc-tia.png"
+    ],
+    "source": "art/masters/npc-tia.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 411048,
+    "alpha": true,
+    "sha256": "75662fcbe7eb9c8f0613d2dea4cb9b6211348eb0f36a8ad44585042b01abfc4c"
+  },
+  {
+    "distributed": "assets/npc/panehsy-portrait.webp",
+    "sources": [
+      "art/masters/npc-panehsy.png"
+    ],
+    "source": "art/masters/npc-panehsy.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 74572,
+    "alpha": false,
+    "sha256": "396ed3fa5b6265bc1bf5bce4be65da93382d28d544cba8d462ad26dd6f4798aa"
+  },
+  {
+    "distributed": "assets/npc/panehsy-thumb.webp",
+    "sources": [
+      "art/masters/npc-panehsy.png"
+    ],
+    "source": "art/masters/npc-panehsy.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5328,
+    "alpha": false,
+    "sha256": "f342872612ce31887ad46e6144e470abd29cbf6d401fe065a0443e8fb71d7504"
+  },
+  {
+    "distributed": "assets/npc/panehsy-token.webp",
+    "sources": [
+      "art/masters/npc-panehsy.png"
+    ],
+    "source": "art/masters/npc-panehsy.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 353450,
+    "alpha": true,
+    "sha256": "abd67dd42da5cd895f8bd870d1ef6f131ab9de2dffb075dc1a263baab188653b"
+  },
+  {
+    "distributed": "assets/npc/nefru-portrait.webp",
+    "sources": [
+      "art/masters/npc-nefru.png"
+    ],
+    "source": "art/masters/npc-nefru.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 76492,
+    "alpha": false,
+    "sha256": "101d8c913bd8c74e84d609012527efecf60c329b5dc31b71df9128edbbc7dca1"
+  },
+  {
+    "distributed": "assets/npc/nefru-thumb.webp",
+    "sources": [
+      "art/masters/npc-nefru.png"
+    ],
+    "source": "art/masters/npc-nefru.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5594,
+    "alpha": false,
+    "sha256": "614e442fe12ad70ac0e79e5f6dcf75506a0de3658e149f657676d607af73de52"
+  },
+  {
+    "distributed": "assets/npc/nefru-token.webp",
+    "sources": [
+      "art/masters/npc-nefru.png"
+    ],
+    "source": "art/masters/npc-nefru.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 493890,
+    "alpha": true,
+    "sha256": "581e4ca78f2f041d86528c1a563e7ae00355953c13b753e4c5a9c8d02d6f7700"
+  },
+  {
+    "distributed": "assets/npc/serekh-portrait.webp",
+    "sources": [
+      "art/masters/npc-serekh.png"
+    ],
+    "source": "art/masters/npc-serekh.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 63564,
+    "alpha": false,
+    "sha256": "05fb36092d7dab4ac8cd1c4fe03f2774e8d27c7ae60dcb6421be4b7ae30042ea"
+  },
+  {
+    "distributed": "assets/npc/serekh-thumb.webp",
+    "sources": [
+      "art/masters/npc-serekh.png"
+    ],
+    "source": "art/masters/npc-serekh.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 4692,
+    "alpha": false,
+    "sha256": "9610a6485cc0335c5d093917360f50c821506df8df39b840e0af2759290b5b01"
+  },
+  {
+    "distributed": "assets/npc/serekh-token.webp",
+    "sources": [
+      "art/masters/npc-serekh.png"
+    ],
+    "source": "art/masters/npc-serekh.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 419352,
+    "alpha": true,
+    "sha256": "fa71e2741857d199422ea1f5b4f5f40d458b6fd0e781dc7e55bb0fb891e110e0"
+  },
+  {
+    "distributed": "assets/npc/neb-sekhem-portrait.webp",
+    "sources": [
+      "art/masters/npc-neb-sekhem.png"
+    ],
+    "source": "art/masters/npc-neb-sekhem.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 75616,
+    "alpha": false,
+    "sha256": "1485ff13989777c7172b0ca2d3f9dc3a5eac6795bc8bdaabca1cd36bcdda7e3c"
+  },
+  {
+    "distributed": "assets/npc/neb-sekhem-thumb.webp",
+    "sources": [
+      "art/masters/npc-neb-sekhem.png"
+    ],
+    "source": "art/masters/npc-neb-sekhem.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5560,
+    "alpha": false,
+    "sha256": "3e3344544889f58cf3ecd23237fc5880f4035377ef2ae5940631cdf5e6370083"
+  },
+  {
+    "distributed": "assets/npc/neb-sekhem-token.webp",
+    "sources": [
+      "art/masters/npc-neb-sekhem.png"
+    ],
+    "source": "art/masters/npc-neb-sekhem.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 576062,
+    "alpha": true,
+    "sha256": "3efdbe286a92f3b68cd13f1a735f91a1f71413e603f2abe9fefce09308167eee"
+  },
+  {
+    "distributed": "assets/npc/hori-portrait.webp",
+    "sources": [
+      "art/masters/npc-hori.png"
+    ],
+    "source": "art/masters/npc-hori.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 75274,
+    "alpha": false,
+    "sha256": "49e833afcef0c07eadf7f3bd329c79d7b9d187de90e944f4a5c9e8666956cb37"
+  },
+  {
+    "distributed": "assets/npc/hori-thumb.webp",
+    "sources": [
+      "art/masters/npc-hori.png"
+    ],
+    "source": "art/masters/npc-hori.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5140,
+    "alpha": false,
+    "sha256": "593ae10da7b65667be89f3fcd5fa65fcc4b99b91fab277e982f70a5ab1c755f9"
+  },
+  {
+    "distributed": "assets/npc/hori-token.webp",
+    "sources": [
+      "art/masters/npc-hori.png"
+    ],
+    "source": "art/masters/npc-hori.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 348916,
+    "alpha": true,
+    "sha256": "fd52ac62dfc33e079aa797993de7e0b5ef01d88e9c0f5cef97dabda8401c3292"
+  },
+  {
+    "distributed": "assets/npc/paser-portrait.webp",
+    "sources": [
+      "art/masters/npc-paser.png"
+    ],
+    "source": "art/masters/npc-paser.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 74820,
+    "alpha": false,
+    "sha256": "010300986574222b90d45ef8aa6fa8fac895a1d45e341e7e51538b1be8dba4c2"
+  },
+  {
+    "distributed": "assets/npc/paser-thumb.webp",
+    "sources": [
+      "art/masters/npc-paser.png"
+    ],
+    "source": "art/masters/npc-paser.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5164,
+    "alpha": false,
+    "sha256": "a5a7ffcf1d408f749d626923d5a63ba5a99e77b1438be054294b472aeb348a45"
+  },
+  {
+    "distributed": "assets/npc/paser-token.webp",
+    "sources": [
+      "art/masters/npc-paser.png"
+    ],
+    "source": "art/masters/npc-paser.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 395294,
+    "alpha": true,
+    "sha256": "4597b4f405895406ad753c537867730b456c9989377fb48b21b5fb7f96530b59"
+  },
+  {
+    "distributed": "assets/npc/tamerit-portrait.webp",
+    "sources": [
+      "art/masters/npc-tamerit.png"
+    ],
+    "source": "art/masters/npc-tamerit.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 72358,
+    "alpha": false,
+    "sha256": "3712c448bccbf73b97f39b6c9d98c32b6e1eb47393e6ad11abcfb3c19a87fb3d"
+  },
+  {
+    "distributed": "assets/npc/tamerit-thumb.webp",
+    "sources": [
+      "art/masters/npc-tamerit.png"
+    ],
+    "source": "art/masters/npc-tamerit.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5236,
+    "alpha": false,
+    "sha256": "9dd43f540b0714565032601a4f17c6922f33acd4441820b5074782e558729797"
+  },
+  {
+    "distributed": "assets/npc/tamerit-token.webp",
+    "sources": [
+      "art/masters/npc-tamerit.png"
+    ],
+    "source": "art/masters/npc-tamerit.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 468634,
+    "alpha": true,
+    "sha256": "de4c2e08e7bb9b4075f2d4491d7e910aedf6f0784f7927819a4c3769907112c7"
+  },
+  {
+    "distributed": "assets/npc/kasa-portrait.webp",
+    "sources": [
+      "art/masters/npc-kasa.png"
+    ],
+    "source": "art/masters/npc-kasa.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 75582,
+    "alpha": false,
+    "sha256": "658683c95e2e3a28d67e55117eabf6f47d8abda7df579ce3fe136dec1a1d3585"
+  },
+  {
+    "distributed": "assets/npc/kasa-thumb.webp",
+    "sources": [
+      "art/masters/npc-kasa.png"
+    ],
+    "source": "art/masters/npc-kasa.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5526,
+    "alpha": false,
+    "sha256": "bfc7a71e3eef388ee434e8be370c214b75122fe6fa1387ed69133c01a9bcd37d"
+  },
+  {
+    "distributed": "assets/npc/kasa-token.webp",
+    "sources": [
+      "art/masters/npc-kasa.png"
+    ],
+    "source": "art/masters/npc-kasa.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 392812,
+    "alpha": true,
+    "sha256": "98f019439766acc26e2a7d16bc6ad9d94065741960bfe4449fa7223e9cb551ae"
+  },
+  {
+    "distributed": "assets/npc/beset-portrait.webp",
+    "sources": [
+      "art/masters/npc-beset.png"
+    ],
+    "source": "art/masters/npc-beset.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 73512,
+    "alpha": false,
+    "sha256": "fed91b77af0c336502ea99fb1cd7a9c1f3bae1b821d78cba41db45b9f0abd864"
+  },
+  {
+    "distributed": "assets/npc/beset-thumb.webp",
+    "sources": [
+      "art/masters/npc-beset.png"
+    ],
+    "source": "art/masters/npc-beset.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5264,
+    "alpha": false,
+    "sha256": "7cc69e1212c7bb0323b5dafd9bcd917fe3a6681eb278a5bae4d423efcd30b2e7"
+  },
+  {
+    "distributed": "assets/npc/beset-token.webp",
+    "sources": [
+      "art/masters/npc-beset.png"
+    ],
+    "source": "art/masters/npc-beset.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 449750,
+    "alpha": true,
+    "sha256": "802c11fed2e91761d050c2cbd40e3fe098f72a6d42e8a67c06c88aef01ca94f2"
+  },
+  {
+    "distributed": "assets/npc/dedi-portrait.webp",
+    "sources": [
+      "art/masters/npc-dedi.png"
+    ],
+    "source": "art/masters/npc-dedi.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 82088,
+    "alpha": false,
+    "sha256": "cb09b94a171ea7b354b68102dfd9f1bd2845cb6c6da48e74d6ea2d34c7611fd2"
+  },
+  {
+    "distributed": "assets/npc/dedi-thumb.webp",
+    "sources": [
+      "art/masters/npc-dedi.png"
+    ],
+    "source": "art/masters/npc-dedi.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5480,
+    "alpha": false,
+    "sha256": "27f1741c3596f24fa2eca1a264fd3dffa8dbafd4021a73e24bedf0423ed4f381"
+  },
+  {
+    "distributed": "assets/npc/dedi-token.webp",
+    "sources": [
+      "art/masters/npc-dedi.png"
+    ],
+    "source": "art/masters/npc-dedi.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 356480,
+    "alpha": true,
+    "sha256": "1687573a90a3e7b87f29bcd6ebfe412a1f5e8804f4b2648f270327336e32fe11"
+  },
+  {
+    "distributed": "assets/npc/henut-portrait.webp",
+    "sources": [
+      "art/masters/npc-henut.png"
+    ],
+    "source": "art/masters/npc-henut.png",
+    "use": "Retrato compacto",
+    "width": 512,
+    "height": 512,
+    "bytes": 79598,
+    "alpha": false,
+    "sha256": "620858fc8005b6110735e85f9598137891436efb76a1a079f46bb00e43dc098c"
+  },
+  {
+    "distributed": "assets/npc/henut-thumb.webp",
+    "sources": [
+      "art/masters/npc-henut.png"
+    ],
+    "source": "art/masters/npc-henut.png",
+    "use": "Miniatura",
+    "width": 110,
+    "height": 110,
+    "bytes": 5932,
+    "alpha": false,
+    "sha256": "126e58c5e2cc8ef4427442f4121d52ff4603a4cd5d298ff7ad977c531ed0dfac"
+  },
+  {
+    "distributed": "assets/npc/henut-token.webp",
+    "sources": [
+      "art/masters/npc-henut.png"
+    ],
+    "source": "art/masters/npc-henut.png",
+    "use": "Token: cuerpo entero sin fondo ni marco",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 435128,
+    "alpha": true,
+    "sha256": "7174a53acb59cf8d7468dd75fa9cb9358a29bdcd1054a9d57fcff61004fb7432"
+  },
+  {
+    "distributed": "assets/objects/arpa.webp",
+    "sources": [
+      "art/masters/arpa.png"
+    ],
+    "source": "art/masters/arpa.png",
+    "use": "Objeto de juego",
+    "width": 488,
+    "height": 512,
+    "bytes": 242718,
+    "alpha": true,
+    "sha256": "c953c781f6a76954f28c47ad5a66d07278469c1299ff7d7c6b2e2807be7310ba"
+  },
+  {
+    "distributed": "assets/objects/corazon.webp",
+    "sources": [
+      "art/masters/corazon.png"
+    ],
+    "source": "art/masters/corazon.png",
+    "use": "Objeto de juego",
+    "width": 512,
+    "height": 512,
+    "bytes": 345300,
+    "alpha": true,
+    "sha256": "44d23d7d66ad94b6d43b1fccf7ecea299e16435fbc92f0bad2dc3bebc329bf4f"
+  },
+  {
+    "distributed": "assets/objects/escarabajo.webp",
+    "sources": [
+      "art/masters/escarabajo.png"
+    ],
+    "source": "art/masters/escarabajo.png",
+    "use": "Objeto de juego",
+    "width": 512,
+    "height": 512,
+    "bytes": 310608,
+    "alpha": true,
+    "sha256": "7267696b42c9ea4b007d9dd15d0fbb2b55872698e08ac1718a8713eb67807a40"
+  },
+  {
+    "distributed": "assets/objects/invitacion.webp",
+    "sources": [
+      "art/masters/invitacion.png"
+    ],
+    "source": "art/masters/invitacion.png",
+    "use": "Objeto de juego",
+    "width": 512,
+    "height": 427,
+    "bytes": 244428,
+    "alpha": true,
+    "sha256": "3eda410a1c47d4a4dccb6ad46774290973914cd87a039779b5a5bf2a24afc494"
+  },
+  {
+    "distributed": "assets/objects/pluma.webp",
+    "sources": [
+      "art/masters/pluma.png"
+    ],
+    "source": "art/masters/pluma.png",
+    "use": "Objeto de juego",
+    "width": 512,
+    "height": 512,
+    "bytes": 297998,
+    "alpha": true,
+    "sha256": "154f667e1e5408ecc10110f546707778d260220daf8c4ab0881fd7026c272cb0"
+  },
+  {
+    "distributed": "assets/objects/vasija-hori.webp",
+    "sources": [
+      "art/masters/vasija-hori.png"
+    ],
+    "source": "art/masters/vasija-hori.png",
+    "use": "Objeto de juego",
+    "width": 512,
+    "height": 512,
+    "bytes": 187678,
+    "alpha": true,
+    "sha256": "2211a115b4db350c8aed3162c702b085f463fe31c445834902e692359333cbb0"
+  },
+  {
+    "distributed": "assets/objects/vasija-paser.webp",
+    "sources": [
+      "art/masters/vasija-paser.png"
+    ],
+    "source": "art/masters/vasija-paser.png",
+    "use": "Objeto de juego",
+    "width": 493,
+    "height": 512,
+    "bytes": 229056,
+    "alpha": true,
+    "sha256": "56cc2aaced5f9aa10a4d66fa7f4e068833e04b1eeef7667f7bf0176f040e3165"
+  },
+  {
+    "distributed": "assets/objects/vasija-tamerit.webp",
+    "sources": [
+      "art/masters/vasija-tamerit.png"
+    ],
+    "source": "art/masters/vasija-tamerit.png",
+    "use": "Objeto de juego",
+    "width": 505,
+    "height": 512,
+    "bytes": 183252,
+    "alpha": true,
+    "sha256": "59c83912032d916b7a6d522d96dc9bd572e0c663b8f09629b8571b01909948be"
+  },
+  {
+    "distributed": "assets/objects/vasija-kasa.webp",
+    "sources": [
+      "art/masters/vasija-kasa.png"
+    ],
+    "source": "art/masters/vasija-kasa.png",
+    "use": "Objeto de juego",
+    "width": 480,
+    "height": 512,
+    "bytes": 193798,
+    "alpha": true,
+    "sha256": "6a485ffdc54d0fd2d915dab6ded50584cb92198ea21a0d4fa411ac5470275e55"
+  },
+  {
+    "distributed": "assets/objects/vasija-beset.webp",
+    "sources": [
+      "art/masters/vasija-beset.png"
+    ],
+    "source": "art/masters/vasija-beset.png",
+    "use": "Objeto de juego",
+    "width": 512,
+    "height": 512,
+    "bytes": 195540,
+    "alpha": true,
+    "sha256": "09c4554097f1b9721579754b5d237c0fd3bddeec8bb1d7a2981a29ea375fd5e0"
+  },
+  {
+    "distributed": "assets/objects/vasija-dedi.webp",
+    "sources": [
+      "art/masters/vasija-dedi.png"
+    ],
+    "source": "art/masters/vasija-dedi.png",
+    "use": "Objeto de juego",
+    "width": 503,
+    "height": 512,
+    "bytes": 186600,
+    "alpha": true,
+    "sha256": "381553c474db08e73c2d86897e35082097f04df1eba2e7c8da98dc0eba2f7069"
+  },
+  {
+    "distributed": "assets/objects/vasija-septima.webp",
+    "sources": [
+      "art/masters/vasija-septima.png"
+    ],
+    "source": "art/masters/vasija-septima.png",
+    "use": "Objeto de juego",
+    "width": 512,
+    "height": 512,
+    "bytes": 298560,
+    "alpha": true,
+    "sha256": "da30cec8f3fc9ad397249f92ebc892b2859e78191ee85cbad4ca9a55b2b5063b"
+  },
+  {
+    "distributed": "assets/objects/custodio.webp",
+    "sources": [
+      "art/masters/custodio.png"
+    ],
+    "source": "art/masters/custodio.png",
+    "use": "Criatura completa transparente",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 663038,
+    "alpha": true,
+    "sha256": "18f30399af6fcd2f740c52927ea8a111fbd90d61f4259907993c0d83469cda89"
+  },
+  {
+    "distributed": "assets/objects/servidor.webp",
+    "sources": [
+      "art/masters/servidor.png"
+    ],
+    "source": "art/masters/servidor.png",
+    "use": "Criatura completa transparente",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 513302,
+    "alpha": true,
+    "sha256": "9558240a3d8e0e676a7ca19543e04c580862d67f40357e6e61dce8c56f134d04"
+  },
+  {
+    "distributed": "assets/objects/sombra-chacal.webp",
+    "sources": [
+      "art/masters/sombra-chacal.png"
+    ],
+    "source": "art/masters/sombra-chacal.png",
+    "use": "Criatura completa transparente",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 634248,
+    "alpha": true,
+    "sha256": "f9c96280195bdc85a7212dbbbd7af7795d8428dff9d433a2dd9d0290afee856c"
+  },
+  {
+    "distributed": "assets/scenes/banquete.webp",
+    "sources": [
+      "art/masters/banquete.png"
+    ],
+    "source": "art/masters/banquete.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 631062,
+    "alpha": false,
+    "sha256": "3ca769ae819e51c5dc52a70982b8df715f0ea088eba31dbab4d3a7bcf9d25d2d"
+  },
+  {
+    "distributed": "assets/scenes/funeral.webp",
+    "sources": [
+      "art/masters/funeral.png"
+    ],
+    "source": "art/masters/funeral.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 703670,
+    "alpha": false,
+    "sha256": "1f1023cd7525852b8595e075481dae39bd52980ce29a3136f1dd28ad5076ff55"
+  },
+  {
+    "distributed": "assets/scenes/laberinto.webp",
+    "sources": [
+      "art/masters/laberinto.png"
+    ],
+    "source": "art/masters/laberinto.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 684632,
+    "alpha": false,
+    "sha256": "3d9aa52f68d8657dbfc1fc6f9a0cd0bdd66c3e2453096809e07cab8093813591"
+  },
+  {
+    "distributed": "assets/scenes/lamina-corazon.webp",
+    "sources": [
+      "art/masters/lamina-corazon.png"
+    ],
+    "source": "art/masters/lamina-corazon.png",
+    "use": "Ilustración narrativa",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 706406,
+    "alpha": false,
+    "sha256": "22eaca2c815cdd08cc031fe3144a8f11832fd474e7fffde3dd42bdfac9a3bfad"
+  },
+  {
+    "distributed": "assets/scenes/lamina-funeral.webp",
+    "sources": [
+      "art/masters/lamina-funeral.png"
+    ],
+    "source": "art/masters/lamina-funeral.png",
+    "use": "Ilustración narrativa",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 743498,
+    "alpha": false,
+    "sha256": "955383f53f6c9ca203b3a1634cf611bdb805241ecab470ec2525d85c40478f8c"
+  },
+  {
+    "distributed": "assets/scenes/lamina-khety.webp",
+    "sources": [
+      "art/masters/lamina-khety.png"
+    ],
+    "source": "art/masters/lamina-khety.png",
+    "use": "Ilustración narrativa",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 773356,
+    "alpha": false,
+    "sha256": "8c405439f2b2bfcfd847cee8cbb404b3a479d90f273802999afd00a5af3bfcc1"
+  },
+  {
+    "distributed": "assets/scenes/lamina-merit.webp",
+    "sources": [
+      "art/masters/lamina-merit.png"
+    ],
+    "source": "art/masters/lamina-merit.png",
+    "use": "Ilustración narrativa",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 814366,
+    "alpha": false,
+    "sha256": "2dd6ba881542d34eb409b18dd46f8d3c54614c405e41d791bdffadccebd59036"
+  },
+  {
+    "distributed": "assets/scenes/lamina-nombres.webp",
+    "sources": [
+      "art/masters/lamina-nombres.png"
+    ],
+    "source": "art/masters/lamina-nombres.png",
+    "use": "Ilustración narrativa",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 804692,
+    "alpha": false,
+    "sha256": "5158d64d68aac10b6459811537150a780ccb2c80b06d3fffb72caeee02935b55"
+  },
+  {
+    "distributed": "assets/scenes/lamina-procesion.webp",
+    "sources": [
+      "art/masters/lamina-procesion.png"
+    ],
+    "source": "art/masters/lamina-procesion.png",
+    "use": "Ilustración narrativa",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 657136,
+    "alpha": false,
+    "sha256": "d751f198a38a616fcd36cd1fd15e715ec61e4942428ae195cd6650fd86afba6c"
+  },
+  {
+    "distributed": "assets/maps/corte-piedra.webp",
+    "sources": [
+      "art/masters/mapa-corte-piedra.png"
+    ],
+    "source": "art/masters/mapa-corte-piedra.png",
+    "use": "Mapa grabado frontal",
+    "width": 1458,
+    "height": 1079,
+    "bytes": 876826,
+    "alpha": false,
+    "sha256": "880219b088599382ed2ebe2430b0c39418b8e34c49a6e6e718b337d1408ee2fa"
+  },
+  {
+    "distributed": "assets/maps/muhar-piedra.webp",
+    "sources": [
+      "art/masters/mapa-muhar-piedra.png"
+    ],
+    "source": "art/masters/mapa-muhar-piedra.png",
+    "use": "Mapa grabado frontal",
+    "width": 1619,
+    "height": 971,
+    "bytes": 849654,
+    "alpha": false,
+    "sha256": "61296c3bf92b5e1938f7ec43e6f32bd0ebca1abe20354b9d970634eb148bfe1b"
+  },
+  {
+    "distributed": "assets/maps/pozo-piedra.webp",
+    "sources": [
+      "art/masters/mapa-pozo-piedra.png"
+    ],
+    "source": "art/masters/mapa-pozo-piedra.png",
+    "use": "Mapa grabado frontal",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 925020,
+    "alpha": false,
+    "sha256": "55dfa8b64e6823239af38ca23c3aa7d18459775157429f12a8b42824dde3fdda"
+  },
+  {
+    "distributed": "assets/scenes/merit-eco.webp",
+    "sources": [
+      "art/masters/merit-eco.png"
+    ],
+    "source": "art/masters/merit-eco.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 784124,
+    "alpha": false,
+    "sha256": "637e1d2d13fc2ab4eccdccf4862e392f764c406112523fac74a0efdf34100a95"
+  },
+  {
+    "distributed": "assets/scenes/pesaje.webp",
+    "sources": [
+      "art/masters/pesaje.png"
+    ],
+    "source": "art/masters/pesaje.png",
+    "use": "Ilustración narrativa",
+    "width": 1671,
+    "height": 941,
+    "bytes": 630984,
+    "alpha": false,
+    "sha256": "9e7796d786cc5224ec9db82e2b1d085030875271c0d50877004d029422de4704"
+  },
+  {
+    "distributed": "assets/scenes/amanecer.webp",
+    "sources": [
+      "art/masters/scene-amanecer.png"
+    ],
+    "source": "art/masters/scene-amanecer.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 665522,
+    "alpha": false,
+    "sha256": "1d0070fa6563ec3d7d01762c047ff57cff252723c93053863c76303d5a8028d7"
+  },
+  {
+    "distributed": "assets/scenes/camino-chacales.webp",
+    "sources": [
+      "art/masters/scene-camino-chacales.png"
+    ],
+    "source": "art/masters/scene-camino-chacales.png",
+    "use": "Ilustración narrativa",
+    "width": 1671,
+    "height": 941,
+    "bytes": 670184,
+    "alpha": false,
+    "sha256": "b2d9b4cba329f1e70abfd0ab1faa38468935db6638a700dc1af6e7f4e2d16feb"
+  },
+  {
+    "distributed": "assets/scenes/casa-nefru.webp",
+    "sources": [
+      "art/masters/scene-casa-nefru.png"
+    ],
+    "source": "art/masters/scene-casa-nefru.png",
+    "use": "Ilustración narrativa",
+    "width": 1671,
+    "height": 941,
+    "bytes": 711344,
+    "alpha": false,
+    "sha256": "1581ec83dc572715e7444707fda69490eca019a74d93747bb72af62143caa786"
+  },
+  {
+    "distributed": "assets/scenes/casa-panehsy.webp",
+    "sources": [
+      "art/masters/scene-casa-panehsy.png"
+    ],
+    "source": "art/masters/scene-casa-panehsy.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 589310,
+    "alpha": false,
+    "sha256": "f2003f844704dd98a7953a698e41e6a22eeeaf3e622e9013aa4791e95ac52da6"
+  },
+  {
+    "distributed": "assets/scenes/coronacion.webp",
+    "sources": [
+      "art/masters/scene-coronacion.png"
+    ],
+    "source": "art/masters/scene-coronacion.png",
+    "use": "Ilustración narrativa",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 611478,
+    "alpha": false,
+    "sha256": "2cbf602a7625985e10bab0789ebd3139ca0061e5bc5a45198e553209df023a8c"
+  },
+  {
+    "distributed": "assets/scenes/dormitorio-victimas.webp",
+    "sources": [
+      "art/masters/scene-dormitorio-victimas.png"
+    ],
+    "source": "art/masters/scene-dormitorio-victimas.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 648240,
+    "alpha": false,
+    "sha256": "31371fdcd0f50a3db8c667a92641bcb9fe37acaff91cbc14dceb6a8f0df0584b"
+  },
+  {
+    "distributed": "assets/scenes/entrada-palacio.webp",
+    "sources": [
+      "art/masters/scene-entrada-palacio.png"
+    ],
+    "source": "art/masters/scene-entrada-palacio.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 735938,
+    "alpha": false,
+    "sha256": "531acdde0a67be2b96cd1325280dbce55a059e28854deb10c4b61c01ebe3c000"
+  },
+  {
+    "distributed": "assets/scenes/galeria-rostros.webp",
+    "sources": [
+      "art/masters/scene-galeria-rostros.png"
+    ],
+    "source": "art/masters/scene-galeria-rostros.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 792002,
+    "alpha": false,
+    "sha256": "af3005ca9b53427fe22992627185e3d77dc5fa9f4fc9154e8b1e902cdc49aac7"
+  },
+  {
+    "distributed": "assets/scenes/inscripcion-merit.webp",
+    "sources": [
+      "art/masters/scene-inscripcion-merit.png"
+    ],
+    "source": "art/masters/scene-inscripcion-merit.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 940,
+    "bytes": 628486,
+    "alpha": false,
+    "sha256": "ba817320b444402cb5517c586774f66515dcd2fccc48962329885fa04787605d"
+  },
+  {
+    "distributed": "assets/scenes/muhar.webp",
+    "sources": [
+      "art/masters/scene-muhar.png"
+    ],
+    "source": "art/masters/scene-muhar.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 647672,
+    "alpha": false,
+    "sha256": "a3a5364f7b406d8fe7acaee1008c0c54e0397987ebe0552872ce062bf0a3469e"
+  },
+  {
+    "distributed": "assets/scenes/neb-sekhem.webp",
+    "sources": [
+      "art/masters/scene-neb-sekhem.png"
+    ],
+    "source": "art/masters/scene-neb-sekhem.png",
+    "use": "Ilustración narrativa",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 642168,
+    "alpha": false,
+    "sha256": "8a375c8e61d055c2801aa4080f8287675501be2b9124679256480d7d8aa831ef"
+  },
+  {
+    "distributed": "assets/scenes/pozo.webp",
+    "sources": [
+      "art/masters/scene-pozo.png"
+    ],
+    "source": "art/masters/scene-pozo.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 690832,
+    "alpha": false,
+    "sha256": "1d2c6b9b1095a73c2ea11cf9c90076b3584688f7536e4424c47e569edffe5390"
+  },
+  {
+    "distributed": "assets/scenes/procesion.webp",
+    "sources": [
+      "art/masters/scene-procesion.png"
+    ],
+    "source": "art/masters/scene-procesion.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 703180,
+    "alpha": false,
+    "sha256": "e9b3128a92156f107fef47e2ebcd3c1b74e83d06fe526d7832df28acfe6b2b30"
+  },
+  {
+    "distributed": "assets/scenes/sala-vasijas.webp",
+    "sources": [
+      "art/masters/scene-sala-vasijas.png"
+    ],
+    "source": "art/masters/scene-sala-vasijas.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 730972,
+    "alpha": false,
+    "sha256": "43196c3bfbae3864f207372427e5d16775d8aa39ab4ff02c9a9c9400723db65b"
+  },
+  {
+    "distributed": "assets/scenes/taller-tia.webp",
+    "sources": [
+      "art/masters/scene-taller-tia.png"
+    ],
+    "source": "art/masters/scene-taller-tia.png",
+    "use": "Ilustración narrativa",
+    "width": 1672,
+    "height": 941,
+    "bytes": 701574,
+    "alpha": false,
+    "sha256": "027d4bd85ebaf5ccf1d610277f8e701afec889219407b7410a0205a427ff7489"
+  }
+]

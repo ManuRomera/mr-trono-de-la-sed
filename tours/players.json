@@ -1,0 +1,45 @@
+{
+  "title": "MRTRONO.PlayerTutorial",
+  "description": "MRTRONO.PlayerTutorialDescription",
+  "display": true,
+  "restricted": false,
+  "canBeResumed": true,
+  "steps": [
+    {
+      "id": "welcome",
+      "title": "MRTRONO.TourPlayerWelcomeTitle",
+      "content": "MRTRONO.TourPlayerWelcomeText",
+      "selector": "#mr-trono-memories .mr-book"
+    },
+    {
+      "id": "sheet",
+      "title": "MRTRONO.TourPlayerSheetTitle",
+      "content": "MRTRONO.TourPlayerSheetText",
+      "selector": "#mr-trono-memories [data-mr-action=\"document\"]"
+    },
+    {
+      "id": "identity",
+      "title": "MRTRONO.TourPlayerIdentityTitle",
+      "content": "MRTRONO.TourPlayerIdentityText",
+      "selector": "#mr-trono-memories [name=\"trueName\"]"
+    },
+    {
+      "id": "bonds",
+      "title": "MRTRONO.TourPlayerBondsTitle",
+      "content": "MRTRONO.TourPlayerBondsText",
+      "selector": "#mr-trono-memories [name=\"bonds\"]"
+    },
+    {
+      "id": "memory",
+      "title": "MRTRONO.TourPlayerMemoryTitle",
+      "content": "MRTRONO.TourPlayerMemoryText",
+      "selector": "#mr-trono-memories .mr-memory"
+    },
+    {
+      "id": "save",
+      "title": "MRTRONO.TourPlayerSaveTitle",
+      "content": "MRTRONO.TourPlayerSaveText",
+      "selector": "#mr-trono-memories [data-mr-action=\"saveMemories\"]"
+    }
+  ]
+}

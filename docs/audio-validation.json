@@ -1,0 +1,211 @@
+[
+  {
+    "file": "assets/audio/music/muhar.ogg",
+    "seconds": 67.36489583333334,
+    "peak": 0.22559243440628052,
+    "rms": 0.04414767026901245,
+    "boundary_jump": 0.01187017373740673,
+    "ordinary_delta_p999": 0.016409829258918762,
+    "loop": true,
+    "sha256": "5f7380b018760b0dd95fefdf493845e812c0095453208b5702c510051d9de090",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/music/tumbas.ogg",
+    "seconds": 263.1526666666667,
+    "peak": 0.27455973625183105,
+    "rms": 0.05164264887571335,
+    "boundary_jump": 0.008960176259279251,
+    "ordinary_delta_p999": 0.0037914440035820007,
+    "loop": true,
+    "sha256": "075ed9754f1657ad6f85d809527a86063f1b3bfbbe4edef7d59ac3d8db2f38d0",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/music/procesion.ogg",
+    "seconds": 177.39266666666666,
+    "peak": 0.3115507662296295,
+    "rms": 0.043154437094926834,
+    "boundary_jump": 0.0018036123365163803,
+    "ordinary_delta_p999": 0.007322855293750763,
+    "loop": true,
+    "sha256": "e5ffa2eb25089d54fad96aee73b89b80bf6e6ca091434dc012b5cc8b55fb777d",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/music/laberinto.ogg",
+    "seconds": 188.07677083333334,
+    "peak": 0.2918095886707306,
+    "rms": 0.044420275837183,
+    "boundary_jump": 0.006912685930728912,
+    "ordinary_delta_p999": 0.01355423778295517,
+    "loop": true,
+    "sha256": "27955a07a1242d1af1d67750d0284c3423ed3b262194677a23100a8a1ba05a2a",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/music/banquete.ogg",
+    "seconds": 242.071875,
+    "peak": 0.37898537516593933,
+    "rms": 0.04745102301239967,
+    "boundary_jump": 0.005661580711603165,
+    "ordinary_delta_p999": 0.011980402283370495,
+    "loop": true,
+    "sha256": "699f43e3f9c8a9a606a410e2946edb3658521b96625aaf0c2bf6d9d72d093709",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/music/merit.ogg",
+    "seconds": 123.2186875,
+    "peak": 0.3300139009952545,
+    "rms": 0.036448583006858826,
+    "boundary_jump": 0.021801061928272247,
+    "ordinary_delta_p999": 0.018559496849775314,
+    "loop": true,
+    "sha256": "c10cbaec8b40fe5003cbf01da3aceb26ed49cbe611e7591f8244eb3b997caead",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/music/pesaje.ogg",
+    "seconds": 217.0465625,
+    "peak": 0.25321346521377563,
+    "rms": 0.042765893042087555,
+    "boundary_jump": 0.0009803117718547583,
+    "ordinary_delta_p999": 0.010974161326885223,
+    "loop": true,
+    "sha256": "c783418dea035d97696cbefe04e8053e4c6a9670e14dd0bb49f162107bec86c2",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/music/coronacion.ogg",
+    "seconds": 357.84654166666667,
+    "peak": 0.5622155666351318,
+    "rms": 0.04725421965122223,
+    "boundary_jump": 0.013869572430849075,
+    "ordinary_delta_p999": 0.013402603566646576,
+    "loop": true,
+    "sha256": "7b1b50d3c9439f1720acc6666a7276d11a22ad5648358890b08714f1f9c49f14",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/music/amanecer.ogg",
+    "seconds": 143.07175,
+    "peak": 0.3089112639427185,
+    "rms": 0.03738149628043175,
+    "boundary_jump": 0.002541130408644676,
+    "ordinary_delta_p999": 0.01216515526175499,
+    "loop": true,
+    "sha256": "010182bc22e56ca4ce3c1ab03c97973799f0ea3f93a4844903a3bd29ef493acf",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/sfx/viento.ogg",
+    "seconds": 30.0,
+    "peak": 0.3412594497203827,
+    "rms": 0.05709345266222954,
+    "boundary_jump": 0.009447192773222923,
+    "ordinary_delta_p999": 0.017970778048038483,
+    "loop": true,
+    "sha256": "13ed419350618311c9a02523ac5118331331373645defd4626da021777b47c5c",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/sfx/antorchas.ogg",
+    "seconds": 30.0,
+    "peak": 0.37948116660118103,
+    "rms": 0.039881862699985504,
+    "boundary_jump": 0.014821130782365799,
+    "ordinary_delta_p999": 0.11910630762577057,
+    "loop": true,
+    "sha256": "ec6a608fc132fd161fa8074d763813ce470bc40f26aa410e3e78d8b516fb1168",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/sfx/piedra.ogg",
+    "seconds": 5.0,
+    "peak": 0.33806702494621277,
+    "rms": 0.04427904635667801,
+    "boundary_jump": 0.00021012990328017622,
+    "ordinary_delta_p999": 0.02518594264984131,
+    "loop": false,
+    "sha256": "112f9aedf2e51555b2adfbfd1619c888e862af91dc70ac4c661cb97b3a93bd20",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/sfx/campana.ogg",
+    "seconds": 7.0,
+    "peak": 0.34857267141342163,
+    "rms": 0.04752405732870102,
+    "boundary_jump": 0.00426260381937027,
+    "ordinary_delta_p999": 0.014493826776742935,
+    "loop": false,
+    "sha256": "d68aa3794b3708dbde6eb7d472b01182aa7da9f6dc73b17bd8102fd393e21f07",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/sfx/vasija.ogg",
+    "seconds": 3.0,
+    "peak": 0.34646710753440857,
+    "rms": 0.03754906356334686,
+    "boundary_jump": 0.005276425741612911,
+    "ordinary_delta_p999": 0.042908307164907455,
+    "loop": false,
+    "sha256": "8d3c3a0012b42bd32f94b85612b19c34e9b3dbbd79192ca01b9d87577a4c5ed7",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/sfx/corazon.ogg",
+    "seconds": 6.0,
+    "peak": 0.35102352499961853,
+    "rms": 0.046158310025930405,
+    "boundary_jump": 0.0007071130094118416,
+    "ordinary_delta_p999": 0.008015722036361694,
+    "loop": false,
+    "sha256": "0e4387e6cca730b44a0dc14ebf50bbaaa1eba674a886aba3350302f14bc11855",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/sfx/sello.ogg",
+    "seconds": 5.0,
+    "peak": 0.38418906927108765,
+    "rms": 0.036505043506622314,
+    "boundary_jump": 0.012526578269898891,
+    "ordinary_delta_p999": 0.13542437553405762,
+    "loop": false,
+    "sha256": "f1648952cfad996f8a2b52a432fd1c4d45cbdf0448f0f4d57ca44571a7acf0f1",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/sfx/pluma.ogg",
+    "seconds": 4.0,
+    "peak": 0.3929886221885681,
+    "rms": 0.06685804575681686,
+    "boundary_jump": 6.066471178201027e-05,
+    "ordinary_delta_p999": 0.18578746914863586,
+    "loop": false,
+    "sha256": "dd477af55f239056639f3fdff907a1a736e0263f707b89a80024f5f7c00a87c4",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/sfx/pasos.ogg",
+    "seconds": 6.0,
+    "peak": 0.3499644994735718,
+    "rms": 0.016404379159212112,
+    "boundary_jump": 0.0,
+    "ordinary_delta_p999": 0.02308252453804016,
+    "loop": false,
+    "sha256": "a6be9a82b10f8438501f0e189d5b78789328b30ddd62b708fd06fad8e1c84436",
+    "pass": true
+  },
+  {
+    "file": "assets/audio/sfx/agua.ogg",
+    "seconds": 22.0,
+    "peak": 0.3541167676448822,
+    "rms": 0.02731548808515072,
+    "boundary_jump": 1.3232136552687734e-05,
+    "ordinary_delta_p999": 0.08110176026821136,
+    "loop": true,
+    "sha256": "28c6692cd3c8b8bb7ba8139a32613e4cf573340d99144414a64f77156599ae84",
+    "pass": true
+  }
+]

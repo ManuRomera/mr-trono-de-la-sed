@@ -1,0 +1,11 @@
+node_modules/
+art/
+research/
+editorial/cache/
+docs/previews/
+dist/
+output/
+tmp/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,104 @@
+/** Dirección de escena con documentos y audio nativos de Foundry v13. */
+const MOD='mr-trono-de-la-sed';
+const E=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const owned=d=>d?.getFlag?.(MOD,'source')===MOD;
+let tail=Promise.resolve(),bar,refreshQueued=false;
+const activeGM=()=>game.user.isGM&&(!game.users.activeGM||game.users.activeGM.id===game.user.id);
+const label=key=>game.i18n.localize('MRTRONO.Director.'+key);
+const sceneFor=slug=>game.scenes.find(s=>owned(s)&&s.getFlag(MOD,'slug')===slug);
+const playlistFor=kind=>game.playlists.find(p=>owned(p)&&p.getFlag(MOD,'kind')===kind);
+const direction=s=>s?.getFlag(MOD,'direction');
+const soundFor=(pl,slug)=>pl?.sounds.find(s=>s.getFlag(MOD,'slug')===slug);
+export function splitCommand(value){const at=value.indexOf('|');return at<0?null:{action:value.slice(0,at),arg:value.slice(at+1)};}
+export function audioVolume(level,quiet){const n=Number(level);return Math.min(1,Math.max(0,Number.isFinite(n)?n:.3))*(quiet?.28:1);}
+export function missingCast(existing,actors){const ids=new Set(existing.map(t=>t.actorId));return actors.filter(a=>!ids.has(a.id));}
+function enqueue(fn){tail=tail.catch(()=>{}).then(fn);return tail;}
+function warn(key){ui.notifications.warn(label(key));}
+function mix(){return game.settings.get(MOD,'sceneMix')??{level:.3,quiet:false};}
+function subject(){return owned(canvas?.scene)?canvas.scene:sceneFor(bar?.querySelector('select')?.value);}
+export async function openSceneGuide(slug){
+ if(!game.user.isGM)return;
+ const s=slug?sceneFor(slug):subject();const d=direction(s);if(!d)return warn('ImportFirst');
+ const doc=game.journal.get(d.journalId);if(doc)await doc.sheet.render(true,{pageId:d.pageId});else warn('ImportFirst');
+}
+async function playMusic(slug){
+ const scene=sceneFor(slug);const pl=playlistFor('music');const sound=soundFor(pl,direction(scene)?.music);if(!sound)return warn('ImportFirst');
+ for(const other of pl.sounds)if(other.playing&&other.id!==sound.id)await pl.stopSound(other);
+ await sound.update({volume:audioVolume(mix().level,mix().quiet)});
+ if(!sound.playing)await pl.playSound(sound);
+}
+async function stopAudio(){for(const kind of ['music','sfx']){const p=playlistFor(kind);if(p)await p.stopAll();}}
+async function effect(slug){const p=playlistFor('sfx');const s=soundFor(p,slug);if(!s)return warn('ImportFirst');if(s.playing){await p.stopSound(s);if(s.repeat)return;}await p.playSound(s);}
+async function applyMix(level,quiet){
+ await game.settings.set(MOD,'sceneMix',{level,quiet});const p=playlistFor('music');if(p)await p.updateEmbeddedDocuments('PlaylistSound',p.sounds.contents.filter(s=>s.playing).map(s=>({_id:s.id,volume:audioVolume(level,quiet)})));
+}
+async function placeActors(scene,actors){
+ if(!scene)return warn('ImportFirst');
+ const pending=missingCast(scene.tokens.contents,actors);if(!pending.length)return ui.notifications.info(label('AlreadyPlaced'));
+ const docs=[];const unit=scene.grid.size||100;
+ for(let i=0;i<pending.length;i++){
+  const actor=pending[i];const all=scene.tokens.size+i;const columns=Math.max(1,Math.floor((scene.width-unit*2)/(unit*1.8)));const col=all%columns,row=Math.floor(all/columns);
+  const x=Math.min(scene.width-unit*1.5,Math.max(0,unit+col*unit*1.8));const y=Math.max(0,scene.height-unit*1.8-row*unit*1.8);
+  const token=await actor.getTokenDocument({x,y,width:1.5,height:1.5,actorLink:actor.type==='litm-character'||!['Custodios de la corte','Servidores sin nombre','Sombras de chacal'].includes(actor.name)});docs.push(token.toObject());
+ }
+ await scene.createEmbeddedDocuments('Token',docs);
+}
+export async function dispatchDirector(action,arg=''){
+ const readOnly=['read','actor','book','view'];
+ if(!game.user.isGM)return false;
+ if(!readOnly.includes(action)&&!activeGM()){warn('ActiveGM');return false;}
+ if(action==='read'){await openSceneGuide(arg);return true;}
+ if(action==='actor'){const a=game.actors.find(a=>owned(a)&&a.getFlag(MOD,'slug')===arg);if(a)await a.sheet.render({force:true});return !!a;}
+ if(action==='book'){game.modules.get(MOD).api.openGMBook();return true;}
+ if(action==='view'){await sceneFor(arg)?.view();return true;}
+ const valid=['activate','music','quiet','stop','stop-effects','effect','heroes','token','level'];if(!valid.includes(action))return false;
+ return enqueue(async()=>{
+  if(!activeGM())return false;
+  if(action==='activate'){const s=sceneFor(arg);if(!s)return false;await s.activate();const linked=typeof s.playlist==='string'?s.playlist:s.playlist?.id;if(!linked||linked===playlistFor('music')?.id)await playMusic(arg);}
+  if(action==='music')await playMusic(arg);
+  if(action==='quiet'){const m=mix();await applyMix(m.level,!m.quiet);}
+  if(action==='level')await applyMix(Number(arg),mix().quiet);
+  if(action==='stop')await stopAudio();
+  if(action==='stop-effects')await playlistFor('sfx')?.stopAll();
+  if(action==='effect')await effect(arg);
+  if(action==='heroes')await placeActors(sceneFor(arg),game.actors.filter(a=>owned(a)&&a.type==='litm-character'));
+  if(action==='token'){const [slug,person]=arg.split('~');const a=game.actors.find(a=>owned(a)&&a.getFlag(MOD,'slug')===person);if(a)await placeActors(sceneFor(slug),[a]);}
+  refreshDirector();return true;
+ });
+}
+function control(action,arg,text,icon,extra=''){return `<button type="button" data-trono-action="${action}" data-trono-arg="${E(arg)}" title="${E(text)}" ${extra}><i class="fa-solid fa-${icon}" aria-hidden="true"></i><span>${E(text)}</span></button>`;}
+export function refreshDirector(){
+ if(refreshQueued)return;refreshQueued=true;
+ queueMicrotask(()=>{refreshQueued=false;renderDirector();});
+}
+function renderDirector(){
+ if(!game.user.isGM||!game.settings.get(MOD,'directorVisible')){bar?.remove();bar=null;return;}
+ const scenes=game.scenes.filter(owned);if(!scenes.length){bar?.remove();bar=null;return;}
+ const selected=subject()??scenes[0];const slug=selected.getFlag(MOD,'slug');const d=direction(selected);if(!d)return;
+ if(!bar){bar=document.createElement('aside');bar.id='mr-trono-director';bar.setAttribute('aria-label',label('Title'));bar.setAttribute('role','region');document.body.append(bar);
+  bar.addEventListener('click',e=>{const b=e.target.closest('[data-trono-action]');if(!b)return;e.preventDefault();dispatchDirector(b.dataset.tronoAction,b.dataset.tronoArg).catch(reportError);});
+  bar.addEventListener('change',e=>{if(e.target.matches('select'))dispatchDirector('view',e.target.value).catch(reportError);if(e.target.matches('input[type=range]'))dispatchDirector('level',e.target.value).catch(reportError);});
+ }
+ const music=soundFor(playlistFor('music'),d.music);const isPlaying=!!music?.playing;const m=mix();
+ bar.innerHTML=`<div class="mr-director-head"><strong>MR · ${E(label('Title'))}</strong><select aria-label="${E(label('ChooseScene'))}">${scenes.map(s=>`<option value="${E(s.getFlag(MOD,'slug'))}" ${s.id===selected.id?'selected':''}>${E(s.name)}</option>`).join('')}</select>${control('read',slug,label('Read'),'book-open')}${control('activate',slug,label('Show'),'panorama')}${control('music',slug,label(isPlaying?'Resume':'Music'),'music')}${control('quiet',slug,label('Quiet'),'volume-low',`aria-pressed="${m.quiet}"`)}${control('stop',slug,label('Stop'),'volume-xmark')}<details><summary aria-label="${E(label('More'))}"><i class="fa-solid fa-sliders"></i></summary><div class="mr-director-menu"><p>${E(label('Mix'))}</p><label>${E(label('Level'))}<input type="range" min="0" max="1" step=".05" value="${E(m.level)}"></label><p class="mr-director-status">${E(music?.name??'')} · ${E(label(isPlaying?'Playing':'Stopped'))}</p><p>${control('heroes',slug,label('Heroes'),'people-group')}${control('book','',label('Book'),'ankh')}</p><p>${control('stop-effects',slug,label('StopEffects'),'stop')}</p></div></details></div><div class="mr-director-cues">${d.effects.map(s=>{const snd=soundFor(playlistFor('sfx'),s);return control('effect',s,snd?.name??s,'wave-square',`aria-pressed="${!!snd?.playing}"`);}).join('')}</div>`;
+}
+function reportError(error){console.error(`${MOD} | direction`,error);ui.notifications.error(label('Error'));}
+export function setupDirector(){
+ if(!globalThis.document?.createElement)return;
+ refreshDirector();
+ for(const h of ['canvasReady','updateScene','createScene','deleteScene','updatePlaylist','updatePlaylistSound','createPlaylist'])Hooks.on(h,refreshDirector);
+ // Sincroniza el volumen de lectura también cuando la reproducción empieza por enlace nativo de escena.
+ Hooks.on('updateScene',(scene,changes)=>{const linked=typeof scene.playlist==='string'?scene.playlist:scene.playlist?.id;if(changes.active&&owned(scene)&&activeGM()&&linked===playlistFor('music')?.id)dispatchDirector('music',scene.getFlag(MOD,'slug')).catch(reportError);});
+}
+export function registerDirector(){
+ game.settings.register(MOD,'directorVisible',{name:'MRTRONO.Director.Visible',hint:'MRTRONO.Director.VisibleHelp',scope:'client',config:true,type:Boolean,default:true,onChange:refreshDirector});
+ game.settings.register(MOD,'sceneMix',{scope:'world',config:false,type:Object,default:{level:.3,quiet:false}});
+ const enrichers=globalThis.CONFIG?.TextEditor?.enrichers;
+ if(!enrichers||!globalThis.document?.addEventListener)return;
+ enrichers.push({id:MOD+'-direction',pattern:/@Trono\[([^\]]+)\](?:\{([^}]+)\})?/g,enricher:async match=>{
+  const command=splitCommand(match[1]);if(!command||!game.user.isGM)return document.createElement('span');
+  const a=document.createElement('a');a.className='mr-trono-cue';a.dataset.tronoAction=command.action;a.dataset.tronoArg=command.arg;a.setAttribute('role','button');a.setAttribute('tabindex','0');a.textContent=match[2]??command.action;return a;
+ }});
+ const act=e=>{const a=e.target.closest?.('.mr-trono-cue');if(!a)return;if(e.type==='keydown'&&!['Enter',' '].includes(e.key))return;e.preventDefault();e.stopPropagation();dispatchDirector(a.dataset.tronoAction,a.dataset.tronoArg).catch(reportError);};
+ document.addEventListener('click',act,true);document.addEventListener('keydown',act,true);
+}

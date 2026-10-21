@@ -1,0 +1,493 @@
+[
+  {
+    "slug": "funeral",
+    "chapter": "sesion1",
+    "section": 0,
+    "music": "procesion",
+    "actors": [
+      "Panehsy",
+      "Hori",
+      "Tia",
+      "Serekh"
+    ],
+    "effects": [
+      "campana",
+      "viento"
+    ],
+    "items": []
+  },
+  {
+    "slug": "muhar",
+    "chapter": "lecturas",
+    "section": 0,
+    "music": "muhar",
+    "actors": [
+      "Panehsy",
+      "Nefru",
+      "Tia",
+      "Serekh"
+    ],
+    "effects": [
+      "viento",
+      "pasos"
+    ],
+    "items": []
+  },
+  {
+    "slug": "casa-panehsy",
+    "chapter": "sesion1",
+    "section": 2,
+    "music": "muhar",
+    "actors": [
+      "Panehsy",
+      "Hori"
+    ],
+    "effects": [
+      "pasos"
+    ],
+    "items": []
+  },
+  {
+    "slug": "taller-tia",
+    "chapter": "sesion1",
+    "section": 3,
+    "music": "tumbas",
+    "actors": [
+      "Tia"
+    ],
+    "effects": [
+      "vasija",
+      "antorchas"
+    ],
+    "items": []
+  },
+  {
+    "slug": "casa-nefru",
+    "chapter": "sesion1",
+    "section": 4,
+    "music": "merit",
+    "actors": [
+      "Nefru",
+      "Beset",
+      "Henut"
+    ],
+    "effects": [
+      "agua"
+    ],
+    "items": []
+  },
+  {
+    "slug": "camino-chacales",
+    "chapter": "sesion1",
+    "section": 6,
+    "music": "tumbas",
+    "actors": [
+      "Sombras de chacal"
+    ],
+    "effects": [
+      "viento",
+      "pasos"
+    ],
+    "items": []
+  },
+  {
+    "slug": "procesion",
+    "chapter": "sesion1",
+    "section": 6,
+    "music": "procesion",
+    "actors": [
+      "Servidores sin nombre"
+    ],
+    "effects": [
+      "campana",
+      "pasos"
+    ],
+    "items": []
+  },
+  {
+    "slug": "pozo",
+    "chapter": "sesion1",
+    "section": 7,
+    "music": "laberinto",
+    "actors": [
+      "Custodios de la corte"
+    ],
+    "effects": [
+      "viento",
+      "piedra"
+    ],
+    "items": []
+  },
+  {
+    "slug": "laberinto",
+    "chapter": "lecturas",
+    "section": 1,
+    "music": "laberinto",
+    "actors": [
+      "Sombras de chacal",
+      "Servidores sin nombre"
+    ],
+    "effects": [
+      "pasos",
+      "piedra"
+    ],
+    "items": []
+  },
+  {
+    "slug": "entrada-palacio",
+    "chapter": "sesion2",
+    "section": 0,
+    "music": "banquete",
+    "actors": [
+      "Serekh",
+      "Servidores sin nombre"
+    ],
+    "effects": [
+      "piedra",
+      "antorchas"
+    ],
+    "items": []
+  },
+  {
+    "slug": "banquete",
+    "chapter": "sesion2",
+    "section": 1,
+    "music": "banquete",
+    "actors": [
+      "Neb-Sekhem",
+      "Khety",
+      "Serekh"
+    ],
+    "effects": [
+      "vasija",
+      "campana"
+    ],
+    "items": [
+      "Invitación al banquete"
+    ]
+  },
+  {
+    "slug": "galeria-rostros",
+    "chapter": "sesion2",
+    "section": 8,
+    "music": "tumbas",
+    "actors": [
+      "Merit"
+    ],
+    "effects": [
+      "pasos",
+      "pluma"
+    ],
+    "items": []
+  },
+  {
+    "slug": "dormitorio-victimas",
+    "chapter": "sesion2",
+    "section": 9,
+    "music": "merit",
+    "actors": [
+      "Hori",
+      "Paser",
+      "Tamerit",
+      "Kasa",
+      "Beset",
+      "Dedi"
+    ],
+    "effects": [
+      "agua",
+      "pasos"
+    ],
+    "items": []
+  },
+  {
+    "slug": "sala-vasijas",
+    "chapter": "sesion2",
+    "section": 10,
+    "music": "pesaje",
+    "actors": [
+      "Custodios de la corte",
+      "Hori",
+      "Paser",
+      "Tamerit",
+      "Kasa",
+      "Beset",
+      "Dedi"
+    ],
+    "effects": [
+      "vasija",
+      "sello"
+    ],
+    "items": [
+      "Vasija de Hori",
+      "Vasija de Paser",
+      "Vasija de Tamerit",
+      "Vasija de Kasa",
+      "Vasija de Beset",
+      "Vasija de Dedi",
+      "Séptima vasija"
+    ]
+  },
+  {
+    "slug": "inscripcion-merit",
+    "chapter": "sesion2",
+    "section": 11,
+    "music": "merit",
+    "actors": [
+      "Merit",
+      "Iru"
+    ],
+    "effects": [
+      "pluma",
+      "antorchas"
+    ],
+    "items": [
+      "Pluma de Merit"
+    ]
+  },
+  {
+    "slug": "merit-eco",
+    "chapter": "lecturas",
+    "section": 2,
+    "music": "merit",
+    "actors": [
+      "Merit"
+    ],
+    "effects": [
+      "pluma",
+      "agua"
+    ],
+    "items": []
+  },
+  {
+    "slug": "pesaje",
+    "chapter": "sesion3",
+    "section": 3,
+    "music": "pesaje",
+    "actors": [
+      "Neb-Sekhem",
+      "Merit",
+      "Khety"
+    ],
+    "effects": [
+      "corazon",
+      "agua",
+      "sello"
+    ],
+    "items": [
+      "Corazón de Neb-Sekhem",
+      "Cofre del corazón"
+    ]
+  },
+  {
+    "slug": "neb-sekhem",
+    "chapter": "lecturas",
+    "section": 3,
+    "music": "banquete",
+    "actors": [
+      "Neb-Sekhem",
+      "Custodios de la corte"
+    ],
+    "effects": [
+      "campana",
+      "antorchas"
+    ],
+    "items": []
+  },
+  {
+    "slug": "coronacion",
+    "chapter": "lecturas",
+    "section": 4,
+    "music": "coronacion",
+    "actors": [
+      "Neb-Sekhem",
+      "Khety",
+      "Custodios de la corte"
+    ],
+    "effects": [
+      "sello",
+      "corazon",
+      "campana"
+    ],
+    "items": []
+  },
+  {
+    "slug": "amanecer",
+    "chapter": "finales",
+    "section": 0,
+    "music": "amanecer",
+    "actors": [
+      "Henut",
+      "Hori",
+      "Nefru",
+      "Panehsy"
+    ],
+    "effects": [
+      "viento",
+      "agua"
+    ],
+    "items": []
+  },
+  {
+    "slug": "corte",
+    "chapter": "sesion2",
+    "section": 0,
+    "music": "banquete",
+    "actors": [
+      "Serekh",
+      "Servidores sin nombre"
+    ],
+    "effects": [
+      "piedra",
+      "antorchas"
+    ],
+    "items": [],
+    "aliasOf": "entrada-palacio"
+  },
+  {
+    "slug": "map-muhar",
+    "chapter": "lecturas",
+    "section": 0,
+    "music": "muhar",
+    "actors": [
+      "Panehsy",
+      "Nefru",
+      "Tia",
+      "Serekh"
+    ],
+    "effects": [
+      "viento",
+      "pasos"
+    ],
+    "items": [],
+    "aliasOf": "muhar"
+  },
+  {
+    "slug": "map-pozo",
+    "chapter": "sesion1",
+    "section": 7,
+    "music": "laberinto",
+    "actors": [
+      "Custodios de la corte"
+    ],
+    "effects": [
+      "viento",
+      "piedra"
+    ],
+    "items": [],
+    "aliasOf": "pozo"
+  },
+  {
+    "slug": "lamina-funeral",
+    "chapter": "sesion1",
+    "section": 0,
+    "music": "procesion",
+    "actors": [
+      "Panehsy",
+      "Hori",
+      "Tia",
+      "Serekh"
+    ],
+    "effects": [
+      "campana",
+      "viento"
+    ],
+    "items": [],
+    "aliasOf": "funeral"
+  },
+  {
+    "slug": "lamina-procesion",
+    "chapter": "sesion1",
+    "section": 6,
+    "music": "procesion",
+    "actors": [
+      "Servidores sin nombre"
+    ],
+    "effects": [
+      "campana",
+      "pasos"
+    ],
+    "items": [],
+    "aliasOf": "procesion"
+  },
+  {
+    "slug": "lamina-nombres",
+    "chapter": "sesion2",
+    "section": 10,
+    "music": "pesaje",
+    "actors": [
+      "Custodios de la corte",
+      "Hori",
+      "Paser",
+      "Tamerit",
+      "Kasa",
+      "Beset",
+      "Dedi"
+    ],
+    "effects": [
+      "vasija",
+      "sello"
+    ],
+    "items": [
+      "Vasija de Hori",
+      "Vasija de Paser",
+      "Vasija de Tamerit",
+      "Vasija de Kasa",
+      "Vasija de Beset",
+      "Vasija de Dedi",
+      "Séptima vasija"
+    ],
+    "aliasOf": "sala-vasijas"
+  },
+  {
+    "slug": "lamina-corazon",
+    "chapter": "sesion3",
+    "section": 3,
+    "music": "pesaje",
+    "actors": [
+      "Neb-Sekhem",
+      "Merit",
+      "Khety"
+    ],
+    "effects": [
+      "corazon",
+      "agua",
+      "sello"
+    ],
+    "items": [
+      "Corazón de Neb-Sekhem",
+      "Cofre del corazón"
+    ],
+    "aliasOf": "pesaje"
+  },
+  {
+    "slug": "lamina-merit",
+    "chapter": "lecturas",
+    "section": 2,
+    "music": "merit",
+    "actors": [
+      "Merit"
+    ],
+    "effects": [
+      "pluma",
+      "agua"
+    ],
+    "items": [],
+    "aliasOf": "merit-eco"
+  },
+  {
+    "slug": "lamina-khety",
+    "chapter": "sesion3",
+    "section": 0,
+    "music": "procesion",
+    "actors": [
+      "Khety"
+    ],
+    "effects": [
+      "campana",
+      "vasija"
+    ],
+    "items": [
+      "Escarabajo funerario"
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "id": "mr-trono-de-la-sed",
+  "title": "MR · El Trono de la Sed — La Corte del Rey sin Nombre",
+  "description": "Aventura de horror gótico para Legend in the Mist en Har’Akir. Cinco héroes, lecturas enlazadas, 29 escenas, música instrumental en bucle, efectos y barra del Narrador.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Manu Romera",
+      "url": "https://github.com/ManuRomera"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "mist-engine-fvtt",
+        "type": "system",
+        "compatibility": {
+          "minimum": "14.5.4",
+          "verified": "14.5.4"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "js/main.mjs"
+  ],
+  "styles": [
+    "styles/trono.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "aventura",
+      "label": "MR · El Trono de la Sed",
+      "path": "packs/aventura",
+      "type": "Adventure",
+      "system": "mist-engine-fvtt",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/ManuRomera/mr-trono-de-la-sed",
+  "manifest": "https://github.com/ManuRomera/mr-trono-de-la-sed/releases/latest/download/module.json",
+  "download": "https://github.com/ManuRomera/mr-trono-de-la-sed/releases/download/v1.0.0/mr-trono-de-la-sed.zip",
+  "bugs": "https://github.com/ManuRomera/mr-trono-de-la-sed/issues",
+  "readme": "https://github.com/ManuRomera/mr-trono-de-la-sed#readme",
+  "changelog": "https://github.com/ManuRomera/mr-trono-de-la-sed/blob/main/CHANGELOG.md",
+  "license": "CC-BY-NC-SA-4.0"
+}

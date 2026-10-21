@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {directionPatch} from '../js/direction-upgrade.mjs';
+const MOD='mr-trono-de-la-sed';const src={_id:'x',flags:{[MOD]:{source:MOD}}};const target={journal:'j',journalEntryPage:'p',playlist:'m',playlistSound:'s',flags:{[MOD]:{direction:{music:'merit'}}}};
+test('old module scenes receive only missing direction links',()=>{const p=directionPatch(src,target);assert.deepEqual(Object.keys(p),['_id','journal','journalEntryPage','playlist','playlistSound','flags.'+MOD+'.direction']);});
+test('custom music, journals, and director mappings remain intact',()=>{assert.equal(directionPatch({...src,journal:'mine',journalEntryPage:'mypage',playlist:'mylist',playlistSound:'mysound',flags:{[MOD]:{source:MOD,direction:{music:'custom'}}}},target),null);assert.equal(directionPatch({_id:'other',flags:{}},target),null);});

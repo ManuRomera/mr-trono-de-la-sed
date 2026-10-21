@@ -1,0 +1,339 @@
+{
+  "version": "1.0.0",
+  "journal": {
+    "found": true,
+    "reading": true,
+    "buttons": 17
+  },
+  "start": {
+    "name": "El banquete",
+    "docPlaying": true,
+    "audioPlaying": true,
+    "repeat": true,
+    "duration": 242.07185941043085,
+    "volume": 0.08
+  },
+  "quiet": 0.08,
+  "cast": [
+    {
+      "name": "Neb-Sekhem",
+      "actorId": "c68c2dafe36a8db9",
+      "src": "modules/mr-trono-de-la-sed/assets/npc/neb-sekhem-token.webp"
+    },
+    {
+      "name": "Iru",
+      "actorId": "e9bdff44e16b2b74",
+      "src": "modules/mr-trono-de-la-sed/assets/characters/iru-token.webp"
+    },
+    {
+      "name": "Khaem",
+      "actorId": "5f29196c374a7f02",
+      "src": "modules/mr-trono-de-la-sed/assets/characters/khaem-token.webp"
+    },
+    {
+      "name": "Neset",
+      "actorId": "202be959feb5f3d2",
+      "src": "modules/mr-trono-de-la-sed/assets/characters/neset-token.webp"
+    },
+    {
+      "name": "Seneb",
+      "actorId": "ae63d4a51ece8961",
+      "src": "modules/mr-trono-de-la-sed/assets/characters/seneb-token.webp"
+    },
+    {
+      "name": "Zahra",
+      "actorId": "37d44832b56ae268",
+      "src": "modules/mr-trono-de-la-sed/assets/characters/zahra-token.webp"
+    }
+  ],
+  "actorOpened": true,
+  "music": [
+    {
+      "slug": "muhar",
+      "duration": 67.36487528344671,
+      "playing": true,
+      "repeat": true,
+      "onlyOne": true
+    },
+    {
+      "slug": "tumbas",
+      "duration": 263.1526530612245,
+      "playing": true,
+      "repeat": true,
+      "onlyOne": true
+    },
+    {
+      "slug": "procesion",
+      "duration": 177.39265306122448,
+      "playing": true,
+      "repeat": true,
+      "onlyOne": true
+    },
+    {
+      "slug": "laberinto",
+      "duration": 188.0767573696145,
+      "playing": true,
+      "repeat": true,
+      "onlyOne": true
+    },
+    {
+      "slug": "banquete",
+      "duration": 242.07185941043085,
+      "playing": true,
+      "repeat": true,
+      "onlyOne": true
+    },
+    {
+      "slug": "merit",
+      "duration": 123.21868480725624,
+      "playing": true,
+      "repeat": true,
+      "onlyOne": true
+    },
+    {
+      "slug": "pesaje",
+      "duration": 217.04655328798185,
+      "playing": true,
+      "repeat": true,
+      "onlyOne": true
+    },
+    {
+      "slug": "coronacion",
+      "duration": 357.8465306122449,
+      "playing": true,
+      "repeat": true,
+      "onlyOne": true
+    },
+    {
+      "slug": "amanecer",
+      "duration": 143.07174603174604,
+      "playing": true,
+      "repeat": true,
+      "onlyOne": true
+    }
+  ],
+  "effects": [
+    {
+      "slug": "viento",
+      "playing": true,
+      "duration": 29.99997732426304,
+      "repeat": true
+    },
+    {
+      "slug": "antorchas",
+      "playing": true,
+      "duration": 29.99997732426304,
+      "repeat": true
+    },
+    {
+      "slug": "piedra",
+      "playing": true,
+      "duration": 4.999977324263039,
+      "repeat": false
+    },
+    {
+      "slug": "campana",
+      "playing": true,
+      "duration": 7,
+      "repeat": false
+    },
+    {
+      "slug": "vasija",
+      "playing": true,
+      "duration": 3,
+      "repeat": false
+    },
+    {
+      "slug": "corazon",
+      "playing": true,
+      "duration": 6,
+      "repeat": false
+    },
+    {
+      "slug": "sello",
+      "playing": true,
+      "duration": 4.999977324263039,
+      "repeat": false
+    },
+    {
+      "slug": "pluma",
+      "playing": true,
+      "duration": 3.9999773242630385,
+      "repeat": false
+    },
+    {
+      "slug": "pasos",
+      "playing": true,
+      "duration": 6,
+      "repeat": false
+    },
+    {
+      "slug": "agua",
+      "playing": true,
+      "duration": 21.99997732426304,
+      "repeat": true
+    }
+  ],
+  "stopped": true,
+  "after": {
+    "actors": 34,
+    "images": [
+      [
+        "08165abb5909d35a",
+        "modules/mr-trono-de-la-sed/assets/npc/beset-portrait.webp"
+      ],
+      [
+        "aeedb2a9cbc73884",
+        "modules/mr-trono-de-la-sed/assets/objects/custodio.webp"
+      ],
+      [
+        "8657635939fc75d3",
+        "modules/mr-trono-de-la-sed/assets/npc/dedi-portrait.webp"
+      ],
+      [
+        "4f358d2dc7e24e5c",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "29caf136163603d5",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "64327581f4a68033",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "45b2ec6853c3489c",
+        "modules/mr-trono-de-la-sed/assets/npc/henut-portrait.webp"
+      ],
+      [
+        "b5384d7861223c6f",
+        "modules/mr-trono-de-la-sed/assets/npc/hori-portrait.webp"
+      ],
+      [
+        "e9bdff44e16b2b74",
+        "modules/mr-trono-de-la-sed/assets/characters/iru-portrait.webp"
+      ],
+      [
+        "d4346c787aaacfe2",
+        "modules/mr-trono-de-la-sed/assets/npc/kasa-portrait.webp"
+      ],
+      [
+        "5f29196c374a7f02",
+        "modules/mr-trono-de-la-sed/assets/characters/khaem-portrait.webp"
+      ],
+      [
+        "4680d410a5b2e744",
+        "modules/mr-trono-de-la-sed/assets/npc/khety-portrait.webp"
+      ],
+      [
+        "aa1e12226eba4b7a",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "5296b71565aa96f0",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "e02e8f933a7a0684",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "fd5266cd01555810",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "a6d2b5a69e5272e9",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "42ae2fc8598218bd",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "f5abcb19bed2dae5",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "da175d4c0c293cfe",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "0ff07c252bc21250",
+        "icons/svg/mystery-man.svg"
+      ],
+      [
+        "6c3c5e845f9b5e7d",
+        "modules/mr-trono-de-la-sed/assets/npc/merit-portrait.webp"
+      ],
+      [
+        "c68c2dafe36a8db9",
+        "modules/mr-trono-de-la-sed/assets/npc/neb-sekhem-portrait.webp"
+      ],
+      [
+        "606404e908855892",
+        "modules/mr-trono-de-la-sed/assets/npc/nefru-portrait.webp"
+      ],
+      [
+        "202be959feb5f3d2",
+        "modules/mr-trono-de-la-sed/assets/characters/neset-portrait.webp"
+      ],
+      [
+        "6f3db758dcadfb49",
+        "modules/mr-trono-de-la-sed/assets/npc/panehsy-portrait.webp"
+      ],
+      [
+        "c46a5afb983e83fd",
+        "modules/mr-trono-de-la-sed/assets/npc/paser-portrait.webp"
+      ],
+      [
+        "ae63d4a51ece8961",
+        "modules/mr-trono-de-la-sed/assets/characters/seneb-portrait.webp"
+      ],
+      [
+        "a347c249e611966f",
+        "modules/mr-trono-de-la-sed/assets/npc/serekh-portrait.webp"
+      ],
+      [
+        "6ec9ad01cf6f696d",
+        "modules/mr-trono-de-la-sed/assets/objects/servidor.webp"
+      ],
+      [
+        "14f0d1878648842d",
+        "modules/mr-trono-de-la-sed/assets/objects/sombra-chacal.webp"
+      ],
+      [
+        "4d8957a7b34fd3d5",
+        "modules/mr-trono-de-la-sed/assets/npc/tamerit-portrait.webp"
+      ],
+      [
+        "36956784dc9a3bff",
+        "modules/mr-trono-de-la-sed/assets/npc/tia-portrait.webp"
+      ],
+      [
+        "37d44832b56ae268",
+        "modules/mr-trono-de-la-sed/assets/characters/zahra-portrait.webp"
+      ]
+    ],
+    "guides": 29,
+    "sceneLinks": true
+  },
+  "preserved": {
+    "actors": true,
+    "images": true,
+    "privateCampaign": true
+  },
+  "errors": [],
+  "readingMix": {
+    "normal": 0.3,
+    "quiet": 0.08,
+    "reduced": true
+  },
+  "player": {
+    "name": "MR · Jugador de prueba",
+    "barAbsent": true,
+    "playing": true,
+    "cannotAct": true,
+    "guidePermission": true
+  }
+}
