@@ -1,5 +1,10 @@
 # Cambios
 
+## 1.7.0 — 22 de octubre de 2026
+
+- **Barra del Narrador:** el fondo ya cubre todos los botones (la fila se parte en varias si no caben).
+- Nuevas opciones de cliente: **fondo de la barra** (mostrar/ocultar) y **estilo de botones** Clásico o **Cristal líquido** (translúcido, al estilo de Apple).
+
 ## 1.6.1 — 22 de octubre de 2026
 
 - Los menús desplegables de la barra del Narrador y el panel de hitos se cierran al hacer clic fuera de ellos.
