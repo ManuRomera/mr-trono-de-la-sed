@@ -12,7 +12,8 @@
   ],
   "effects": [
    "campana",
-   "viento"
+   "viento",
+   "libacion"
   ],
   "items": []
  },
@@ -87,7 +88,8 @@
   ],
   "effects": [
    "viento",
-   "pasos"
+   "pasos",
+   "planidera"
   ],
   "items": []
  },
@@ -132,7 +134,9 @@
   ],
   "effects": [
    "pasos",
-   "piedra"
+   "piedra",
+   "planidera",
+   "sombra"
   ],
   "items": []
  },
@@ -147,7 +151,8 @@
   ],
   "effects": [
    "piedra",
-   "antorchas"
+   "antorchas",
+   "sistro"
   ],
   "items": []
  },
@@ -163,7 +168,9 @@
   ],
   "effects": [
    "vasija",
-   "campana"
+   "campana",
+   "corte",
+   "libacion"
   ],
   "items": [
    "Invitación al banquete"
@@ -179,7 +186,8 @@
   ],
   "effects": [
    "pasos",
-   "pluma"
+   "pluma",
+   "cincel"
   ],
   "items": []
  },
@@ -200,7 +208,8 @@
   ],
   "effects": [
    "agua",
-   "pasos"
+   "pasos",
+   "cerrojo"
   ],
   "items": []
  },
@@ -221,7 +230,8 @@
   ],
   "effects": [
    "vasija",
-   "sello"
+   "sello",
+   "cerrojo"
   ],
   "items": [
    "Vasija de Hori",
@@ -244,7 +254,8 @@
   ],
   "effects": [
    "pluma",
-   "antorchas"
+   "antorchas",
+   "cincel"
   ],
   "items": [
    "Pluma de Merit"
@@ -278,7 +289,8 @@
   "effects": [
    "corazon",
    "agua",
-   "sello"
+   "sello",
+   "lampara"
   ],
   "items": [
    "Corazón de Neb-Sekhem",
@@ -296,7 +308,8 @@
   ],
   "effects": [
    "campana",
-   "antorchas"
+   "antorchas",
+   "corte"
   ],
   "items": []
  },
@@ -316,7 +329,10 @@
   "effects": [
    "sello",
    "corazon",
-   "campana"
+   "campana",
+   "lampara",
+   "corte",
+   "sistro"
   ],
   "items": []
  },

@@ -22,6 +22,29 @@
     "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
   },
   {
+    "distributed": "assets/audio/music/amenaza.ogg",
+    "format": "ogg",
+    "bytes": 2873536,
+    "sha256": "953a3262a1a53b665e657cc9b8638c1737f561aa4e1c55c20d57e262b198c6ec",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/amenaza.ogg",
+    "seconds": 243.0065,
+    "slug": "amenaza",
+    "name": "Amenaza creciente",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Gathering Darkness",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Gathering%20Darkness.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
     "distributed": "assets/audio/music/banquete.ogg",
     "format": "ogg",
     "bytes": 3275068,
@@ -44,6 +67,75 @@
     "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
   },
   {
+    "distributed": "assets/audio/music/batalla-oscura.ogg",
+    "format": "ogg",
+    "bytes": 1633527,
+    "sha256": "2e8a47b785ff7a5da53522ee18748a03ef466def2bfc79db7dfd6ca643d6e191",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/batalla-oscura.ogg",
+    "seconds": 132.4065,
+    "slug": "batalla-oscura",
+    "name": "Combate oscuro",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Unholy Knight",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Unholy%20Knight.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/batalla.ogg",
+    "format": "ogg",
+    "bytes": 1807148,
+    "sha256": "cd6a21c6590ceadcb6abbd43f01300e4d142fca1fd34433cc0074ffa5ad8348b",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/batalla.ogg",
+    "seconds": 143.4065,
+    "slug": "batalla",
+    "name": "Batalla",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Volatile Reaction",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Volatile%20Reaction.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/bestia.ogg",
+    "format": "ogg",
+    "bytes": 3183649,
+    "sha256": "7a948184e718333c57fbdbf97eeab9f7238af5c284fae27296c654cde33ff461",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/bestia.ogg",
+    "seconds": 275.4065,
+    "slug": "bestia",
+    "name": "Latido del corazón",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Heart of the Beast",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Heart%20of%20the%20Beast.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
     "distributed": "assets/audio/music/coronacion.ogg",
     "format": "ogg",
     "bytes": 4758631,
@@ -64,6 +156,75 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/duelo.ogg",
+    "format": "ogg",
+    "bytes": 987975,
+    "sha256": "d074d8e91b53e63e93084141bc90d4796c5fb07a8ed47d62f6afaebdafef9f57",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/duelo.ogg",
+    "seconds": 70.2065,
+    "slug": "duelo",
+    "name": "Duelo",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Mourning Song",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Mourning%20Song.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/esperanza.ogg",
+    "format": "ogg",
+    "bytes": 3809952,
+    "sha256": "7e1eb604274fae0251bb565a86e17747b7c02bb24601688a13fd890e6c563c64",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/esperanza.ogg",
+    "seconds": 262.1065,
+    "slug": "esperanza",
+    "name": "Esperanza",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Eternal Hope",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Eternal%20Hope.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/horror.ogg",
+    "format": "ogg",
+    "bytes": 3021244,
+    "sha256": "180e4ee7f0d50b560237dd5799a37242edf71c98269cbe5b653c0c82f2103a0b",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/horror.ogg",
+    "seconds": 217.1065,
+    "slug": "horror",
+    "name": "Horror",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Anguish",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Anguish.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
   },
   {
     "distributed": "assets/audio/music/laberinto.ogg",
@@ -110,6 +271,29 @@
     "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
   },
   {
+    "distributed": "assets/audio/music/misterio.ogg",
+    "format": "ogg",
+    "bytes": 2477566,
+    "sha256": "0e217b02c77668df77d8c6f876ca30d698e490b152863841c651aacbdb12fb29",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/misterio.ogg",
+    "seconds": 182.1065,
+    "slug": "misterio",
+    "name": "Misterio",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Crypto",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Crypto.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
     "distributed": "assets/audio/music/muhar.ogg",
     "format": "ogg",
     "bytes": 998264,
@@ -130,6 +314,29 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/persecucion.ogg",
+    "format": "ogg",
+    "bytes": 964111,
+    "sha256": "7b36078cc6f2ff0e9098c12c46ee94978a10639481b927819a5453f2600a6fd8",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/persecucion.ogg",
+    "seconds": 76.9065,
+    "slug": "persecucion",
+    "name": "Persecución",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Prelude and Action",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Prelude%20and%20Action.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
   },
   {
     "distributed": "assets/audio/music/pesaje.ogg",
@@ -176,6 +383,75 @@
     "changes": "Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus."
   },
   {
+    "distributed": "assets/audio/music/rey.ogg",
+    "format": "ogg",
+    "bytes": 4864965,
+    "sha256": "046fdc34eb7ec647c950d88bc7d0297c1cbcbaa88f93d470fc41861e10961065",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/rey.ogg",
+    "seconds": 349.606521,
+    "slug": "rey",
+    "name": "El rey sin nombre",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Sovereign",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sovereign.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/sigilo.ogg",
+    "format": "ogg",
+    "bytes": 879385,
+    "sha256": "d0c1ebe148073fdb7f5d14c42c146210757584bdd5521d0ee042d51de3a8658e",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/sigilo.ogg",
+    "seconds": 63.9065,
+    "slug": "sigilo",
+    "name": "Sigilo e infiltración",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Dark Walk",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dark%20Walk.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
+    "distributed": "assets/audio/music/tension.ogg",
+    "format": "ogg",
+    "bytes": 2278466,
+    "sha256": "8177a57bbf5b802ac22c786084d21ec074ec749699e59d1cdc16be1014c9179b",
+    "documents": [
+      "playlists:MR · Música de la corte"
+    ],
+    "path": "assets/audio/music/tension.ogg",
+    "seconds": 163.1065,
+    "slug": "tension",
+    "name": "Tensión",
+    "kind": "music",
+    "repeat": true,
+    "instrumental": true,
+    "motif": true,
+    "title": "Disquiet",
+    "author": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Disquiet.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus."
+  },
+  {
     "distributed": "assets/audio/music/tumbas.ogg",
     "format": "ogg",
     "bytes": 3888995,
@@ -200,8 +476,8 @@
   {
     "distributed": "assets/audio/sfx/agua.ogg",
     "format": "ogg",
-    "bytes": 316281,
-    "sha256": "28c6692cd3c8b8bb7ba8139a32613e4cf573340d99144414a64f77156599ae84",
+    "bytes": 340360,
+    "sha256": "80f51654b23b2e92cc75216ae9f619c7df53d4d3279a58077ab2931de85cd95d",
     "documents": [
       "playlists:MR · Efectos y ambientes"
     ],
@@ -219,7 +495,7 @@
     "distributed": "assets/audio/sfx/antorchas.ogg",
     "format": "ogg",
     "bytes": 192508,
-    "sha256": "ec6a608fc132fd161fa8074d763813ce470bc40f26aa410e3e78d8b516fb1168",
+    "sha256": "752b06db8752e55012c8c3308094ab950d77b65a495a6d21c5380dcc3a9d8d39",
     "documents": [
       "playlists:MR · Efectos y ambientes"
     ],
@@ -237,7 +513,7 @@
     "distributed": "assets/audio/sfx/campana.ogg",
     "format": "ogg",
     "bytes": 100933,
-    "sha256": "d68aa3794b3708dbde6eb7d472b01182aa7da9f6dc73b17bd8102fd393e21f07",
+    "sha256": "7940d76c714eebfe53e2206b5879763b79d2dd632f876dcb6a178bbe00b6311f",
     "documents": [
       "playlists:MR · Efectos y ambientes"
     ],
@@ -252,10 +528,46 @@
     "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
   },
   {
+    "distributed": "assets/audio/sfx/cerrojo.ogg",
+    "format": "ogg",
+    "bytes": 58353,
+    "sha256": "6d4a1d2e4a54cb3412f392c20450c85d967d6cfcd15c35cc8301b6e094054771",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/cerrojo.ogg",
+    "seconds": 4.0065,
+    "slug": "cerrojo",
+    "name": "Puerta que se cierra con llave",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/cincel.ogg",
+    "format": "ogg",
+    "bytes": 59319,
+    "sha256": "c9dfcfbafe2172ca6f4fec02daf1ceed3cecb70abf28eeb8375785138958fbc4",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/cincel.ogg",
+    "seconds": 5.0065,
+    "slug": "cincel",
+    "name": "Cincel sobre la piedra",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
     "distributed": "assets/audio/sfx/corazon.ogg",
     "format": "ogg",
     "bytes": 70901,
-    "sha256": "0e4387e6cca730b44a0dc14ebf50bbaaa1eba674a886aba3350302f14bc11855",
+    "sha256": "e9b72cc6ce817c7262903730dcd69ec2594dc0d0bcaa36568b68b71e8b3a422d",
     "documents": [
       "playlists:MR · Efectos y ambientes"
     ],
@@ -270,10 +582,64 @@
     "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
   },
   {
+    "distributed": "assets/audio/sfx/corte.ogg",
+    "format": "ogg",
+    "bytes": 87987,
+    "sha256": "d637c3952bc4c165dac56e1972c97373de71044092bddc03a8fb82e1b72f40b2",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/corte.ogg",
+    "seconds": 8.0065,
+    "slug": "corte",
+    "name": "La corte se inclina",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/lampara.ogg",
+    "format": "ogg",
+    "bytes": 20170,
+    "sha256": "68ee92375dcd389869c8547d12bbaa51bd089aa24fe6eabb1d8fe58385ce582b",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/lampara.ogg",
+    "seconds": 3.0065,
+    "slug": "lampara",
+    "name": "Lámpara que se apaga",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/libacion.ogg",
+    "format": "ogg",
+    "bytes": 201283,
+    "sha256": "a03721c35c98020054ae8a68e4af6ecaac33c78e127fbc9e682a104bf221b939",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/libacion.ogg",
+    "seconds": 10.0065,
+    "slug": "libacion",
+    "name": "Libación de agua",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
     "distributed": "assets/audio/sfx/pasos.ogg",
     "format": "ogg",
-    "bytes": 56041,
-    "sha256": "a6be9a82b10f8438501f0e189d5b78789328b30ddd62b708fd06fad8e1c84436",
+    "bytes": 56500,
+    "sha256": "7ff8bf9b525e0887b2f284c5a7ba08a09357c4da447114936d553cf90245da39",
     "documents": [
       "playlists:MR · Efectos y ambientes"
     ],
@@ -291,7 +657,7 @@
     "distributed": "assets/audio/sfx/piedra.ogg",
     "format": "ogg",
     "bytes": 53870,
-    "sha256": "112f9aedf2e51555b2adfbfd1619c888e862af91dc70ac4c661cb97b3a93bd20",
+    "sha256": "958e26bb7f102b882d5460f5d27ca5d807e17081d80b8ffb1d72d7a28e3e3ee6",
     "documents": [
       "playlists:MR · Efectos y ambientes"
     ],
@@ -306,10 +672,28 @@
     "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
   },
   {
+    "distributed": "assets/audio/sfx/planidera.ogg",
+    "format": "ogg",
+    "bytes": 78811,
+    "sha256": "9fafd77847bd17d11e0cef0ad3a3c7cd5f350491112623f079aa98f58159c6cd",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/planidera.ogg",
+    "seconds": 6.0065,
+    "slug": "planidera",
+    "name": "Lamento de la Plañidera",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
     "distributed": "assets/audio/sfx/pluma.ogg",
     "format": "ogg",
     "bytes": 48707,
-    "sha256": "dd477af55f239056639f3fdff907a1a736e0263f707b89a80024f5f7c00a87c4",
+    "sha256": "a93bed23d55512eee78c75b87a49feeca305c9d0a3c9c4977f0b89a3b13b8123",
     "documents": [
       "playlists:MR · Efectos y ambientes"
     ],
@@ -327,7 +711,7 @@
     "distributed": "assets/audio/sfx/sello.ogg",
     "format": "ogg",
     "bytes": 47597,
-    "sha256": "f1648952cfad996f8a2b52a432fd1c4d45cbdf0448f0f4d57ca44571a7acf0f1",
+    "sha256": "f48392c8293dd7ded1874fdf3c4d27aa2985797f4b73eae257dcc8027a62821e",
     "documents": [
       "playlists:MR · Efectos y ambientes"
     ],
@@ -342,10 +726,46 @@
     "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
   },
   {
+    "distributed": "assets/audio/sfx/sistro.ogg",
+    "format": "ogg",
+    "bytes": 32003,
+    "sha256": "0acfed620e3a06220e19e7a172e9b6a00cd540a7a3445c22d0124318026cdd4d",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/sistro.ogg",
+    "seconds": 3.0065,
+    "slug": "sistro",
+    "name": "Sistro lejano",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
+    "distributed": "assets/audio/sfx/sombra.ogg",
+    "format": "ogg",
+    "bytes": 84532,
+    "sha256": "658092a3d3222270c279dd8a3400e88b5059cae13e7ce2d1ce04853516638981",
+    "documents": [
+      "playlists:MR · Efectos y ambientes"
+    ],
+    "path": "assets/audio/sfx/sombra.ogg",
+    "seconds": 8.0065,
+    "slug": "sombra",
+    "name": "Sombra que se arrodilla",
+    "kind": "sfx",
+    "repeat": false,
+    "author": "Proyecto MR · Manuel Romera",
+    "license": "CC BY-NC-SA 4.0",
+    "method": "Diseño sonoro sintetizado, sin voces ni muestras externas."
+  },
+  {
     "distributed": "assets/audio/sfx/vasija.ogg",
     "format": "ogg",
     "bytes": 55826,
-    "sha256": "8d3c3a0012b42bd32f94b85612b19c34e9b3dbbd79192ca01b9d87577a4c5ed7",
+    "sha256": "9323852440c6267a377d22b2a0f2ab72aeec6932b061fe88b558935804ee5e30",
     "documents": [
       "playlists:MR · Efectos y ambientes"
     ],
@@ -363,7 +783,7 @@
     "distributed": "assets/audio/sfx/viento.ogg",
     "format": "ogg",
     "bytes": 324676,
-    "sha256": "13ed419350618311c9a02523ac5118331331373645defd4626da021777b47c5c",
+    "sha256": "c6cf068304b2d2a822b03c338b8adb3976e47cb92fcb0d7b874ee44a8709acae",
     "documents": [
       "playlists:MR · Efectos y ambientes"
     ],
@@ -623,6 +1043,376 @@
     "use": "Token: cuerpo entero sin fondo ni marco"
   },
   {
+    "distributed": "assets/emblems/banquete.webp",
+    "format": "webp",
+    "bytes": 220190,
+    "sha256": "7fe545c915f05492b7bf2e58f78221f46572a16af975edcb48b57d86f65ba419",
+    "documents": [
+      "actors:El banquete de Neb-Sekhem"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": "art/masters/banquete.png"
+  },
+  {
+    "distributed": "assets/emblems/caida.webp",
+    "format": "webp",
+    "bytes": 204958,
+    "sha256": "3fafe97120817c28b07f7548d9997fb7a9f9f39a3599d57310131294205c7de6",
+    "documents": [
+      "actors:La caída de la corte"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/camara-pesa.webp",
+    "format": "webp",
+    "bytes": 178776,
+    "sha256": "4a2dcccacd56676f5e1eef6ab007de7bed7b8415d4561a7853cc15634807a8ca",
+    "documents": [
+      "actors:La cámara que pesa"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/cincel.webp",
+    "format": "webp",
+    "bytes": 195414,
+    "sha256": "48d8af1d5307b26d0ac73562c880ef8eac1a22dcd8fe68854e600865638b7486",
+    "documents": [
+      "actors:El cincel"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/compania.webp",
+    "format": "webp",
+    "bytes": 124004,
+    "sha256": "a9bba6ef2fbf244a3db2a995664b8cabb0b972892f3749e44144cb27b6001ecf",
+    "documents": [
+      "actors:Los que todavía recuerdan"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/corazon.webp",
+    "format": "webp",
+    "bytes": 183294,
+    "sha256": "220a10ebaa511963994cdcedd5d0267ce04214592d3ebb34b227b725a1180d85",
+    "documents": [
+      "actors:El corazón protegido"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": "art/masters/corazon.png"
+  },
+  {
+    "distributed": "assets/emblems/coronacion.webp",
+    "format": "webp",
+    "bytes": 169222,
+    "sha256": "cbe71e3a453df7920582da6068f1c251af777edf28be41ab1ba63c811c9cc9ff",
+    "documents": [
+      "actors:La coronación"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": "art/masters/scene-coronacion.png"
+  },
+  {
+    "distributed": "assets/emblems/funeral.webp",
+    "format": "webp",
+    "bytes": 175984,
+    "sha256": "27ddae5b2fb3db590fe7adaea774be835063eaae608f776263f826b81819ae5c",
+    "documents": [
+      "actors:El funeral imposible"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": "art/masters/funeral.png"
+  },
+  {
+    "distributed": "assets/emblems/huida.webp",
+    "format": "webp",
+    "bytes": 183144,
+    "sha256": "563027363d130715b845808389e38f27a6b5cf3612cf7b62d632a22953c714de",
+    "documents": [
+      "actors:La huida del dormitorio"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/liberacion.webp",
+    "format": "webp",
+    "bytes": 175270,
+    "sha256": "8e3e42d52e897c567ab2192adc16c71401dcfaa946ae39026bbdffbbe90a42bd",
+    "documents": [
+      "actors:La liberación de los nombres robados"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/mr-icono.webp",
+    "format": "webp",
+    "bytes": 4820,
+    "sha256": "ba93bb9880ff49977927b0de0b8b8f977dc9d6e1d38dd8506eb487ba23c1b98f",
+    "documents": [
+      "macros:MR · Abrir el Libro de los Muertos"
+    ],
+    "width": 256,
+    "height": 256,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/pesaje.webp",
+    "format": "webp",
+    "bytes": 164676,
+    "sha256": "3223a9282f541b8698a93bcf37272dd9adb2f0be3156eb0a713a1507721fbe40",
+    "documents": [
+      "actors:La Cámara del Pesaje"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": "art/masters/pesaje.png"
+  },
+  {
+    "distributed": "assets/emblems/portada.webp",
+    "format": "webp",
+    "bytes": 147856,
+    "sha256": "21549802499d32be4fc4c852821769cb3ec1f287990e9e4e2ad2b60cf66b6c76",
+    "documents": [],
+    "width": 600,
+    "height": 900,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/presion.webp",
+    "format": "webp",
+    "bytes": 161230,
+    "sha256": "8d5e15019b2590f82cf9636dcf6306e6f7c869dbe69f1a16f3ea7cebd62a2efa",
+    "documents": [
+      "actors:La presión de los agentes religiosos"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/procesion.webp",
+    "format": "webp",
+    "bytes": 208664,
+    "sha256": "8350df13a8ecf9a4d887e38fafc28ff27a995ca41a235855cc7c36ab41791459",
+    "documents": [
+      "actors:La procesión funeraria"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": "art/masters/scene-procesion.png"
+  },
+  {
+    "distributed": "assets/emblems/registros.webp",
+    "format": "webp",
+    "bytes": 141398,
+    "sha256": "81ebb72b097ac03cc68895b087c7f71a7b42fc9325ae43074248dc526e2761df",
+    "documents": [
+      "actors:La investigación de los registros"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/sacerdotes.webp",
+    "format": "webp",
+    "bytes": 184692,
+    "sha256": "21d2000f218c053ee66f9238e9ca503cda1a54cb65f918ee401d96c4264421e2",
+    "documents": [
+      "actors:Los sacerdotes de Ankhtepot"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": null
+  },
+  {
+    "distributed": "assets/emblems/seduccion.webp",
+    "format": "webp",
+    "bytes": 151344,
+    "sha256": "b238050de88db253ab76a26d0daf8d85891ca4c062f284cb8cce87d864e42a20",
+    "documents": [
+      "actors:La seducción sobrenatural"
+    ],
+    "width": 768,
+    "height": 768,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/advertencia-henut.webp",
+    "format": "webp",
+    "bytes": 595322,
+    "sha256": "dc5b20c6b88afdd105c9ec55ccd8e68e3906c2f631ee8e01ed94cb4a26a7a881",
+    "documents": [
+      "journal:Ayuda · El trozo de lino azul"
+    ],
+    "width": 1024,
+    "height": 1536,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/carta-merit.webp",
+    "format": "webp",
+    "bytes": 422708,
+    "sha256": "d0cfd75ca6f1e540d85d2842486682f052ef2f9e62d8eab7d49eaa00cc1c50fe",
+    "documents": [
+      "journal:Ayuda · Una carta que no pide regreso"
+    ],
+    "width": 1024,
+    "height": 1536,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/consulta-inicial.webp",
+    "format": "webp",
+    "bytes": 488518,
+    "sha256": "c240d757e69507eabf5801df3112e995f0da61bc8f6b8312a719f65b4a162a51",
+    "documents": [
+      "journal:Ayuda · En la mesa de Legend in the Mist"
+    ],
+    "width": 1536,
+    "height": 1024,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/cuentas-tia.webp",
+    "format": "webp",
+    "bytes": 262418,
+    "sha256": "d143afbb10eebce70f26981841c0142be2ca805721eb19bd603b8b710c9d49b0",
+    "documents": [
+      "journal:Ayuda · Las cuentas de una embalsamadora"
+    ],
+    "width": 1536,
+    "height": 1024,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/fragmento-cancion.webp",
+    "format": "webp",
+    "bytes": 428642,
+    "sha256": "816ca94fa221995a30aa717ce46b50aafa0717fca797c002e24b975766a54e9c",
+    "documents": [
+      "journal:Ayuda · La estrofa de la puerta"
+    ],
+    "width": 1024,
+    "height": 1536,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/inscripcion-merit.webp",
+    "format": "webp",
+    "bytes": 513414,
+    "sha256": "386ec9eb7cf92cf2b18fd6c39393f76f4a2dddd6c3ed8eca7f5875f7e5d53e45",
+    "documents": [
+      "journal:Ayuda · Bajo el rostro velado"
+    ],
+    "width": 1536,
+    "height": 1024,
+    "source": "art/masters/scene-inscripcion-merit.png"
+  },
+  {
+    "distributed": "assets/handouts/invitacion.webp",
+    "format": "webp",
+    "bytes": 427962,
+    "sha256": "a4a943c6f677af21042336c7ef087f7ee3a056dc45d1e14de5295f7c1f8ac69f",
+    "documents": [
+      "journal:Ayuda · Una invitación a cenar"
+    ],
+    "width": 1024,
+    "height": 1536,
+    "source": "art/masters/invitacion.png"
+  },
+  {
+    "distributed": "assets/handouts/memorias-inicial.webp",
+    "format": "webp",
+    "bytes": 398364,
+    "sha256": "c1c7d4eaffbf5cfa95f5568fb92877dec5b031dc4a09828c0bddcf14b94cba9d",
+    "documents": [
+      "journal:Ayuda · Una página para recordar"
+    ],
+    "width": 1536,
+    "height": 1024,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/nota-nefru.webp",
+    "format": "webp",
+    "bytes": 577140,
+    "sha256": "b5aa892443244c3577b564c27ac291aa03209ebb40103d56291960730bd5d0a8",
+    "documents": [
+      "journal:Ayuda · Una frase junto a un brazalete"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/notas-khety.webp",
+    "format": "webp",
+    "bytes": 438768,
+    "sha256": "3f439e085e861e2b8e5992a4e0e1dcf6345d7ee1a1c41ab839de2f081c8153ce",
+    "documents": [
+      "journal:Ayuda · Una hoja doblada muchas veces"
+    ],
+    "width": 1024,
+    "height": 1536,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/pluma-merit.webp",
+    "format": "webp",
+    "bytes": 392548,
+    "sha256": "10b7add6bba4d619ac99aa34d71edd5808a093248de8b6946829bee293054b75",
+    "documents": [
+      "journal:Ayuda · Lo escrito en una pluma"
+    ],
+    "width": 1536,
+    "height": 1024,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/recibo.webp",
+    "format": "webp",
+    "bytes": 398560,
+    "sha256": "4fd839b40d4a5e596f0800c12463be8115aec16667f1b856a788d5769678fc08",
+    "documents": [
+      "journal:Ayuda · Resguardo del archivo funerario"
+    ],
+    "width": 1536,
+    "height": 1024,
+    "source": null
+  },
+  {
+    "distributed": "assets/handouts/relieve-pozo.webp",
+    "format": "webp",
+    "bytes": 445564,
+    "sha256": "97fd7faf038fc624edf6c31ea4d6704aa0eecc0e7419c425b78af153d715c03e",
+    "documents": [
+      "journal:Ayuda · Dos puertas en la piedra"
+    ],
+    "width": 1536,
+    "height": 1024,
+    "source": null
+  },
+  {
     "distributed": "assets/maps/corte-piedra.webp",
     "format": "webp",
     "bytes": 863050,
@@ -757,8 +1547,8 @@
   {
     "distributed": "assets/npc/borrado-portrait.webp",
     "format": "webp",
-    "bytes": 46828,
-    "sha256": "ad2081c8a3cec1038332c9efbfa8e57c1db7fff7df63525131d7ce0bbddd7cc8",
+    "bytes": 47650,
+    "sha256": "ec21cc87381b813d94e270733f7dea694c23c0b5ea5ceae08a1191cedc0adf8a",
     "documents": [
       "actors:Borrados"
     ],
@@ -781,8 +1571,8 @@
   {
     "distributed": "assets/npc/borrado-token.webp",
     "format": "webp",
-    "bytes": 152432,
-    "sha256": "15c993a19c7c70baa7a38a07c7a298ab34b919536ac087f6c8fb64dc42aaaf43",
+    "bytes": 148840,
+    "sha256": "43ee8a2ade1e50afee64b6c101e91c98359eac7fb5bc551225e07ef1b71ab721",
     "documents": [
       "actors:Borrados"
     ],
@@ -1273,8 +2063,8 @@
   {
     "distributed": "assets/npc/pesador-portrait.webp",
     "format": "webp",
-    "bytes": 50828,
-    "sha256": "9c8904dbba1c6b84ed1732c6eab2dacfe45712d6ff392dbba77de0ce19f2d283",
+    "bytes": 52018,
+    "sha256": "8644b926672c432917d9271a5c8ca2f4a2ba5cbf08a6bc5b5341e82b58883c7b",
     "documents": [
       "actors:Pesadores"
     ],
@@ -1297,8 +2087,8 @@
   {
     "distributed": "assets/npc/pesador-token.webp",
     "format": "webp",
-    "bytes": 184144,
-    "sha256": "e2bfa2dadc645f02bff460c60519fc09d54b67e1dc81a45628c0e7c150e62414",
+    "bytes": 179462,
+    "sha256": "fc2be25a0ed956b8c8b5049c1ec37eff8db306637934448cfb230324a3d77b99",
     "documents": [
       "actors:Pesadores"
     ],
@@ -1309,8 +2099,8 @@
   {
     "distributed": "assets/npc/planidera-portrait.webp",
     "format": "webp",
-    "bytes": 41074,
-    "sha256": "4eea8b4c2b6b15640345f9cc09925a71dd4616ad433685d863c9009352ec65a2",
+    "bytes": 41686,
+    "sha256": "fd72196ac100f6c6b248f3f9b96ca946004bbc8f3d77fc9edd05a9233272b3ef",
     "documents": [
       "actors:Plañideras"
     ],
@@ -1333,8 +2123,8 @@
   {
     "distributed": "assets/npc/planidera-token.webp",
     "format": "webp",
-    "bytes": 183750,
-    "sha256": "5eca586a7de25a9b4b2ac4b372d756aaab7ab99d42661eef4fb713094e75f1ba",
+    "bytes": 178320,
+    "sha256": "db8539e8a74778104d9c8efd00ddd115bf53af3a328e1fbe9bf7de7ce217942c",
     "documents": [
       "actors:Plañideras"
     ],
@@ -1504,12 +2294,47 @@
     "use": "Objeto de juego"
   },
   {
+    "distributed": "assets/objects/bendicion-umbral.webp",
+    "format": "webp",
+    "bytes": 284670,
+    "sha256": "ba371cd6bdca55cec888d53470e6bd07199384523d76d607ed2196239774b30a",
+    "documents": [
+      "items:Bendición del umbral recordado"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": null
+  },
+  {
+    "distributed": "assets/objects/cofre-corazon.webp",
+    "format": "webp",
+    "bytes": 270538,
+    "sha256": "24599457a93158573acb421387e06db2853d9f67988a438b16a119dd03f77ebe",
+    "documents": [
+      "items:Cofre del corazón"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": null
+  },
+  {
+    "distributed": "assets/objects/contrafirma.webp",
+    "format": "webp",
+    "bytes": 290738,
+    "sha256": "bc1b89826d5a7c2e4ff2145d9cdb3ac850ac2445e6e79e66f24a0602116b4ac9",
+    "documents": [
+      "items:Contrafirma de la negativa"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": null
+  },
+  {
     "distributed": "assets/objects/corazon.webp",
     "format": "webp",
     "bytes": 345300,
     "sha256": "44d23d7d66ad94b6d43b1fccf7ecea299e16435fbc92f0bad2dc3bebc329bf4f",
     "documents": [
-      "items:Cofre del corazón",
       "items:Corazón de Neb-Sekhem"
     ],
     "width": 512,
@@ -1519,6 +2344,18 @@
       "art/masters/corazon.png"
     ],
     "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/cordon-zahra.webp",
+    "format": "webp",
+    "bytes": 306656,
+    "sha256": "4ba142364037ec3ebc4dac959db2b27f6659dc9e82a33f44e45ffd9c42d6aaff",
+    "documents": [
+      "items:Cordón de Zahra"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": null
   },
   {
     "distributed": "assets/objects/custodio.webp",
@@ -1542,24 +2379,7 @@
     "bytes": 310608,
     "sha256": "7267696b42c9ea4b007d9dd15d0fbb2b55872698e08ac1718a8713eb67807a40",
     "documents": [
-      "actors:El banquete de Neb-Sekhem",
-      "actors:El cincel",
-      "actors:El corazón protegido",
-      "actors:La Cámara del Pesaje",
-      "actors:La caída de la corte",
-      "actors:La coronación",
-      "actors:La cámara que pesa",
-      "actors:La huida del dormitorio",
-      "actors:La investigación de los registros",
-      "actors:La liberación de los nombres robados",
-      "actors:La presión de los agentes religiosos",
-      "actors:La procesión funeraria",
-      "actors:La seducción sobrenatural",
-      "actors:Los que todavía recuerdan",
-      "actors:Los sacerdotes de Ankhtepot",
-      "items:Bendición del umbral recordado",
-      "items:Escarabajo funerario",
-      "items:Lectura del nombre velado"
+      "items:Escarabajo funerario"
     ],
     "width": 512,
     "height": 512,
@@ -1586,12 +2406,23 @@
     "use": "Objeto de juego"
   },
   {
+    "distributed": "assets/objects/lectura-nombre.webp",
+    "format": "webp",
+    "bytes": 328360,
+    "sha256": "7cb7b96c92dadcdfaecfa0656237b369b00114f08270c000a1a298c933acccd8",
+    "documents": [
+      "items:Lectura del nombre velado"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": null
+  },
+  {
     "distributed": "assets/objects/pluma.webp",
     "format": "webp",
     "bytes": 297998,
     "sha256": "154f667e1e5408ecc10110f546707778d260220daf8c4ab0881fd7026c272cb0",
     "documents": [
-      "items:Contrafirma de la negativa",
       "items:Pluma de Merit"
     ],
     "width": 512,
@@ -1601,6 +2432,18 @@
       "art/masters/pluma.png"
     ],
     "use": "Objeto de juego"
+  },
+  {
+    "distributed": "assets/objects/registro-ofrendas.webp",
+    "format": "webp",
+    "bytes": 372790,
+    "sha256": "46dfde8bcd467843fb92c97e5d0aa1f991e4da668dad038d0ac34a664e501b8c",
+    "documents": [
+      "items:Registro de ofrendas"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": null
   },
   {
     "distributed": "assets/objects/servidor.webp",
@@ -1633,6 +2476,18 @@
       "art/masters/sombra-chacal.png"
     ],
     "use": "Criatura completa transparente"
+  },
+  {
+    "distributed": "assets/objects/testimonio-merit.webp",
+    "format": "webp",
+    "bytes": 305490,
+    "sha256": "972402bab82d45f85ea0b6d0bc31c82c887080db7692cb7c2c716f8524075326",
+    "documents": [
+      "items:Testimonio de Merit"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "source": null
   },
   {
     "distributed": "assets/objects/vasija-beset.webp",
@@ -1880,7 +2735,6 @@
     "bytes": 632642,
     "sha256": "8ff46cc82949af6a9760b1039b692b8a834e6ace6f05b68849f623bfa28f4818",
     "documents": [
-      "actors:El funeral imposible",
       "scenes:El funeral imposible"
     ],
     "width": 1920,
@@ -2162,5 +3016,353 @@
       "art/masters/scene-taller-tia.png"
     ],
     "use": "Escena panorámica 16:9 · solo entorno, personajes mediante tokens"
+  },
+  {
+    "distributed": "assets/thumbs/amanecer.webp",
+    "format": "webp",
+    "bytes": 26322,
+    "sha256": "e49b150ffdec20be320b8730ad1355dda84a3af5c17abc1a1013e46dba4687a6",
+    "documents": [
+      "scenes:El último amanecer"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-amanecer.png"
+  },
+  {
+    "distributed": "assets/thumbs/banquete.webp",
+    "format": "webp",
+    "bytes": 25450,
+    "sha256": "c49e7dfe93da37f55c73a6012a07783afda1178270b10570b6725b721c79a9d0",
+    "documents": [
+      "scenes:El banquete"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/banquete.png"
+  },
+  {
+    "distributed": "assets/thumbs/camino-chacales.webp",
+    "format": "webp",
+    "bytes": 25536,
+    "sha256": "0d34605c0f5d8503d4abfc1111fa46b88263cb236555113cda60dfae94af36a8",
+    "documents": [
+      "scenes:El camino de los chacales"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-camino-chacales.png"
+  },
+  {
+    "distributed": "assets/thumbs/casa-nefru.webp",
+    "format": "webp",
+    "bytes": 30028,
+    "sha256": "aa7511d26353b6161f33ad419773f0e4626493cab9d531f8792cac2e60e4c220",
+    "documents": [
+      "scenes:Casa de Nefru"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-casa-nefru.png"
+  },
+  {
+    "distributed": "assets/thumbs/casa-panehsy.webp",
+    "format": "webp",
+    "bytes": 24634,
+    "sha256": "ba0d4ddbfee6ca596f25937d70f5bebc87d8c50a12ad1ef6030650e9452f6492",
+    "documents": [
+      "scenes:Casa de Panehsy"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-casa-panehsy.png"
+  },
+  {
+    "distributed": "assets/thumbs/coronacion.webp",
+    "format": "webp",
+    "bytes": 25768,
+    "sha256": "628ccda741079db17dbc3a7ef7e331bfcd6321ffcfc8abe9b8ce9a72415c2a3e",
+    "documents": [
+      "scenes:Coronación · El triunfo de la sed"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-coronacion.png"
+  },
+  {
+    "distributed": "assets/thumbs/corte.webp",
+    "format": "webp",
+    "bytes": 28412,
+    "sha256": "1e347a916730f1d208f095e9bf6f0251d0f2bdc791adad59cbbdb5a66c4c113b",
+    "documents": [
+      "scenes:La Corte · Plano de orientación"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": null
+  },
+  {
+    "distributed": "assets/thumbs/dormitorio-victimas.webp",
+    "format": "webp",
+    "bytes": 24702,
+    "sha256": "5cf00940f383d00b6f70fb8ea46109eef0e3e863384a1b195d6d6fd3f6655b40",
+    "documents": [
+      "scenes:El dormitorio de las víctimas"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-dormitorio-victimas.png"
+  },
+  {
+    "distributed": "assets/thumbs/entrada-palacio.webp",
+    "format": "webp",
+    "bytes": 30772,
+    "sha256": "76d3c5a237f984cfd472a547204138d70c465dfa01ac8d23de1632c34fd36a89",
+    "documents": [
+      "scenes:El umbral de la corte"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-entrada-palacio.png"
+  },
+  {
+    "distributed": "assets/thumbs/funeral.webp",
+    "format": "webp",
+    "bytes": 29018,
+    "sha256": "53f3b8cb74ba61fda55f4a297c59d574c9c18965e832e7331013edc6b1ab5e5d",
+    "documents": [
+      "scenes:El funeral imposible"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/funeral.png"
+  },
+  {
+    "distributed": "assets/thumbs/galeria-rostros.webp",
+    "format": "webp",
+    "bytes": 30018,
+    "sha256": "c52d3e5de1edd460ac1fd7df5ac117af749650d9ab99138ce226653db8b7ad00",
+    "documents": [
+      "scenes:La galería de los rostros borrados"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-galeria-rostros.png"
+  },
+  {
+    "distributed": "assets/thumbs/inscripcion-merit.webp",
+    "format": "webp",
+    "bytes": 26014,
+    "sha256": "67d62df53ee412f433f4808ec9af300a8436b3ac821922803a9ed13dc02eaf3d",
+    "documents": [
+      "scenes:El testimonio de Merit"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-inscripcion-merit.png"
+  },
+  {
+    "distributed": "assets/thumbs/laberinto.webp",
+    "format": "webp",
+    "bytes": 29276,
+    "sha256": "79aafa6a4600006a672fe12f1b8d26a63fc0d7070522a7e37b6cbb583a227781",
+    "documents": [
+      "scenes:El Laberinto"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/laberinto.png"
+  },
+  {
+    "distributed": "assets/thumbs/lamina-corazon.webp",
+    "format": "webp",
+    "bytes": 32492,
+    "sha256": "616a06879cc5d270b20130a43aed7bf679897eee22ac94a7591410a3cccd2173",
+    "documents": [
+      "scenes:Lámina · El corazón y la balanza"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/lamina-corazon.png"
+  },
+  {
+    "distributed": "assets/thumbs/lamina-funeral.webp",
+    "format": "webp",
+    "bytes": 33172,
+    "sha256": "339753218af149468f27c794f2f31a154ff59f15978c9f771c5f43e67a87f870",
+    "documents": [
+      "scenes:Lámina · El funeral imposible"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/lamina-funeral.png"
+  },
+  {
+    "distributed": "assets/thumbs/lamina-khety.webp",
+    "format": "webp",
+    "bytes": 29032,
+    "sha256": "7e01cb6a419078d28fea0795b327f4c813e5b650bc36ca22b4f07b4cdbc8d39b",
+    "documents": [
+      "scenes:Lámina · La falsa promesa de Khety"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/lamina-khety.png"
+  },
+  {
+    "distributed": "assets/thumbs/lamina-merit.webp",
+    "format": "webp",
+    "bytes": 33366,
+    "sha256": "17c6193975ff2d18f21eecd16792ab887dac4b27bde6286a631c5a6a1b1f88ce",
+    "documents": [
+      "scenes:Lámina · La negativa de Merit"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/lamina-merit.png"
+  },
+  {
+    "distributed": "assets/thumbs/lamina-nombres.webp",
+    "format": "webp",
+    "bytes": 33540,
+    "sha256": "7558a3c98251490b1ebaac0ce31d2e43dc1542a55bc13c510b44eb40b900b386",
+    "documents": [
+      "scenes:Lámina · Los nombres cautivos"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/lamina-nombres.png"
+  },
+  {
+    "distributed": "assets/thumbs/lamina-procesion.webp",
+    "format": "webp",
+    "bytes": 28040,
+    "sha256": "281cb858de62bf89db32c5da6839bc251f95eb789cde899d7701f73c24068fee",
+    "documents": [
+      "scenes:Lámina · El descenso a la corte"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/lamina-procesion.png"
+  },
+  {
+    "distributed": "assets/thumbs/map-muhar.webp",
+    "format": "webp",
+    "bytes": 28010,
+    "sha256": "bf1cf462c53b44da2c1bb62981f43fe3baa4ae60dceac5daebb1b9ab2c429eaf",
+    "documents": [
+      "scenes:Muhar · Plano de rutas"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": null
+  },
+  {
+    "distributed": "assets/thumbs/map-pozo.webp",
+    "format": "webp",
+    "bytes": 28988,
+    "sha256": "7a5c1198a8bbba3a585b81531c1670fa5140a7e0e7adcf3c64301675fa495b6a",
+    "documents": [
+      "scenes:Pozo · Plano de las siete ranuras"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": null
+  },
+  {
+    "distributed": "assets/thumbs/merit-eco.webp",
+    "format": "webp",
+    "bytes": 29440,
+    "sha256": "f0521440684880c4ab0db789fee8ae8861d7b64a8883082f77e0badc544e9f88",
+    "documents": [
+      "scenes:Merit · El eco que elige"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/merit-eco.png"
+  },
+  {
+    "distributed": "assets/thumbs/muhar.webp",
+    "format": "webp",
+    "bytes": 26294,
+    "sha256": "a949219535c0e4c7dd56cd545b580f99e69e3264408df3f32cede78c22da7a25",
+    "documents": [
+      "scenes:Muhar al anochecer"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-muhar.png"
+  },
+  {
+    "distributed": "assets/thumbs/neb-sekhem.webp",
+    "format": "webp",
+    "bytes": 25444,
+    "sha256": "a2812177cf8e88d8fb8cca4a2987cacb6513e3dd9ef40223d685c96aec810607",
+    "documents": [
+      "scenes:Neb-Sekhem · La invitación del rey"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-neb-sekhem.png"
+  },
+  {
+    "distributed": "assets/thumbs/pesaje.webp",
+    "format": "webp",
+    "bytes": 24082,
+    "sha256": "5bfcfa609e7f76975e914a2dc2b6d382096d4362fef50764cab29a687b4e6a36",
+    "documents": [
+      "scenes:La Cámara del Pesaje"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/pesaje.png"
+  },
+  {
+    "distributed": "assets/thumbs/pozo.webp",
+    "format": "webp",
+    "bytes": 28246,
+    "sha256": "e487953ee1ceee7204a5020fdd7bab4f492041c858a204e733aead2a24a3bcff",
+    "documents": [
+      "scenes:El pozo de las siete ranuras"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-pozo.png"
+  },
+  {
+    "distributed": "assets/thumbs/procesion.webp",
+    "format": "webp",
+    "bytes": 29064,
+    "sha256": "ae755fa7b84e1a10bf6a9527ed176bcff585b3068773fcc6557aa1e78d928476",
+    "documents": [
+      "scenes:La procesión funeraria"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-procesion.png"
+  },
+  {
+    "distributed": "assets/thumbs/sala-vasijas.webp",
+    "format": "webp",
+    "bytes": 28354,
+    "sha256": "9513aaff723fd2fea5e0c07e9a6b1721ed04fbf9f4df551e88696211865143fd",
+    "documents": [
+      "scenes:La sala de las vasijas"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-sala-vasijas.png"
+  },
+  {
+    "distributed": "assets/thumbs/taller-tia.webp",
+    "format": "webp",
+    "bytes": 27946,
+    "sha256": "640d38a783ce599dcb7bf9476ed992e983fceed5e6285abbc337ac2ae38cf879",
+    "documents": [
+      "scenes:Taller de Tia"
+    ],
+    "width": 400,
+    "height": 225,
+    "source": "art/masters/scene-taller-tia.png"
   }
 ]

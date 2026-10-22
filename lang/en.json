@@ -189,7 +189,9 @@
       "Compact": "Collapse bar",
       "Expand": "Expand bar",
       "DepthScale": "Depth scaling",
-      "DepthScaleHelp": "Figures shrink as they move toward the background and grow toward the foreground, following each scene’s floor."
+      "DepthScaleHelp": "Figures shrink as they move toward the background and grow toward the foreground, following each scene’s floor.",
+      "Motifs": "Motifs",
+      "MotifsHelp": "Music for a specific moment. It crossfades in; press the active one again to return to the scene music."
     },
     "EditorialUpgradeFailed": "The editorial upgrade did not finish. The toolbar remains available; reload the world to retry. Your custom documents are preserved.",
     "Hitos": {
@@ -216,7 +218,9 @@
       "Lamp3": "The chisel: the Erased attack the testimonies. Doors locked.",
       "Lamp2": "Neb drops his courtesy; the Weighers take position.",
       "Lamp1": "The court turns to the altar; the prince descends.",
-      "Lamp0": "The coronation is attempted (P5)."
+      "Lamp0": "The coronation is attempted (P5).",
+      "DragHint": "Hold the right mouse button on the badge to move it.",
+      "ResetPos": "Reset position"
     },
     "Ambient": {
       "Title": "Ambience",

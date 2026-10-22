@@ -1,5 +1,14 @@
 # Cambios
 
+## 1.6.0 — 22 de octubre de 2026
+
+- **Música por motivo:** 12 pistas nuevas (batalla, combate oscuro, persecución, sigilo, tensión, horror, el rey sin nombre, amenaza creciente, misterio, duelo, esperanza, latido) y 8 efectos nuevos (plañidera, cincel, cerrojo, lámpara, libación, sistro, corte, sombra). 39 pistas en total, normalizadas y con bucle sin costura; menú «Motivos» en la barra del Narrador.
+- **Sin huecos entre pistas:** fundido cruzado de 3,5 s con suma de volumen constante, incluso al repetir la misma pista.
+- **Insignia de hitos arrastrable** con el botón derecho a cualquier punto de la pantalla; se recuerda la posición y «Restablecer posición» la devuelve a su sitio.
+- **Todo objeto tiene su imagen:** nuevas ilustraciones para los 7 documentos y ritos que usaban imágenes genéricas, y emblema propio para los 16 desafíos; icono de macro y portada de la aventura.
+- **Miniaturas de escena incluidas:** el menú de escenas de Foundry muestra la vista previa desde la importación.
+- **Ayudas como imágenes:** las 13 ayudas se entregan como pieza ambientada (carta, lino, rollo, cuaderno…) con el texto del manual compuesto encima, como primera página de cada diario; PDF nuevo «Ayudas de juego».
+
 ## 1.5.0 — 22 de octubre de 2026
 
 - **Neb-Sekhem es un dios.** Nuevo apartado «Un dios en la arena»: qué puede hacer en su corte, cómo mostrar su escala, cinco demostraciones de poder (el Primer Gesto, la sed, su gracia…), Palabra de Retirada, sombra arrodillada y las tres únicas vías para dañarlo. Aspecto de Might «Greatness» en su ficha.

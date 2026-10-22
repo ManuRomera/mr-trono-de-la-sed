@@ -1,0 +1,221 @@
+{
+ "estilo": "Original traditional painterly fantasy storybook illustration for a gothic Egyptian desert tabletop adventure: organic ink lines of varying weight, shadows by planes, gouache brush strokes and textured edges, warm torchlit rim light, melancholy gothic horror, elegant, no photography, no 3D, no lettering, no text, no watermark.",
+ "imagenes": [
+  {
+   "id": "it-registro",
+   "tipo": "token",
+   "size": "1024x1024",
+   "prompt": "A thick Egyptian funerary ledger made of stacked papyrus sheets bound with a linen cord, edges worn, a reed pen resting on top, red and black ink stains. Single object icon, isolated on genuine transparent background, no floor, no scenery, centered with generous padding."
+  },
+  {
+   "id": "it-testimonio",
+   "tipo": "token",
+   "size": "1024x1024",
+   "prompt": "A broken fragment of pale limestone with a carved hand pulling away from a figure, thin gold flecks in the cracks, chisel marks, seen at a three-quarter angle. Single object icon, isolated on genuine transparent background, no floor, no scenery, centered with generous padding."
+  },
+  {
+   "id": "it-cordon",
+   "tipo": "token",
+   "size": "1024x1024",
+   "prompt": "A blue linen cord tied in a scribe's knot, worn at the ends, a single tiny gold bead, loosely coiled. Single object icon, isolated on genuine transparent background, no floor, no scenery, centered with generous padding."
+  },
+  {
+   "id": "it-lectura-nombre",
+   "tipo": "token",
+   "size": "1024x1024",
+   "prompt": "A veiled wax writing tablet in a wooden frame, a blank line scratched out with a stylus, thin linen veil half covering it, dried ink marks. Single object icon, isolated on genuine transparent background, no floor, no scenery, centered with generous padding."
+  },
+  {
+   "id": "it-bendicion-umbral",
+   "tipo": "token",
+   "size": "1024x1024",
+   "prompt": "A small clay water bowl with a few drops being poured onto a doorway threshold stone, a short palm-leaf sprig lying beside it, blessing ritual. Single object icon, isolated on genuine transparent background, no floor, no scenery, centered with generous padding."
+  },
+  {
+   "id": "it-contrafirma",
+   "tipo": "token",
+   "size": "1024x1024",
+   "prompt": "A bronze cylinder seal and its fresh clay impression showing a feather crossing a door, a small knife beside it, countersignature ritual. Single object icon, isolated on genuine transparent background, no floor, no scenery, centered with generous padding."
+  },
+  {
+   "id": "it-cofre",
+   "tipo": "token",
+   "size": "1024x1024",
+   "prompt": "A small dark wooden chest reinforced with gold bands, engraved with funerary figures, lid slightly ajar with faint red light inside, hanging from a short chain. Single object icon, isolated on genuine transparent background, no floor, no scenery, centered with generous padding."
+  },
+  {
+   "id": "ac-funeral",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A funeral in an Egyptian desert city at dusk: an open empty coffin, lines of mourners with water bowls, a priest holding a tablet with an empty line. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-presion",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A stern inspector in a dark pristine robe holding a bronze authority plaque, two masked guards behind him, desert temple doorway, tense mood. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-registros",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A cramped archive room, shelves of papyrus rolls to the ceiling, a lamp behind a papyrus sheet revealing pressed grooves where a name was erased. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-procesion",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A silent funeral procession of four faceless carriers bearing two covered palanquins along a path of broken jackal statues under moonlight. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-banquete",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A long banquet table with alabaster cups, empty named chairs, golden lamps, a pale prince in a crimson cloak rising at the far end. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-seduccion",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A gentle supernatural temptation: a pale hand offering a bowl of water, ghostly echoing voices as faint pale shapes, a hero's shadow bending slightly. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-liberacion",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A kneeling hand placing a feather beside an open alabaster jar from which luminous pale names rise like smoke, gold light in a dark crypt. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-pesaje",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A colossal golden balance in a dark hall with a small chest hanging from one dish, a white feather in the other, reflection pool floor. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-corazon",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A glowing red heart inside an opened chest, thin golden chains, jackal statues watching, a white feather hovering above. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-coronacion",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "Seven alabaster jars on an altar with crimson ribbons rising toward a black and gold crown, seven oil lamps below with only a few still lit. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-sacerdotes",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "Priests of an Egyptian funerary cult in masks and dark robes forming a line behind a giant stone door sealed with a scarab, severe mood. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-huida",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "Frightened rescued people helped along a dark palace corridor while heavy stone doors slam shut behind them, torchlight and long shadows. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-camara-pesa",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A dark stone floor of tiles each engraved with a balance, two jackal-masked guards holding bronze scales, a thief's foot testing one tile. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-cincel",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "Faceless grey-shrouded figures chiselling at a stone wall inscription, chips of white stone flying, a woman's carved hand half erased. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-caida",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A grand underground Egyptian hall collapsing: a crack across the starry ceiling, fallen glass-blue stars on the floor, small figures running toward a distant stair. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "ac-compania",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "Five hands of different people holding together a single small lit oil lamp, a blue cord and a bead visible, warm light in darkness. Square painted vignette illustration with soft vignetted edges, strong focal composition, no text, no lettering."
+  },
+  {
+   "id": "dc-invitacion",
+   "tipo": "escena",
+   "size": "1024x1536",
+   "prompt": "A single sheet of fine cream papyrus with a gold-edged border, deckled edges, a broken black wax seal bearing a scarab near the bottom, slightly curled corners. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-recibo",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A narrow strip of coarse papyrus like a receipt, torn at both ends, faint grid ruling, slightly stained with water rings. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-cuentas",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A rectangular wax tablet in a dark wooden frame with a smooth fresh wax surface, a bronze stylus resting at the edge, a few resin stains on the frame. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-nota-nefru",
+   "tipo": "escena",
+   "size": "1024x1024",
+   "prompt": "A small piece of rough undyed linen cloth with frayed edges, a braided bracelet knot lying along one edge, faded ink smudges only at the margins. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-henut",
+   "tipo": "escena",
+   "size": "1024x1536",
+   "prompt": "A strip of white linen with a blotchy deep-blue dye stain in one corner, frayed edges, charcoal smudges only at the margin. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-cancion",
+   "tipo": "escena",
+   "size": "1024x1536",
+   "prompt": "A sheet of old papyrus with faint ruled musical-staff-like lines at the margins only, edges burnt in places, a pressed dry lotus flower in a corner. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-pluma",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A long narrow papyrus scroll partly unrolled lying beside a black-stemmed feather, ends tied with thin linen, subtle wax cracking at the corners. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-inscripcion",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A slab of pale limestone with a smooth surface framed by a carved ledge of blue and gold painted lotus border, chisel erasure marks only on the border. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-notas-khety",
+   "tipo": "escena",
+   "size": "1024x1536",
+   "prompt": "Several creased sheets of papyrus folded many times, unfolded and laid flat overlapping, ink stains at the corners, a faint dark thumbprint at the edge. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-carta-merit",
+   "tipo": "escena",
+   "size": "1024x1536",
+   "prompt": "A sheet of fine white linen paper tied with a thin ribbon, soft golden dust sprinkled at the edges, a dried feather lying at the corner, quiet and dignified. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-memorias",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "An open blank journal made of papyrus pages sewn together, a bone stylus and a small clay ink pot beside it, warm lamplight, tidy and personal. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-consulta",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A reference card of thick papyrus with a carved wooden frame, a small row of carved symbols of a feather, a lamp and a hand only on the border, clean middle. The central area must be completely EMPTY and clean (no marks, no text, no letters, no hieroglyphs), so text can be added later. Flat top-down view filling the whole image, soft shadow at edges, no hands, no scenery."
+  },
+  {
+   "id": "dc-relieve",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A carved limestone relief of two doors: the first surrounded by seven open mouths with six marked in red and the seventh empty, the second closed by a hand holding a feather, torchlit, low angle, no text."
+  }
+ ]
+}

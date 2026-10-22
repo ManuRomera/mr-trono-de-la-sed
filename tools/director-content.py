@@ -9,7 +9,7 @@ def add_direction(root,uid,flags,prefix,actors,items,story,journals,scenes,folde
   for d in audio:
    if d['kind']!=kind:continue
    sid=uid('sound/'+kind+'/'+d['slug']);soundids[kind+'/'+d['slug']]=sid
-   sounds.append({'_id':sid,'name':d['name'],'path':prefix+d['path'],'volume':.3 if kind=='music' else .4,'repeat':d['repeat'],'fade':1500 if kind=='music' else 250,'playing':False,'flags':{mod:{'slug':d['slug'],'source':mod,'kind':kind}}})
+   sounds.append({'_id':sid,'name':d['name'],'path':prefix+d['path'],'volume':.3 if kind=='music' else .4,'repeat':d['repeat'],'fade':3500 if kind=='music' else 250,'playing':False,'flags':{mod:{'slug':d['slug'],'source':mod,'kind':kind,'motif':bool(d.get('motif'))}}})
   playlists.append({'_id':pid,'name':title,'mode':-1,'sounds':sounds,'playing':False,'ownership':{'default':0},'flags':{mod:{'source':mod,'slug':kind,'kind':kind}}})
  folder=uid('folder/scene-guides');folders.append({'_id':folder,'name':'Dirección de escenas','type':'JournalEntry','sorting':'a','color':'#713447','flags':flags('folder/scene-guides')})
  chapters={c['id']:c for c in story['chapters']};people={a['name']:a for a in actors};objects={a['name']:a for a in items};by_slug={d['slug']:d for d in directions}

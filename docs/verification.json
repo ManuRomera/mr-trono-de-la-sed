@@ -9,9 +9,9 @@
     "macros": 1,
     "playlists": 2
   },
-  "assets": 132,
-  "asset_bytes": 57317494,
-  "image_references": 132,
+  "assets": 219,
+  "asset_bytes": 98480500,
+  "image_references": 218,
   "missing": 0,
   "runtime_evidence": [
     "foundry-presentation-v11.json",

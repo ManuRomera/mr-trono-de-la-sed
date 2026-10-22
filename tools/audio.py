@@ -4,6 +4,8 @@ import subprocess,json,wave,hashlib,math
 import numpy as np
 ROOT=Path(__file__).resolve().parents[1];SR=48000
 MUSIC=[('muhar','Muhar al atardecer','Desert City','USUAN1100564'),('tumbas','Viento entre las tumbas','Echoes of Time v2','USUAN1300030'),('procesion','Procesión funeraria','Oppressive Gloom','USUAN1100885'),('laberinto','El Laberinto','Night of Chaos','USUAN1300042'),('banquete','El banquete','Ritual','USUAN1100466'),('merit','La negativa de Merit','Evening Fall (Harp)','USUAN1100236'),('pesaje','La Cámara del Pesaje','Dark Fog','USUAN1300031'),('coronacion','La coronación','Lightless Dawn','USUAN1100655'),('amanecer','El último amanecer','Evening Fall (Piano)','USUAN1100235')]
+# Motivos: pistas para momentos concretos (se lanzan desde la barra con fundido cruzado, sin hueco).
+MOTIFS=[('batalla','Batalla','Volatile Reaction'),('batalla-oscura','Combate oscuro','Unholy Knight'),('persecucion','Persecución','Prelude and Action'),('sigilo','Sigilo e infiltración','Dark Walk'),('tension','Tensión','Disquiet'),('horror','Horror','Anguish'),('rey','El rey sin nombre','Sovereign'),('amenaza','Amenaza creciente','Gathering Darkness'),('misterio','Misterio','Crypto'),('duelo','Duelo','Mourning Song'),('esperanza','Esperanza','Eternal Hope'),('bestia','Latido del corazón','Heart of the Beast')]
 OUT=ROOT/'assets/audio';TMP=ROOT/'tmp/audio';TMP.mkdir(parents=True,exist_ok=True)
 for d in ['music','sfx']:(OUT/d).mkdir(parents=True,exist_ok=True)
 def probe(p):
@@ -16,8 +18,16 @@ for slug,label,title,isrc in MUSIC:
  # Recorte de introducción/cierre y solapamiento circular de seis segundos.
  end=duration-8;d=end-8;n=6
  f=f'[0:a]atrim=start=8:end={end},asetpts=PTS-STARTPTS,asplit=3[m][h][t];[m]atrim=start={n}:end={d-n},asetpts=PTS-STARTPTS[b];[h]atrim=end={n},asetpts=PTS-STARTPTS[head];[t]atrim=start={d-n},asetpts=PTS-STARTPTS[tail];[tail][head]acrossfade=d={n}:c1=qsin:c2=qsin[s];[b][s]concat=n=2:v=0:a=1,loudnorm=I=-26:TP=-4:LRA=6,aresample=48000[a]'
- subprocess.run(['ffmpeg','-y','-v','error','-i',str(src),'-filter_complex',f,'-map','[a]','-c:a','libopus','-b:a','96k',str(dest)],check=True)
+ if not dest.exists():subprocess.run(['ffmpeg','-y','-v','error','-i',str(src),'-filter_complex',f,'-map','[a]','-c:a','libopus','-b:a','96k',str(dest)],check=True)
  records.append(stamp(dest,slug=slug,name=label,kind='music',repeat=True,instrumental=True,title=title,author='Kevin MacLeod',source=f'https://incompetech.com/music/royalty-free/index.html?isrc={isrc}',license='CC BY 4.0',licenseUrl='https://creativecommons.org/licenses/by/4.0/',changes='Recorte de introducción/cierre, solapamiento circular de 6 s, normalización a -26 LUFS y codificación Ogg Opus.'))
+ print(slug,flush=True)
+for slug,label,title in MOTIFS:
+ src=ROOT/'research/audio-sources'/(title+'.mp3');dest=OUT/'music'/(slug+'.ogg')
+ if not dest.exists():
+  duration=float(probe(src)['format']['duration']);end=duration-8;d=end-8;n=min(6,d/4)
+  f=f'[0:a]atrim=start=8:end={end},asetpts=PTS-STARTPTS,asplit=3[m][h][t];[m]atrim=start={n}:end={d-n},asetpts=PTS-STARTPTS[b];[h]atrim=end={n},asetpts=PTS-STARTPTS[head];[t]atrim=start={d-n},asetpts=PTS-STARTPTS[tail];[tail][head]acrossfade=d={n}:c1=qsin:c2=qsin[s];[b][s]concat=n=2:v=0:a=1,loudnorm=I=-26:TP=-4:LRA=6,aresample=48000[a]'
+  subprocess.run(['ffmpeg','-y','-v','error','-i',str(src),'-filter_complex',f,'-map','[a]','-c:a','libopus','-b:a','96k',str(dest)],check=True)
+ records.append(stamp(dest,slug=slug,name=label,kind='music',repeat=True,instrumental=True,motif=True,title=title,author='Kevin MacLeod',source='https://incompetech.com/music/royalty-free/mp3-royaltyfree/'+title.replace(' ','%20')+'.mp3',license='CC BY 4.0',licenseUrl='https://creativecommons.org/licenses/by/4.0/',changes='Recorte de introducción/cierre, solapamiento circular, normalización a -26 LUFS y codificación Ogg Opus.'))
  print(slug,flush=True)
 rng=np.random.default_rng(370143)
 def filtered_noise(sec,low=80,high=2000):
@@ -40,6 +50,29 @@ sfx['vasija']=(env(echo(ring(425,3,.65)*.5+ring(697,3,.55)*.25),.004,.6),'Vasija
 sfx['corazon']=(env(echo(ring(74,6,2)+ring(139,6,1.3)*.4),.02,1.4),'Latido del corazón cautivo',False)
 sfx['sello']=(env(echo(filtered_noise(5,250,7000)*np.exp(-np.arange(SR*5)/SR/1.3)),.006,1.3),'Ruptura del sello',False)
 sfx['pluma']=(env(echo(filtered_noise(4,1000,8500)*.13+ring(784,4,1)*.13),.6,1.4),'El testimonio permanece',False)
+def wail(sec,f0):
+ t=np.arange(round(sec*SR))/SR;f=f0*(1+.06*np.sin(2*np.pi*.8*t))+30*np.sin(2*np.pi*.23*t);ph=2*np.pi*np.cumsum(f)/SR
+ x=np.sin(ph)+.5*np.sin(2*ph+1)+.25*np.sin(3*ph);return x*(.6+.4*np.sin(2*np.pi*.45*t))
+sfx['planidera']=(env(echo(wail(6,430)*.35+filtered_noise(6,900,3200)*.05,(.3,.6),(.3,.15)),.9,2),'Lamento de la Plañidera',False)
+x=np.zeros(SR*5)
+for i in range(9):
+ n=int((.2+i*.45)*SR);q=env(filtered_noise(.12,1500,6500)*np.exp(-np.arange(int(.12*SR))/SR/.035),.002,.05);x[n:n+len(q)]+=q
+sfx['cincel']=(env(echo(x+ring(2100,5,.12)*.03),.01,.5),'Cincel sobre la piedra',False)
+x=np.zeros(SR*4);q=env(filtered_noise(.5,40,500)*np.exp(-np.arange(int(.5*SR))/SR/.18),.003,.2);x[:len(q)]+=q*1.2;q2=ring(310,3.2,1.2)*.35;x[int(.12*SR):int(.12*SR)+len(q2)]+=q2
+sfx['cerrojo']=(env(echo(x),.003,.8),'Puerta que se cierra con llave',False)
+x=np.zeros(SR*3);q=env(filtered_noise(1.4,2000,9000)*np.exp(-np.arange(int(1.4*SR))/SR/.5),.01,.8);x[:len(q)]+=q*.7
+sfx['lampara']=(env(echo(x+ring(1180,3,.3)*.05),.005,.6),'Lámpara que se apaga',False)
+x=np.zeros(SR*10)
+for i in range(8):
+ n=int((.3+i*1.1+rng.uniform(0,.4))*SR);q=ring(rng.uniform(900,1500),1.2,.18)*.2*np.exp(-np.arange(int(1.2*SR))/SR/.5);x[n:n+len(q)]+=q
+sfx['libacion']=(env(echo(x)),'Libación de agua',False)
+x=np.zeros(SR*3)
+for i in range(16):
+ n=int((.05+i*.11)*SR);q=env(filtered_noise(.1,3000,10000)*np.exp(-np.arange(int(.1*SR))/SR/.03),.001,.04);x[n:n+len(q)]+=q*(1-i*.04)
+sfx['sistro']=(env(echo(x),.005,.8),'Sistro lejano',False)
+t2=np.arange(SR*8)/SR;x=(np.sin(2*np.pi*55*t2)+.6*np.sin(2*np.pi*82.4*t2)+.4*np.sin(2*np.pi*110*t2))*np.sin(np.pi*np.minimum(1,t2/8))**2
+sfx['corte']=(env(x*.5+filtered_noise(8,40,300)*.15,2,3),'La corte se inclina',False)
+x=filtered_noise(8,35,260)*(.5+.5*np.sin(2*np.pi*t2*.25));sfx['sombra']=(env(x,1.5,2.5),'Sombra que se arrodilla',False)
 x=np.zeros(SR*6)
 for i in range(7):
  n=int((.2+i*.67)*SR);q=env(filtered_noise(.18,55,1600)*np.exp(-np.arange(int(.18*SR))/SR/.055),.004,.08);x[n:n+len(q)]+=q
@@ -57,8 +90,8 @@ for slug,(x,label,loop) in sfx.items():
  dest=OUT/'sfx'/(slug+'.ogg');subprocess.run(['ffmpeg','-y','-v','error','-i',str(wav),'-c:a','libopus','-b:a','96k',str(dest)],check=True)
  records.append(stamp(dest,slug=slug,name=label,kind='sfx',repeat=loop,author='Proyecto MR · Manuel Romera',license='CC BY-NC-SA 4.0',method='Diseño sonoro sintetizado, sin voces ni muestras externas.'))
 (ROOT/'content/audio.json').write_text(json.dumps(records,ensure_ascii=False,indent=2))
-text='# Créditos de audio\n\nLas nueve piezas instrumentales son de Kevin MacLeod (incompetech.com), bajo Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/. Se han recortado, adaptado para repetición y normalizado; sus nombres originales se conservan a continuación. No son composiciones originales del Proyecto MR.\n\n'
+text='# Créditos de audio\n\nLas piezas instrumentales son de Kevin MacLeod (incompetech.com), bajo Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/. Se han recortado, adaptado para repetición y normalizado; sus nombres originales se conservan a continuación. No son composiciones originales del Proyecto MR.\n\n'
 for d in records:
  if d['kind']=='music':text+=f'- **{d["name"]}**: «{d["title"]}» — Kevin MacLeod. [Ficha y licencia]({d["source"]}). {d["changes"]}\n'
-text+='\nLos diez efectos son síntesis originales del Proyecto MR, sin voces ni muestras externas. Licencia CC BY-NC-SA 4.0.\n'
-(ROOT/'AUDIO-CREDITS.md').write_text(text);print('19 audios reales terminados',flush=True)
+text+='\nLos efectos son síntesis originales del Proyecto MR, sin voces ni muestras externas. Licencia CC BY-NC-SA 4.0.\n'
+(ROOT/'AUDIO-CREDITS.md').write_text(text);print(len(records),'audios reales terminados',flush=True)

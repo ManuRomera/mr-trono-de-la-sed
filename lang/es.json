@@ -189,7 +189,9 @@
       "Compact": "Plegar barra",
       "Expand": "Desplegar barra",
       "DepthScale": "Escala por profundidad",
-      "DepthScaleHelp": "Las figuras se hacen más pequeñas al alejarse hacia el fondo y mayores al acercarse, según el suelo de cada escena."
+      "DepthScaleHelp": "Las figuras se hacen más pequeñas al alejarse hacia el fondo y mayores al acercarse, según el suelo de cada escena.",
+      "Motifs": "Motivos",
+      "MotifsHelp": "Música para un momento concreto. Entra con fundido cruzado; vuelve a pulsar la activa para regresar a la música de la escena."
     },
     "EditorialUpgradeFailed": "La revisión editorial no se ha completado. La barra sigue disponible; recarga el mundo para reintentarlo. Tus documentos personalizados se conservan.",
     "Hitos": {
@@ -216,7 +218,9 @@
       "Lamp3": "El cincel: los Borrados atacan los testimonios. Puertas cerradas.",
       "Lamp2": "Neb abandona la cortesía; los Pesadores toman posiciones.",
       "Lamp1": "La corte se vuelve hacia el altar; el príncipe baja.",
-      "Lamp0": "Se intenta la coronación (P5)."
+      "Lamp0": "Se intenta la coronación (P5).",
+      "DragHint": "Mantén pulsado el botón derecho sobre la insignia para moverla.",
+      "ResetPos": "Restablecer posición"
     },
     "Ambient": {
       "Title": "Ambiente",

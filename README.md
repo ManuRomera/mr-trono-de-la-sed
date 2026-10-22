@@ -106,6 +106,8 @@ El **Manual del Narrador** (87 páginas), el **cuaderno de protagonistas** (10) 
 
 Muhar al atardecer, viento entre las tumbas, procesión, Laberinto, banquete, Merit, pesaje, coronación y último amanecer tienen su propio ambiente musical. Son piezas instrumentales de **Kevin MacLeod**, adaptadas a bucle con solapamiento y normalizadas para fondo. Los efectos incluyen viento, antorchas, piedra, campana, vasijas, corazón, sellos, pluma, pasos y agua.
 
+**Doce motivos** (batalla, combate oscuro, persecución, sigilo, tensión, horror, el rey sin nombre, amenaza creciente, misterio, duelo, esperanza y latido) se lanzan desde el menú «Motivos» de la barra del Narrador. Todas las transiciones usan un **fundido cruzado de 3,5 s sin hueco**, incluso al repetir la pista, y los bucles no tienen costura. La **insignia de hitos** se arrastra con el botón derecho y recuerda dónde la dejaste. Las 13 **ayudas** llegan como piezas ilustradas (carta, lino, rollo, cuaderno…) con el texto ya compuesto, y las escenas traen su miniatura.
+
 Las piezas conservan su licencia **CC BY 4.0** y su atribución en [AUDIO-CREDITS.md](AUDIO-CREDITS.md), en el manual y en un diario del módulo. Los efectos son síntesis originales sin voces. No hay pistas vacías ni dependencia de servicios de reproducción externos.
 
 ## 🎒 Primeros pasos

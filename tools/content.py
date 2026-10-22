@@ -15,7 +15,7 @@ for a in actors:
   a['ownership']={'default':0}
   a['system']['notes']+='<h3>Tu secreto personal · compartir solo si tú decides</h3><p>'+secrets[a['name']]+'</p>'
   a['flags'][mod]['memories']={'trueName':a['name'],'bonds':'Completa tus vínculos con el grupo antes de empezar.','changes':'','entries':[]}
-object_images={'Escarabajo funerario':'escarabajo','Corazón de Neb-Sekhem':'corazon','Pluma de Merit':'pluma','Vasija de Hori':'vasija-hori','Vasija de Paser':'vasija-paser','Vasija de Tamerit':'vasija-tamerit','Vasija de Kasa':'vasija-kasa','Vasija de Beset':'vasija-beset','Vasija de Dedi':'vasija-dedi','Séptima vasija':'vasija-septima','Arpa de Seneb':'arpa','Invitación al banquete':'invitacion','Cofre del corazón':'corazon','Canto del testigo':'arpa','Contrafirma de la negativa':'pluma','Lectura del nombre velado':'escarabajo','Bendición del umbral recordado':'escarabajo'}
+object_images={'Registro de ofrendas':'registro-ofrendas','Testimonio de Merit':'testimonio-merit','Cordón de Zahra':'cordon-zahra','Cofre del corazón':'cofre-corazon','Lectura del nombre velado':'lectura-nombre','Bendición del umbral recordado':'bendicion-umbral','Contrafirma de la negativa':'contrafirma','Escarabajo funerario':'escarabajo','Corazón de Neb-Sekhem':'corazon','Pluma de Merit':'pluma','Vasija de Hori':'vasija-hori','Vasija de Paser':'vasija-paser','Vasija de Tamerit':'vasija-tamerit','Vasija de Kasa':'vasija-kasa','Vasija de Beset':'vasija-beset','Vasija de Dedi':'vasija-dedi','Séptima vasija':'vasija-septima','Arpa de Seneb':'arpa','Invitación al banquete':'invitacion','Canto del testigo':'arpa'}
 for a in actors:
  creature={'Sombras de chacal':'sombra-chacal','Custodios de la corte':'custodio','Servidores sin nombre':'servidor'}.get(a['name'])
  if creature:
@@ -32,6 +32,10 @@ for a in actors:
   a['flags'][mod]['thumbnail']=prefix+f'assets/npc/{npcslug}-thumb.webp'
   a['prototypeToken']={'name':a['name'],'actorLink':True,'texture':{'src':prefix+f'assets/npc/{npcslug}-token.webp'},'width':3.6,'height':3.6,'lockRotation':True}
  if a['type']=='litm-fellowship-themecard':a['ownership']={'default':3}
+EMBLEM_OF={'El funeral imposible':'funeral','La presión de los agentes religiosos':'presion','La investigación de los registros':'registros','La procesión funeraria':'procesion','El banquete de Neb-Sekhem':'banquete','La seducción sobrenatural':'seduccion','La liberación de los nombres robados':'liberacion','La Cámara del Pesaje':'pesaje','El corazón protegido':'corazon','La coronación':'coronacion','Los sacerdotes de Ankhtepot':'sacerdotes','La huida del dormitorio':'huida','La cámara que pesa':'camara-pesa','El cincel':'cincel','La caída de la corte':'caida','Los que todavía recuerdan':'compania'}
+for a in actors:
+ e=EMBLEM_OF.get(a['name'])
+ if e and (root/f'assets/emblems/{e}.webp').exists():a['img']=prefix+f'assets/emblems/{e}.webp'
 for a in actors:
  if not a.get('img') or a['img'].startswith('icons/'):
   visual={'El funeral imposible':'scenes/funeral','La memoria de Muhar':'scenes/muhar','La invitación':'objects/invitacion','El banquete':'scenes/banquete','El Laberinto':'scenes/laberinto','El pesaje':'scenes/pesaje'}.get(a['name'],'objects/escarabajo')
@@ -43,7 +47,7 @@ for c in story['chapters']:
   md.extend(['## '+s['title'],re.sub('<[^>]+>','',body),''])
  journals.append({'_id':uid('edition-1.1/journal/'+c['id']),'name':c['title'],'pages':pages,'ownership':{'default':2 if c['audience']=='players' else 0},'flags':{mod:{**flags(c['id'],c['audience'])[mod],'editorialEdition':'1.1.0'}}})
 for h in story.get('handouts',[]):
- journals.append({'_id':uid('handout/'+h['id']),'name':'Ayuda · '+h['title'],'pages':[{'_id':uid('page/'+h['id']),'name':h['title'],'type':'text','text':{'format':1,'content':h['body']}}],'ownership':{'default':0},'flags':{mod:{**flags(h['id'],'players')[mod],'reveal':h.get('reveal','')}}})
+ journals.append({'_id':uid('handout/'+h['id']),'name':'Ayuda · '+h['title'],'pages':([{'_id':uid('page-img/'+h['id']),'name':h['title']+' (imagen)','type':'image','src':prefix+f"assets/handouts/{h['id']}.webp",'sort':0,'image':{'caption':h['title']}}] if (root/f"assets/handouts/{h['id']}.webp").exists() else [])+[{'_id':uid('page/'+h['id']),'name':h['title'],'type':'text','text':{'format':1,'content':h['body']},'sort':100000}],'ownership':{'default':0},'flags':{mod:{**flags(h['id'],'players')[mod],'reveal':h.get('reveal','')}}})
 for fig in story.get('figures',[]):
  import html
  body='<table><thead><tr>'+''.join('<th>'+html.escape(h)+'</th>' for h in fig['headers'])+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+html.escape(c)+'</td>' for c in row)+'</tr>' for row in fig['rows'])+'</tbody></table><p>'+html.escape(fig.get('note',''))+'</p>'
@@ -65,7 +69,7 @@ for slug,name in scene_names.items():
   from PIL import Image
   im=Image.open(root/asset)
   scenes.append({'_id':uid('scene/'+slug),'name':name,'width':im.width,'height':im.height,'padding':0,'grid':{'type':0,'size':100},'background':{'src':prefix+asset},'tokenVision':False,'fog':{'exploration':False},'navigation':False,'flags':flags(slug)})
-macro={'_id':uid('macro/libros'),'name':'MR · Abrir el Libro de los Muertos','type':'script','scope':'global','command':f"game.modules.get('{mod}').api[game.user.isGM ? 'openGMBook' : 'openMemories']();",'ownership':{'default':2},'flags':flags('abrir-libros')}
+macro={'img':prefix+'assets/emblems/mr-icono.webp','_id':uid('macro/libros'),'name':'MR · Abrir el Libro de los Muertos','type':'script','scope':'global','command':f"game.modules.get('{mod}').api[game.user.isGM ? 'openGMBook' : 'openMemories']();",'ownership':{'default':2},'flags':flags('abrir-libros')}
 folder_specs=[('heroes','Protagonistas','Actor'),('voices','Voces de la corte','Actor'),('victims','Las seis víctimas','Actor'),('challenges','Desafíos','Actor'),('rites','Ritos y técnicas','Item'),('objects','Objetos y testimonios','Item'),('guide-1.1','Manual del Narrador · edición revisada','JournalEntry'),('handouts','Documentos por descubrir','JournalEntry'),('players','Cuaderno inicial','JournalEntry'),('cinematic','Escenas ilustradas','Scene'),('maps','Planos de orientación','Scene'),('tools','Herramientas','Macro')]
 folders=[{'_id':uid('folder/'+slug),'name':name,'type':type,'sorting':'a','color':'#6d2939','flags':flags('folder-'+slug)} for slug,name,type in folder_specs]
 folder_id=lambda slug:uid('folder/'+slug)
@@ -74,10 +78,13 @@ for a in actors:
  a['folder']=folder_id(category)
 for it in items:it['folder']=folder_id('rites' if it['type']=='rote' else 'objects')
 for j in journals:j['folder']=folder_id('handouts' if j['name'].startswith('Ayuda ·') else 'players' if j['flags'][mod]['audience']=='players' else 'guide-1.1')
-for scene in scenes:scene['flags'][mod]['presentationEdition']='1.1.0';scene['folder']=folder_id('maps' if scene['flags'][mod]['slug'].startswith('map-') or scene['flags'][mod]['slug']=='corte' else 'cinematic')
+for scene in scenes:
+ scene['flags'][mod]['presentationEdition']='1.1.0';slug_=scene['flags'][mod]['slug']
+ if (root/f'assets/thumbs/{slug_}.webp').exists():scene['thumb']=prefix+f'assets/thumbs/{slug_}.webp'
+for scene in scenes:scene['folder']=folder_id('maps' if scene['flags'][mod]['slug'].startswith('map-') or scene['flags'][mod]['slug']=='corte' else 'cinematic')
 macro['folder']=folder_id('tools')
 import runpy
 playlists=runpy.run_path(str(root/'tools/director-content.py'))['add_direction'](root,uid,flags,prefix,actors,items,story,journals,scenes,folders)
-adv={'_id':uid('adventure/trono'),'name':'MR · El Trono de la Sed — La Corte del Rey sin Nombre','description':'<p>Aventura completa con dirección de escenas, lecturas enlazadas y audio instrumental. La importación añade documentos ausentes y conserva los existentes.</p>','actors':actors,'items':items,'journal':journals,'scenes':scenes,'macros':[macro],'folders':folders,'playlists':playlists,'tables':[],'cards':[],'flags':flags('aventura')}
+adv={'_id':uid('adventure/trono'),'img':prefix+'assets/emblems/portada.webp','name':'MR · El Trono de la Sed — La Corte del Rey sin Nombre','description':'<p>Aventura completa con dirección de escenas, lecturas enlazadas y audio instrumental. La importación añade documentos ausentes y conserva los existentes.</p>','actors':actors,'items':items,'journal':journals,'scenes':scenes,'macros':[macro],'folders':folders,'playlists':playlists,'tables':[],'cards':[],'flags':flags('aventura')}
 (root/'_data').mkdir(exist_ok=True);(root/'_data/aventura.json').write_text(json.dumps([adv],ensure_ascii=False,indent=2));(root/'docs/manuscrito.md').write_text('\n\n'.join(md))
 print(json.dumps({'actors':len(actors),'items':len(items),'journals':len(journals),'scenes':len(scenes),'words':len(' '.join(md).split())}))

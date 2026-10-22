@@ -158,3 +158,12 @@ section.mr-box p,section.mr-npc p,section.mr-doc p{margin:0 0 6px;color:#2a2630}
 #mr-trono-hitos-panel .mr-lamp.is-lit{border-color:#caa66b;background:linear-gradient(180deg,#2c2230,#1a1520)}
 #mr-trono-hitos-panel .mr-lamp.is-lit span{background:radial-gradient(circle at 50% 70%,#fff2c0,#f0b44c 55%,#b8591f);box-shadow:0 0 12px 3px rgba(240,180,76,.65)}
 #mr-trono-hitos-panel .mr-lamp:focus-visible{outline:2px solid #f0d28f;outline-offset:2px}
+
+/* Motivos musicales */
+#mr-trono-director .mr-motifs-menu{width:340px}
+#mr-trono-director .mr-motif-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+#mr-trono-director .mr-btn.mr-motif{height:30px;min-height:30px;font-size:12px;justify-content:flex-start;padding:0 9px}
+
+#mr-trono-hitos.is-dragging{cursor:grabbing;box-shadow:0 12px 30px #000c,0 0 0 2px rgba(202,166,107,.7);user-select:none}
+#mr-trono-hitos-panel .mr-hitos-drag{margin:10px 0 0;padding-top:8px;border-top:1px solid rgba(202,166,107,.2)}
+#mr-trono-hitos-panel .mr-hitos-drag a{color:#caa66b}

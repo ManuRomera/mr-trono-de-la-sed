@@ -28,8 +28,8 @@ def one(it, estilo):
     return "ERR %-16s %s" % (it["id"], (r.stdout + r.stderr)[-300:].replace("\n", " "))
 
 if __name__ == "__main__":
-    ap = argparse.ArgumentParser(); ap.add_argument("--only"); ap.add_argument("--jobs", type=int, default=1); a = ap.parse_args()
-    cfg = json.load(open(os.path.join(ROOT, "docs", "arte-v14.json"))); os.makedirs(os.path.join(ROOT, "art", "new"), exist_ok=True)
+    ap = argparse.ArgumentParser(); ap.add_argument("--only"); ap.add_argument("--file", default="arte-v14.json"); ap.add_argument("--jobs", type=int, default=1); a = ap.parse_args()
+    cfg = json.load(open(os.path.join(ROOT, "docs", a.file))); os.makedirs(os.path.join(ROOT, "art", "new"), exist_ok=True)
     only = set(a.only.split(",")) if a.only else None
     todo = [i for i in cfg["imagenes"] if (not only or i["id"] in only) and not os.path.exists(os.path.join(ROOT, "art", "new", i["id"] + ".png"))]
     print("pendientes:", len(todo), flush=True)
