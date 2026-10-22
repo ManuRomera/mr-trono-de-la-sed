@@ -1,5 +1,9 @@
 # Cambios
 
+## 1.8.0 — 22 de octubre de 2026
+
+- **Vista previa de escena:** el selector de la barra es ahora un menú propio; al dejar el cursor 2 s sobre una escena aparece su miniatura (260 px) junto a la lista, recolocada para no salirse de la pantalla vaya donde vaya la barra.
+
 ## 1.7.2 — 22 de octubre de 2026
 
 - El estilo predefinido de la barra del Narrador es ahora **Cristal líquido** (el Clásico sigue disponible en la configuración).
