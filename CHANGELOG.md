@@ -1,5 +1,9 @@
 # Cambios
 
+## 1.7.1 — 22 de octubre de 2026
+
+- **Barra del Narrador más compacta:** botones, selector y chips más pequeños y menos altura (66 px en lugar de unos 110); por debajo de 1500 px de ancho los botones de audio y escena pasan a solo icono con su nombre al pasar el cursor.
+
 ## 1.7.0 — 22 de octubre de 2026
 
 - **Barra del Narrador:** el fondo ya cubre todos los botones (la fila se parte en varias si no caben).

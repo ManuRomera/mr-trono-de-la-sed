@@ -178,3 +178,20 @@ section.mr-box p,section.mr-npc p,section.mr-doc p{margin:0 0 6px;color:#2a2630}
 #mr-trono-director.is-glass .mr-btn.is-primary{background:linear-gradient(180deg,rgba(255,120,150,.55),rgba(154,63,88,.4));border-color:rgba(255,200,210,.7)}
 #mr-trono-director.is-glass .mr-btn[aria-pressed=true]{background:linear-gradient(180deg,rgba(255,255,255,.34),rgba(255,255,255,.16));box-shadow:inset 0 2px 5px rgba(0,0,0,.35),0 0 12px rgba(255,255,255,.3)}
 #mr-trono-director.is-glass .mr-director-menu{background:rgba(30,26,40,.55);-webkit-backdrop-filter:blur(26px) saturate(1.8);backdrop-filter:blur(26px) saturate(1.8);border:1px solid rgba(255,255,255,.3);border-radius:18px;box-shadow:0 14px 34px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.45)}
+
+/* Barra compacta: menos alto, botones pequeños, etiquetas solo en lo principal cuando falta sitio */
+#mr-trono-director .mr-director-head{gap:5px;padding:5px 8px}
+#mr-trono-director .mr-grip{gap:7px;padding:0 9px 0 0}
+#mr-trono-director .mr-mark{width:24px}
+#mr-trono-director .mr-title b{font-size:11px}
+#mr-trono-director .mr-title small{font-size:9.5px}
+#mr-trono-director select{flex-basis:150px;width:150px;height:26px;font-size:11.5px;border-radius:8px;padding:0 6px}
+#mr-trono-director .mr-grp{gap:4px;padding-left:6px}
+#mr-trono-director .mr-btn,#mr-trono-director summary.mr-btn{height:26px;min-height:26px;padding:0 8px;gap:5px;font-size:11.5px;border-radius:8px}
+#mr-trono-director .mr-btn i{font-size:11px}
+#mr-trono-director .mr-btn.mr-icon{width:26px;padding:0}
+#mr-trono-director .mr-director-cues{gap:4px;padding:0 8px 6px}
+#mr-trono-director .mr-btn.mr-chip{height:22px;min-height:22px;padding:0 9px;font-size:10.5px}
+#mr-trono-director .mr-director-menu{top:32px}
+#mr-trono-director{border-radius:12px}
+@media(max-width:1500px){#mr-trono-director .mr-secondary .mr-btn:not(.mr-icon) span{display:none}#mr-trono-director .mr-secondary .mr-btn:not(.mr-icon){width:26px;padding:0}}
