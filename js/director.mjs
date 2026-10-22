@@ -156,7 +156,7 @@ export function setupDirector(){
 export function registerDirector(){
  game.settings.register(MOD,'directorVisible',{name:'MRTRONO.Director.Visible',hint:'MRTRONO.Director.VisibleHelp',scope:'client',config:true,type:Boolean,default:true,onChange:refreshDirector});
  game.settings.register(MOD,'directorBg',{name:'MRTRONO.Director.Bg',hint:'MRTRONO.Director.BgHelp',scope:'client',config:true,type:Boolean,default:true,onChange:refreshDirector});
- game.settings.register(MOD,'directorStyle',{name:'MRTRONO.Director.Style',hint:'MRTRONO.Director.StyleHelp',scope:'client',config:true,type:String,default:'classic',choices:{classic:'MRTRONO.Director.StyleClassic',glass:'MRTRONO.Director.StyleGlass'},onChange:refreshDirector});
+ game.settings.register(MOD,'directorStyle',{name:'MRTRONO.Director.Style',hint:'MRTRONO.Director.StyleHelp',scope:'client',config:true,type:String,default:'glass',choices:{classic:'MRTRONO.Director.StyleClassic',glass:'MRTRONO.Director.StyleGlass'},onChange:refreshDirector});
  game.settings.register(MOD,'sceneMix',{scope:'world',config:false,type:Object,default:{level:.3,quiet:false}});
  game.settings.register(MOD,'directorPos',{scope:'client',config:false,type:Object,default:null});
  game.settings.register(MOD,'directorCompact',{scope:'client',config:false,type:Boolean,default:false});
