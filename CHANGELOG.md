@@ -1,5 +1,9 @@
 # Cambios
 
+## 1.6.1 — 22 de octubre de 2026
+
+- Los menús desplegables de la barra del Narrador y el panel de hitos se cierran al hacer clic fuera de ellos.
+
 ## 1.6.0 — 22 de octubre de 2026
 
 - **Música por motivo:** 12 pistas nuevas (batalla, combate oscuro, persecución, sigilo, tensión, horror, el rey sin nombre, amenaza creciente, misterio, duelo, esperanza, latido) y 8 efectos nuevos (plañidera, cincel, cerrojo, lámpara, libación, sistro, corte, sombra). 39 pistas en total, normalizadas y con bucle sin costura; menú «Motivos» en la barra del Narrador.

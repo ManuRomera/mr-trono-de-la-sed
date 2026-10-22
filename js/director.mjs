@@ -129,6 +129,7 @@ function renderDirector(){
  const scenes=game.scenes.filter(owned);if(!scenes.length){bar?.remove();bar=null;return;}
  const selected=subject()??scenes[0];const slug=selected.getFlag(MOD,'slug');const d=direction(selected);if(!d)return;
  if(!bar){bar=document.createElement('aside');bar.id='mr-trono-director';bar.setAttribute('aria-label',label('Title'));bar.setAttribute('role','region');document.body.append(bar);
+  document.addEventListener('pointerdown',e=>{if(!bar)return;for(const d of bar.querySelectorAll('details[open]'))if(!d.contains(e.target))d.open=false;},true);
   bar.addEventListener('click',e=>{const b=e.target.closest('[data-trono-action]');if(!b)return;e.preventDefault();dispatchDirector(b.dataset.tronoAction,b.dataset.tronoArg).catch(reportError);});
   bar.addEventListener('change',e=>{if(e.target.matches('.mr-director-scenes'))dispatchDirector('view',e.target.value).catch(reportError);if(e.target.matches('input[type=range]'))dispatchDirector('level',e.target.value).catch(reportError);if(e.target.dataset.presentation)dispatchDirector('presentation',e.target.dataset.presentation+'~'+(e.target.type==='checkbox'?e.target.checked:e.target.value)).catch(reportError);});
   enableDrag();

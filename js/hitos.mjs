@@ -80,5 +80,6 @@ export function setupHitos(){
   for(const id of HITOS)if(now[id]&&!last[id])ui.notifications.info(`${ui_('Unlocked')}: ${label(id)}`);
   last=now;
  });
+ document.addEventListener('pointerdown',e=>{if(!panel||panel.hidden||pill.contains(e.target)||panel.contains(e.target))return;panel.hidden=true;pill.setAttribute('aria-expanded','false');},true);
  document.addEventListener('keydown',e=>{if(e.altKey&&e.code==='KeyH'&&pill){e.preventDefault();pill.click();}});
 }
